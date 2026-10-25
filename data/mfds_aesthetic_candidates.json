@@ -724,7 +724,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "ArthroCare Corporation",
         "MANUF_NM": "Jabil Circuit de Chihuahua S. de R.L. de C.V.",
-        "CHG_DT": "2026-09-07"
+        "CHG_DT": "2026-10-14"
       }
     },
     {
@@ -21674,28 +21674,6 @@
     {
       "category": "LASER",
       "query_product": "엔디야그레이저수술기",
-      "permit_date": "20100824",
-      "permit_no": "",
-      "product": "안과용엔디야그레이저수술기",
-      "company": "(주)라이텍",
-      "raw": {
-        "ENTRPS": "(주)라이텍",
-        "PRDUCT": "안과용엔디야그레이저수술기",
-        "PRMISN_STTEMNT": "1",
-        "PRDUCT_PRMISN_NO": "수허 10-852 호",
-        "PRMISN_DT": "20100824",
-        "RTRCN_DSCTN_DIVS_CD": "",
-        "RTRCN_DSCTN_DT": "",
-        "MDEQ_PRDLST_SN": "2010004718",
-        "TRCK_MNG_TRGT_YN": "N",
-        "MNFT_CLNT_NM": "",
-        "MANUF_NM": "LightMed Corp.",
-        "CHG_DT": "2026-10-22"
-      }
-    },
-    {
-      "category": "LASER",
-      "query_product": "엔디야그레이저수술기",
       "permit_date": "20100817",
       "permit_no": "",
       "product": "엔디야그레이저수술기",
@@ -22078,15 +22056,15 @@
         "ENTRPS": "(주)스트라텍",
         "PRDUCT": "레이저수술기",
         "PRMISN_STTEMNT": "1",
-        "PRDUCT_PRMISN_NO": "제허 10-582 호",
+        "PRDUCT_PRMISN_NO": "제허 10-581 호",
         "PRMISN_DT": "20100614",
-        "RTRCN_DSCTN_DIVS_CD": "",
-        "RTRCN_DSCTN_DT": "",
-        "MDEQ_PRDLST_SN": "2010003288",
+        "RTRCN_DSCTN_DIVS_CD": "2",
+        "RTRCN_DSCTN_DT": "2023-10-16",
+        "MDEQ_PRDLST_SN": "2010003287",
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "(주)스트라텍",
-        "CHG_DT": "2026-10-22"
+        "CHG_DT": "2023-10-16"
       }
     },
     {
