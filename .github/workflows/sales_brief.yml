@@ -89,4 +89,5 @@ jobs:
           SALES_EMAIL_TEST_TO: ${{ secrets.SALES_EMAIL_TEST_TO }}
           SALES_EMAIL_REPLY_TO: ${{ secrets.SALES_EMAIL_REPLY_TO }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          WONTECH_REGION_SHARE: ${{ secrets.WONTECH_REGION_SHARE }}   # 사내 대륙별 매출 비중(JSON) — 저장소에 두지 않음
         run: python send_sales_brief.py

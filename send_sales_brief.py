@@ -383,6 +383,41 @@ def group_header(name, total):
 </td></tr>"""
 
 
+def region_compare(market, own):
+    """대륙별 '원텍 vs 시장' 막대 비교 (메일은 지도·스크립트가 막히므로 표+막대로 표현).
+    own: GitHub Secret WONTECH_REGION_SHARE(JSON, 사내 수치)가 있을 때만 표시 — 저장소에는 저장하지 않음."""
+    regs = market.get("regions") or []
+    if not regs:
+        return ""
+    top = max([r["share"] for r in regs] + [float(own.get(r["key"], 0) or 0) for r in regs] + [1])
+    bar = lambda v, c: (f'<table role="presentation" cellpadding="0" cellspacing="0" width="100%"><tr>'
+                        f'<td width="{max(1, round(v / top * 100))}%" style="background:{c};height:9px;line-height:9px;font-size:0;border-radius:2px">&nbsp;</td>'
+                        f'<td style="font-size:0">&nbsp;</td></tr></table>')
+    rows = ""
+    for r in regs:
+        o = own.get(r["key"])
+        ratio = f'{float(o) / r["share"]:.2f}배' if o not in (None, "") and r["share"] else ""
+        rows += f"""
+  <tr>
+   <td style="padding:9px 10px 9px 14px;font:700 13px {FONT};color:{INK};white-space:nowrap;border-top:1px solid {LINE}">{e(r['name'])}</td>
+   <td style="padding:9px 10px;border-top:1px solid {LINE};width:62%">
+     {f'<table role="presentation" cellpadding="0" cellspacing="0" width="100%"><tr><td width="44" style="font:700 11px {FONT};color:{OR}">원텍</td><td>{bar(float(o), OR)}</td><td width="48" align="right" style="font:800 12px {FONT};color:{OR}">{float(o):.1f}%</td></tr></table>' if o not in (None, "") else ''}
+     <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin-top:3px"><tr><td width="44" style="font:400 11px {FONT};color:{SUB}">시장</td><td>{bar(r['share'], '#B9B4AC')}</td><td width="48" align="right" style="font:700 12px {FONT};color:{INK}">{r['share']:.1f}%</td></tr></table>
+   </td>
+   <td align="right" style="padding:9px 14px 9px 4px;border-top:1px solid {LINE};font:400 11px/1.5 {FONT};color:{MUTED};white-space:nowrap">CAGR {r.get('cagr', '-')}%{f'<br><b style="color:{INK}">{ratio}</b>' if ratio else ''}</td>
+  </tr>"""
+    note = (f"원텍: {e(own.get('basis', '사내 매출 기준'))} · 사내 한정 정보, 외부 공유 금지<br>" if own else "")
+    note += f"시장: {e(market.get('source', ''))} · 2025년 매출 비중, CAGR 2026–2033"
+    if own:
+        note += " · 배수 = 원텍 비중 ÷ 시장 비중"
+    return f"""
+<tr><td style="padding:0 32px 6px">
+ <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#fff;border:1px solid {LINE}">{rows}
+ </table>
+ <div style="font:400 10px/1.6 {FONT};color:{MUTED};margin-top:6px">{note}</div>
+</td></tr>"""
+
+
 def empty(msg):
     return f'<tr><td style="padding:0 32px 12px"><div style="border:1px solid {LINE};background:#fff;padding:14px 16px;font:400 13px {FONT};color:{MUTED}">{e(msg)}</div></td></tr>'
 
@@ -533,7 +568,8 @@ def build(cfg, now):
 
     # ① 이슈
     use_ai_issues = bool(ai and len(ai.get("issues") or []) >= 2)
-    rows.append(section("01", "Today’s Top 3",
+    sec_no = iter(f"{i:02d}" for i in range(1, 20))
+    rows.append(section(next(sec_no), "Today’s Top 3",
                         "AI 요약" if use_ai_issues else "회사별 대표 기사"))
     for n, it in enumerate(issues[:3], 1):
         link = f'<a href="{e(it.get("link"))}" style="font:400 11px {FONT};color:{OR};text-decoration:none;white-space:nowrap">&nbsp;원문 →</a>' if it.get("link") else ""
@@ -547,8 +583,19 @@ def build(cfg, now):
     if not issues:
         rows.append(empty("오늘은 특기할 이슈가 없습니다."))
 
+    # ② 글로벌 시장 지역 비중 (대륙 단위)
+    market = load_json("market_regions.json", {})
+    try:
+        own_share = json.loads(os.environ.get("WONTECH_REGION_SHARE") or "{}")
+    except json.JSONDecodeError:
+        own_share = {}
+    if market.get("regions"):
+        rows.append(section(next(sec_no), "글로벌 시장 지역 비중",
+                            "원텍 vs 시장 · EBD" if own_share else "EBD 시장 · 2025"))
+        rows.append(region_compare(market, own_share))
+
     # ② 경쟁사
-    rows.append(section("02", "경쟁사 동향", f"{len(comp_groups)}개사"))
+    rows.append(section(next(sec_no), "경쟁사 동향", f"{len(comp_groups)}개사"))
     if comp_groups:
         for name, its, total in comp_groups:
             rows.append(group_header(name, total))
@@ -558,7 +605,7 @@ def build(cfg, now):
         rows.append(empty("최근 경쟁사 관련 기사가 없습니다."))
 
     # ③ 원텍
-    rows.append(section("03", "원텍 언급 기사", f"{own_total}건 중 {len(own)}건"))
+    rows.append(section(next(sec_no), "원텍 언급 기사", f"{own_total}건 중 {len(own)}건"))
     if own:
         for i in own:
             rows.append(article(i, info.get(i["link"]), accent=True))
@@ -566,7 +613,7 @@ def build(cfg, now):
         rows.append(empty("최근 원텍 언급 기사가 없습니다."))
 
     # ④ 해외
-    rows.append(section("04", "해외 시장 소식", f"{len(seen_c)}개국"))
+    rows.append(section(next(sec_no), "해외 시장 소식", f"{len(seen_c)}개국"))
     if ov_pick:
         for i in ov_pick:
             rows.append(article(i, info.get(i["link"])))
@@ -574,7 +621,7 @@ def build(cfg, now):
         rows.append(empty("최근 해외 기사가 없습니다."))
 
     # ⑤ 지표
-    rows.append(section("05", "시장 지표", "공식 통계·공시 기준"))
+    rows.append(section(next(sec_no), "시장 지표", "공식 통계·공시 기준"))
     rows.append(f"""
 <tr><td style="padding:0 26px 6px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0">
  <tr>{metric_card("피부개선 의료기기 생산", "억원", metrics.get("production"))}{metric_card("수출", "백만$", metrics.get("export"))}{metric_card("수입", "백만$", metrics.get("market"))}</tr>
@@ -592,7 +639,7 @@ def build(cfg, now):
         if t.date() >= now.date() and s.date() <= (now + timedelta(days=int(se.get("event_days", 21)))).date():
             upcoming.append((s, t, ev))
     upcoming.sort(key=lambda x: x[0])
-    rows.append(section("06", "다가오는 학회·전시회", f"향후 {se.get('event_days', 21)}일"))
+    rows.append(section(next(sec_no), "다가오는 학회·전시회", f"향후 {se.get('event_days', 21)}일"))
     if upcoming:
         trs = "".join(
             f'<tr><td style="padding:10px 12px;border-bottom:1px solid {LINE};font:800 12px {FONT};color:{OR};white-space:nowrap">{s:%m.%d}{"–" + t.strftime("%m.%d") if t != s else ""}</td>'

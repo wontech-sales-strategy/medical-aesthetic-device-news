@@ -394,6 +394,25 @@
 .patent-kw{margin-top:8px;border-top:1px solid var(--border);padding-top:6px}
 .patent-kw div{display:flex;justify-content:space-between;font-size:11px;padding:2px 0}
 .patent-kw span{color:var(--sub)}
+.map-card{background:var(--surface);border-radius:12px;padding:16px 18px 14px;margin:0 0 16px;box-shadow:var(--shadow)}
+.map-head{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;flex-wrap:wrap}
+.map-head b{font-size:14px}.map-head .muted{margin-top:3px}
+.map-toggle{display:flex;background:var(--bg);border-radius:8px;padding:3px;gap:2px}
+.map-toggle button{border:0;background:transparent;color:var(--sub);padding:6px 12px;border-radius:6px;cursor:pointer;font-size:12px}
+.map-toggle button.active{background:var(--accent);color:#fff;font-weight:700}
+.map-body{display:grid;grid-template-columns:minmax(0,1fr) 230px;gap:16px;align-items:center;margin-top:8px}
+.map-legend{display:flex;flex-direction:column;gap:7px}
+.map-legend .lg-row{display:grid;grid-template-columns:92px 1fr 42px;align-items:center;gap:8px;font-size:12px;cursor:default}
+.map-legend .lg-bar{height:8px;border-radius:4px;background:var(--surface2);overflow:hidden}
+.map-legend .lg-bar i{display:block;height:100%;background:var(--accent);border-radius:4px}
+.map-legend .lg-row b{text-align:right;font-size:12px}
+.map-scale{display:flex;flex-wrap:wrap;align-items:center;gap:6px;white-space:nowrap;font-size:10px;color:var(--sub);margin-top:6px}
+.map-scale i{width:16px;height:9px;border-radius:2px;display:inline-block}
+.map-note{font-size:10.5px;color:var(--sub);line-height:1.6;margin-top:10px;border-top:1px solid var(--border);padding-top:8px}
+.map-own{font-size:12px;margin-top:10px;background:var(--accent-soft);border-radius:8px;padding:8px 10px}
+.map-own b{color:var(--accent)}
+:root{--wm-stroke:#fff}:root.dark{--wm-stroke:#171715;--wm-tip-bg:#f2f2ee;--wm-tip-fg:#171717}
+@media(max-width:900px){.map-body{grid-template-columns:1fr}}
 @media(max-width:900px){.main-layout{grid-template-columns:1fr}.desktop-cats{display:none}.mobile-cat{display:block}.mobile-origin{display:block}.right-col{position:static;display:grid;grid-template-columns:1fr 1fr;gap:12px}.top-metrics{grid-template-columns:1fr}.comp-grid{grid-template-columns:1fr}}
 @media(max-width:640px){.header{align-items:flex-start;flex-direction:column}.brand{align-items:flex-start}.metric-row{grid-template-columns:repeat(2,1fr)}.right-col{grid-template-columns:1fr}.seg-tabs{overflow:auto}.seg-tab{white-space:nowrap}.comp-head{align-items:flex-start;gap:6px;flex-direction:column}.footer{flex-direction:column}}
 </style>
@@ -453,6 +472,19 @@
     <div class="metric-source">출처: 건강보험심사평가원</div>
   </div>
 
+</section>
+
+<section class="map-card" id="mapCard">
+  <div class="map-head">
+    <div><b>글로벌 에너지 기반 미용기기(EBD) 시장 지역 비중</b><div class="muted">2025년 매출 기준 · 레이저·RF·IPL·초음파 장비 · 지역에 마우스를 올리면 상세 수치가 보입니다</div></div>
+    <div class="map-toggle" id="mapToggle"><button class="active" data-m="region">대륙</button><button data-m="country">국가</button></div>
+  </div>
+  <div class="map-body">
+    <div id="worldMap" style="min-height:220px"></div>
+    <div><div class="map-legend" id="mapLegend"></div><div class="map-scale" id="mapScale"></div></div>
+  </div>
+  <div class="map-own" id="mapOwn"></div>
+  <div class="map-note" id="mapNote"></div>
 </section>
 
   <section class="comp-list">
@@ -723,6 +755,30 @@ async function loadPatent(){
   patentNote.innerHTML=`<div class="patent-sum">${sc.toLocaleString()}건 <small>(${sy}${g!==null?`, 전년比 ${g>=0?'+':''}${g.toFixed(1)}%`:''})</small></div>${lines}
   <div style="margin-top:6px;line-height:1.5">출처: KIPRIS Plus 오픈API · 키워드별 건수는 중복 포함, 합계는 중복 제거<br>특허는 출원 후 약 1년 6개월이 지나야 공개되므로 최근 2개 연도(연한 막대)는 실제보다 적게 집계됩니다. 추세 판단은 ${sy}년 이전 기준을 권장합니다.</div>`;
 }
+
+// ───── 글로벌 시장 지역 비중 MAP ─────
+const MAP_URL='data/market_regions.json';
+let mapData=null,mapMode='region';
+const mapColor=v=>v==null?'var(--surface2)':v>=30?'#c2410c':v>=20?'#ea580c':v>=5?'#fb923c':v>=1?'#fdba74':'#fed7aa';
+async function loadMap(){
+  try{const r=await fetch(MAP_URL,{cache:'no-store'});if(!r.ok)throw 0;mapData=await r.json()}catch(e){mapCard.style.display='none';return}
+  const need=[];if(!window.d3)need.push('https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js');if(!window.topojson)need.push('https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js');need.push('worldmap.js');
+  for(const u of need){await new Promise((ok,no)=>{const t=document.createElement('script');t.src=u;t.onload=ok;t.onerror=no;document.head.appendChild(t)}).catch(()=>{})}
+  if(!window.WorldMap){mapCard.style.display='none';return}
+  const R=Object.fromEntries(mapData.regions.map(r=>[r.key,r]));
+  mapLegend.innerHTML=mapData.regions.map(r=>`<div class="lg-row"><span>${r.name}</span><div class="lg-bar"><i style="width:${r.share/40*100}%"></i></div><b>${r.share}%</b></div>`).join('');
+  mapScale.innerHTML=[['#c2410c','30%+'],['#ea580c','20~30'],['#fb923c','5~20'],['#fdba74','1~5'],['#fed7aa','1% 미만']].map(([c,t])=>`<i style="background:${c}"></i>${t}`).join(' ');
+  const W=mapData.wontech_public;
+  mapOwn.innerHTML=`<b>원텍</b> 매출 구성(2025 사업보고서): 국내 <b>${W.domestic}%</b> · 해외 <b>${W.export}%</b> <span class="muted">— 지역별 매출은 공시되지 않아 지도에는 시장 비중만 표시합니다</span>`;
+  mapNote.innerHTML=`출처: ${mapData.source} · 북미 비중은 보고서 기준 39.6%(Horizon 페이지 39.5%) · CAGR 2026–2033<br>국가 모드: 공개된 국가만 색칠(회색 = 원문 미공개) · ${mapData.laser_note}<br>원텍: ${W.source}`;
+  const regionTip=k=>{const r=R[k];return `<b>${r.name}</b><div class="r"><span>시장 비중</span><span>${r.share}%</span></div><div class="r"><span>2025 시장 규모</span><span>${(r.size_usd_m/100).toFixed(1)}억 달러</span></div><div class="r"><span>CAGR(’26–’33)</span><span>${r.cagr}%</span></div>${k==='APAC'?`<div class="r"><span>원텍 국내 매출</span><span>${W.domestic}%</span></div>`:''}${r.note?`<div class="n">${r.note}</div>`:''}`};
+  const countryTip=(iso,reg,en)=>{const c=mapData.countries[iso],r=R[reg];if(!c)return `<b>${en}</b><div class="n">국가 수치 원문 미공개 · ${r.name} 전체 ${r.share}%</div>`;return `<b>${c.name}</b><div class="r"><span>시장 비중${c.laser?'*':''}</span><span>${c.share}%</span></div>${c.cagr?`<div class="r"><span>CAGR(’26–’33)</span><span>${c.cagr}%</span></div>`:''}${iso==='410'?`<div class="r"><span>원텍 국내 매출</span><span>${W.domestic}%</span></div>`:''}<div class="n">${r.name}${c.laser?' · *미용 레이저 시장 기준':''}</div>`};
+  const draw=()=>WorldMap.render(worldMap,{mode:mapMode,ariaLabel:'글로벌 EBD 시장 지역 비중 지도',
+    regionFill:k=>mapColor(R[k]&&R[k].share),countryFill:iso=>mapColor(mapData.countries[iso]?mapData.countries[iso].share:null),regionTip,countryTip});
+  mapToggle.querySelectorAll('button').forEach(b=>b.onclick=()=>{mapMode=b.dataset.m;mapToggle.querySelectorAll('button').forEach(x=>x.classList.toggle('active',x===b));draw()});
+  draw();
+}
+loadMap();
 load();
 </script>
 </body>
