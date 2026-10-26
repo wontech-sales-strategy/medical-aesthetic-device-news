@@ -1,6 +1,8 @@
 import json
 import os
+import sys
 import time
+from datetime import datetime, timedelta, timezone
 import requests
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -22,6 +24,10 @@ OUTS = [
     BASE / "data" / "patent_trend.json",
     BASE / "docs" / "data" / "patent_trend.json",
 ]
+
+# 마지막 갱신 시각 (특허 통계는 천천히 바뀌므로 주 1회만 갱신해 KIPRIS 무료 호출 한도를 아낌)
+META = BASE / "data" / "patent_meta.json"
+REFRESH_DAYS = 7
 
 # 키워드별 연도 건수 (대시보드 특허 카드 하단 상세용)
 KW_OUTS = [
@@ -84,6 +90,14 @@ def fetch_keyword(keyword, api_key):
 
 def run():
     src = CFG.get("sources", {}).get("kipris_patents", {})
+
+    try:
+        last = datetime.fromisoformat(json.loads(META.read_text(encoding="utf-8"))["updated_at"])
+        if datetime.now(timezone.utc) - last < timedelta(days=REFRESH_DAYS) and os.environ.get("KIPRIS_FORCE") != "1":
+            print(f"KIPRIS: 최근 갱신 {last:%Y-%m-%d} → {REFRESH_DAYS}일 이내라 이번엔 건너뜀")
+            return
+    except (FileNotFoundError, KeyError, ValueError):
+        pass
 
     if not src.get("enabled", False):
         print("KIPRIS 특허 수집 비활성화")
@@ -161,9 +175,17 @@ def run():
             encoding="utf-8"
         )
 
+    META.write_text(json.dumps({"updated_at": datetime.now(timezone.utc).isoformat()}), encoding="utf-8")
     print(f"[완료] 중복 제거 특허 {len(patents)}건")
     print(output)
 
 
 if __name__ == "__main__":
-    run()
+    try:
+        run()
+    except RuntimeError as e:
+        if "LIMITED_NUMBER" in str(e) or "EXCEEDS" in str(e):
+            # 무료 호출 한도 초과: 기존 특허 데이터를 그대로 두고 정상 종료 (다음 주기에 다시 시도)
+            print(f"[안내] KIPRIS 무료 호출 한도 초과 → 기존 데이터 유지: {e}", file=sys.stderr)
+            sys.exit(0)
+        raise
