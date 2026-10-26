@@ -483,7 +483,6 @@
     <div id="worldMap" style="min-height:220px"></div>
     <div><div class="map-legend" id="mapLegend"></div><div class="map-scale" id="mapScale"></div></div>
   </div>
-  <div class="map-own" id="mapOwn"></div>
   <div class="map-note" id="mapNote"></div>
 </section>
 
@@ -768,11 +767,9 @@ async function loadMap(){
   const R=Object.fromEntries(mapData.regions.map(r=>[r.key,r]));
   mapLegend.innerHTML=mapData.regions.map(r=>`<div class="lg-row"><span>${r.name}</span><div class="lg-bar"><i style="width:${r.share/40*100}%"></i></div><b>${r.share}%</b></div>`).join('');
   mapScale.innerHTML=[['#c2410c','30%+'],['#ea580c','20~30'],['#fb923c','5~20'],['#fdba74','1~5'],['#fed7aa','1% 미만']].map(([c,t])=>`<i style="background:${c}"></i>${t}`).join(' ');
-  const W=mapData.wontech_public;
-  mapOwn.innerHTML=`<b>원텍</b> 매출 구성(2025 사업보고서): 국내 <b>${W.domestic}%</b> · 해외 <b>${W.export}%</b> <span class="muted">— 지역별 매출은 공시되지 않아 지도에는 시장 비중만 표시합니다</span>`;
-  mapNote.innerHTML=`출처: ${mapData.source} · 북미 비중은 보고서 기준 39.6%(Horizon 페이지 39.5%) · CAGR 2026–2033<br>국가 모드: 공개된 국가만 색칠(회색 = 원문 미공개) · ${mapData.laser_note}<br>원텍: ${W.source}`;
-  const regionTip=k=>{const r=R[k];return `<b>${r.name}</b><div class="r"><span>시장 비중</span><span>${r.share}%</span></div><div class="r"><span>2025 시장 규모</span><span>${(r.size_usd_m/100).toFixed(1)}억 달러</span></div><div class="r"><span>CAGR(’26–’33)</span><span>${r.cagr}%</span></div>${k==='APAC'?`<div class="r"><span>원텍 국내 매출</span><span>${W.domestic}%</span></div>`:''}${r.note?`<div class="n">${r.note}</div>`:''}`};
-  const countryTip=(iso,reg,en)=>{const c=mapData.countries[iso],r=R[reg];if(!c)return `<b>${en}</b><div class="n">국가 수치 원문 미공개 · ${r.name} 전체 ${r.share}%</div>`;return `<b>${c.name}</b><div class="r"><span>시장 비중${c.laser?'*':''}</span><span>${c.share}%</span></div>${c.cagr?`<div class="r"><span>CAGR(’26–’33)</span><span>${c.cagr}%</span></div>`:''}${iso==='410'?`<div class="r"><span>원텍 국내 매출</span><span>${W.domestic}%</span></div>`:''}<div class="n">${r.name}${c.laser?' · *미용 레이저 시장 기준':''}</div>`};
+  mapNote.innerHTML=`출처: ${mapData.source} · 북미 비중은 보고서 기준 39.6%(Horizon 페이지 39.5%) · CAGR 2026–2033<br>국가 모드: 공개된 국가만 색칠(회색 = 원문 미공개) · ${mapData.laser_note}`;
+  const regionTip=k=>{const r=R[k];return `<b>${r.name}</b><div class="r"><span>시장 비중</span><span>${r.share}%</span></div><div class="r"><span>2025 시장 규모</span><span>${(r.size_usd_m/100).toFixed(1)}억 달러</span></div><div class="r"><span>CAGR(’26–’33)</span><span>${r.cagr}%</span></div>${r.note?`<div class="n">${r.note}</div>`:''}`};
+  const countryTip=(iso,reg,en)=>{const c=mapData.countries[iso],r=R[reg];if(!c)return `<b>${en}</b><div class="n">국가 수치 원문 미공개 · ${r.name} 전체 ${r.share}%</div>`;return `<b>${c.name}</b><div class="r"><span>시장 비중${c.laser?'*':''}</span><span>${c.share}%</span></div>${c.cagr?`<div class="r"><span>CAGR(’26–’33)</span><span>${c.cagr}%</span></div>`:''}<div class="n">${r.name}${c.laser?' · *미용 레이저 시장 기준':''}</div>`};
   const draw=()=>WorldMap.render(worldMap,{mode:mapMode,ariaLabel:'글로벌 EBD 시장 지역 비중 지도',
     regionFill:k=>mapColor(R[k]&&R[k].share),countryFill:iso=>mapColor(mapData.countries[iso]?mapData.countries[iso].share:null),regionTip,countryTip});
   mapToggle.querySelectorAll('button').forEach(b=>b.onclick=()=>{mapMode=b.dataset.m;mapToggle.querySelectorAll('button').forEach(x=>x.classList.toggle('active',x===b));draw()});

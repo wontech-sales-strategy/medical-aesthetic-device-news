@@ -3,39 +3,155 @@
   "basis": "2025년 매출 기준 · 레이저·RF·IPL·초음파 장비",
   "source": "Grand View Research, Energy-based Aesthetic Devices Market Report 2026–2033 및 GVR Horizon 지역·국가 공개 페이지",
   "source_url": "https://www.grandviewresearch.com/industry-analysis/energy-based-aesthetic-devices-market-report",
-  "global": {"size_usd_m": 7500, "cagr": 9.8},
+  "global": {
+    "size_usd_m": 7500,
+    "cagr": 9.8
+  },
   "regions": [
-    {"key": "NA",   "name": "북미",        "share": 39.6, "size_usd_m": 2972.9, "cagr": 9.4,  "note": "미국·캐나다·멕시코 (GVR 지역 구분). Horizon 페이지 비중 39.5%"},
-    {"key": "EU",   "name": "유럽",        "share": 27.6, "size_usd_m": 2077.6, "cagr": 9.9},
-    {"key": "APAC", "name": "아시아태평양", "share": 25.4, "size_usd_m": 1912.3, "cagr": 11.1, "note": "지역 중 최고 성장"},
-    {"key": "LATAM","name": "중남미",      "share": 5.1,  "size_usd_m": 380.7,  "cagr": 7.1},
-    {"key": "MEA",  "name": "중동·아프리카","share": 2.3,  "size_usd_m": 173.3,  "cagr": 5.5}
+    {
+      "key": "NA",
+      "name": "북미",
+      "share": 39.6,
+      "size_usd_m": 2972.9,
+      "cagr": 9.4,
+      "note": "미국·캐나다·멕시코 (GVR 지역 구분). Horizon 페이지 비중 39.5%"
+    },
+    {
+      "key": "EU",
+      "name": "유럽",
+      "share": 27.6,
+      "size_usd_m": 2077.6,
+      "cagr": 9.9
+    },
+    {
+      "key": "APAC",
+      "name": "아시아태평양",
+      "share": 25.4,
+      "size_usd_m": 1912.3,
+      "cagr": 11.1,
+      "note": "지역 중 최고 성장"
+    },
+    {
+      "key": "LATAM",
+      "name": "중남미",
+      "share": 5.1,
+      "size_usd_m": 380.7,
+      "cagr": 7.1
+    },
+    {
+      "key": "MEA",
+      "name": "중동·아프리카",
+      "share": 2.3,
+      "size_usd_m": 173.3,
+      "cagr": 5.5
+    }
   ],
   "countries": {
-    "840": {"name": "미국", "share": 33.9, "cagr": 9.6},
-    "124": {"name": "캐나다", "share": 3.7},
-    "484": {"name": "멕시코", "share": 2.0},
-    "276": {"name": "독일", "share": 6.9, "cagr": 10.7},
-    "826": {"name": "영국", "share": 5.7, "cagr": 10.2},
-    "250": {"name": "프랑스", "share": 3.8, "cagr": 10.0},
-    "380": {"name": "이탈리아", "share": 2.3},
-    "724": {"name": "스페인", "share": 1.3},
-    "752": {"name": "스웨덴", "share": 0.9},
-    "356": {"name": "인도", "share": 3.9, "cagr": 11.5},
-    "036": {"name": "호주", "share": 2.3, "cagr": 11.0},
-    "702": {"name": "싱가포르", "share": 1.7, "cagr": 10.7},
-    "764": {"name": "태국", "share": 1.4, "cagr": 9.6},
-    "458": {"name": "말레이시아", "share": 0.7, "cagr": 9.1},
-    "360": {"name": "인도네시아", "share": 0.5, "cagr": 10.1},
-    "410": {"name": "대한민국", "share": 2.8, "laser": true},
-    "156": {"name": "중국", "share": 6.3, "laser": true},
-    "076": {"name": "브라질", "share": 2.1, "cagr": 7.6},
-    "032": {"name": "아르헨티나", "share": 0.5},
-    "784": {"name": "아랍에미리트", "share": 0.3},
-    "682": {"name": "사우디아라비아", "share": 0.5},
-    "414": {"name": "쿠웨이트", "share": 0.2},
-    "710": {"name": "남아프리카공화국", "share": 0.8}
+    "840": {
+      "name": "미국",
+      "share": 33.9,
+      "cagr": 9.6
+    },
+    "124": {
+      "name": "캐나다",
+      "share": 3.7
+    },
+    "484": {
+      "name": "멕시코",
+      "share": 2.0
+    },
+    "276": {
+      "name": "독일",
+      "share": 6.9,
+      "cagr": 10.7
+    },
+    "826": {
+      "name": "영국",
+      "share": 5.7,
+      "cagr": 10.2
+    },
+    "250": {
+      "name": "프랑스",
+      "share": 3.8,
+      "cagr": 10.0
+    },
+    "380": {
+      "name": "이탈리아",
+      "share": 2.3
+    },
+    "724": {
+      "name": "스페인",
+      "share": 1.3
+    },
+    "752": {
+      "name": "스웨덴",
+      "share": 0.9
+    },
+    "356": {
+      "name": "인도",
+      "share": 3.9,
+      "cagr": 11.5
+    },
+    "036": {
+      "name": "호주",
+      "share": 2.3,
+      "cagr": 11.0
+    },
+    "702": {
+      "name": "싱가포르",
+      "share": 1.7,
+      "cagr": 10.7
+    },
+    "764": {
+      "name": "태국",
+      "share": 1.4,
+      "cagr": 9.6
+    },
+    "458": {
+      "name": "말레이시아",
+      "share": 0.7,
+      "cagr": 9.1
+    },
+    "360": {
+      "name": "인도네시아",
+      "share": 0.5,
+      "cagr": 10.1
+    },
+    "410": {
+      "name": "대한민국",
+      "share": 2.8,
+      "laser": true
+    },
+    "156": {
+      "name": "중국",
+      "share": 6.3,
+      "laser": true
+    },
+    "076": {
+      "name": "브라질",
+      "share": 2.1,
+      "cagr": 7.6
+    },
+    "032": {
+      "name": "아르헨티나",
+      "share": 0.5
+    },
+    "784": {
+      "name": "아랍에미리트",
+      "share": 0.3
+    },
+    "682": {
+      "name": "사우디아라비아",
+      "share": 0.5
+    },
+    "414": {
+      "name": "쿠웨이트",
+      "share": 0.2
+    },
+    "710": {
+      "name": "남아프리카공화국",
+      "share": 0.8
+    }
   },
-  "laser_note": "대한민국·중국은 EBD 국가 수치가 공개되지 않아 GVR 미용 레이저(Aesthetic Lasers) 시장 비중으로 표시",
-  "wontech_public": {"domestic": 29.0, "export": 71.0, "basis": "2025 사업보고서 매출실적(연결) · 지역별 매출은 공시되지 않음", "source": "금융감독원 DART, 원텍 사업보고서(2026.03.19)"}
+  "laser_note": "대한민국·중국은 EBD 국가 수치가 공개되지 않아 GVR 미용 레이저(Aesthetic Lasers) 시장 비중으로 표시"
 }

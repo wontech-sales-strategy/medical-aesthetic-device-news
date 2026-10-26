@@ -383,38 +383,28 @@ def group_header(name, total):
 </td></tr>"""
 
 
-def region_compare(market, own):
-    """대륙별 '원텍 vs 시장' 막대 비교 (메일은 지도·스크립트가 막히므로 표+막대로 표현).
-    own: GitHub Secret WONTECH_REGION_SHARE(JSON, 사내 수치)가 있을 때만 표시 — 저장소에는 저장하지 않음."""
+def region_map(market, dash):
+    """대시보드 지도와 같은 '글로벌 EBD 시장 지역 비중' 이미지 + 지역별 수치 (공개 자료만 사용)."""
     regs = market.get("regions") or []
     if not regs:
         return ""
-    top = max([r["share"] for r in regs] + [float(own.get(r["key"], 0) or 0) for r in regs] + [1])
-    bar = lambda v, c: (f'<table role="presentation" cellpadding="0" cellspacing="0" width="100%"><tr>'
-                        f'<td width="{max(1, round(v / top * 100))}%" style="background:{c};height:9px;line-height:9px;font-size:0;border-radius:2px">&nbsp;</td>'
-                        f'<td style="font-size:0">&nbsp;</td></tr></table>')
-    rows = ""
-    for r in regs:
-        o = own.get(r["key"])
-        ratio = f'{float(o) / r["share"]:.2f}배' if o not in (None, "") and r["share"] else ""
-        rows += f"""
-  <tr>
-   <td style="padding:9px 10px 9px 14px;font:700 13px {FONT};color:{INK};white-space:nowrap;border-top:1px solid {LINE}">{e(r['name'])}</td>
-   <td style="padding:9px 10px;border-top:1px solid {LINE};width:62%">
-     {f'<table role="presentation" cellpadding="0" cellspacing="0" width="100%"><tr><td width="44" style="font:700 11px {FONT};color:{OR}">원텍</td><td>{bar(float(o), OR)}</td><td width="48" align="right" style="font:800 12px {FONT};color:{OR}">{float(o):.1f}%</td></tr></table>' if o not in (None, "") else ''}
-     <table role="presentation" cellpadding="0" cellspacing="0" width="100%" style="margin-top:3px"><tr><td width="44" style="font:400 11px {FONT};color:{SUB}">시장</td><td>{bar(r['share'], '#B9B4AC')}</td><td width="48" align="right" style="font:700 12px {FONT};color:{INK}">{r['share']:.1f}%</td></tr></table>
-   </td>
-   <td align="right" style="padding:9px 14px 9px 4px;border-top:1px solid {LINE};font:400 11px/1.5 {FONT};color:{MUTED};white-space:nowrap">CAGR {r.get('cagr', '-')}%{f'<br><b style="color:{INK}">{ratio}</b>' if ratio else ''}</td>
-  </tr>"""
-    note = (f"원텍: {e(own.get('basis', '사내 매출 기준'))} · 사내 한정 정보, 외부 공유 금지<br>" if own else "")
-    note += f"시장: {e(market.get('source', ''))} · 2025년 매출 비중, CAGR 2026–2033"
-    if own:
-        note += " · 배수 = 원텍 비중 ÷ 시장 비중"
+    cells = "".join(
+        f'<td width="20%" align="center" style="padding:8px 2px;border-left:{"0" if i == 0 else "1px solid " + LINE}">'
+        f'<div style="font:400 11px {FONT};color:{SUB}">{e(r["name"])}</div>'
+        f'<div style="font:800 15px {FONT};color:{INK};margin-top:2px">{r["share"]:.1f}%</div>'
+        f'<div style="font:400 10px {FONT};color:{MUTED};margin-top:1px">CAGR {r.get("cagr", "-")}%</div></td>'
+        for i, r in enumerate(regs))
+    img = (f'<a href="{e(dash)}" target="_blank"><img src="{e(dash)}map_regions.png" width="616" alt="글로벌 EBD 시장 지역 비중 지도" '
+           f'style="display:block;width:100%;max-width:616px;height:auto;border:0"></a>') if dash else ""
     return f"""
 <tr><td style="padding:0 32px 6px">
- <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#fff;border:1px solid {LINE}">{rows}
+ <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#fff;border:1px solid {LINE}">
+  <tr><td style="padding:12px 12px 4px">{img}</td></tr>
+  <tr><td style="padding:0 8px 6px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>{cells}</tr></table></td></tr>
  </table>
- <div style="font:400 10px/1.6 {FONT};color:{MUTED};margin-top:6px">{note}</div>
+ <div style="font:400 12px {FONT};color:{INK};margin-top:8px">대시보드에서는 시장 비중 외에 <b>시장 규모·CAGR</b>과 <b>국가별 시장 비중</b>도 확인할 수 있습니다.
+  {f'<a href="{e(dash)}" target="_blank" style="color:{OR};text-decoration:none;white-space:nowrap">대시보드 지도 보기 →</a>' if dash else ''}</div>
+ <div style="font:400 10px/1.6 {FONT};color:{MUTED};margin-top:4px">출처: {e(market.get('source', ''))} · 2025년 매출 기준 · CAGR 2026–2033</div>
 </td></tr>"""
 
 
@@ -583,16 +573,11 @@ def build(cfg, now):
     if not issues:
         rows.append(empty("오늘은 특기할 이슈가 없습니다."))
 
-    # ② 글로벌 시장 지역 비중 (대륙 단위)
+    # ② 글로벌 시장 지역 비중 (대시보드 지도와 동일, 공개 자료만)
     market = load_json("market_regions.json", {})
-    try:
-        own_share = json.loads(os.environ.get("WONTECH_REGION_SHARE") or "{}")
-    except json.JSONDecodeError:
-        own_share = {}
     if market.get("regions"):
-        rows.append(section(next(sec_no), "글로벌 시장 지역 비중",
-                            "원텍 vs 시장 · EBD" if own_share else "EBD 시장 · 2025"))
-        rows.append(region_compare(market, own_share))
+        rows.append(section(next(sec_no), "글로벌 시장 지역 비중", "EBD 시장 · 2025"))
+        rows.append(region_map(market, cfg.get("telegram", {}).get("dashboard_url", "")))
 
     # ② 경쟁사
     rows.append(section(next(sec_no), "경쟁사 동향", f"{len(comp_groups)}개사"))
