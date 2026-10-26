@@ -49,11 +49,18 @@ jobs:
         env:
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
           NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AI_CHECK_MAX: "120"      # 9시 발송이 늦지 않도록 메일 작업 안에서는 새 기사 위주로 짧게 검수
+          AI_CHECK_SECONDS: "100"
         run: python naver_news.py
       - name: 최신 뉴스 수집 (해외)
         if: (github.event_name == 'schedule' || inputs.send_mode == 'auto')
         continue-on-error: true
         working-directory: collectors
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          AI_CHECK_MAX: "120"      # 9시 발송이 늦지 않도록 메일 작업 안에서는 새 기사 위주로 짧게 검수
+          AI_CHECK_SECONDS: "100"
         run: python overseas_rss.py
 
       - name: 오늘 이미 발송했는지 확인

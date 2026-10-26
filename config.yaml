@@ -4,7 +4,7 @@
 brand:
   own_company: ["원텍","WONTECH"]
   own_products: ["Oligio","올리지오","Oligio X","올리지오 X","Oligio XM","올리지오 XM","PicoCare","피코케어","Lavieen","라비앙 레이저","라비앙레이저","Tightan","울트라스킨 타이탄","타이탄 리프팅","V-Laser","브이레이저"]
-  competitor_companies: ["클래시스","Classys","CLASSYS","제이시스메디칼","제이시스","Jeisys","루트로닉","Lutronic","사이노슈어 루트로닉","Cynosure Lutronic","사이노슈어","Cynosure","비올메디컬","비올","VIOL","쉬엔비","SHENB","하이로닉","Hironic","아스테라시스","Asterasys","레이저옵텍","Laseroptek","텐텍","Tentech","일루다","ilooda","유니온메디칼","Union Medical","디노나","Dinona","인모드","InMode","멀츠","Merz Aesthetics","솔타메디칼","Solta Medical","캔델라","Candela Medical","큐테라","Cutera","알마레이저","Alma Lasers","포토나","Fotona","루메니스","Lumenis","콴타시스템","Quanta System","데카","DEKA Laser","소프웨이브","Sofwave","비티엘","BTL Aesthetics","Venus Concept","Sciton","Allergan Aesthetics","Galderma","Bausch Health"]
+  competitor_companies: ["클래시스","Classys","CLASSYS","제이시스메디칼","제이시스","Jeisys","루트로닉","Lutronic","사이노슈어 루트로닉","Cynosure Lutronic","사이노슈어","Cynosure","비올메디컬","비올","VIOL","쉬엔비","SHENB","하이로닉","Hironic","아스테라시스","Asterasys","레이저옵텍","Laseroptek","텐텍","Tentech","일루다","ilooda","유니온메디칼","Union Medical","디노나","Dinona","인모드","InMode","멀츠","Merz Aesthetics","솔타메디칼","Solta Medical","캔델라","켄델라","Candela Medical","큐테라","Cutera","알마레이저","Alma Lasers","포토나","Fotona","루메니스","Lumenis","콴타시스템","Quanta System","데카","DEKA Laser","소프웨이브","Sofwave","비티엘","BTL Aesthetics","Venus Concept","Sciton","Allergan Aesthetics","Galderma","Bausch Health"]
   competitor_products: ["슈링크","Shurink","울트라포머","Ultraformer","슈링크 유니버스","Shurink Universe","볼뉴머","Volnewmer","쿼드세이","Quadessy","덴서티","Jeisys Density","포텐자","Potenza","리니어지","LinearZ","리니어펌","LinearFirm","인트라셀","Intracel","세르프","XERF","피코플러스","PicoPlus","라셈드","LaseMD","루트로닉 지니어스","Lutronic Genius","클라리티","Clarity II","더마V","Derma V","헐리우드 스펙트라","Hollywood Spectra","울쎄라","Ultherapy","울쎄라 프라임","Ultherapy Prime","써마지","Thermage","프락셀","Fraxel","클리어앤브릴리언트","Clear + Brilliant","인모드 FX","인모드 포르마","InMode Forma","모피어스8","모피어스","Morpheus8","티타늄 리프팅","티타늄리프팅","하이퍼 티타늄","Alma Titanium","온다 리프팅","온다리프팅","Onda lifting","소프웨이브","Sofwave","리프테라","Liftera","쿨페이즈","Coolfase","쿨소닉","CoolSoniq","퓨테라","Futera","더블로","Doublo","브이로 리프팅","V-RO","실펌","Sylfirm","셀리뉴","듀오타이트","버츄RF","버츄 RF","Virtue RF","텐써마","10Therma","텐쎄라","10Thera","피코로","PicoLO","피코웨이","PicoWay","브이빔","Vbeam","젠틀맥스","GentleMax","프로파운드","Profound Matrix","피코슈어","PicoSure","레블라이트","RevLite","엑셀V","Excel V","시크릿RF","Secret RF","포토나 4D","Fotona 4D","디스커버리 피코","Discovery Pico","엠스컬프트","Emsculpt","엑시온","Exion","엠셀라","Emsella","쿨스컬프팅","CoolSculpting","InMode Evolve","Sciton Moxi"]
 
 search_keywords:
@@ -196,7 +196,19 @@ sources:
 relevance:
   context_terms: ["의료","피부","시술","리프팅","레이저","미용","병원","의원","피부과","성형","탄력","주름","고주파","초음파","하이푸","HIFU","의료기기","에스테틱","안티에이징","더마","클래시스","원텍","제이시스","루트로닉","사이노슈어","비올","하이로닉","멀츠","인모드","솔타","아스테라시스","레이저옵텍","쉬엔비","텐텍","일루다","유니온메디칼","디노나","실펌","포텐자","더블로","울트라포머","모피어스","프락셀","피코웨이","피코슈어","써마지","울쎄라","슈링크",
                   "aesthetic","skin","dermatolog","laser","radiofrequency","ultrasound","microneedling","lifting","tightening","wrinkle","med spa","medspa","cosmetic","InMode","Sofwave","Ultherapy","Thermage","Cutera","Candela Medical","Lutronic","Classys","Jeisys","Solta","Merz","Emsculpt","CoolSculpting","body contouring","Venus Concept","Sciton","BTL Aesthetics"]
-  exclude_terms: ["슈링크플레이션","스킴프플레이션","프렌드플레이션","히트플레이션","치킨값","외식물가","식품물가","청룡시리즈어워즈","[WT포토]","[mhn포토]","KLPGA","LPGA","골프","티샷",
+  # 국내 기사 규칙 (자세한 기준은 collectors/utils.py is_relevant 설명 참고)
+  specific_terms: ["피부과","성형외과","에스테틱","피부미용","미용의료","의료미용","미용기기","미용 의료기기","하이푸","HIFU","마이크로니들","안티에이징",
+                   "뷰티 디바이스","뷰티디바이스","홈뷰티","뷰티기기","리프팅 시술","레이저 시술","고주파 리프팅","초음파 리프팅","피부 시술","미용 시술",
+                   "스킨부스터","필러","리프팅 장비","피부 레이저","색소 치료","여드름흉터","보톡스","톡신"]
+  generic_terms: ["시술","리프팅","고주파","초음파","의료기기","레이저","탄력","주름","피부","임상","장비","학술대회","학회","의원","제모","토닝","피코초","나노초","기미","잡티","색소","수술용"]
+  # 일상어와 겹치는 이름: 단독으로는 관련 기사로 인정하지 않음 (예: '묻고 더블로', '더블더블로', '온다', '티타늄')
+  ambiguous_names: ["더블로","Doublo","온다","티타늄","실펌","덴서티","클라리티","세르프","프로파운드","브이빔","슈링크","비올","VIOL","텐텍","데카","포토나","멀츠","솔타","인트라셀","셀리뉴","듀오타이트"]
+  ai_check:            # 2차 AI 검수 (GEMINI_API_KEY 있을 때만, 무료 등급)
+    enabled: true
+    max_per_run: 480   # 한 번 수집에 검수할 최대 기사 수 (기존 기사는 최신순으로 며칠에 걸쳐 검수)
+    batch: 60
+    max_seconds: 420
+  exclude_terms: ["슈링크플레이션","스킴프플레이션","프렌드플레이션","히트플레이션","치킨값","외식물가","식품물가","청룡시리즈어워즈","[WT포토]","[mhn포토]","KLPGA","LPGA","골프","티샷","라식","라섹","시력교정","레이저 건","레이저건","조류 통제","조류통제","수의학","더블더블","트리플더블","묻고 더블로","포토콜",
                   "prostate","cancer","tumor","fibroid","Cynosure Group","Lapmaster"]
 
 telegram:

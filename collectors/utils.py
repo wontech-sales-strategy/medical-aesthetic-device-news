@@ -3,6 +3,8 @@ import html
 import json
 import os
 import re
+import sys
+import time
 from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
@@ -59,20 +61,114 @@ def find_mentions(text, cfg):
     }
 
 
-def is_relevant(text, cfg, local=False):
-    """관련도 필터: 주제어가 하나 이상 있고, 제외어가 없어야 통과.
-    local=True(현지어 해외기사)는 주제어 검사를 생략하고 제외어만 적용."""
+def is_relevant(text, cfg, local=False, overseas=False):
+    """관련도 필터(규칙). 제외어가 있으면 탈락.
+    - 국내 기사: 아래 중 하나를 만족해야 통과
+      A) 업체명(원텍·경쟁사) 또는 미용의료 전용어(피부과·에스테틱·HIFU 등)가 있음
+      B) 경쟁제품명 + 일반어(시술·리프팅·레이저 등)가 함께 있음
+         ※ '더블로·온다·티타늄'처럼 일상어와 겹치는 제품명은 단독으로는 인정하지 않음
+      C) 서로 다른 일반어가 2개 이상 있음
+    - 해외 영문 기사: 주제어(context_terms) 1개 이상
+    - 해외 현지어 기사: 제외어만 적용 (AI 검수에서 다시 확인)"""
     rel = cfg.get("relevance", {})
     lowered = (text or "").lower()
-    excludes = [t.lower() for t in rel.get("exclude_terms", []) if t]
-    if any(t in lowered for t in excludes):
+    brand = cfg.get("brand", {})
+    ambig = {t.lower() for t in rel.get("ambiguous_names", [])}
+    own = [t for t in brand.get("own_company", []) + brand.get("own_products", []) if t.lower() not in ambig]
+    if any(t.lower() in lowered for t in own):  # 원텍 기사는 항상 통과
+        return True
+    if any(t.lower() in lowered for t in rel.get("exclude_terms", []) if t):
         return False
     if local:
         return True
-    contexts = [t.lower() for t in rel.get("context_terms", []) if t]
-    if contexts and not any(t in lowered for t in contexts):
-        return False
-    return True
+    if overseas:
+        contexts = [t.lower() for t in rel.get("context_terms", []) if t]
+        return not contexts or any(t in lowered for t in contexts)
+    has = lambda terms: [t for t in terms if t and t.lower() in lowered]
+    names = [t for t in brand.get("own_company", []) + brand.get("own_products", []) + brand.get("competitor_companies", [])
+             if t.lower() not in ambig]
+    if has(names) or has(rel.get("specific_terms", [])):
+        return True
+    generic = set(has(rel.get("generic_terms", [])))
+    if generic and has(brand.get("competitor_products", [])):
+        return True
+    return len(generic) >= 2
+
+
+# ───────── AI 검수 (Google Gemini 무료 등급) ─────────
+AI_CHECK_PROMPT = (
+    "당신은 한국 미용의료기기 회사 원텍의 뉴스 클리핑 검수자입니다. 아래 기사 목록에서 "
+    "'미용의료기기(RF·HIFU·레이저·마이크로니들 등 에스테틱 장비)와 피부미용·에스테틱 업계"
+    "(장비 회사, 피부과·에스테틱 시술·병의원, 관련 인허가·규제·학회·전시회·시장·수출, 필러·톡신·스킨부스터 등 업계 동향)', "
+    "그리고 '수술용 레이저·에너지 기반 수술 장비(비뇨기 등 써지컬 분야)'와 실질적으로 관련 없는 기사의 id만 고르세요.\n"
+    "반드시 제외: 스포츠(더블더블 등), 연예·패션·화보·포토콜(제품명과 같은 단어가 우연히 들어간 경우 포함), "
+    "연예인이 시술을 받았다는 가십, 정치·사회 일반, 주가·거래량·시황 단순 나열, "
+    "미용과 무관한 레이저(산업·반도체·공항·군사·안과 라식/라섹), 레이저·에너지 장비와 무관한 일반 의료·제약(정형외과 임플란트·치과·안과·진단·신약 등), "
+    "자동차·타이어(브리지스톤 포텐자 등), 화장품만 다루는 기사.\n"
+    "위 제외 대상이 아니고 업계와 관련 있어 보이면 남기세요.\n"
+    '형식: {"drop":[id, ...]}\n기사:\n'
+)
+
+
+def _gemini(prompt, key, models, deadline):
+    url = "https://generativelanguage.googleapis.com/v1beta/models/{}:generateContent"
+    import requests
+    last = None
+    for model in models:
+        for attempt in range(4):
+            if time.time() > deadline:
+                raise RuntimeError("AI 검수 시간 한도 초과")
+            try:
+                r = requests.post(url.format(model), headers={"x-goog-api-key": key, "Content-Type": "application/json"},
+                                  json={"contents": [{"role": "user", "parts": [{"text": prompt}]}],
+                                        "generationConfig": {"temperature": 0, "responseMimeType": "application/json"}},
+                                  timeout=90)
+                if r.status_code in (429, 500, 503) and attempt < 3:
+                    time.sleep(20 * (attempt + 1))
+                    continue
+                if r.status_code != 200:
+                    raise RuntimeError(f"HTTP {r.status_code} {r.text[:150]!r}")
+                text = "".join(p.get("text", "") for p in r.json()["candidates"][0]["content"]["parts"])
+                m = re.search(r"\{.*\}", text, re.S)
+                time.sleep(4)
+                return json.loads(m.group(0)) if m else {}
+            except Exception as e:  # noqa: BLE001
+                last = e
+                break
+    raise RuntimeError(last)
+
+
+def ai_check(items, cfg):
+    """아직 AI 검수 안 된 기사(ai_ok 없음)를 최신순으로 검수해 ai_ok True/False 표시.
+    키가 없거나 실패하면 표시하지 않고 넘어감(다음 수집 때 다시 시도)."""
+    key = os.environ.get("GEMINI_API_KEY")
+    ai_cfg = cfg.get("relevance", {}).get("ai_check", {})
+    if not key or not ai_cfg.get("enabled", True):
+        return
+    models = ai_cfg.get("models") or ["gemini-flash-latest", "gemini-flash-lite-latest"]
+    brand = cfg.get("brand", {})
+    own = [t.lower() for t in brand.get("own_company", []) + brand.get("own_products", [])]
+    for i in items:  # 원텍 언급 기사는 검수 없이 유지
+        if "ai_ok" not in i and any(t in f"{i.get('title', '')} {i.get('summary', '')}".lower() for t in own):
+            i["ai_ok"] = True
+    todo = [i for i in items if "ai_ok" not in i][: int(os.environ.get("AI_CHECK_MAX") or ai_cfg.get("max_per_run", 480))]
+    deadline = time.time() + int(os.environ.get("AI_CHECK_SECONDS") or ai_cfg.get("max_seconds", 420))
+    batch = int(ai_cfg.get("batch", 60))
+    done = dropped = 0
+    for s in range(0, len(todo), batch):
+        chunk = todo[s:s + batch]
+        rows = [{"id": k, "title": i.get("title", ""), "summary": (i.get("summary") or "")[:90]} for k, i in enumerate(chunk)]
+        try:
+            data = _gemini(AI_CHECK_PROMPT + json.dumps(rows, ensure_ascii=False), key, models, deadline)
+        except Exception as e:  # noqa: BLE001
+            print(f"[AI 검수] 중단: {e}", file=sys.stderr)
+            break
+        drop = {k for k in (data.get("drop") or []) if isinstance(k, int)}
+        for k, i in enumerate(chunk):
+            i["ai_ok"] = k not in drop
+        done += len(chunk)
+        dropped += len(drop)
+    print(f"[AI 검수] {done}건 확인, {dropped}건 제외 (남은 미검수 {sum(1 for i in items if 'ai_ok' not in i)}건)")
 
 
 def retag(item, cfg):
@@ -123,10 +219,14 @@ def save_news(items):
     # 기간 내 + 관련도 통과 기사만 남기고, 최신 기준으로 태그 재계산
     merged = sorted(
         (retag(v, cfg) for v in by_link.values()
-         if is_recent(v) and is_relevant(f"{v.get('title', '')} {v.get('summary', '')}", cfg, local=v.get("local_lang", False))),
+         if is_recent(v) and is_relevant(f"{v.get('title', '')} {v.get('summary', '')}", cfg,
+                                         local=v.get("local_lang", False), overseas=v.get("is_overseas", False))),
         key=sort_key,
         reverse=True,
     )
+    # 2차: AI 검수에서 '무관'으로 판정된 기사 제외
+    ai_check(merged, cfg)
+    merged = [v for v in merged if v.get("ai_ok") is not False]
 
     for path in (DATA_PATH, DOCS_DATA_PATH):
         os.makedirs(os.path.dirname(path), exist_ok=True)

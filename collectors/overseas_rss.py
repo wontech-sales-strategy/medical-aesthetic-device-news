@@ -54,7 +54,7 @@ def collect(text, label, country, local, cfg, limit):
         link = e.get("link")
         if not title or not link:
             continue
-        if not is_relevant(f"{title} {summary}", cfg, local=local):
+        if not is_relevant(f"{title} {summary}", cfg, local=local, overseas=True):
             continue
         item = {
             "title": title,
