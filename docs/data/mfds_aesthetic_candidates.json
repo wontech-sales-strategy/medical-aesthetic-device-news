@@ -7719,8 +7719,8 @@
         "MDEQ_PRDLST_SN": "2017008239",
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
-        "MANUF_NM": "BOWA-electronic GmbH & Co. KG",
-        "CHG_DT": "2017-12-22"
+        "MANUF_NM": "BOWA-electronic GmbH",
+        "CHG_DT": "2026-10-20"
       }
     },
     {
@@ -8776,7 +8776,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2023-11-28"
+        "CHG_DT": "2026-10-26"
       }
     },
     {
@@ -11767,8 +11767,8 @@
         "MDEQ_PRDLST_SN": "2015007791",
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
-        "MANUF_NM": "BOWA-electronic GmbH & Co. KG",
-        "CHG_DT": "2017-07-21"
+        "MANUF_NM": "BOWA-electronic GmbH",
+        "CHG_DT": "2026-10-20"
       }
     },
     {
@@ -17971,8 +17971,8 @@
         "MDEQ_PRDLST_SN": "2012005934",
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
-        "MANUF_NM": "BOWA-electronic GmbH & Co.KG",
-        "CHG_DT": "2018-02-12"
+        "MANUF_NM": "BOWA-electronic GmbH",
+        "CHG_DT": "2026-10-20"
       }
     },
     {
@@ -21250,7 +21250,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-06-05"
+        "CHG_DT": "2026-10-26"
       }
     },
     {
@@ -22967,6 +22967,28 @@
         "MNFT_CLNT_NM": "ArthroCare Corporation",
         "MANUF_NM": "ArthroCare Corporation",
         "CHG_DT": "2017-11-03"
+      }
+    },
+    {
+      "category": "HIFU",
+      "query_product": "집속형초음파자극시스템",
+      "permit_date": "20091013",
+      "permit_no": "",
+      "product": "집속형초음파자극시스템",
+      "company": "멀츠아시아퍼시픽피티이엘티디",
+      "raw": {
+        "ENTRPS": "멀츠아시아퍼시픽피티이엘티디",
+        "PRDUCT": "집속형초음파자극시스템",
+        "PRMISN_STTEMNT": "1",
+        "PRDUCT_PRMISN_NO": "수허 09-1024 호",
+        "PRMISN_DT": "20091013",
+        "RTRCN_DSCTN_DIVS_CD": "",
+        "RTRCN_DSCTN_DT": "",
+        "MDEQ_PRDLST_SN": "2009004877",
+        "TRCK_MNG_TRGT_YN": "N",
+        "MNFT_CLNT_NM": "Ulthera, Inc.",
+        "MANUF_NM": "Jabil Inc.",
+        "CHG_DT": "2026-10-26"
       }
     },
     {
