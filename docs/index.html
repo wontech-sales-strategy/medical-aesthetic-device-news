@@ -426,6 +426,21 @@
 .stk svg{display:block;width:100%;height:30px;margin-top:6px}
 .stk .dt{font-size:9.5px;color:var(--muted);margin-top:2px}
 .stock-note{font-size:10.5px;color:var(--sub);margin-top:8px;line-height:1.6}
+.reg-card{background:var(--surface);border-radius:12px;padding:14px 18px 12px;margin:0 0 16px;box-shadow:var(--shadow)}
+.reg-head{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap}
+.reg-head b{font-size:14px}
+.reg-tools{display:flex;gap:6px;align-items:center}
+.reg-tools select{border:1px solid var(--border);background:var(--bg);color:var(--text);border-radius:7px;padding:5px 8px;font-size:12px}
+.reg-table{width:100%;border-collapse:collapse;margin-top:10px;font-size:12px;background:var(--bg);border-radius:10px;overflow:hidden}
+.reg-table th{font-size:11px;font-weight:400;color:var(--sub);text-align:left;padding:8px 10px;border-bottom:1px solid var(--border);white-space:nowrap}
+.reg-table td{padding:8px 10px;border-bottom:1px solid var(--border);vertical-align:top}
+.reg-table tr.own td:first-child{color:var(--accent);font-weight:700}
+.reg-table a{color:var(--accent)}
+.reg-new{display:inline-block;background:#e03131;color:#fff;font-size:9px;font-weight:800;padding:1px 5px;border-radius:4px;margin-left:4px;vertical-align:1px}
+.reg-grp{display:inline-block;background:var(--surface2);color:var(--sub);font-size:10px;padding:1px 6px;border-radius:9px;white-space:nowrap}
+.reg-more{border:0;background:transparent;color:var(--accent);cursor:pointer;font-size:12px;margin-top:8px;padding:4px 0}
+.reg-note{font-size:10.5px;color:var(--sub);margin-top:6px;line-height:1.6}
+@media(max-width:640px){.reg-table .hide-m{display:none}}
 /* 넓은 화면: 좌우 여백을 줄이고 본문을 넓게 */
 @media(min-width:1500px){.wrap{max-width:1840px;padding:24px 40px 40px}.main-layout{grid-template-columns:185px minmax(0,1fr) 310px;gap:32px}body{font-size:15px}.news-title{font-size:14px}.wm-wrap svg{max-height:560px}}
 @media(min-width:2200px){.wrap{max-width:2200px}}
@@ -506,6 +521,14 @@
   <div class="stock-head"><b>주요 경쟁사 주가</b><span class="muted" id="stockAsOf"></span></div>
   <div class="stock-grid" id="stockGrid"></div>
   <div class="stock-note" id="stockNote"></div>
+</section>
+
+<section class="reg-card" id="regCard" style="display:none">
+  <div class="reg-head"><div><b>경쟁사 글로벌 인허가 Tracker</b> <span class="muted" id="regAsOf"></span></div>
+    <div class="reg-tools"><select id="regCompany" aria-label="회사"></select></div></div>
+  <table class="reg-table"><thead><tr><th>회사</th><th>제품</th><th>분류</th><th class="hide-m">국가</th><th class="hide-m">인허가</th><th>날짜</th><th>출처</th></tr></thead><tbody id="regBody"></tbody></table>
+  <button class="reg-more" id="regMore">더보기 ▾</button>
+  <div class="reg-note" id="regNote"></div>
 </section>
 
   <section class="comp-list">
@@ -817,6 +840,24 @@ async function loadStocks(){
   stockCard.style.display='';
 }
 loadStocks();
+
+// ───── 경쟁사 글로벌 인허가 Tracker ─────
+let regData=null,regShow=12,regCo='전체';
+function drawReg(){const it=regData.items.filter(i=>regCo==='전체'||i.company===regCo);const now=Date.now();
+  regBody.innerHTML=it.slice(0,regShow).map(i=>{const nw=i.is_new&&(now-new Date(i.found))<14*864e5;const d=i.date||'';
+    return `<tr class="${i.own?'own':''}"><td>${i.company}${nw?'<span class="reg-new">NEW</span>':''}</td><td>${i.device||''}</td><td><span class="reg-grp">${i.group||''}</span></td><td class="hide-m">${i.country}</td><td class="hide-m">${i.type}</td><td style="white-space:nowrap">${d}</td><td><a href="${i.url}" target="_blank" rel="noopener">${i.k_number}</a></td></tr>`}).join('')||'<tr><td colspan="7" class="empty">해당 회사의 허가 이력이 없습니다.</td></tr>';
+  regMore.style.display=it.length>regShow?'':'none';regMore.textContent=`더보기 ▾ (${it.length-regShow}건 더)`}
+async function loadReg(){
+  try{const r=await fetch('data/regulatory.json',{cache:'no-store'});if(!r.ok)return;regData=await r.json()}catch(e){return}
+  if(!regData.items||!regData.items.length)return;
+  const cos=[...new Set(regData.items.map(i=>i.company))];
+  regCompany.innerHTML=['전체',...cos].map(c=>`<option>${c}</option>`).join('');
+  regCompany.onchange=()=>{regCo=regCompany.value;regShow=12;drawReg()};regMore.onclick=()=>{regShow+=20;drawReg()};
+  regAsOf.textContent=`· 2023년 이후 ${regData.items.length}건 · 갱신 ${regData.updated}`;
+  regNote.innerHTML=`출처: ${regData.source} · ${regData.note} · 현재 미국 FDA부터 연결, EU·캐나다·호주는 순차 추가 예정`;
+  drawReg();regCard.style.display='';
+}
+loadReg();
 load();
 </script>
 </body>

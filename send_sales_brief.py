@@ -520,6 +520,31 @@ def stock_table(st):
 </td></tr>"""
 
 
+def reg_alerts(reg, now, days=7):
+    """최근 새로 확인된 경쟁사 인허가 (data/regulatory.json의 is_new). 없으면 섹션 자체를 생략."""
+    out = []
+    for i in reg.get("items") or []:
+        try:
+            found = datetime.strptime(i.get("found", ""), "%Y-%m-%d").replace(tzinfo=KST)
+        except ValueError:
+            continue
+        if i.get("is_new") and (now - found).days < days:
+            out.append(i)
+    if not out:
+        return ""
+    rows = "".join(
+        f'<tr><td style="padding:9px 14px;border-top:1px solid {LINE};font:700 13px {FONT};color:{OR if i.get("own") else INK};white-space:nowrap">{e(i["company"])}</td>'
+        f'<td style="padding:9px 10px;border-top:1px solid {LINE};font:400 13px {FONT};color:{INK}">{e(i.get("device", ""))}'
+        f'<div style="font:400 11px {FONT};color:{MUTED};margin-top:2px">{e(i.get("country", ""))} · {e(i.get("type", ""))} · {e(i.get("group", ""))} · {e(i.get("date", ""))}</div></td>'
+        f'<td align="right" style="padding:9px 14px;border-top:1px solid {LINE};font:400 12px {FONT};white-space:nowrap"><a href="{e(i.get("url", ""))}" target="_blank" style="color:{OR};text-decoration:none">{e(i.get("k_number", ""))} →</a></td></tr>'
+        for i in out[:8])
+    return f"""
+<tr><td style="padding:0 32px 6px">
+ <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#fff;border:1px solid {LINE}">{rows}</table>
+ <div style="font:400 10px/1.6 {FONT};color:{MUTED};margin-top:6px">출처: {e(reg.get('source', ''))} · 최근 {days}일 내 새로 확인된 허가 · 전체 이력은 대시보드 'Tracker'에서 확인</div>
+</td></tr>"""
+
+
 def empty(msg):
     return f'<tr><td style="padding:0 32px 12px"><div style="border:1px solid {LINE};background:#fff;padding:14px 16px;font:400 13px {FONT};color:{MUTED}">{e(msg)}</div></td></tr>'
 
@@ -692,7 +717,14 @@ def build(cfg, now):
         rows.append(section(next(sec_no), "주요 경쟁사 주가", "종가 기준"))
         rows.append(stock_table(stocks))
 
-    # ③ 글로벌 시장 지역 비중 (대시보드 지도와 동일, 공개 자료만)
+    # ③ 경쟁사 신규 인허가 (새 허가가 있을 때만)
+    reg = load_json("regulatory.json", {})
+    reg_html = reg_alerts(reg, now)
+    if reg_html:
+        rows.append(section(next(sec_no), "🔔 경쟁사 신규 인허가", "FDA 510(k)"))
+        rows.append(reg_html)
+
+    # ④ 글로벌 시장 지역 비중 (대시보드 지도와 동일, 공개 자료만)
     market = load_json("market_regions.json", {})
     if market.get("regions"):
         rows.append(section(next(sec_no), "글로벌 시장 지역 비중", "원텍 vs 시장 · EBD" if os.environ.get("WONTECH_REGION_SHARE") else "EBD 시장 · 2025"))
