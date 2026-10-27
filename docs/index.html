@@ -413,6 +413,22 @@
 .map-own b{color:var(--accent)}
 :root{--wm-stroke:#fff}:root.dark{--wm-stroke:#171715;--wm-tip-bg:#f2f2ee;--wm-tip-fg:#171717}
 @media(max-width:900px){.map-body{grid-template-columns:1fr}}
+.stock-card{background:var(--surface);border-radius:12px;padding:14px 18px 12px;margin:0 0 16px;box-shadow:var(--shadow)}
+.stock-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+.stock-head b{font-size:14px}
+.stock-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:10px;margin-top:10px}
+.stk{background:var(--bg);border-radius:10px;padding:10px 12px;border:1px solid var(--border)}
+.stk.own{border-color:var(--accent)}
+.stk .nm{font-size:12px;font-weight:700}.stk.own .nm{color:var(--accent)}
+.stk .cd{font-size:10px;color:var(--muted);margin-left:4px;font-weight:400}
+.stk .px{font-size:18px;font-weight:800;margin-top:4px}
+.stk .ch{font-size:11px;font-weight:700}.stk .ch.up{color:#e03131}.stk .ch.dn{color:#1c7ed6}.stk .ch.eq{color:var(--sub)}
+.stk svg{display:block;width:100%;height:30px;margin-top:6px}
+.stk .dt{font-size:9.5px;color:var(--muted);margin-top:2px}
+.stock-note{font-size:10.5px;color:var(--sub);margin-top:8px;line-height:1.6}
+/* 넓은 화면: 좌우 여백을 줄이고 본문을 넓게 */
+@media(min-width:1500px){.wrap{max-width:1840px;padding:24px 40px 40px}.main-layout{grid-template-columns:185px minmax(0,1fr) 310px;gap:32px}body{font-size:15px}.news-title{font-size:14px}.wm-wrap svg{max-height:560px}}
+@media(min-width:2200px){.wrap{max-width:2200px}}
 @media(max-width:900px){.main-layout{grid-template-columns:1fr}.desktop-cats{display:none}.mobile-cat{display:block}.mobile-origin{display:block}.right-col{position:static;display:grid;grid-template-columns:1fr 1fr;gap:12px}.top-metrics{grid-template-columns:1fr}.comp-grid{grid-template-columns:1fr}}
 @media(max-width:640px){.header{align-items:flex-start;flex-direction:column}.brand{align-items:flex-start}.metric-row{grid-template-columns:repeat(2,1fr)}.right-col{grid-template-columns:1fr}.seg-tabs{overflow:auto}.seg-tab{white-space:nowrap}.comp-head{align-items:flex-start;gap:6px;flex-direction:column}.footer{flex-direction:column}}
 </style>
@@ -484,6 +500,12 @@
     <div><div class="map-legend" id="mapLegend"></div><div class="map-scale" id="mapScale"></div></div>
   </div>
   <div class="map-note" id="mapNote"></div>
+</section>
+
+<section class="stock-card" id="stockCard" style="display:none">
+  <div class="stock-head"><b>주요 경쟁사 주가</b><span class="muted" id="stockAsOf"></span></div>
+  <div class="stock-grid" id="stockGrid"></div>
+  <div class="stock-note" id="stockNote"></div>
 </section>
 
   <section class="comp-list">
@@ -776,6 +798,25 @@ async function loadMap(){
   draw();
 }
 loadMap();
+
+// ───── 경쟁사 주가 ─────
+const fmtDay=d=>d?`${+d.slice(4,6)}/${+d.slice(6,8)}`:'';
+function spark(h,up){const v=h.map(x=>x.c).filter(x=>x!=null);if(v.length<2)return '';const mn=Math.min(...v),mx=Math.max(...v),W=160,H=30;
+  const pts=v.map((y,i)=>`${(i/(v.length-1)*W).toFixed(1)},${(H-2-(mx===mn?0.5:(y-mn)/(mx-mn))*(H-4)).toFixed(1)}`).join(' ');
+  return `<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none"><polyline points="${pts}" fill="none" stroke="${up?'#e03131':'#1c7ed6'}" stroke-width="1.6" vector-effect="non-scaling-stroke"/></svg>`}
+async function loadStocks(){
+  let d;try{const r=await fetch('data/stocks.json',{cache:'no-store'});if(!r.ok)return;d=await r.json()}catch(e){return}
+  if(!d.items||!d.items.length)return;
+  stockGrid.innerHTML=d.items.map(s=>{const cls=s.pct>0?'up':s.pct<0?'dn':'eq',arr=s.pct>0?'▲':s.pct<0?'▼':'–';
+    const px=s.currency==='USD'?'$'+s.close.toFixed(2):Math.round(s.close).toLocaleString()+'원';
+    const ch=s.currency==='USD'?Math.abs(s.change).toFixed(2):Math.abs(Math.round(s.change)).toLocaleString();
+    const first=s.history&&s.history.length?s.history[0].c:null;
+    return `<div class="stk ${s.own?'own':''}"><div class="nm">${s.name}<span class="cd">${s.code} · ${s.market}</span></div><div class="px">${px}</div><div class="ch ${cls}">${arr} ${ch} (${s.pct>0?'+':''}${s.pct.toFixed(2)}%)</div>${spark(s.history||[],first!=null&&s.close>=first)}<div class="dt">${fmtDay(s.date)} 종가 · 최근 3개월 추이</div></div>`}).join('');
+  stockAsOf.textContent=`갱신 ${d.updated}`;
+  stockNote.innerHTML=`출처: ${d.source_kr}${d.items.some(s=>s.currency==='USD')?' · 해외: '+d.source_us:''} · 국내 종가는 다음 영업일 13시 이후 공개되어 1~2영업일 늦게 반영됩니다 · 투자 판단용 자료가 아닙니다`;
+  stockCard.style.display='';
+}
+loadStocks();
 load();
 </script>
 </body>
