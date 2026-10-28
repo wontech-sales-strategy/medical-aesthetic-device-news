@@ -441,8 +441,25 @@
 .reg-more{border:0;background:transparent;color:var(--accent);cursor:pointer;font-size:12px;margin-top:8px;padding:4px 0}
 .reg-note{font-size:10.5px;color:var(--sub);margin-top:6px;line-height:1.6}
 @media(max-width:640px){.reg-table .hide-m{display:none}}
+.hero-row{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:16px;align-items:stretch;margin:0 0 16px}
+.hero-row .map-card,.hero-row .stock-card{margin:0}
+.hero-row .map-body{grid-template-columns:1fr;gap:6px}
+.hero-row .map-legend{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+.hero-row .map-legend .lg-row{grid-template-columns:1fr;gap:3px;text-align:center}
+.hero-row .map-legend .lg-row b{text-align:center}
+.hero-row .map-scale{justify-content:center}
+.hero-row .stock-card{display:flex;flex-direction:column}
+.hero-row .stock-grid{grid-template-columns:repeat(2,minmax(0,1fr));flex:1;align-content:stretch}
+.hero-row .stk svg{height:34px}
+.reg-card{margin-top:20px}
+@media(max-width:1100px){.hero-row{grid-template-columns:1fr}.hero-row .stock-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:640px){.hero-row .stock-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-row .map-legend{grid-template-columns:repeat(3,minmax(0,1fr))}}
+.jump-btn{display:inline-flex;align-items:center;gap:4px;border:1px solid var(--accent);color:var(--accent);background:var(--bg);border-radius:8px;padding:6px 11px;font-size:12px;font-weight:700;text-decoration:none;white-space:nowrap}
+.jump-btn:hover{background:var(--accent);color:#fff}
+.header-tools{flex-wrap:wrap}.period button{white-space:nowrap}
+#regCard{scroll-margin-top:16px}
 /* 넓은 화면: 좌우 여백을 줄이고 본문을 넓게 */
-@media(min-width:1500px){.wrap{max-width:1840px;padding:24px 40px 40px}.main-layout{grid-template-columns:185px minmax(0,1fr) 310px;gap:32px}body{font-size:15px}.news-title{font-size:14px}.wm-wrap svg{max-height:560px}}
+@media(min-width:1500px){.wrap{max-width:1840px;padding:24px 40px 40px}.main-layout{grid-template-columns:185px minmax(0,1fr) 310px;gap:32px}body{font-size:15px}.news-title{font-size:14px}.wm-wrap svg{max-height:520px}}
 @media(min-width:2200px){.wrap{max-width:2200px}}
 @media(max-width:900px){.main-layout{grid-template-columns:1fr}.desktop-cats{display:none}.mobile-cat{display:block}.mobile-origin{display:block}.right-col{position:static;display:grid;grid-template-columns:1fr 1fr;gap:12px}.top-metrics{grid-template-columns:1fr}.comp-grid{grid-template-columns:1fr}}
 @media(max-width:640px){.header{align-items:flex-start;flex-direction:column}.brand{align-items:flex-start}.metric-row{grid-template-columns:repeat(2,1fr)}.right-col{grid-template-columns:1fr}.seg-tabs{overflow:auto}.seg-tab{white-space:nowrap}.comp-head{align-items:flex-start;gap:6px;flex-direction:column}.footer{flex-direction:column}}
@@ -456,7 +473,7 @@
       <div class="logo">WONTECH</div>
       <div class="title"><h1>Medical Aesthetic Device News</h1><div class="muted" id="lastUpdated">불러오는 중...</div></div>
     </div>
-    <div class="header-tools"><div class="period"><button class="active" data-days="1">오늘</button><button data-days="7">주간</button><button data-days="30">월간</button></div><button class="iconbtn" id="themeToggle" title="다크모드">🌙</button></div>
+    <div class="header-tools"><a class="jump-btn" href="#regCard" id="jumpReg" title="맨 아래 경쟁사 글로벌 인허가 Tracker로 이동">🏷️ 인허가 Tracker ↓</a><div class="period"><button class="active" data-days="1">오늘</button><button data-days="7">주간</button><button data-days="30">월간</button></div><button class="iconbtn" id="themeToggle" title="다크모드">🌙</button></div>
   </header>
 
   <nav class="seg-tabs"><button class="seg-tab active" data-seg="전체">전체</button><button class="seg-tab" data-seg="에스테틱">에스테틱</button><button class="seg-tab" data-seg="써지컬">써지컬</button></nav>
@@ -505,6 +522,13 @@
 
 </section>
 
+
+
+
+
+
+
+<div class="hero-row">
 <section class="map-card" id="mapCard">
   <div class="map-head">
     <div><b>글로벌 에너지 기반 미용기기(EBD) 시장 지역 비중</b><div class="muted">2025년 매출 기준 · 레이저·RF·IPL·초음파 장비 · 지역에 마우스를 올리면 상세 수치가 보입니다</div></div>
@@ -516,20 +540,12 @@
   </div>
   <div class="map-note" id="mapNote"></div>
 </section>
-
 <section class="stock-card" id="stockCard" style="display:none">
   <div class="stock-head"><b>주요 경쟁사 주가</b><span class="muted" id="stockAsOf"></span></div>
   <div class="stock-grid" id="stockGrid"></div>
   <div class="stock-note" id="stockNote"></div>
 </section>
-
-<section class="reg-card" id="regCard" style="display:none">
-  <div class="reg-head"><div><b>경쟁사 글로벌 인허가 Tracker</b> <span class="muted" id="regAsOf"></span></div>
-    <div class="reg-tools"><select id="regCompany" aria-label="회사"></select></div></div>
-  <table class="reg-table"><thead><tr><th>회사</th><th>제품</th><th>분류</th><th class="hide-m">국가</th><th class="hide-m">인허가</th><th>날짜</th><th>출처</th></tr></thead><tbody id="regBody"></tbody></table>
-  <button class="reg-more" id="regMore">더보기 ▾</button>
-  <div class="reg-note" id="regNote"></div>
-</section>
+</div>
 
   <section class="comp-list">
     <div class="comp-head">
@@ -568,6 +584,14 @@
       <div class="right-card"><div class="right-title">특허 출원 트렌드 · KIPRIS</div><div class="patent-bars" id="patentTrend"></div><div class="patent-note" id="patentNote">KIPRIS Plus API 연결 후 자동 갱신됩니다.</div></div>
     </aside>
   </div>
+
+<section class="reg-card" id="regCard" style="display:none">
+  <div class="reg-head"><div><b>경쟁사 글로벌 인허가 Tracker</b> <span class="muted" id="regAsOf"></span></div>
+    <div class="reg-tools"><select id="regCompany" aria-label="회사"></select></div></div>
+  <table class="reg-table"><thead><tr><th>회사</th><th>제품</th><th>분류</th><th class="hide-m">국가</th><th class="hide-m">인허가</th><th>날짜</th><th>출처</th></tr></thead><tbody id="regBody"></tbody></table>
+  <button class="reg-more" id="regMore">더보기 ▾</button>
+  <div class="reg-note" id="regNote"></div>
+</section>
 
   <footer class="footer">
     <div>WONTECH Medical Aesthetic Device News · 영업전략 내부 모니터링</div>
@@ -845,7 +869,7 @@ loadStocks();
 let regData=null,regShow=12,regCo='전체';
 function drawReg(){const it=regData.items.filter(i=>regCo==='전체'||i.company===regCo);const now=Date.now();
   regBody.innerHTML=it.slice(0,regShow).map(i=>{const nw=i.is_new&&(now-new Date(i.found))<14*864e5;const d=i.date||'';
-    return `<tr class="${i.own?'own':''}"><td>${i.company}${nw?'<span class="reg-new">NEW</span>':''}</td><td>${i.device||''}</td><td><span class="reg-grp">${i.group||''}</span></td><td class="hide-m">${i.country}</td><td class="hide-m">${i.type}</td><td style="white-space:nowrap">${d}</td><td><a href="${i.url}" target="_blank" rel="noopener">${i.k_number}</a></td></tr>`}).join('')||'<tr><td colspan="7" class="empty">해당 회사의 허가 이력이 없습니다.</td></tr>';
+    return `<tr class="${i.own?'own':''}"><td>${i.company}${nw?'<span class="reg-new">NEW</span>':''}</td><td>${(i.device||'').replace(/\u0099/g,'™').replace(/[\u0000-\u001f\u0080-\u009f\ue000-\uf8ff\ufffd]/g,'').trim()}</td><td><span class="reg-grp">${i.group||''}</span></td><td class="hide-m">${i.country}</td><td class="hide-m">${i.type}</td><td style="white-space:nowrap">${d}</td><td><a href="${i.url}" target="_blank" rel="noopener">${i.k_number}</a></td></tr>`}).join('')||'<tr><td colspan="7" class="empty">해당 회사의 허가 이력이 없습니다.</td></tr>';
   regMore.style.display=it.length>regShow?'':'none';regMore.textContent=`더보기 ▾ (${it.length-regShow}건 더)`}
 async function loadReg(){
   try{const r=await fetch('data/regulatory.json',{cache:'no-store'});if(!r.ok)return;regData=await r.json()}catch(e){return}

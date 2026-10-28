@@ -8,6 +8,7 @@
 - 새로 잡힌 허가는 is_new=True 로 표시 → 아침 메일 알림에 사용
 """
 import json
+import re
 import time
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -78,7 +79,7 @@ def main():
             d = r.get("decision_date", "")
             items.append({
                 "company": w["company"], "own": w.get("own", False), "applicant": r.get("applicant"),
-                "device": r.get("device_name"), "product_code": r.get("product_code"),
+                "device": re.sub(r"[\u0000-\u001f\u0080-\u009f\ue000-\uf8ff\ufffd]", "", (r.get("device_name") or "").replace("\x99", "™")).strip(), "product_code": r.get("product_code"),
                 "group": CODE_GROUP.get(r.get("product_code"), "기타"),
                 "country": "미국", "type": "FDA 510(k)", "decision": r.get("decision_description"),
                 "date": d, "k_number": k,
