@@ -392,6 +392,11 @@
 .patent-sum{font-size:20px;font-weight:800;margin-top:8px}
 .patent-sum small{font-size:11px;font-weight:400;color:var(--sub)}
 .patent-kw{margin-top:8px;border-top:1px solid var(--border);padding-top:6px}
+.pt-years{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:8px}
+.pt-y{background:var(--bg);border-radius:8px;padding:6px 8px;text-align:center}.pt-y span{display:block;font-size:10px;color:var(--sub)}.pt-y b{font-size:15px}
+.pt-y.pend b{color:var(--muted)}
+.pt-kw{width:100%;border-collapse:collapse;margin-top:8px;font-size:11px}.pt-kw th{font-weight:400;color:var(--sub);text-align:right;padding:2px 3px}.pt-kw td{padding:2px 3px;text-align:right}.pt-kw td:first-child{text-align:left;color:var(--sub)}
+.pt-kw .pend{color:var(--muted)}
 .patent-kw div{display:flex;justify-content:space-between;font-size:11px;padding:2px 0}
 .patent-kw span{color:var(--sub)}
 .map-card{background:var(--surface);border-radius:12px;padding:16px 18px 14px;margin:0 0 16px;box-shadow:var(--shadow)}
@@ -457,7 +462,11 @@
 .jump-btn{display:inline-flex;align-items:center;gap:4px;border:1px solid var(--accent);color:var(--accent);background:var(--bg);border-radius:8px;padding:6px 11px;font-size:12px;font-weight:700;text-decoration:none;white-space:nowrap}
 .jump-btn:hover{background:var(--accent);color:#fff}
 .header-tools{flex-wrap:wrap}.period button{white-space:nowrap}
-#regCard{scroll-margin-top:16px}
+#regCard,#newsTop{scroll-margin-top:16px}
+.news-toolbar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;border-top:2px solid var(--text);padding-top:14px;margin-top:6px}
+.news-toolbar .nt-title{display:flex;align-items:baseline;gap:8px;margin-right:auto}
+.news-toolbar .nt-title b{font-size:16px}
+.news-toolbar .seg-tabs{margin:0}
 /* 넓은 화면: 좌우 여백을 줄이고 본문을 넓게 */
 @media(min-width:1500px){.wrap{max-width:1840px;padding:24px 40px 40px}.main-layout{grid-template-columns:185px minmax(0,1fr) 310px;gap:32px}body{font-size:15px}.news-title{font-size:14px}.wm-wrap svg{max-height:520px}}
 @media(min-width:2200px){.wrap{max-width:2200px}}
@@ -473,10 +482,9 @@
       <div class="logo">WONTECH</div>
       <div class="title"><h1>Medical Aesthetic Device News</h1><div class="muted" id="lastUpdated">불러오는 중...</div></div>
     </div>
-    <div class="header-tools"><a class="jump-btn" href="#regCard" id="jumpReg" title="맨 아래 경쟁사 글로벌 인허가 Tracker로 이동">🏷️ 인허가 Tracker ↓</a><div class="period"><button class="active" data-days="1">오늘</button><button data-days="7">주간</button><button data-days="30">월간</button></div><button class="iconbtn" id="themeToggle" title="다크모드">🌙</button></div>
+    <div class="header-tools"><a class="jump-btn" href="#newsTop" title="뉴스 클리핑으로 이동">📰 뉴스 ↓</a><a class="jump-btn" href="#regCard" id="jumpReg" title="맨 아래 경쟁사 글로벌 인허가 Tracker로 이동">🏷️ 인허가 Tracker ↓</a><button class="iconbtn" id="themeToggle" title="다크모드">🌙</button></div>
   </header>
 
-  <nav class="seg-tabs"><button class="seg-tab active" data-seg="전체">전체</button><button class="seg-tab" data-seg="에스테틱">에스테틱</button><button class="seg-tab" data-seg="써지컬">써지컬</button></nav>
 
 <section class="top-metrics market-metrics">
 
@@ -547,6 +555,11 @@
 </section>
 </div>
 
+  <div class="news-toolbar" id="newsTop">
+    <div class="nt-title"><b>뉴스 클리핑</b><span class="muted">아래 필터는 뉴스 영역에만 적용됩니다</span></div>
+    <nav class="seg-tabs"><button class="seg-tab active" data-seg="전체">전체</button><button class="seg-tab" data-seg="에스테틱">에스테틱</button><button class="seg-tab" data-seg="써지컬">써지컬</button></nav>
+    <div class="period"><button class="active" data-days="1">오늘</button><button data-days="7">주간</button><button data-days="30">월간</button></div>
+  </div>
   <section class="comp-list">
     <div class="comp-head">
       <b>경쟁제품 바로보기</b>
@@ -810,18 +823,17 @@ async function loadPatent(){
   const max=Math.max(...d.map(x=>+x.count||0),1);
   patentTrend.innerHTML=d.map((x,i)=>`<div class="patent-col"><i style="height:${Math.max(4,(+x.count||0)/max*58)}px;opacity:${i>=d.length-2?0.35:0.86}"></i><span>${x.year}</span></div>`).join('');
   // 출원 후 약 1년 6개월 뒤 공개 → 최근 2개 연도는 과소집계, 기준 연도는 그 이전
-  const si=Math.max(d.length-3,0), pi=Math.max(d.length-4,0);
-  const sy=d[si].year, sc=+d[si].count||0, pc=+d[pi].count||0;
-  const g=(si!==pi&&pc)?((sc-pc)/pc*100):null;
+  const yrs=d.slice(-3);  // 최근 3개 연도 (마지막 2개는 공개 지연으로 집계 중)
+  const cell=(x,i)=>`<div class="pt-y${i<1?'':' pend'}"><span>${x.year}${i<1?'':' · 집계 중'}</span><b>${(+x.count||0).toLocaleString()}건</b></div>`;
   let lines='';
   if(Array.isArray(kw)&&kw.length){
     const names=[...new Set(kw.map(r=>r.keyword))];
-    lines=names.map(k=>({k,c:(kw.find(r=>r.keyword===k&&r.year===sy)||{}).count||0})).sort((a,b)=>b.c-a.c)
-      .map(x=>`<div><span>${x.k}</span><b>${x.c.toLocaleString()}건</b></div>`).join('');
-    lines=`<div class="patent-kw">${lines}</div>`;
+    const c=(k,y)=>(kw.find(r=>r.keyword===k&&r.year===y)||{}).count||0;
+    lines=`<table class="pt-kw"><tr><th></th>${yrs.map((x,i)=>`<th${i?' class="pend"':''}>${String(x.year).slice(2)}년</th>`).join('')}</tr>`+
+      names.map(k=>({k,v:yrs.map(x=>c(k,x.year))})).sort((a,b)=>b.v[0]-a.v[0]).map(r=>`<tr><td>${r.k}</td>${r.v.map((v,i)=>`<td${i?' class="pend"':''}>${v.toLocaleString()}</td>`).join('')}</tr>`).join('')+'</table>';
   }
-  patentNote.innerHTML=`<div class="patent-sum">${sc.toLocaleString()}건 <small>(${sy}${g!==null?`, 전년比 ${g>=0?'+':''}${g.toFixed(1)}%`:''})</small></div>${lines}
-  <div style="margin-top:6px;line-height:1.5">출처: KIPRIS Plus 오픈API · 키워드별 건수는 중복 포함, 합계는 중복 제거<br>특허는 출원 후 약 1년 6개월이 지나야 공개되므로 최근 2개 연도(연한 막대)는 실제보다 적게 집계됩니다. 추세 판단은 ${sy}년 이전 기준을 권장합니다.</div>`;
+  patentNote.innerHTML=`<div class="pt-years">${yrs.map(cell).join('')}</div>${lines}
+  <div style="margin-top:6px;line-height:1.5">출처: KIPRIS Plus 오픈API · 키워드별 건수는 중복 포함, 합계는 중복 제거<br>특허는 <b>출원 후 약 1년 6개월 뒤 공개</b>되므로 ${yrs[1].year}·${yrs[2].year}년 출원분은 아직 일부만 집계됩니다(연한 막대). 예: ${yrs[2].year}년 출원은 ${yrs[2].year+1}~${yrs[2].year+2}년에 걸쳐 공개.</div>`;
 }
 
 // ───── 글로벌 시장 지역 비중 MAP ─────
