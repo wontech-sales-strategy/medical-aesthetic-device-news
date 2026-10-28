@@ -20,14 +20,13 @@ OUTS = [BASE / "data" / "stocks.json", BASE / "docs" / "data" / "stocks.json"]
 KST = timezone(timedelta(hours=9))
 
 # 표시 순서대로. own=True 는 원텍
+# 비올(335890)·제이시스메디칼(287410)은 시세 조회 결과가 없어(상장폐지 추정) 제외 — 2026.10.27~28 확인
 KR_STOCKS = [
     {"code": "336570", "name": "원텍", "own": True},
     {"code": "214150", "name": "클래시스"},
-    {"code": "335890", "name": "비올"},
     {"code": "149980", "name": "하이로닉"},
     {"code": "199550", "name": "레이저옵텍"},
     {"code": "462510", "name": "라메디텍"},
-    {"code": "287410", "name": "제이시스메디칼"},  # 상장 상태 확인용: 조회되지 않으면 자동 제외
 ]
 US_STOCKS = [{"symbol": "INMD", "name": "인모드", "market": "NASDAQ"}]
 
@@ -46,6 +45,16 @@ def num(v):
 
 
 def fetch_kr(code, key):
+    rows, err = [], None
+    for attempt in range(3):
+        rows, err = _fetch_kr_once(code, key)
+        if rows:
+            return rows, None
+        time.sleep(3 * (attempt + 1))
+    return rows, err
+
+
+def _fetch_kr_once(code, key):
     end = datetime.now(KST)
     begin = end - timedelta(days=HISTORY_DAYS + 40)
     params = {"serviceKey": key, "resultType": "json", "numOfRows": 300, "pageNo": 1,
@@ -127,6 +136,21 @@ def main():
             skipped.append(f"{m['name']}({m['symbol']}): {e}")
     for s in skipped:
         print(f"[주가] 제외: {s}", file=sys.stderr)
+    try:
+        prev = json.loads(OUTS[0].read_text(encoding="utf-8")).get("items", [])
+    except (FileNotFoundError, ValueError):
+        prev = []
+    got = {i["code"] for i in out}
+    order = [m["code"] for m in KR_STOCKS] + [m["symbol"] for m in US_STOCKS]
+    for p_ in prev:
+        if p_["code"] not in got and not p_.get("delisted"):
+            p_["stale"] = True  # 이번 조회 실패 → 직전 값 유지(기준일은 이전 날짜 그대로 표시)
+            out.append(p_)
+            print(f"[주가] {p_['name']}: 이번 조회 실패 → 직전 값({p_.get('date')}) 유지", file=sys.stderr)
+    for i in out:
+        if i["code"] in got:
+            i.pop("stale", None)
+    out.sort(key=lambda i: order.index(i["code"]) if i["code"] in order else 99)
     if not out:
         print("[주가] 수집된 종목이 없어 기존 파일을 그대로 둡니다.", file=sys.stderr)
         return
