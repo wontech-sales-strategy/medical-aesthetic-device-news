@@ -203,6 +203,9 @@ def _chat(prompt, models, key):
                     continue
                 if r.status_code == 429 and attempt < 3:  # 무료 한도 초과 → 안내된 시간만큼 대기 후 재시도
                     wait = re.search(r'"retryDelay":\s*"(\d+)', r.text)
+                    if not wait or "PerDay" in r.text:  # 하루 무료 한도 소진 → 기다려도 소용없음
+                        AI_STATE["down"] = True
+                        raise RuntimeError("AI 하루 무료 한도 소진 → 오늘은 AI 없이 발송")
                     wait = min(int(wait.group(1)) + 2, 65) if wait else 35
                     print(f"  [AI] {model} 한도 초과(429) → {wait}초 대기: {r.text[:160]!r}", file=sys.stderr)
                     time.sleep(wait)
@@ -248,13 +251,9 @@ def ai_dedupe(cfg, comp_groups, per_group):
                 for n, (gi, i) in enumerate(flat)]
         try:
             data = _chat(
-                "두 가지를 하세요.\n"
-                "1) 같은 group 안에서 '같은 사건·같은 발표'를 다룬 기사끼리 묶으세요. 제목이 달라도 내용이 같은 소식이면 같은 묶음입니다. "
+                "같은 group 안에서 '같은 사건·같은 발표'를 다룬 기사끼리 묶으세요. 제목이 달라도 내용이 같은 소식이면 같은 묶음입니다. "
                 "각 묶음의 첫 id는 정보가 가장 충실한 기사로 하세요. 혼자인 기사는 쓰지 마세요.\n"
-                "2) 미용의료기기·에스테틱 업계(또는 수술용 레이저 장비)와 실질적으로 관련 없는 기사 id를 off에 넣으세요. "
-                "예: 스포츠, 연예·패션·화보(제품명과 같은 단어가 우연히 들어간 경우), 연예인 시술 가십, 정치, 주가·거래량 단순 나열, "
-                "미용과 무관한 레이저·의료, 자동차·타이어.\n"
-                '형식: {"same":[[id,id,...], ...], "off":[id, ...]}\n기사:\n' + json.dumps(rows, ensure_ascii=False), models, key) or {}
+                '형식: {"same":[[id,id,...], ...]}\n기사:\n' + json.dumps(rows, ensure_ascii=False), models, key) or {}
             for grp in data.get("same") or []:
                 ids = [k for k in grp if isinstance(k, int) and 0 <= k < len(flat)]
                 if len(ids) < 2:
@@ -264,14 +263,7 @@ def ai_dedupe(cfg, comp_groups, per_group):
                     if flat[k][0] == flat[ids[0]][0] and flat[k][1] is not keep:
                         drop.add(id(flat[k][1]))
                         keep["_dup"] = keep.get("_dup", 0) + 1 + flat[k][1].get("_dup", 0)
-            off = [k for k in (data.get("off") or []) if isinstance(k, int) and 0 <= k < len(flat)]
-            if len(off) > max(2, len(flat) * 0.4):  # AI가 과하게 지우면(오판) 무시 — 경쟁사 칸이 통째로 비는 것 방지
-                print(f"[경고] AI가 무관 기사로 {len(off)}/{len(flat)}건을 골라 비정상으로 판단 → 무관 판정은 적용하지 않음", file=sys.stderr)
-                off = []
-            for k in off:
-                drop.add(id(flat[k][1]))
-                print(f"  [AI] 무관 기사 제외: {flat[k][1].get('title', '')[:60]}")
-            print(f"  [AI] 중복·무관 기사 {len(drop)}건 제외")
+            print(f"  [AI] 중복 기사 {len(drop)}건 묶음")
         except Exception as ex:
             print(f"[경고] AI 중복 묶기 실패 → 기존 방식 사용: {ex}", file=sys.stderr)
     out = []

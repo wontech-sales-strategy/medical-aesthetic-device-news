@@ -123,6 +123,8 @@ def _gemini(prompt, key, models, deadline):
                                   json={"contents": [{"role": "user", "parts": [{"text": prompt}]}],
                                         "generationConfig": {"temperature": 0, "responseMimeType": "application/json"}},
                                   timeout=90)
+                if r.status_code == 429 and ("PerDay" in r.text or "retryDelay" not in r.text):
+                    raise RuntimeError("AI 하루 무료 한도 소진 → 이번 수집은 AI 검수 생략")
                 if r.status_code in (429, 500, 503) and attempt < 3:
                     time.sleep(20 * (attempt + 1))
                     continue
@@ -151,7 +153,17 @@ def ai_check(items, cfg):
     for i in items:  # 원텍 언급 기사는 검수 없이 유지
         if "ai_ok" not in i and any(t in f"{i.get('title', '')} {i.get('summary', '')}".lower() for t in own):
             i["ai_ok"] = True
-    todo = [i for i in items if "ai_ok" not in i][: int(os.environ.get("AI_CHECK_MAX") or ai_cfg.get("max_per_run", 480))]
+    # 최근 기사만 검수 (오래된 기사까지 검수하면 무료 하루 한도를 다 써서 아침 메일 AI가 멈춤)
+    age = int(ai_cfg.get("max_age_days", 10))
+    cut = datetime.now(timezone.utc) - timedelta(days=age)
+
+    def recent(i):
+        try:
+            d = parsedate_to_datetime(i.get("pub_date", ""))
+            return (d if d.tzinfo else d.replace(tzinfo=timezone.utc)) >= cut
+        except (TypeError, ValueError):
+            return True
+    todo = [i for i in items if "ai_ok" not in i and recent(i)][: int(os.environ.get("AI_CHECK_MAX") or ai_cfg.get("max_per_run", 480))]
     deadline = time.time() + int(os.environ.get("AI_CHECK_SECONDS") or ai_cfg.get("max_seconds", 420))
     batch = int(ai_cfg.get("batch", 60))
     done = dropped = 0
