@@ -265,6 +265,9 @@ def ai_dedupe(cfg, comp_groups, per_group):
                         drop.add(id(flat[k][1]))
                         keep["_dup"] = keep.get("_dup", 0) + 1 + flat[k][1].get("_dup", 0)
             off = [k for k in (data.get("off") or []) if isinstance(k, int) and 0 <= k < len(flat)]
+            if len(off) > max(2, len(flat) * 0.4):  # AI가 과하게 지우면(오판) 무시 — 경쟁사 칸이 통째로 비는 것 방지
+                print(f"[경고] AI가 무관 기사로 {len(off)}/{len(flat)}건을 골라 비정상으로 판단 → 무관 판정은 적용하지 않음", file=sys.stderr)
+                off = []
             for k in off:
                 drop.add(id(flat[k][1]))
                 print(f"  [AI] 무관 기사 제외: {flat[k][1].get('title', '')[:60]}")
@@ -274,6 +277,8 @@ def ai_dedupe(cfg, comp_groups, per_group):
     out = []
     for name, its, total in comp_groups:
         keep = [i for i in its if id(i) not in drop][:(4 if name == "기타 경쟁사" else per_group)]
+        if not keep and its:  # 안전장치: 제목에 회사명이 있는 기사이므로 최소 1건은 유지
+            keep = its[:1]
         if keep:
             out.append((name, keep, total))
     return out
