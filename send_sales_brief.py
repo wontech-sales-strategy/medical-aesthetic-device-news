@@ -615,7 +615,7 @@ def build(cfg, now):
     # 써지컬 메일 반영 전까지: 써지컬 전용 기사는 메일에서 제외 (메일은 기존 에스테틱 범위 그대로)
     news = [i for i in news if i.get("segments") != ["써지컬"]]
     metrics = load_json("market_metrics.json", {})
-    events = load_json("exhibitions.json", [])
+    events = [e for e in load_json("exhibitions.json", []) if e.get("seg") != "써지컬"]  # 써지컬 메일 반영 전까지 제외
     items, hours = window_items(news, now)
     # 상단 숫자 카드: 최근 7일 (대시보드 '주간'과 같은 기준)
     wk_since = now - timedelta(days=7)

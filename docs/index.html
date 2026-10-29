@@ -558,7 +558,7 @@
   <div class="news-toolbar" id="newsTop">
     <div class="nt-title"><b>뉴스 클리핑</b><span class="muted">아래 필터는 뉴스 영역에만 적용됩니다</span></div>
     <nav class="seg-tabs"><button class="seg-tab active" data-seg="전체">전체</button><button class="seg-tab" data-seg="에스테틱">에스테틱</button><button class="seg-tab" data-seg="써지컬">써지컬</button></nav>
-    <div class="period"><button class="active" data-days="1">오늘</button><button data-days="7">주간</button><button data-days="30">월간</button></div>
+    <div class="period"><button data-days="1">오늘</button><button class="active" data-days="7">주간</button><button data-days="30">월간</button></div>
   </div>
   <section class="comp-list">
     <div class="comp-head">
@@ -594,7 +594,7 @@
     <aside class="right-col">
       <div class="right-card"><div class="cal-head"><button id="prev">‹</button><b id="calTitle"></b><button id="next">›</button></div><div class="cal-grid" id="calendar"></div><div class="cal-detail" id="calDetail">날짜를 클릭하면 학회·전시회 정보를 볼 수 있습니다.</div></div>
       <div class="right-card"><div class="right-title">다가오는 학회 · 전시회</div><div id="eventList"></div></div>
-      <div class="right-card"><div class="right-title">특허 출원 트렌드 · KIPRIS</div><div class="patent-bars" id="patentTrend"></div><div class="patent-note" id="patentNote">KIPRIS Plus API 연결 후 자동 갱신됩니다.</div></div>
+      <div class="right-card"><div class="right-title" id="patentTitle">특허 출원 트렌드 · KIPRIS</div><div class="patent-bars" id="patentTrend"></div><div class="patent-note" id="patentNote">KIPRIS Plus API 연결 후 자동 갱신됩니다.</div></div>
     </aside>
   </div>
 
@@ -634,7 +634,7 @@ const surgicalAliases={
 const aestheticOrder=Object.keys(productAliases),surgicalOrder=Object.keys(surgicalAliases);
 Object.assign(productAliases,surgicalAliases);
 const segOrder=()=>state.segment==='에스테틱'?aestheticOrder:state.segment==='써지컬'?surgicalOrder:[...aestheticOrder,...surgicalOrder];
-let allNews=[],events=[],state={days:1,segment:'전체',category:'전체',product:'전체',q:'',kpi:null,origin:'all',country:'전체'};
+let allNews=[],events=[],state={days:7,segment:'전체',category:'전체',product:'전체',q:'',kpi:null,origin:'all',country:'전체'};
 const A=v=>Array.isArray(v)?v:[]; const D=s=>{const d=new Date(s);return isNaN(d)?null:d};
 function own(i){return A(i.own_company_mentions).length+A(i.own_product_mentions).length+A(i.own_brand_mentions).length>0}
 function comp(i){return A(i.competitor_company_mentions).length+A(i.competitor_product_mentions).length+A(i.competitor_mentions).length>0}
@@ -645,8 +645,9 @@ function prodHit(i,p){if(p==='전체')return true;const t=[i.title,i.summary,...
 function baseFiltered(){return allNews.filter(i=>inDays(i,state.days)&&originOk(i)&&(state.segment==='전체'||segs(i).includes(state.segment))&&(state.category==='전체'||A(i.categories).includes(state.category))&&prodHit(i,state.product)&&(!state.q||i.title.toLowerCase().includes(state.q.toLowerCase()))&&(!state.kpi||(state.kpi==='own'?own(i):comp(i))))}
 function countRows(items,fn){const o={};items.forEach(i=>fn(i).forEach(k=>o[k]=(o[k]||0)+1));return Object.entries(o).sort((a,b)=>b[1]-a[1])}
 function pct(n,d){return d?Math.round(n/d*100):0}
-function preferredCats(){return ['전체','RF','HIFU','Laser·Pico','RF Microneedling','Surgical','시장동향','신제품·출시','인허가·규제','학회·임상','글로벌사업','기타']}
-function renderCats(){const present=new Set(allNews.flatMap(i=>A(i.categories)));const list=preferredCats().filter(x=>x==='전체'||present.has(x));categoryList.innerHTML=list.map(c=>`<button class="cat ${state.category===c?'active':''}" data-c="${c}">${c}</button>`).join('');mobileCategory.innerHTML=list.map(c=>`<option value="${c}" ${state.category===c?'selected':''}>${c}</option>`).join('');categoryList.querySelectorAll('.cat').forEach(x=>x.onclick=()=>{state.category=x.dataset.c;state.product='전체';render()})}
+const AES_CATS=['RF','HIFU','Laser·Pico','RF Microneedling'],SURG_CATS=['비뇨·결석','정맥·치핵','여성·CO2','통증·PBM'],COMMON_CATS=['시장동향','신제품·출시','인허가·규제','학회·임상','글로벌사업','기타'];
+function preferredCats(){const m=state.segment==='에스테틱'?AES_CATS:state.segment==='써지컬'?SURG_CATS:[...AES_CATS,'Surgical'];return ['전체',...m,...COMMON_CATS]}
+function renderCats(){const present=new Set(allNews.filter(i=>state.segment==='전체'||segs(i).includes(state.segment)).flatMap(i=>A(i.categories)));const list=preferredCats().filter(x=>x==='전체'||present.has(x));categoryList.innerHTML=list.map(c=>`<button class="cat ${state.category===c?'active':''}" data-c="${c}">${c}</button>`).join('');mobileCategory.innerHTML=list.map(c=>`<option value="${c}" ${state.category===c?'selected':''}>${c}</option>`).join('');categoryList.querySelectorAll('.cat').forEach(x=>x.onclick=()=>{state.category=x.dataset.c;state.product='전체';render()})}
 function renderTop(items){}
 function renderCountries(){const cs=[...new Set(allNews.filter(i=>i.is_overseas).map(i=>i.country||'글로벌'))].sort();const cnt=c=>allNews.filter(i=>i.is_overseas&&inDays(i,state.days)&&(i.country||'글로벌')===c).length;countrySel.innerHTML=['전체',...cs].map(c=>`<option value="${c}" ${state.country===c?'selected':''}>${c==='전체'?'국가: 전체':c+' ('+cnt(c)+')'}</option>`).join('');countrySel.classList.toggle('show',state.origin==='overseas')}
 function renderExposure(){
@@ -683,11 +684,11 @@ function renderExposure(){
 }
 function renderMetrics(items){const pl={1:'최근 24시간',7:'최근 7일',30:'최근 30일'}[state.days]||'';mTotalLabel.textContent=`수집 뉴스 · ${pl}`;mTotal.textContent=items.length.toLocaleString()+'건';mOwn.textContent=items.filter(own).length+'건';mComp.textContent=items.filter(comp).length+'건';const top=countRows(items,i=>A(i.categories))[0];mTop.textContent=top?`${top[0]} ${top[1]}건`:'-';metricOwn.classList.toggle('selected',state.kpi==='own');metricComp.classList.toggle('selected',state.kpi==='comp')}
 function renderBrief(items){if(!items.length){briefText.textContent='선택한 조건에 해당하는 뉴스가 없습니다.';return}const topCat=countRows(items,i=>A(i.categories))[0];const topProd=segOrder().map(p=>[p,items.filter(i=>prodHit(i,p)).length]).sort((a,b)=>b[1]-a[1])[0];let s=`이 기간 총 ${items.length}건이 수집되었습니다.`;if(topCat&&topCat[1])s+=` '${topCat[0]}' 관련 이슈가 가장 많았습니다.`;if(topProd&&topProd[1])s+=` 경쟁제품 중 '${topProd[0]}' 노출이 두드러집니다.`;if(state.product!=='전체')s+=` 현재 '${state.product}' 관련 기사만 보고 있습니다.`;if(state.kpi==='own')s+=` WONTECH 관련 기사만 필터링 중입니다.`;if(state.kpi==='comp')s+=` 경쟁사 관련 기사만 필터링 중입니다.`;briefText.textContent=s}
-const CATEGORY_COLORS={'RF':{bg:'#fff0e8',text:'#c2410c'},'HIFU':{bg:'#e8f1ff',text:'#1d4ed8'},'Laser·Pico':{bg:'#f1edff',text:'#5846a8'},'RF Microneedling':{bg:'#fde8f1',text:'#be185d'},'Surgical':{bg:'#e6f6f4',text:'#0f766e'},'시장동향':{bg:'#eaf7ea',text:'#15803d'},'신제품·출시':{bg:'#fff7e0',text:'#a16207'},'인허가·규제':{bg:'#fdeaea',text:'#b91c1c'},'학회·임상':{bg:'#e7f5fb',text:'#0369a1'},'글로벌사업':{bg:'#eef2f6',text:'#475569'}};
-function categoryPill(cats){const c=(state.segment==='써지컬'&&A(cats).includes('Surgical'))?'Surgical':(A(cats)[0]||'기타');const col=CATEGORY_COLORS[c]||{bg:'var(--surface2)',text:'var(--sub)'};return `<span class="cat-pill" style="background:${col.bg};color:${col.text}">${c}</span>`}
+const CATEGORY_COLORS={'RF':{bg:'#fff0e8',text:'#c2410c'},'HIFU':{bg:'#e8f1ff',text:'#1d4ed8'},'Laser·Pico':{bg:'#f1edff',text:'#5846a8'},'RF Microneedling':{bg:'#fde8f1',text:'#be185d'},'Surgical':{bg:'#e6f6f4',text:'#0f766e'},'비뇨·결석':{bg:'#e6f6f4',text:'#0f766e'},'정맥·치핵':{bg:'#e8f0fb',text:'#1e40af'},'여성·CO2':{bg:'#fbe9f3',text:'#9d174d'},'통증·PBM':{bg:'#f3eefc',text:'#6b21a8'},'시장동향':{bg:'#eaf7ea',text:'#15803d'},'신제품·출시':{bg:'#fff7e0',text:'#a16207'},'인허가·규제':{bg:'#fdeaea',text:'#b91c1c'},'학회·임상':{bg:'#e7f5fb',text:'#0369a1'},'글로벌사업':{bg:'#eef2f6',text:'#475569'}};
+function categoryPill(cats){const allow=preferredCats();const c=A(cats).find(x=>allow.includes(x))||'기타';const col=CATEGORY_COLORS[c]||{bg:'var(--surface2)',text:'var(--sub)'};return `<span class="cat-pill" style="background:${col.bg};color:${col.text}">${c}</span>`}
 function renderNews(items){newsList.innerHTML=items.length?items.slice(0,80).map(i=>`<a class="news has-pill" href="${i.link}" target="_blank" rel="noopener">${categoryPill(i.categories)}<div class="news-body"><div class="news-title">${i.is_overseas?`<span class="badge-overseas">${i.country||'해외'}</span>`:''}${own(i)?'<span class="badge">WONTECH</span>':''}${i.title}</div><div class="meta">${i.source||''} · ${A(i.categories).join(' · ')} · ${D(i.pub_date)?D(i.pub_date).toLocaleDateString('ko-KR'):''}${i.is_overseas?` · <span class="tr-link" data-t="${encodeURIComponent(i.title)}">번역</span>`:''}</div></div></a>`).join(''):'<div class="empty">해당 조건의 기사가 없습니다.</div>'}
 function render(){document.querySelectorAll('.seg-tab').forEach(x=>x.classList.toggle('active',x.dataset.seg===state.segment));document.querySelectorAll('.period button').forEach(x=>x.classList.toggle('active',+x.dataset.days===state.days));renderCats();renderCountries();const items=baseFiltered();renderTop(items);renderExposure();renderMetrics(items);renderBrief(items);renderNews(items);const ds=allNews.map(i=>D(i.pub_date)).filter(Boolean);lastUpdated.textContent=ds.length?`최근 수집 기사: ${new Date(Math.max(...ds)).toLocaleString('ko-KR')}`:'아직 수집된 데이터가 없습니다.'}
-document.querySelectorAll('.seg-tab').forEach(x=>x.onclick=()=>{state.segment=x.dataset.seg;state.category='전체';state.product='전체';state.kpi=null;render();syncReg()});document.querySelectorAll('.period button').forEach(x=>x.onclick=()=>{state.days=+x.dataset.days;render()});searchBox.oninput=e=>{state.q=e.target.value.trim();render()};mobileCategory.onchange=e=>{state.category=e.target.value;state.product='전체';render()};
+document.querySelectorAll('.seg-tab').forEach(x=>x.onclick=()=>{state.segment=x.dataset.seg;state.category='전체';state.product='전체';state.kpi=null;render();syncReg();renderEvents();loadPatent()});document.querySelectorAll('.period button').forEach(x=>x.onclick=()=>{state.days=+x.dataset.days;render()});searchBox.oninput=e=>{state.q=e.target.value.trim();render()};mobileCategory.onchange=e=>{state.category=e.target.value;state.product='전체';render()};
 originList.querySelectorAll('.cat').forEach(b=>b.onclick=()=>{state.origin=b.dataset.o;originList.querySelectorAll('.cat').forEach(x=>x.classList.toggle('active',x===b));mobileOrigin.value=state.origin;render()});countrySel.onchange=e=>{state.country=e.target.value;render()};
 newsList.addEventListener('click',e=>{const t=e.target.closest('.tr-link');if(!t)return;e.preventDefault();e.stopPropagation();window.open('https://translate.google.com/?sl=auto&tl=ko&op=translate&text='+t.dataset.t,'_blank','noopener')});
 mobileOrigin.onchange=e=>{state.origin=e.target.value;originList.querySelectorAll('.cat').forEach(x=>x.classList.toggle('active',x.dataset.o===state.origin));render()};
@@ -822,12 +823,22 @@ async function loadMarketMetrics(){
   renderMarket('clinic','metricClinic','sparkClinic');
 }
 let cy,cm;function fmt(d){return `${d.getMonth()+1}.${String(d.getDate()).padStart(2,'0')}`}
-async function loadEvents(){try{const r=await fetch(EXH_URL,{cache:'no-store'});events=r.ok?await r.json():[]}catch(e){events=[]}events=events.map(e=>({...e,s:new Date(e.start_date),t:new Date(e.end_date)})).sort((a,b)=>a.s-b.s);const now=new Date();eventList.innerHTML=events.filter(e=>e.t>=new Date(now.toDateString())).slice(0,8).map(e=>`<div class="event-row"><a href="${e.source}" target="_blank">${e.name}</a><span>${fmt(e.s)}–${fmt(e.t)}</span></div>`).join('')||'<div class="empty">등록 행사 없음</div>';cy=now.getFullYear();cm=now.getMonth();drawCal()}
+async function loadEvents(){try{const r=await fetch(EXH_URL,{cache:'no-store'});events=r.ok?await r.json():[]}catch(e){events=[]}allEvents=events.map(e=>({...e,s:new Date(e.start_date),t:new Date(e.end_date)})).sort((a,b)=>a.s-b.s);const now=new Date();cy=now.getFullYear();cm=now.getMonth();renderEvents()}
+let allEvents=[];
+function renderEvents(){const now=new Date();events=allEvents.filter(e=>state.segment==='전체'||(e.seg||'에스테틱')===state.segment||e.seg==='공통');eventList.innerHTML=events.filter(e=>e.t>=new Date(now.toDateString())).slice(0,8).map(e=>`<div class="event-row"><a href="${e.source}" target="_blank">${e.name}</a><span>${fmt(e.s)}–${fmt(e.t)}</span></div>`).join('')||'<div class="empty">등록 행사 없음</div>';drawCal()}
 function drawCal(){calTitle.textContent=`${cy}년 ${cm+1}월`;const first=new Date(cy,cm,1),last=new Date(cy,cm+1,0);let h=['일','월','화','수','목','금','토'].map(x=>`<span class="dow">${x}</span>`).join('');for(let i=0;i<first.getDay();i++)h+='<span></span>';for(let d=1;d<=last.getDate();d++){const x=new Date(cy,cm,d);const hit=events.some(e=>x>=new Date(e.s.toDateString())&&x<=new Date(e.t.toDateString()));h+=`<span class="${hit?'evt':''}" data-d="${d}">${d}</span>`}calendar.innerHTML=h;calendar.querySelectorAll('.evt').forEach(x=>x.onclick=()=>{const d=new Date(cy,cm,+x.dataset.d);const es=events.filter(e=>d>=new Date(e.s.toDateString())&&d<=new Date(e.t.toDateString()));calDetail.innerHTML=es.map(e=>`<a href="${e.source}" target="_blank">${e.name}</a><br>${e.location}`).join('<br><br>')})}prev.onclick=()=>{cm--;if(cm<0){cm=11;cy--}drawCal()};next.onclick=()=>{cm++;if(cm>11){cm=0;cy++}drawCal()}
+let patentCache=null;
 async function loadPatent(){
-  let d=[],kw=[];
-  try{const r=await fetch(PATENT_URL,{cache:'no-store'});d=r.ok?await r.json():[]}catch(e){}
-  try{const r=await fetch('data/patent_keywords.json',{cache:'no-store'});kw=r.ok?await r.json():[]}catch(e){}
+  if(!patentCache){let d=[],kw=[],seg=null;
+    try{const r=await fetch(PATENT_URL,{cache:'no-store'});d=r.ok?await r.json():[]}catch(e){}
+    try{const r=await fetch('data/patent_keywords.json',{cache:'no-store'});kw=r.ok?await r.json():[]}catch(e){}
+    try{const r=await fetch('data/patent_trend_seg.json',{cache:'no-store'});seg=r.ok?await r.json():null}catch(e){}
+    patentCache={d,kw,seg}}
+  let {d,kw,seg}=patentCache;
+  if(seg&&seg[state.segment])d=seg[state.segment];
+  if(Array.isArray(kw)&&state.segment!=='전체')kw=kw.filter(r=>(r.seg||'에스테틱')===state.segment);
+  patentTitle.textContent=`특허 출원 트렌드 · KIPRIS${state.segment==='전체'?'':' · '+state.segment}`;
+  if(state.segment==='써지컬'&&!(seg&&seg['써지컬'])){patentTrend.innerHTML='<div class="empty" style="width:100%">써지컬 키워드 집계 대기 (다음 수집 때 반영)</div>';patentNote.innerHTML='';return}
   if(!Array.isArray(d)||!d.length){patentTrend.innerHTML='<div class="empty" style="width:100%">연동 대기</div>';return}
   d=d.slice(-6);
   const max=Math.max(...d.map(x=>+x.count||0),1);

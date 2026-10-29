@@ -155,6 +155,10 @@ categories:
   Laser·Pico: ["레이저","피코","picosecond","PicoSure","PicoWay","피코케어","라비앙 레이저","Clarity","laser"]
   RF Microneedling: ["마이크로니들","microneedling","Morpheus8","모피어스","포텐자"]
   Surgical: ["써지컬","surgical laser","수술용","홀뮴","holmium","HoLEP","전립선비대증","요로결석","하지정맥류","정맥류","endovenous","EVLA","치핵","질 타이트닝","질 레이저","vaginal laser","CO2 프랙셔널","통증 레이저","photobiomodulation","홀린원","베인케어","Holinwon","Veincare","Ellise","Scahil","Beladona"]
+  비뇨·결석: ["홀뮴","holmium","HoLEP","홀렙","전립선비대증","BPH","요로결석","신장결석","lithotripsy","쇄석","비뇨","urolog","Holinwon","홀린원","MOSES laser","Cyber Ho","Litho Evo","Pulse 120H"]
+  정맥·치핵: ["하지정맥류","정맥류","varicose","endovenous","EVLA","EVLT","치핵","hemorrhoid","Veincare","베인케어","Biolitec","바이오리텍","LSO Medical","Lumeseal","Diotech"]
+  여성·CO2: ["질 타이트닝","질타이트닝","질 레이저","질 재생","vaginal laser","vaginal rejuvenation","CO2 프랙셔널","CO2 fractional","fractional CO2","MonaLisa Touch","모나리자 터치","CO2RE","SmartXide","Beladona","벨라도나","Scahil","스카힐"]
+  통증·PBM: ["통증 레이저","레이저 통증","photobiomodulation","광생물조절","low-level laser","high intensity laser","Multi Radiance","MR4 Laser","Erchonia","FX-635","Ellise","엘리제"]
   시장동향: ["시장","수출","매출","성장","점유율","전망","투자","인수","합병","market","revenue","earnings","acquisition","investment"]
   신제품·출시: ["신제품","출시","론칭","런칭","공개","선보","launch","introduces","unveil"]
   인허가·규제: ["식약처","MFDS","FDA","NMPA","PMDA","CE MDR","허가","승인","인증","규제","clearance","approval","cleared"]
@@ -236,7 +240,8 @@ sources:
       - {name: "중동(아랍어)", edition: "ar|AE|AE:ar", country: "중동", local: true, query: '(HIFU OR Ultherapy OR Thermage OR "طب تجميلي" OR "ليزر تجميلي" OR "أجهزة التجميل") when:7d'}
   kipris_patents:
     enabled: true   # KIPRIS Plus API 키 발급 후 true
-    keywords: ["고주파 리프팅","집속초음파","피코 레이저","의료용 레이저","수술용 레이저"]
+    keywords: ["고주파 리프팅","집속초음파","피코 레이저","의료용 레이저"]   # 에스테틱
+    surgical_keywords: ["수술용 레이저","홀뮴 레이저","정맥 레이저","질 레이저","통증 레이저"]   # 써지컬 (키워드가 바뀌면 다음 수집 때 바로 재조회)
   exhibitions:
     enabled: true
 

@@ -4,97 +4,167 @@
     "start_date": "2026-10-15",
     "end_date": "2026-10-17",
     "location": "Milan, Italy",
-    "source": "https://cbamcongress.com/global-aesthetic-medicine-events/"
+    "source": "https://cbamcongress.com/global-aesthetic-medicine-events/",
+    "seg": "에스테틱"
   },
   {
     "name": "DASIL World Congress 2026",
     "start_date": "2026-10-22",
     "end_date": "2026-10-24",
     "location": "Kochi, India",
-    "source": "https://cbamcongress.com/global-aesthetic-medicine-events/"
+    "source": "https://cbamcongress.com/global-aesthetic-medicine-events/",
+    "seg": "에스테틱"
   },
   {
     "name": "ISAPS World Congress 2026",
     "start_date": "2026-10-27",
     "end_date": "2026-10-31",
     "location": "Cancun, Mexico",
-    "source": "https://cbamcongress.com/global-aesthetic-medicine-events/"
+    "source": "https://cbamcongress.com/global-aesthetic-medicine-events/",
+    "seg": "에스테틱"
   },
   {
     "name": "ASDS Annual Meeting 2026",
     "start_date": "2026-11-05",
     "end_date": "2026-11-08",
     "location": "San Diego, CA, USA",
-    "source": "https://www.dermatologytimes.com/view/dermatology-times-conferences-meetings-calendar-2026"
+    "source": "https://www.dermatologytimes.com/view/dermatology-times-conferences-meetings-calendar-2026",
+    "seg": "에스테틱"
+  },
+  {
+    "name": "WCET 2026 (세계내비뇨의학회)",
+    "start_date": "2026-11-09",
+    "end_date": "2026-11-13",
+    "location": "Sheraton Buenos Aires, Argentina",
+    "source": "https://www.urotoday.com/calendar-events/2026-world-congress-of-endourology-and-uro-technology-wcet.html",
+    "seg": "써지컬"
   },
   {
     "name": "SFED 미용피부과 학술대회 2026",
     "start_date": "2026-11-13",
     "end_date": "2026-11-14",
     "location": "Paris, France",
-    "source": "https://cbamcongress.com/global-aesthetic-medicine-events/"
+    "source": "https://cbamcongress.com/global-aesthetic-medicine-events/",
+    "seg": "에스테틱"
+  },
+  {
+    "name": "AAGL 2026 (최소침습부인과)",
+    "start_date": "2026-11-14",
+    "end_date": "2026-11-16",
+    "location": "Boston, MA, USA",
+    "source": "https://www.arthrex.com/calendar/aagl_american_association_of_gynecologic_laparosco",
+    "seg": "써지컬"
   },
   {
     "name": "Prague Lab | Aesthetic Dialogue 2026",
     "start_date": "2026-11-19",
     "end_date": "2026-11-21",
     "location": "Prague, Czech Republic",
-    "source": "https://cbamcongress.com/global-aesthetic-medicine-events/"
+    "source": "https://cbamcongress.com/global-aesthetic-medicine-events/",
+    "seg": "에스테틱"
   },
   {
     "name": "대한레이저피부모발학회 제54차 추계학술대회",
     "start_date": "2026-12-06",
     "end_date": "2026-12-06",
     "location": "그랜드 인터컨티넨탈 파르나스, 서울",
-    "source": "https://kaldat.co.kr/seminar"
+    "source": "https://kaldat.co.kr/seminar",
+    "seg": "에스테틱"
   },
   {
     "name": "IMCAS World 2027",
     "start_date": "2027-01-28",
     "end_date": "2027-01-30",
     "location": "Paris, France & Online",
-    "source": "https://www.imcas.com/en/imcas-world-2027"
+    "source": "https://www.imcas.com/en/imcas-world-2027",
+    "seg": "에스테틱"
+  },
+  {
+    "name": "American Venous Forum 2027",
+    "start_date": "2027-02-28",
+    "end_date": "2027-03-04",
+    "location": "Grand Hyatt, Nashville, TN, USA",
+    "source": "https://evtoday.com/calendar/2027",
+    "seg": "써지컬"
   },
   {
     "name": "KIMES 2027",
     "start_date": "2027-03-18",
     "end_date": "2027-03-21",
     "location": "COEX, Seoul",
-    "source": "https://kimes.kr/ko/visitor/floor-plan"
+    "source": "https://kimes.kr/ko/visitor/floor-plan",
+    "seg": "공통"
+  },
+  {
+    "name": "EAU27 (유럽비뇨의학회)",
+    "start_date": "2027-03-19",
+    "end_date": "2027-03-22",
+    "location": "Amsterdam, Netherlands",
+    "source": "https://eaucongress-new.uroweb.org/the-congress/announcing-eau27",
+    "seg": "써지컬"
   },
   {
     "name": "AMWC 2027",
     "start_date": "2027-04-01",
     "end_date": "2027-04-03",
     "location": "Palais des Festivals, Cannes, France",
-    "source": "https://www.amwc-conference.com/"
+    "source": "https://www.amwc-conference.com/",
+    "seg": "에스테틱"
   },
   {
     "name": "Dubai Derma 2027",
     "start_date": "2027-04-06",
     "end_date": "2027-04-08",
     "location": "Dubai World Trade Centre, UAE",
-    "source": "https://dubaiderma.com/about-us/"
+    "source": "https://dubaiderma.com/about-us/",
+    "seg": "에스테틱"
+  },
+  {
+    "name": "Charing Cross Symposium 2027",
+    "start_date": "2027-04-06",
+    "end_date": "2027-04-08",
+    "location": "Olympia, London, UK",
+    "source": "https://evtoday.com/calendar/2027",
+    "seg": "써지컬"
   },
   {
     "name": "ASLMS 2027 Annual Conference",
     "start_date": "2027-04-14",
     "end_date": "2027-04-18",
     "location": "Hilton Anatole, Dallas, Texas",
-    "source": "https://www.aslms.org/event/annual-conference-event/"
+    "source": "https://www.aslms.org/event/annual-conference-event/",
+    "seg": "에스테틱"
   },
   {
     "name": "IMCAS Americas 2027",
     "start_date": "2027-05-20",
     "end_date": "2027-05-22",
     "location": "São Paulo, Brazil",
-    "source": "https://www.imcas.com/en"
+    "source": "https://www.imcas.com/en",
+    "seg": "에스테틱"
+  },
+  {
+    "name": "AUA 2027 (미국비뇨의학회)",
+    "start_date": "2027-05-21",
+    "end_date": "2027-05-24",
+    "location": "San Diego Convention Center, USA",
+    "source": "https://www.auadailynews.org/meeting-coverage/article/22967770/mark-your-calendar-for-aua2027",
+    "seg": "써지컬"
   },
   {
     "name": "IMCAS Asia 2027",
     "start_date": "2027-06-04",
     "end_date": "2027-06-06",
     "location": "Bangkok, Thailand",
-    "source": "https://www.imcas.com/en"
+    "source": "https://www.imcas.com/en",
+    "seg": "에스테틱"
+  },
+  {
+    "name": "European Venous Forum 2027",
+    "start_date": "2027-06-24",
+    "end_date": "2027-06-26",
+    "location": "Novotel Budapest City, Hungary",
+    "source": "https://evtoday.com/calendar/2027",
+    "seg": "써지컬"
   }
 ]

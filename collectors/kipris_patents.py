@@ -88,96 +88,87 @@ def fetch_keyword(keyword, api_key):
     return results
 
 
+# 키워드별 출원번호·출원연도 보관 (합계 중복 제거용, 대시보드에는 안 올림)
+APPS = BASE / "data" / "patent_apps.json"
+SEG_OUTS = [
+    BASE / "data" / "patent_trend_seg.json",
+    BASE / "docs" / "data" / "patent_trend_seg.json",
+]
+YEARS = range(2021, 2027)
+
+
+def _write(paths, obj):
+    for path in paths:
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
 def run():
     src = CFG.get("sources", {}).get("kipris_patents", {})
-
-    try:
-        last = datetime.fromisoformat(json.loads(META.read_text(encoding="utf-8"))["updated_at"])
-        if datetime.now(timezone.utc) - last < timedelta(days=REFRESH_DAYS) and os.environ.get("KIPRIS_FORCE") != "1":
-            print(f"KIPRIS: 최근 갱신 {last:%Y-%m-%d} → {REFRESH_DAYS}일 이내라 이번엔 건너뜀")
-            return
-    except (FileNotFoundError, KeyError, ValueError):
-        pass
-
     if not src.get("enabled", False):
         print("KIPRIS 특허 수집 비활성화")
         return
 
-    api_key = os.environ.get("KIPRIS_API_KEY")
+    segs = {k: "에스테틱" for k in src.get("keywords", [])}
+    segs.update({k: "써지컬" for k in src.get("surgical_keywords", [])})
+    if not segs:
+        raise RuntimeError("config.yaml에 특허 검색 키워드가 없습니다.")
 
+    try:
+        apps = json.loads(APPS.read_text(encoding="utf-8"))
+    except (FileNotFoundError, ValueError):
+        apps = {}
+
+    # 주 1회 전체 갱신. 그 사이에는 새로 추가된 키워드만 조회 (KIPRIS 무료 호출 한도 절약)
+    full = True
+    try:
+        last = datetime.fromisoformat(json.loads(META.read_text(encoding="utf-8"))["updated_at"])
+        full = datetime.now(timezone.utc) - last >= timedelta(days=REFRESH_DAYS) or os.environ.get("KIPRIS_FORCE") == "1"
+    except (FileNotFoundError, KeyError, ValueError):
+        pass
+    todo = list(segs) if full else [k for k in segs if k not in apps]
+    if not todo:
+        print("KIPRIS: 최근 갱신 후 7일 이내 · 새 키워드 없음 → 건너뜀")
+        return
+
+    api_key = os.environ.get("KIPRIS_API_KEY")
     if not api_key:
         raise RuntimeError("KIPRIS_API_KEY가 없습니다.")
 
-    keywords = src.get("keywords", [])
-
-    if not keywords:
-        raise RuntimeError("config.yaml에 특허 검색 키워드가 없습니다.")
-
-    # 출원번호 기준 중복 제거
-    patents = {}
-    kw_rows = []
-
-    for keyword in keywords:
-        print(f"[수집] {keyword}")
-
-        rows = fetch_keyword(keyword, api_key)
-
-        # 키워드 안에서만 출원번호 중복 제거 후 연도별 건수
-        kw_yearly = defaultdict(int)
-        seen = set()
-        for item in rows:
-            app_no = item["applicationNumber"]
-            dt = item["applicationDate"]
-            if not app_no or app_no in seen:
+    try:
+        for keyword in todo:
+            print(f"[수집] {keyword} ({segs[keyword]})")
+            got = {}
+            for item in fetch_keyword(keyword, api_key):
+                no, dt = item["applicationNumber"], item["applicationDate"]
+                if no and len(dt) >= 4 and dt[:4].isdigit():
+                    got[no] = int(dt[:4])
+            apps[keyword] = got
+            time.sleep(0.4)
+    finally:
+        # 한도 초과로 중간에 멈춰도 받은 키워드까지는 저장
+        apps = {k: v for k, v in apps.items() if k in segs}
+        APPS.write_text(json.dumps(apps, ensure_ascii=False), encoding="utf-8")
+        kw_rows, totals = [], {"전체": {}, "에스테틱": {}, "써지컬": {}}
+        for k, seg in segs.items():
+            if k not in apps:
                 continue
-            seen.add(app_no)
-            if len(dt) >= 4 and dt[:4].isdigit():
-                kw_yearly[int(dt[:4])] += 1
-        for year in range(2021, 2027):
-            kw_rows.append({"keyword": keyword, "year": year, "count": kw_yearly.get(year, 0)})
-
-        for item in rows:
-            app_no = item["applicationNumber"]
-
-            if app_no:
-                patents[app_no] = item
-
-        time.sleep(0.4)
-
-    yearly = defaultdict(int)
-
-    for item in patents.values():
-        dt = item["applicationDate"]
-
-        if len(dt) >= 4 and dt[:4].isdigit():
-            year = int(dt[:4])
-
-            if 2021 <= year <= 2026:
-                yearly[year] += 1
-
-    output = [
-        {
-            "year": year,
-            "count": yearly.get(year, 0)
-        }
-        for year in range(2021, 2027)
-    ]
-
-    for path in OUTS:
-        path.write_text(
-            json.dumps(output, ensure_ascii=False, indent=2),
-            encoding="utf-8"
-        )
-
-    for path in KW_OUTS:
-        path.write_text(
-            json.dumps(kw_rows, ensure_ascii=False, indent=2),
-            encoding="utf-8"
-        )
-
-    META.write_text(json.dumps({"updated_at": datetime.now(timezone.utc).isoformat()}), encoding="utf-8")
-    print(f"[완료] 중복 제거 특허 {len(patents)}건")
-    print(output)
+            per = {y: 0 for y in YEARS}
+            for no, y in apps[k].items():
+                if y in per:
+                    per[y] += 1
+                    totals["전체"][no] = y
+                    totals[seg][no] = y
+            kw_rows += [{"keyword": k, "seg": seg, "year": y, "count": per[y]} for y in YEARS]
+        trend = {s: [{"year": y, "count": sum(1 for v in d.values() if v == y)} for y in YEARS] for s, d in totals.items()}
+        if all(k in apps for k in segs):  # 모든 키워드가 모였을 때만 대시보드 파일 교체
+            _write(KW_OUTS, kw_rows)
+            _write(SEG_OUTS, trend)
+            _write(OUTS, trend["에스테틱"])  # 기존 형식 유지 (에스테틱 합계)
+            META.write_text(json.dumps({"updated_at": datetime.now(timezone.utc).isoformat()}), encoding="utf-8")
+            print("[완료]", {s: [x["count"] for x in v] for s, v in trend.items()})
+        else:
+            print(f"[보류] 아직 못 받은 키워드 {[k for k in segs if k not in apps]} → 기존 대시보드 데이터 유지, 다음 수집 때 이어서 조회")
 
 
 if __name__ == "__main__":
