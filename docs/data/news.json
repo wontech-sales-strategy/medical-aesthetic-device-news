@@ -8,7 +8,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -239,9 +240,9 @@
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORGVnWVdtcGZlQXFTUDF6a0FVVE9wdTZxYUVBdmdmcmFwZXNPUGhILTVDYURoVjhzN0JYMGdHV1hJejRveHlIa3E4ZUxvLTFITEMwWU5uRm1QTzhaTzZ6bUFjNDk4TkltTkd6eS1QeDF2VHhVVy05MFdBNmMwQWo3NEJVUWxaelVFc00wcU85aFpsaVZKRm5OaU5ScDI2aUVpakJmOE5CeUl1aTk5bGQyeElpaWNYVHdfc0NObDgxc21PdjAyWDRoaA?oc=5",
     "source": "USA Today",
     "pub_date": "Wed, 28 Oct 2026 20:58:39 GMT",
-    "matched_keyword": "해외: 업계 동향",
+    "matched_keyword": "해외: 중동(영문)",
     "is_overseas": true,
-    "country": "글로벌",
+    "country": "중동",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -474,6 +475,30 @@
     "ai_ok": true
   },
   {
+    "title": "THERACLION ANNONCE L’INITIATION DE LA COUVERTURE DE SON TITRE PAR TP ICAP MIDCAP AVEC UN OBJECTIF DE COURS DE 1,70 EUR, CONFIRMANT LE POTENTIEL DE SONOVEIN",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxONEdOM3dHV2dIak91UXRnWlpNZ1MtekFITEwxYks5RVJ6cnlJNTdxVnpFWWZld2dhbUY3TTlBeDN5Vk5uenZPT1N2b0RBSFNTTUxyaGVQZTZ2UV9kYmxGSVRyM0ROR1JWS2hPMmFieHdOSlI1RE1fQ2ZnX19WQVByWFA4Mkp6b1hKWUUwVGZEbUZGYlk4bnBRTlhER2RtRy1reWpabTRmVEdFa2s2Y1QyNGZEMjF0QWpNTnFnMVpad2JqLTJuTFl3ZllyM0x2ZGd3aGdQN05rUlNZVnRfdjNpSVhuc2RYOHBuejl1YnF3TUE?oc=5",
+    "source": "Zonebourse",
+    "pub_date": "Wed, 28 Oct 2026 17:01:04 GMT",
+    "matched_keyword": "해외: 프랑스",
+    "is_overseas": true,
+    "country": "프랑스",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
     "title": "Pino Insegno in tv con la sciarpa: «Sono pieno di lividi, ho fatto un intervento per togliere la pappagorgia»",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQd05QN3l0YzU0Uzgxc21jNG1aQ2hmMXZ0LTYxTXNScFpmYy1wSWRqZm9ORnJoeDhnUEhFWmN5NWl1MWd3WDJBbFZRa05INU1yNHlZMkZzRWpQR0V0STlUU3U0ZkFRS1JOLWgwY0N6LTVUZzMyN3BUQzR1LThKWFMtNDFlOEZ1UmxHSUFn?oc=5",
@@ -644,14 +669,38 @@
     "ai_ok": true
   },
   {
+    "title": "DC’s New Joker Barry Keoghan Undergoes Skin-Tightening Treatment",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSHFZWjFPcEttQ0ZPY2tjYVdmODQwbWM4WlE1ak5nTXVCeU9PQ1FsYm0ySGw1TzE5RmtlbmR3U0ZMZF9zc3ZGS2FlVHY5eUUwdHNJLV9BZFNlaW9mZjY2RTNIRHdoSjdKOGdfWFQyLUtWeUJiLVJiYjIwMWctd21yZkhR?oc=5",
+    "source": "AOL.com",
+    "pub_date": "Wed, 28 Oct 2026 13:51:26 GMT",
+    "matched_keyword": "해외: 영국",
+    "is_overseas": true,
+    "country": "영국",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
     "title": "Barry Keoghan Undergoes Skin-Tightening Procedure",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTldlYUxUOXNiMUhHVktNMVU2Y1E3eWZaUjVLTjdaRUwyclRaTjZZM2dtTDVTVXpBZkNDMVhrUC1BTVdPMVB5aURlZl9yaHJEQzRab0R6b0E3M3FvUjJjczY0UkVTRlNFdFR1cXZScWprYlZ4V0JKMUJKNGluUDZLeWw1UnNNQmdYNzdhT2Vjb25uQQ?oc=5",
     "source": "PopCulture.com",
     "pub_date": "Wed, 28 Oct 2026 13:31:54 GMT",
-    "matched_keyword": "해외: 인도",
+    "matched_keyword": "해외: 호주",
     "is_overseas": true,
-    "country": "인도",
+    "country": "호주",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -1109,9 +1158,9 @@
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPazRvVi1zWV9ZLUxVTlBaRWhxTzdsUEVPajBROFRuY1BfbVY1VXRxcGFRakZOX3Jrcm1oQktyd0M4dGxROF9NeU90XzY0V0luSFgwcHMyZDk1c1RJWU14SWdfeGNLYkZTX0NXUTk1ZFR4Ui1vSnJjTG55cFVXQ0xTZXJiZzhRbFRwcG1JUA?oc=5",
     "source": "AOL.co.uk",
     "pub_date": "Wed, 28 Oct 2026 09:15:12 GMT",
-    "matched_keyword": "해외: 호주",
+    "matched_keyword": "해외: 영국",
     "is_overseas": true,
-    "country": "호주",
+    "country": "영국",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -1206,6 +1255,28 @@
     "ai_ok": true
   },
   {
+    "title": "아이큐어, '2026 홍콩 코스모팩 어워드' 스킨케어 포뮬라 부문 파이널리...",
+    "summary": "일렉트래곤 젤 크림은 홈 뷰티 디바이스 시장의 성장과 전문적인 피부 관리 경험을 일상적인 스킨케어로 확장하려는 소비자 수요를 반영해 개발됐다. 피부의 생체전기 신호에 착안한 용과 스템셀을 중심으로...",
+    "link": "https://www.hankyung.com/article/202610281161O",
+    "source": "네이버 뉴스",
+    "pub_date": "Wed, 28 Oct 2026 17:03:00 +0900",
+    "matched_keyword": "뷰티 디바이스 시장",
+    "categories": [
+      "시장동향"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
     "title": "멀츠, 여성 호르몬 변화·피부 건강 조명…\"당당하게 변화하는 나\"",
     "summary": "멀츠 에스테틱스 코리아가 갱년기와 폐경기 등 생애전환기 여성의 호르몬 변화와 피부 건강을 주제로 전문가들과 소통하는 자리를 마련했다. 멀츠 에스테틱스 코리아는 지난 25일 서울 성수율 뮤직에서 롱제비티 전문...",
     "link": "https://www.news1.kr/bio/pharmaceutical-bio/6335261",
@@ -1228,6 +1299,38 @@
     "own_brand_mentions": [],
     "competitor_mentions": [
       "멀츠"
+    ],
+    "ai_ok": true
+  },
+  {
+    "title": "케이바이오솔루션, 티앤알바이오팹 두개골 재건 임플란트 FDA 510(k) 허가...",
+    "summary": "케이바이오솔루션은 올해 휴덴스바이오의 치과용 골이식재, 클래시스의 ‘볼뉴머(Volnewmer)’, 큐렉소의... 강경윤 대표는 “올해 휴덴스바이오, 클래시스, 큐렉소에 이어 티앤알바이오팹까지 고객사들의 FDA 510(k)...",
+    "link": "https://www.yakup.com/news/index.html?mode=view&cat=12&nid=334423",
+    "source": "네이버 뉴스",
+    "pub_date": "Wed, 28 Oct 2026 17:00:00 +0900",
+    "matched_keyword": "클래시스",
+    "categories": [
+      "RF",
+      "인허가·규제"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [
+      "클래시스"
+    ],
+    "competitor_product_mentions": [
+      "볼뉴머",
+      "Volnewmer"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "클래시스",
+      "볼뉴머",
+      "Volnewmer"
     ],
     "ai_ok": true
   },
@@ -1459,9 +1562,9 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSU1UeDh6UjJWblZNbEpnbktwVjJlLS1aa3NyTXhmSEVmVTVfbE44cmpFd2ZxalNBVnJPcXJST0xVdWN3ak5aSllqU0RMajdGeGFHbTZncjRBTDZlUjhVWFZpUjJ5a3NPUDhoNWhTb0Z1bGlUSWVFNlNwUWFJVFNIYzgwcHdVb1o3cV9MQzRNRXpIMVBX?oc=5",
     "source": "Fashion Times UK",
     "pub_date": "Wed, 28 Oct 2026 06:48:18 GMT",
-    "matched_keyword": "해외: 영국",
+    "matched_keyword": "해외: 호주",
     "is_overseas": true,
-    "country": "영국",
+    "country": "호주",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -1526,28 +1629,6 @@
     "segments": [
       "에스테틱"
     ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
-  },
-  {
-    "title": "G밸리 창업경진대회 10회째 데모데이, 헬스케어·보안·배터리 스타트업...",
-    "summary": "바이오바이츠는 바이오뱅크 데이터로 근감소증 신약을 개발하고, 하이어코퍼레이션은 히알루론산으로 콜라겐 생성을 돕는 피부미용 의료기기를 만든다. 보안 분야에서는 자동차와 로봇의 내장 시스템 보안 솔루션을...",
-    "link": "https://platum.kr/archives/297239",
-    "source": "네이버 뉴스",
-    "pub_date": "Wed, 28 Oct 2026 15:18:00 +0900",
-    "matched_keyword": "피부미용 의료기기",
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
     "own_brand_mentions": [],
     "competitor_mentions": [],
     "ai_ok": true
@@ -1766,9 +1847,9 @@
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVHk1VWNFelk4Tm83Ry1LODk5SXpnbWdQTDhYNHFadWtsNHJ3TzRrdE1hMmdDV3prdEdEcjhtTlFoZzBRQ0Y5Mnc2WVVVSmMyRGdXUFVFaThUN0xKTWdpc1MwOG1uaUlYUVFOSWxpaUFHTUlqNXQ3Zk9BbEktRHd0OFQyX2xDX1dETjcyLUw3TWxoWGFWRTdESUswNmFNTFIxOTV3RVlyck5xYTV3eHRtTjVaZ0NQazhKYzcwbEJIbnhCXzhzVmFV?oc=5",
     "source": "Zoom TV | Entertainment",
     "pub_date": "Wed, 28 Oct 2026 05:19:22 GMT",
-    "matched_keyword": "해외: 인도",
+    "matched_keyword": "해외: 호주",
     "is_overseas": true,
-    "country": "인도",
+    "country": "호주",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -1870,9 +1951,9 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaUlYMm5rdzFjTkRvY3U1VGtzNkNJZzYzcDU0alNwUGFVUHdva1M0X0tqZ3hZLU9qeHhfUUNpaXZKYkFIelFXZEhJamFLZWZTZTJvakZvdXAzTi1iLTBzSm80NWkyZXg3UHFkZmVfREFaclJUVHB1ZEFodmc0a1gxaEtsbEdtSmJpenNLZlFjREZhNk4tVEZ3TGQwMA?oc=5",
     "source": "Geo News",
     "pub_date": "Wed, 28 Oct 2026 04:30:00 GMT",
-    "matched_keyword": "해외: 영국",
+    "matched_keyword": "해외: 호주",
     "is_overseas": true,
-    "country": "영국",
+    "country": "호주",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -1894,9 +1975,9 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeXIzbk5pNHl5X3dTT0dDcDVhX2RTbkdnbjE4UTVXYWZtVS1GYkU2ZkJMemlKT0lnN01CcHRsM1RIUDZLbVRVSkNtS3BHS2pHSGc0djJ0U0hGVjJtQ1d4VVRwNFZQblQ1SzVSZ01MeF80UGtSRGNkdjd1VlJrdVpJZGw5dWNyZllHU2lUWTQxc05Ndlp6YXRGRTNRTnl2Mkx0eklrU2dJN0lSLW1SWVd3RUhoS1dhNjdYWDFVb3pKSzBrZ3R2?oc=5",
     "source": "primetimer.com",
     "pub_date": "Wed, 28 Oct 2026 04:20:00 GMT",
-    "matched_keyword": "해외: 인도",
+    "matched_keyword": "해외: 호주",
     "is_overseas": true,
-    "country": "인도",
+    "country": "호주",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -2016,6 +2097,53 @@
     "is_overseas": true,
     "country": "영국",
     "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "약국 넘어 다이소·해외로…제약사 화장품 판로 경쟁",
+    "summary": "국내 피부미용 시장에서 축적한 기술과 브랜드 인지도를 해외 일반 소비자용 스킨케어 시장으로 확장하는 전략이다. 해외 온라인 유통망도 확대하고 있다. 동남아시아에서는 쇼피와 틱톡샵 등 온라인 플랫폼을 활용하고...",
+    "link": "https://www.medipana.com/news/articleView.html?idxno=419849",
+    "source": "네이버 뉴스",
+    "pub_date": "Wed, 28 Oct 2026 11:56:00 +0900",
+    "matched_keyword": "피부미용 시장",
+    "categories": [
+      "시장동향",
+      "글로벌사업"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "La Thailandia è la nuova destinazione del wellness & beauty tourism: tra spa, rituali e trattamenti",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQWG1Tb3lZWlN1UzFfaU5kSFNzX0NXaWN1RVJIaDFXelM1cWE2Y0R0emFPeERGZllLb3NVa05TT1ZCWEREOUliZFU4VndRclRJVXYxY3VoOWZPWndXUWxYZkNsTi0ta0dQUkhFRm54bnNtMkRsOEZrZkhVNmE0dlR2Wlo0TUh1UnV0bC1odFd3eE9RemFWRVpUbEh4TFpKSHo2OGlCWW9jYlpMRVZNYWdBblhKWDhBVms?oc=5",
+    "source": "Whoopsee",
+    "pub_date": "Wed, 28 Oct 2026 02:24:57 GMT",
+    "matched_keyword": "해외: 이탈리아",
+    "is_overseas": true,
+    "country": "이탈리아",
+    "local_lang": true,
     "own_company_mentions": [],
     "own_product_mentions": [],
     "competitor_company_mentions": [],
@@ -2251,6 +2379,115 @@
       "하이로닉",
       "아스테라시스",
       "레이저옵텍"
+    ],
+    "ai_ok": true
+  },
+  {
+    "title": "InMode Ltd. Research & Ratings | INMDN",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNURfUV9UVGJUSVNKVTExRHF3SU9UZkFOS3M0MUZQTHZJTmM0cnU0ZzJCSThjS0ZzdXZPOU93ZUZ2RGxZZURvcVNfb2RLc1h3SEdjbEJTSnRzLXFYWEg3cFIzdTJDTFR3cHRUU0NIZ08xS3RHTkwxQ1BMSHhTLXlJNnhQZnhZV3QydzN3a1RVZlV1bDM5TUE?oc=5",
+    "source": "Barron's",
+    "pub_date": "Wed, 28 Oct 2026 01:08:29 GMT",
+    "matched_keyword": "해외: 영국",
+    "is_overseas": true,
+    "country": "영국",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [
+      "InMode"
+    ],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "InMode"
+    ],
+    "ai_ok": true
+  },
+  {
+    "title": "InMode Ltd. Advanced Charts | INMDN",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQV1RHMEtoVlVWX1YtRkM1d0VmbnM4eTJWY0I1STJPdWd4VVZwQW1XV0p0ZTZ4UGJLWk5GNG93Z2JMNjNaSDVLNTZ5SUo2NVNrbGRuZVRhS2tRQm1Pb0U2c1lqUEpDX1pyem5UY3dCVk5qWGlpNXY4a3diVUFDdTZKZTlrOTRxb0ZC?oc=5",
+    "source": "Barron's",
+    "pub_date": "Wed, 28 Oct 2026 01:07:40 GMT",
+    "matched_keyword": "해외: 영국",
+    "is_overseas": true,
+    "country": "영국",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [
+      "InMode"
+    ],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "InMode"
+    ],
+    "ai_ok": true
+  },
+  {
+    "title": "시지바이오, 복합 지혈제 '헤모클로' 허가…콜라겐 기술적용 확대",
+    "summary": "재생의료 분야에서 축적한 콜라겐 소재 기술을 수술용 의료기기로 확장하고, 국내 공급과 해외 시장 진출을 추진한다는 계획이다. 28일 글로벌 재생의료 전문기업 시지바이오(대표 유현승)는 복합 지혈제 '헤모클로...",
+    "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1729447",
+    "source": "네이버 뉴스",
+    "pub_date": "Wed, 28 Oct 2026 10:04:00 +0900",
+    "matched_keyword": "수술용 의료기기",
+    "categories": [
+      "Surgical",
+      "시장동향",
+      "인허가·규제",
+      "글로벌사업"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "InMode Ltd. Company & People | INMDN",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNVpGNDdqZ0UzSXR1YXZFSVNlNkxuNDhhcnU0bEhsSlV5OWE2YTV3YWs3eWlDM0FIakZXMmFBZHRwamR0NnJ4SFNpQ2xLdE14R0dyTG5IVXdnNEVFb1RkdG9xZUdCaWZSM0hCMXZjbF9oUjNFbm1idGFlUTR0dnZBX3ZhSy0?oc=5",
+    "source": "Barron's",
+    "pub_date": "Wed, 28 Oct 2026 00:58:34 GMT",
+    "matched_keyword": "해외: 영국",
+    "is_overseas": true,
+    "country": "영국",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [
+      "InMode"
+    ],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "InMode"
     ],
     "ai_ok": true
   },
@@ -2661,6 +2898,30 @@
     "ai_ok": true
   },
   {
+    "title": "Barry Keoghan Undergoes Skin-Tightening Cosmetic Treatment in Video Posted Months After He Called Out Online Abuse Over ‘How I Look’",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNTMtTG5vTlFNa2lhSG0wODdxVkp5WHFqWldmMzEwUGI0cWdPRVBPOFI5MUE2NFNXNGhuenNHNmFVSVRMcUJiVjBQNEhHN0dhczZ4UFNPMkJNRE8tWnJRb3kzQlFuT2syMU4wZjNGLUVOR3kzekFqTXRhakRna043ZXVqaDZaR185dEtjbVB4UVMtY2dTcTZNNDFOLWh2ajZveGpKS292OA?oc=5",
+    "source": "Variety",
+    "pub_date": "Tue, 27 Oct 2026 23:13:00 GMT",
+    "matched_keyword": "해외: 영국",
+    "is_overseas": true,
+    "country": "영국",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
     "title": "Therapeutic Ultrasound Shows Promise for Skin Repair, But Evidence Gaps Persist",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSnBVbWtQbkM5dGVlZnJwQjQ1RUF1RnR2MEtmNGtOMFZJN092a0x4QlltaW5oeUZwTjZIeGh4Rm5QZTlZMDB0YU1pa3RZZjhteXFLTDZzOG4xQmhRRDR3WWg3ajJBWjRVX05VeEoxMkV1LWdybWFiWlRISjZEUGlFWWZrczNraklxMFdBazZpaXZzVURuVU9fdnV4NHJybjdkQktVSUN3?oc=5",
@@ -2806,6 +3067,54 @@
     "ai_ok": true
   },
   {
+    "title": "Barry Keoghan says he ‘looks better’ after trying this $3,300 skin-tightening treatment",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZkpXdXFrTm9PRk5tZ3JOeTNqWjFDSjBmbGpXdXAycmRYeEktWm5qekJpMERManZUd0x1ZzRqTklLak0tekdrTmlNNEhwNXRCTmFIbXhYUEVuXzEwZlVnNDcwcTYzQlZxZm9kUGpkY0hYQ2Roc09KYm5IRFZJOExLS1JqdW1wdFMwWEw4TFZFTTh1VVF3eEo4dl9PQzlJQ2loMFlKMURMb1ZEa1h2?oc=5",
+    "source": "Page Six",
+    "pub_date": "Tue, 27 Oct 2026 20:39:00 GMT",
+    "matched_keyword": "해외: 영국",
+    "is_overseas": true,
+    "country": "영국",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Barry Keoghan faced online abuse over his looks before trying a $6,000 skin-tightening treatment",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNYnk0TTFINUNjZVpURTRQWTVUUm5YVXo3Qkpidmh4cV9sWFh1T1k1NUkxVy1USEJQR1E2Vmtzb21USHdQNzdMaWV4T25FZlVfQlNMTzFkU0t0LTBSenFrVkl2d1NKd2xHMTIxV1BpcHh2OGNBeUxLQWJTd0luaUpNaEVXdlM5ZjBZZk15M0pSeHE2R1RkZDhNNXQ2dGtROFZrWGU3N1lTbTlkcHBJUER2ZjY0cDNfUXRpWmwzSUp2MXZXckhjY0ZfQkMzdXotaTl6cDZNMFlUdXFWUmJtbGJacWNIUkxyY3gySzNJcXRITDN0WThiX0dhRjBWWQ?oc=5",
+    "source": "Business Upturn",
+    "pub_date": "Tue, 27 Oct 2026 20:33:52 GMT",
+    "matched_keyword": "해외: 인도",
+    "is_overseas": true,
+    "country": "인도",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
     "title": "【ベンスクリニック渋谷院】韓国で注目の高周波リフトアップ「ボルニューマ（Volnewmer）」を新導入！渡韓せず渋谷で",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5OWTM2Zlh1TGd5Y1VzVW9ieGd1c2tKNm0zWW1OdE1ibjJOdGdkQU8yMC12NGtDZ0l4NC1YTFo4V0FqVlBvWHdadG5DRUNfNTRkSmQ5NE9JeDJyZGZZcmRrS0FIR1BnYi1rWUlzLXYwLTQzSlBIZ1N1RndyOA?oc=5",
@@ -2886,6 +3195,106 @@
     "ai_ok": true
   },
   {
+    "title": "Barry Keoghan Is Loving XERF Skin Tightening",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBFMWR6YlZKQzJQd2RGTGlkM1VLcF9JMkhTc01PMTFqWVcteTV6Y1BLcUhjSEs1Mm1kZEVUM05CUmdGSzl1WjhRSkI1S2VGcDc0MHRUaHpYeXFwT0c4cUp4cEpMWTAwekxhRnpKNnB4WnRYSlU?oc=5",
+    "source": "NewBeauty",
+    "pub_date": "Tue, 27 Oct 2026 19:31:01 GMT",
+    "matched_keyword": "해외: 영국",
+    "is_overseas": true,
+    "country": "영국",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [
+      "XERF"
+    ],
+    "categories": [
+      "RF"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "XERF"
+    ],
+    "ai_ok": true
+  },
+  {
+    "title": "Barry Keoghan undergoes skin-tightening treatment amid ‘abuse’ about his looks: ‘I feel better about myself’",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQX0c3OEE1OE1fMV9YX1VjZVF6UjdMSmEyY1ZsZGx3TFM3RjUycDNXMzFaU3NMY0JHYjNnWmdxbElTS2RoNTNfbnNlRV9iNEc0QWFlb2ZmX0F0SjJ0d21SMnNZMDI1dDdxYXZhaUlIZzVneWVIWE1ncTBjUDYwNG1XT1Uyb0Rqd3JWb3c?oc=5",
+    "source": "Entertainment Weekly",
+    "pub_date": "Tue, 27 Oct 2026 18:45:14 GMT",
+    "matched_keyword": "해외: 영국",
+    "is_overseas": true,
+    "country": "영국",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Barry Keoghan, 34, Shares Unfiltered Look at Skin-Tightening Cosmetic Treatment: ‘I Look Better’",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdi0xSlhaZDMtQ1kxNTdsY3JIV2R4aWhjQl9FZjFEcXlsaG4wOEp2bXhZVDd0MFRHeDNNWXNobk5KaHV6dkFXd0xscUhxV2pjNWs0V19kd1RvWmUyN3NRaUU5SklvdkI2aDU1cG41NHhfQS1hOG1zak1FLWhjNWY3dmpBazE?oc=5",
+    "source": "People.com",
+    "pub_date": "Tue, 27 Oct 2026 16:10:16 GMT",
+    "matched_keyword": "해외: 영국",
+    "is_overseas": true,
+    "country": "영국",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "J'ai fait mon premier microneedling à 30 ans et voici les changements que j'ai observés sur mes ridules",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQb3BONkd2MF8zczhDdHRSU3BLRGVpd2dYQ0FFNzFSZHZfcHRNTlJPaTZSUWZIUTZrblZsMGJmcmhOdDhWajZUOGJkcnRjRmotcXVINXRPNUxzeFYtMmFzV0xaNWt3ck1HWm1Jc3lkcXhYcFdtRzB6UDk0WGZadFNueDJB?oc=5",
+    "source": "Marie Claire",
+    "pub_date": "Tue, 27 Oct 2026 15:34:00 GMT",
+    "matched_keyword": "해외: 프랑스",
+    "is_overseas": true,
+    "country": "프랑스",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "RF Microneedling"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
     "title": "GaliDerm Aesthetics Introduces Morpheus8 Cool in Royal Palm Beach",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQ2JONFBNR0dMRW1UTzY5cE95RVhDYWk2RFJYSlQ3VWZHLTRseUVCdk9WaDBoc3k0Vm0zV3ZzcW5JYmw3NzFSX0pRRkNhdnZ3MzRDZGxlQlhKYnN5czBOYU1PYlJLMmVjYWF4dGdpVXhpc3ozUW0tRXNQQlNuVW12N3FNaTIzVVFXRWUyNWRZb3hQOUozcHR0Z2hBY3VfZlhobjdMSi1uYV9QakNwdVhHYUp3MmdqanB4TEE?oc=5",
@@ -2920,9 +3329,9 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTmtGaFF3Nlh2SFVSYkRyek1HY3B4Vi1nUGJXZk90cVp3WUJLTjlnM0dpOExvRTBUdjJQemJ1WEc1elJyMzBsNGJaT0ZkSkJlMDFiTldHZDBoNjdKd0lyZDVuNkRuOHhyRElBaEZCQVJ3WVpSVzI5dG1pTy1Ic3Q1bXl3?oc=5",
     "source": "Yahoo News UK",
     "pub_date": "Tue, 27 Oct 2026 14:11:56 GMT",
-    "matched_keyword": "해외: 싱가포르",
+    "matched_keyword": "해외: 영국",
     "is_overseas": true,
-    "country": "싱가포르",
+    "country": "영국",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -2972,30 +3381,6 @@
     "is_overseas": true,
     "country": "글로벌",
     "local_lang": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
-  },
-  {
-    "title": "NiveoMed a Saluzzo: sabato 31 ottobre un Open Day per riscoprire la bellezza naturale",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZmJXT0x6bF9BbmJRU1d0Wkh3WWtCX192alJrOXRTZ0RQSXo1UEloYjdtbTczQ1RWNW9yQWJqZlZfTmdDN01jNDJrY2dLMndDbERhVUtwV210MzZlQnNiaWdnR3JINjhYeE5UUVZGRVA2WjJMazV2RE5Ea3hvRWR3b2NLM2E1RnJLbXJoamMwWEpLWWphT2VUM0xJR1ZwZzFfZ1FfV2V0YTlmdklBZ1p5WXFCTlFxQWxYR1FQQnJzb0dqTlR2ME1GRHF1RjF4SGdPYUlfRWJCdXZqX1NqNmUyYlZXdTdZMG16bGEw0gHrAUFVX3lxTE9mYldPTHpsX0FuYlFTV3RaSHdZa0JfX3ZqUms5dFNnRFBJejVQSWhiN21tNzNDVFY1b3JBYmpmVl9OZ0M3TWM0MmtjZ0syd0NsRGFVS3BXbXQzNmVCc2JpZ2dHckg2OFh4TlRRVkZFUDZaMkxrNXZETkRreG9FZHdvY0szYTVGckttcmhqYzBYSktZamFPZVQzTElHVnBnMV9nUV9XZXRhOWZ2SUFnWnlZcUJOUXFBbFhHUVBCcnNvR2pOVHYwTUZEcXVGMXhIZ09hSV9FYkJ1dmpfU2o2ZTJiVld1N1kwbXpsYTA?oc=5",
-    "source": "TargatoCN",
-    "pub_date": "Tue, 27 Oct 2026 13:00:00 GMT",
-    "matched_keyword": "해외: 이탈리아",
-    "is_overseas": true,
-    "country": "이탈리아",
-    "local_lang": true,
     "own_company_mentions": [],
     "own_product_mentions": [],
     "competitor_company_mentions": [],
@@ -3124,6 +3509,30 @@
     "own_product_mentions": [],
     "competitor_company_mentions": [],
     "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Einfach schön",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE42OEM1eGZDN0w1WXRFQXNGaHJIMFRrQ285S09HRGZLSEwwS0FYcXFUYmdUVS03YnNXQVREWjhzakdYZnc4WDN2eDJmd1JGTVBHczYyTXI4Q3kzMmtIYUNEYWRnRG5WSVNTUTlOajJ2TjhJVHFnZ2daalEwbHVqQQ?oc=5",
+    "source": "Onetz",
+    "pub_date": "Tue, 27 Oct 2026 11:35:00 GMT",
+    "matched_keyword": "해외: 독일",
+    "is_overseas": true,
+    "country": "독일",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
     "own_brand_mentions": [],
     "competitor_mentions": [],
     "ai_ok": true
@@ -3280,9 +3689,9 @@
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQY2xtMHZUdF9UUThRcko0OGt2VGN4UXMtVzRNZGx1ZjdFS3JwR3pQcl9RTUVLbXEzTUxyTThhQXU5c1ItSWtPeHBEZVJ6T3VMNHlPQUhKaWFPQ2Rpak1aTGFNSVBtX0VHc2Q2Q2VybllUbllWemdoNUJNNFJfc19PN2J5Wjd0cm5jUkZLOXhR?oc=5",
     "source": "openPR.com",
     "pub_date": "Tue, 27 Oct 2026 10:03:24 GMT",
-    "matched_keyword": "해외: 업계 동향",
+    "matched_keyword": "해외: 중동(영문)",
     "is_overseas": true,
-    "country": "글로벌",
+    "country": "중동",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -3986,30 +4395,6 @@
     "own_product_mentions": [],
     "competitor_company_mentions": [],
     "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
-  },
-  {
-    "title": "HIFU: ultrasonido focalizado para tratar trastornos del movimiento sin cirugía abierta",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMHI1SG9IaFduaEVVUktlTjNTdE1QNUY1VVpJdUM4LXpYakVFR3VwcXBfTS1WRlU2QzE1ODlPQi1NQ2FQQVVFb01GbjlHRWNXeHVfZG5wQklrN2dXMXBJMERVZmtpbWZraHJLT0d4Sm03X0ljbFNzaXlvTGd3NkNWUm1Xeng1c2RyNWhabzVYT0dBRVo3NWR4RjVqbWJXTC0tdVN2MVdzQ2FuaFRmQjVpVzlYUXFMYXZtMkhDck5jU1dBV0pw0gG4AUFVX3lxTFA2UmJORGhOQ2dMZ3l5RHRhN2ZYVWFXNlFRNXpvNGFhNHNzbjZPZXhuU0hnTHBwUGJlLTE3X0NudENPNWtxN00xTTFjUEk3S09mNWNLS2VUSFd6WTVXd3E3cG9hWW10VzNzRHhUQk1NNER5LTBYbktiVmFLeFdJWl8xQ21BWExpMXctd29yTEJpNllid0NfTG1xSzR3VXVLZVUtRTFHeTNzajBkc1o1YW1nM0FZbDFQR2k?oc=5",
-    "source": "eltiempomx.com",
-    "pub_date": "Tue, 27 Oct 2026 02:40:04 GMT",
-    "matched_keyword": "해외: 멕시코·중남미",
-    "is_overseas": true,
-    "country": "중남미",
-    "local_lang": true,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "HIFU"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
     "own_brand_mentions": [],
     "competitor_mentions": [],
     "ai_ok": true
@@ -4851,6 +5236,30 @@
     "ai_ok": true
   },
   {
+    "title": "Danielle Fewings und ihr offener Umgang mit ästhetischen Eingriffen",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNWjNQaXZMM3VWSVpHcnZrN19tTUEtaXVubmNrRDNPZEZHSFZWSUlTZjFBSmI0YTM3STZBal8xR0lXSFdBeVZ3S2ozMkFMVEhIbk9USWZ6dC1rOGhXNW5iVExyY0NMMmVvNm8xeFRkTjBkNWNqakFVTERBRWk3OWRpdkMzcFZZZTFjYTRSbzFmWXF1N1BpcF9JNzRPMm5hbDh4QXNsQWJSUEozMFZsbkZld0luTU1WUdIBtgFBVV95cUxNWjNQaXZMM3VWSVpHcnZrN19tTUEtaXVubmNrRDNPZEZHSFZWSUlTZjFBSmI0YTM3STZBal8xR0lXSFdBeVZ3S2ozMkFMVEhIbk9USWZ6dC1rOGhXNW5iVExyY0NMMmVvNm8xeFRkTjBkNWNqakFVTERBRWk3OWRpdkMzcFZZZTFjYTRSbzFmWXF1N1BpcF9JNzRPMm5hbDh4QXNsQWJSUEozMFZsbkZld0luTU1WUQ?oc=5",
+    "source": "Il Messaggero",
+    "pub_date": "Mon, 26 Oct 2026 11:20:18 GMT",
+    "matched_keyword": "해외: 독일",
+    "is_overseas": true,
+    "country": "독일",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
     "title": "After a CEO group's proposal expired, InMode (INMD) keeps its acquisition committee in place.",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQU3JJMERFLXZ5QVdGWU9sMFJxMDZwZUR6Z1VxdVJjOXF0ZExfMWV0aDN2SzE3ZXB6amo0aEpFdGlha0tRNHpYdXpiamNBZWF1LUxzRDNabjFtQnc1aVdiMEEtaVFlM1FHSlFGSHRDeWtxcFMwdGc2NE0zX3FwS1ltTG5zZjJuTFdWT3RQQmVoWW5aNG8xM3QxOXQ2ejE1Rnk5U2gtanY2YnNqMG8?oc=5",
@@ -5479,7 +5888,8 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": []
+    "competitor_mentions": [],
+    "ai_ok": true
   },
   {
     "title": "تحذير من مخاطر أجهزة التجميل المنزلية",
@@ -5506,31 +5916,6 @@
     "ai_ok": true
   },
   {
-    "title": "주주환원 기대에도 밸류업 종목 차별화… 실적·자본 효율성 주목하라",
-    "summary": "강원랜드와 대한항공, KT, 클래시스도 하락했다. 하나투어와 아모레퍼시픽, 현대차, 빙그레 역시 약세다. 이들 종목은 IT 기기 수요와 부품 공급 상황, 보안 서비스 수익성, 여행 수요, 항공 운임, 통신 사업의 현금흐름...",
-    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=498481",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 26 Oct 2026 14:32:00 +0900",
-    "matched_keyword": "클래시스",
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "클래시스"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "클래시스"
-    ]
-  },
-  {
     "title": "멀츠 에스테틱스 코리아, '2026 K-ESG 경영대상' 4년 연속 수상",
     "summary": "멀츠 에스테틱스 코리아(대표 유수연, 이하 멀츠)가 26일 열린 '2026 K-ESG 경영대상' 시상식에서 종합 ESG 부문 대상과 기후에너지환경부 장관상을 동시에 수상했다고 밝혔다. 이로써 멀츠는 4년 연속 K-ESG 경영대상을...",
     "link": "https://www.rapportian.com/news/articleView.html?idxno=241610",
@@ -5553,7 +5938,8 @@
     "own_brand_mentions": [],
     "competitor_mentions": [
       "멀츠"
-    ]
+    ],
+    "ai_ok": true
   },
   {
     "title": "멀츠 에스테틱스 코리아, 종합 ESG 대상·기후에너지환경부 장관상 수상",
@@ -5578,7 +5964,8 @@
     "own_brand_mentions": [],
     "competitor_mentions": [
       "멀츠"
-    ]
+    ],
+    "ai_ok": true
   },
   {
     "title": "Cicatrici da acne: come trattarle con la medicina estetica",
@@ -5601,7 +5988,8 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": []
+    "competitor_mentions": [],
+    "ai_ok": true
   },
   {
     "title": "오큐라(OCURA), 론칭 1년 만에 단일 제품 매출 100억 돌파… 1주년 기념 ...",
@@ -5623,7 +6011,8 @@
     "competitor_company_mentions": [],
     "competitor_product_mentions": [],
     "own_brand_mentions": [],
-    "competitor_mentions": []
+    "competitor_mentions": [],
+    "ai_ok": true
   },
   {
     "title": "리프팅 장비 선택 시 에너지 전달 원리 살펴야",
@@ -5645,7 +6034,8 @@
     "competitor_company_mentions": [],
     "competitor_product_mentions": [],
     "own_brand_mentions": [],
-    "competitor_mentions": []
+    "competitor_mentions": [],
+    "ai_ok": true
   },
   {
     "title": "멀츠 에스테틱스, 4년 연속 '2026 K-ESG 경영대상' 수상",
@@ -5670,7 +6060,8 @@
     "own_brand_mentions": [],
     "competitor_mentions": [
       "멀츠"
-    ]
+    ],
+    "ai_ok": true
   },
   {
     "title": "AI 진단부터 수술 로봇·미용 의료기기까지…엇갈린 투자심리",
@@ -5696,7 +6087,8 @@
     "own_brand_mentions": [],
     "competitor_mentions": [
       "레이저옵텍"
-    ]
+    ],
+    "ai_ok": true
   },
   {
     "title": "[현장] 이영우 옵토닉스 대표 \"특수 광학 분야 히든 챔피언\"",
@@ -5754,30 +6146,8 @@
       "사이노슈어",
       "세르프",
       "라셈드"
-    ]
-  },
-  {
-    "title": "Presentan equipo para atender trastornos del movimiento.",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOT01IT002VUhKbjNQbUpxNHplclhkY1NDN2pzVkROMGprNnlJb19YdGdpdGdKN2JBYlNqYm5faEM1Y2hsaUZyN3Y2RVhJcjJPTDRnUjNzVkNXbGNCWmx0T1ctVXZBRlM5QnkyLUtHVy1hUlNNMVQxc1EyS2x2bFVhQVBOSnh4Z0NjRmFFdWlHTk5ZTE9fR3fSAZsBQVVfeXFMUE05bmVXazBLQmYxMkVIOGl6MXVJaWNnaVNYRTBzT1VJcnlVT3VCRGZRYk0xdzd3amdCXzJyYjVRdVo2RGs2MVNKc0NBQUlyU0x2OWhuYnQ2RzR0bDM0TERWU1FScnBFOXR1bHFmRFZON210bmRzSGtFcmo1dHVhZHVoN0tsOFFDV0NsSUtoVVMtXy14TGUzb0VwVG8?oc=5",
-    "source": "Imagen Radio",
-    "pub_date": "Mon, 26 Oct 2026 02:52:33 GMT",
-    "matched_keyword": "해외: 멕시코·중남미",
-    "is_overseas": true,
-    "country": "중남미",
-    "local_lang": true,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
     ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": []
+    "ai_ok": true
   },
   {
     "title": "[건강 칼럼] 여성 요실금의 수술 치료 방법...명확한 산부인과 진단 통...",
@@ -5788,7 +6158,8 @@
     "matched_keyword": "질 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "여성·CO2"
     ],
     "segments": [
       "써지컬"
@@ -5987,7 +6358,8 @@
     "matched_keyword": "홀뮴레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -7259,9 +7631,9 @@
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0weWx2SksyRWF5d1Nod0ZZOGJvcUhlV2hMUDdMSlYtLVFHNzBMZE1uSlQ4OWZiS1hLb1J0MENjajAwSTVrTXZ2Rm1mTU5DV2lkeVFpM0pEOG1EZlVGeWdULUYxcXoxTjV1U3lMVTMzcFpKWl9ORTNEbA?oc=5",
     "source": "Dermatology Times",
     "pub_date": "Sat, 24 Oct 2026 15:00:00 GMT",
-    "matched_keyword": "해외: 싱가포르",
+    "matched_keyword": "해외: 기술 트렌드",
     "is_overseas": true,
-    "country": "싱가포르",
+    "country": "글로벌",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -7713,8 +8085,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "Le gouvernement veut plafonner la pratique esthétique des médecins",
@@ -9652,7 +10023,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -9834,6 +10206,7 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Surgical",
+      "비뇨·결석",
       "신제품·출시"
     ],
     "segments": [
@@ -11011,9 +11384,9 @@
     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQcGxaZDRaRGxPRFBtN2lVTkcxaXBLNG5jTWdkOHVtTVZiMU40NVUzQ3MtR1ExZjlUZTVBZkY4b1NOemZvVkRFaXJzZHpiTWZvTFd4VWU1Qk95dWF3S0JMb2NUQ0x2ZURzQzRWRUIzUVFjb2lSckcxRWRmTDNqUmNHcXRwN2ZFalc5eTVBRjVySmdSQk94dWR2X3RGdjlLSm5uYWs4VElUeGZ3WkU0bGlMWUlRUGxsYUxuVEpkdS1MMlpjakltMklBMGtyRFh1RlRxN0E3cUJoT0ZUWG5faWpkRk9tbFdUZ2NEWERPRnpHd9IB9AFBVV95cUxORDZBUk9lTjRBam9XM2l4S2ZHblFiTldnczVjSDFOU0ZYOUJIWThMamo5bDFVRDNyTE10ZVBZU0NsMnZsX24wX09RQTRKNGdaQ29haFVjbGMzeE9wakRScXJPWVdMOEdDMHFCZlFDSW5mYlh1eE9aa1JqMEFxMUduNmRkSVBuaWttZ3Z3QV84QmYtUW9ScmNEMjZhUUQyNi1nRGRCVnVadDlhbUNiNkVmMDBMZE9fTlhtUDlJVS1tNTJEaW9TdU1VTzdFUzZSRmluR0xQWklWdklQaUo4WnpGZXJGUEdOQVdHYUx5SFAzWWN2UzdM?oc=5",
     "source": "The Manila Times",
     "pub_date": "Thu, 22 Oct 2026 14:22:41 GMT",
-    "matched_keyword": "해외: 업계 동향",
+    "matched_keyword": "해외: 중동(영문)",
     "is_overseas": true,
-    "country": "글로벌",
+    "country": "중동",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -11436,9 +11809,9 @@
     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE13Sk0tR01Gb00zZW42dXBWLWpWanZ2bWNaQVBxWF82RzUxN3ZuVEZWUkg5ay14WkJ2ODZZTlgta3l3a1hTTzAyQTB4c0hHRy1NNTZ1aUxoSQ?oc=5",
     "source": "헤럴드경제",
     "pub_date": "Thu, 22 Oct 2026 11:30:00 GMT",
-    "matched_keyword": "해외: 호주",
+    "matched_keyword": "해외: 싱가포르",
     "is_overseas": true,
-    "country": "호주",
+    "country": "싱가포르",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -12270,7 +12643,8 @@
     "pub_date": "Thu, 22 Oct 2026 14:11:00 +0900",
     "matched_keyword": "HoLEP",
     "categories": [
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -12546,7 +12920,8 @@
     "pub_date": "Thu, 22 Oct 2026 11:08:00 +0900",
     "matched_keyword": "질 타이트닝",
     "categories": [
-      "Surgical"
+      "Surgical",
+      "여성·CO2"
     ],
     "segments": [
       "써지컬"
@@ -12568,7 +12943,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -14478,7 +14854,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -14950,7 +15327,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -16738,7 +17116,8 @@
     "categories": [
       "RF",
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "여성·CO2"
     ],
     "segments": [
       "에스테틱",
@@ -17176,6 +17555,7 @@
     "categories": [
       "Laser·Pico",
       "Surgical",
+      "비뇨·결석",
       "시장동향"
     ],
     "segments": [
@@ -20730,6 +21110,7 @@
     "pub_date": "Mon, 19 Oct 2026 09:56:00 +0900",
     "matched_keyword": "에너지 기반 의료기기",
     "categories": [
+      "비뇨·결석",
       "시장동향"
     ],
     "segments": [
@@ -20822,6 +21203,7 @@
     "pub_date": "Mon, 19 Oct 2026 09:23:00 +0900",
     "matched_keyword": "에너지 기반 의료기기",
     "categories": [
+      "비뇨·결석",
       "시장동향",
       "학회·임상",
       "글로벌사업"
@@ -24001,6 +24383,7 @@
     "categories": [
       "Laser·Pico",
       "Surgical",
+      "비뇨·결석",
       "학회·임상"
     ],
     "segments": [
@@ -24088,6 +24471,7 @@
     "categories": [
       "Laser·Pico",
       "Surgical",
+      "비뇨·결석",
       "신제품·출시"
     ],
     "segments": [
@@ -24706,6 +25090,7 @@
     "categories": [
       "Laser·Pico",
       "Surgical",
+      "비뇨·결석",
       "학회·임상"
     ],
     "segments": [
@@ -25311,7 +25696,8 @@
     "matched_keyword": "레이저 장비",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -25714,7 +26100,8 @@
     "pub_date": "Thu, 15 Oct 2026 10:26:00 +0900",
     "matched_keyword": "HoLEP",
     "categories": [
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -25814,7 +26201,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -26974,7 +27362,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -27471,7 +27860,8 @@
     "pub_date": "Wed, 14 Oct 2026 14:02:00 +0900",
     "matched_keyword": "HoLEP",
     "categories": [
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -28363,7 +28753,8 @@
     "pub_date": "Wed, 14 Oct 2026 09:02:00 +0900",
     "matched_keyword": "HoLEP",
     "categories": [
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -28483,7 +28874,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -29617,7 +30009,8 @@
     "matched_keyword": "질 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "여성·CO2"
     ],
     "segments": [
       "에스테틱",
@@ -33578,7 +33971,8 @@
     "matched_keyword": "홀뮴레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -35896,7 +36290,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -37451,7 +37846,8 @@
     "pub_date": "Thu, 08 Oct 2026 06:36:00 +0900",
     "matched_keyword": "HoLEP",
     "categories": [
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -38963,7 +39359,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -39163,7 +39560,8 @@
     "categories": [
       "RF",
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "여성·CO2"
     ],
     "segments": [
       "에스테틱",
@@ -39919,7 +40317,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -40060,7 +40459,8 @@
     "matched_keyword": "홀뮴레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -40462,7 +40862,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -40551,7 +40952,8 @@
     "matched_keyword": "홀뮴레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -40670,7 +41072,8 @@
     "matched_keyword": "홀뮴레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -40719,7 +41122,8 @@
     "matched_keyword": "홀뮴레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -41226,7 +41630,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -42470,6 +42875,7 @@
     "categories": [
       "Laser·Pico",
       "Surgical",
+      "정맥·치핵",
       "글로벌사업"
     ],
     "segments": [
@@ -42609,6 +43015,31 @@
     ],
     "competitor_mentions": [],
     "ai_ok": true
+  },
+  {
+    "title": "Comparing General Anaesthesia With Spinal Anaesthesia for Holmium Laser Enucleation of Prostate: A Systematic Review and Meta-Analysis",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQMDlyYjJkX3F4UlVjZGJnMlI3RzVqM0RLbUxVNnZMaHNKQnN0SDZ2azktRDE5MDRucHg2QVFnNjVNeWQ2M1ZleXBuM09HWW5aZS1yZ3VjM20tRDhCTnBEcXhmS3FUYUdCS0FENWo5NE1aang0UW40N25RM0pmdVJOU00zN0pkYm1FcW9XbFdZc093RWEzOTBJdjMyYldHc2ZoNERLMEh6Sk5Mb05JT0g3VFZfLTF4ZDNUTExJd1JZTFVPOFB6YkFUMXpoMy14SmQ4akFmRzJVa0hrQzh4TkZBZ1QxdlppakZVUkR3VHhHZTNFYTVHNGJxMUJNS2FDNUxGckE?oc=5",
+    "source": "Cureus",
+    "pub_date": "Mon, 28 Sep 2026 07:00:00 GMT",
+    "matched_keyword": "해외: 써지컬: 비뇨·정맥",
+    "is_overseas": true,
+    "country": "글로벌",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "Laser·Pico",
+      "Surgical",
+      "비뇨·결석"
+    ],
+    "segments": [
+      "써지컬"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
   },
   {
     "title": "[주식 클래스 <8>] ‘지PE지기 백전불태’ 사모펀드가 재편하는 미용 의...",
@@ -42789,7 +43220,8 @@
     "pub_date": "Mon, 28 Sep 2026 09:56:00 +0900",
     "matched_keyword": "HoLEP",
     "categories": [
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -44153,7 +44585,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -44885,7 +45318,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -45669,7 +46103,8 @@
     "competitor_product_mentions": [],
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "여성·CO2"
     ],
     "segments": [
       "써지컬"
@@ -45754,7 +46189,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -46402,7 +46838,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -46737,7 +47174,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -47192,7 +47630,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -47907,7 +48346,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -48856,7 +49296,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "에스테틱",
@@ -50249,7 +50690,8 @@
     "matched_keyword": "정맥류 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "정맥·치핵"
     ],
     "segments": [
       "써지컬"
@@ -50803,7 +51245,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -50825,7 +51268,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -50942,7 +51386,8 @@
     "pub_date": "Tue, 15 Sep 2026 12:48:00 +0900",
     "matched_keyword": "HoLEP",
     "categories": [
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -52293,7 +52738,8 @@
     "pub_date": "Mon, 14 Sep 2026 10:02:00 +0900",
     "matched_keyword": "HoLEP",
     "categories": [
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -53250,6 +53696,7 @@
     "categories": [
       "Laser·Pico",
       "Surgical",
+      "비뇨·결석",
       "학회·임상"
     ],
     "is_overseas": false,
@@ -54089,6 +54536,7 @@
     "categories": [
       "Laser·Pico",
       "Surgical",
+      "비뇨·결석",
       "학회·임상"
     ],
     "is_overseas": false,
@@ -54116,7 +54564,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -54218,6 +54667,7 @@
     "categories": [
       "Laser·Pico",
       "Surgical",
+      "비뇨·결석",
       "신제품·출시",
       "학회·임상"
     ],
@@ -54397,6 +54847,7 @@
     "pub_date": "Fri, 11 Sep 2026 11:08:00 +0900",
     "matched_keyword": "원텍",
     "categories": [
+      "비뇨·결석",
       "시장동향",
       "학회·임상",
       "글로벌사업"
@@ -54427,6 +54878,7 @@
     "categories": [
       "Laser·Pico",
       "Surgical",
+      "비뇨·결석",
       "학회·임상"
     ],
     "is_overseas": false,
@@ -54455,6 +54907,7 @@
     "categories": [
       "Laser·Pico",
       "Surgical",
+      "비뇨·결석",
       "학회·임상"
     ],
     "is_overseas": false,
@@ -54537,6 +54990,7 @@
     "pub_date": "Fri, 11 Sep 2026 10:26:00 +0900",
     "matched_keyword": "원텍",
     "categories": [
+      "비뇨·결석",
       "학회·임상"
     ],
     "is_overseas": false,
@@ -54585,7 +55039,8 @@
     "matched_keyword": "정맥류 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "정맥·치핵"
     ],
     "segments": [
       "써지컬"
@@ -56209,7 +56664,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -57235,6 +57691,7 @@
     "categories": [
       "Laser·Pico",
       "Surgical",
+      "비뇨·결석",
       "시장동향"
     ],
     "segments": [
@@ -58104,7 +58561,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -58182,7 +58640,8 @@
     "matched_keyword": "홀뮴레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -61034,7 +61493,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -61376,6 +61836,7 @@
     "pub_date": "Thu, 03 Sep 2026 12:10:00 +0900",
     "matched_keyword": "스카힐",
     "categories": [
+      "여성·CO2",
       "시장동향"
     ],
     "segments": [
@@ -62237,7 +62698,8 @@
     "matched_keyword": "홀뮴레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -62826,7 +63288,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -62873,7 +63336,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -65061,6 +65525,7 @@
     "categories": [
       "Laser·Pico",
       "Surgical",
+      "비뇨·결석",
       "글로벌사업"
     ],
     "segments": [
@@ -65379,6 +65844,7 @@
     "categories": [
       "Laser·Pico",
       "Surgical",
+      "비뇨·결석",
       "학회·임상"
     ],
     "segments": [
@@ -65754,7 +66220,8 @@
     "pub_date": "Fri, 28 Aug 2026 19:36:00 +0900",
     "matched_keyword": "HoLEP",
     "categories": [
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -66357,7 +66824,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -66510,6 +66978,7 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Surgical",
+      "비뇨·결석",
       "학회·임상"
     ],
     "segments": [
@@ -66766,7 +67235,8 @@
     "matched_keyword": "홀뮴레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -67341,6 +67811,7 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Surgical",
+      "비뇨·결석",
       "학회·임상"
     ],
     "segments": [
@@ -67589,7 +68060,8 @@
     "pub_date": "Thu, 27 Aug 2026 10:02:00 +0900",
     "matched_keyword": "HoLEP",
     "categories": [
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -69064,7 +69536,8 @@
     "categories": [
       "RF",
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "여성·CO2"
     ],
     "segments": [
       "에스테틱",
@@ -69120,7 +69593,8 @@
     "pub_date": "Tue, 25 Aug 2026 13:54:00 +0900",
     "matched_keyword": "HoLEP",
     "categories": [
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -69732,7 +70206,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -70878,7 +71353,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -72521,7 +72997,8 @@
     "matched_keyword": "홀뮴레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -73936,7 +74413,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -75272,7 +75750,8 @@
     "pub_date": "Fri, 14 Aug 2026 15:36:00 +0900",
     "matched_keyword": "HoLEP",
     "categories": [
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -76929,7 +77408,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -79885,7 +80365,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -80132,7 +80613,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -80313,7 +80795,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -80336,6 +80819,7 @@
     "categories": [
       "Laser·Pico",
       "Surgical",
+      "비뇨·결석",
       "시장동향"
     ],
     "segments": [
@@ -80794,6 +81278,7 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Surgical",
+      "비뇨·결석",
       "학회·임상"
     ],
     "segments": [
@@ -80994,7 +81479,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -81016,6 +81502,7 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Surgical",
+      "비뇨·결석",
       "학회·임상"
     ],
     "segments": [
@@ -81100,7 +81587,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -81122,6 +81610,7 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Surgical",
+      "비뇨·결석",
       "학회·임상"
     ],
     "segments": [
@@ -82104,7 +82593,8 @@
     "matched_keyword": "홀뮴레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -82175,6 +82665,7 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Surgical",
+      "비뇨·결석",
       "학회·임상"
     ],
     "segments": [
@@ -83223,7 +83714,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -84111,7 +84603,8 @@
     "matched_keyword": "홀뮴레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -84237,7 +84730,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -84259,7 +84753,8 @@
     "matched_keyword": "홀뮴레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -84779,7 +85274,8 @@
     "matched_keyword": "홀뮴레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -84989,7 +85485,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -85061,7 +85558,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -85399,7 +85897,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -85623,6 +86122,7 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Surgical",
+      "비뇨·결석",
       "학회·임상"
     ],
     "segments": [
@@ -85716,7 +86216,8 @@
     "pub_date": "Wed, 29 Jul 2026 07:35:00 +0900",
     "matched_keyword": "HoLEP",
     "categories": [
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -85993,7 +86494,8 @@
     "pub_date": "Tue, 28 Jul 2026 13:50:00 +0900",
     "matched_keyword": "HoLEP",
     "categories": [
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -86498,7 +87000,8 @@
     "pub_date": "Mon, 27 Jul 2026 16:40:00 +0900",
     "matched_keyword": "HoLEP",
     "categories": [
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -87608,7 +88111,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -87864,7 +88368,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -88397,6 +88902,7 @@
     "categories": [
       "Laser·Pico",
       "Surgical",
+      "비뇨·결석",
       "학회·임상"
     ],
     "segments": [
@@ -88819,7 +89325,8 @@
     "matched_keyword": "정맥류 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "정맥·치핵"
     ],
     "segments": [
       "써지컬"
@@ -89611,7 +90118,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -89808,6 +90316,7 @@
     "matched_keyword": "PicoWay",
     "categories": [
       "Laser·Pico",
+      "여성·CO2",
       "시장동향"
     ],
     "segments": [
@@ -90312,7 +90821,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -90417,6 +90927,7 @@
     "categories": [
       "Laser·Pico",
       "Surgical",
+      "비뇨·결석",
       "시장동향"
     ],
     "segments": [
@@ -90439,7 +90950,8 @@
     "matched_keyword": "홀뮴레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -91168,7 +91680,8 @@
     "matched_keyword": "홀뮴 레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -91309,7 +91822,8 @@
     "pub_date": "Thu, 16 Jul 2026 10:00:00 +0900",
     "matched_keyword": "HoLEP",
     "categories": [
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -91811,7 +92325,8 @@
     "pub_date": "Wed, 15 Jul 2026 17:14:00 +0900",
     "matched_keyword": "HoLEP",
     "categories": [
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -92011,7 +92526,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -92650,6 +93166,7 @@
     "categories": [
       "Laser·Pico",
       "Surgical",
+      "비뇨·결석",
       "시장동향"
     ],
     "segments": [
@@ -92982,6 +93499,7 @@
     "categories": [
       "Laser·Pico",
       "Surgical",
+      "비뇨·결석",
       "시장동향"
     ],
     "segments": [
@@ -93136,6 +93654,7 @@
     "categories": [
       "Laser·Pico",
       "Surgical",
+      "비뇨·결석",
       "시장동향"
     ],
     "segments": [
@@ -93299,6 +93818,7 @@
     "categories": [
       "Laser·Pico",
       "Surgical",
+      "비뇨·결석",
       "시장동향"
     ],
     "segments": [
@@ -94121,7 +94641,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -94494,6 +95015,7 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Surgical",
+      "비뇨·결석",
       "학회·임상"
     ],
     "segments": [
@@ -94630,7 +95152,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -94652,7 +95175,8 @@
     "matched_keyword": "홀뮴레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -94833,7 +95357,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -94945,7 +95470,8 @@
     "matched_keyword": "HoLEP",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -95572,6 +96098,7 @@
       "RF",
       "Laser·Pico",
       "Surgical",
+      "비뇨·결석",
       "글로벌사업"
     ],
     "segments": [
@@ -96250,7 +96777,8 @@
     "matched_keyword": "홀뮴레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
@@ -98355,7 +98883,8 @@
     "matched_keyword": "홀뮴레이저",
     "categories": [
       "Laser·Pico",
-      "Surgical"
+      "Surgical",
+      "비뇨·결석"
     ],
     "segments": [
       "써지컬"
