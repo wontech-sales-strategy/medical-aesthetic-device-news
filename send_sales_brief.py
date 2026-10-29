@@ -167,6 +167,35 @@ def pick_groups(items, groups, per_group=3):
     return out, used
 
 
+SURG_CATS = ["비뇨·결석", "정맥·치핵", "여성·CO2", "통증·PBM"]
+
+
+def pick_surgical(window, news, now, used, limit=6):
+    """써지컬 동향: 분야(비뇨·정맥·여성·통증)별 최대 2건. 오늘 기사가 2건 미만이면 최근 7일로 넓힘."""
+    span = "오늘"
+    pool = [i for i in window if i["link"] not in used]
+    if len(pool) < 2:
+        since = now - timedelta(days=7)
+        pool = dedupe([i for i in news if i.get("segments") == ["써지컬"] and (pub_dt(i) or since) >= since and i["link"] not in used])
+        span = "최근 7일"
+    def rank(i):  # 경쟁사·원텍 제품 언급, 국내 기사, 홍보성 칼럼 제외 순으로 우선
+        return (score(i, i.get("competitor_mentions", [])) + (2 if i.get("competitor_mentions") else 0)
+                - (1 if i.get("is_overseas") else 0), pub_dt(i) or now)
+    out, n = [], 0
+    for cat in SURG_CATS + ["기타"]:
+        hits = [i for i in pool if (cat in (i.get("categories") or [])) or
+                (cat == "기타" and not set(SURG_CATS) & set(i.get("categories") or []))]
+        hits = [i for i in hits if all(i["link"] not in {x["link"] for x in its} for _, its, _ in out)]
+        hits.sort(key=rank, reverse=True)
+        sel = hits[: min(2, limit - n)]
+        if sel:
+            out.append((cat if cat != "기타" else "기타 써지컬", sel, len(hits)))
+            n += len(sel)
+        if n >= limit:
+            break
+    return out, span
+
+
 # ───────────────────────── AI 요약 (Google Gemini 무료 등급) ─────────────────────────
 GEMINI_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 
@@ -276,12 +305,13 @@ def ai_dedupe(cfg, comp_groups, per_group):
     return out
 
 
-def ai_enrich(cfg, comp_groups, own_items, overseas):
+def ai_enrich(cfg, comp_groups, own_items, overseas, surgical=()):
     models, token = _ai_models(cfg)
     if not models:
         return None
     catalog = [(g, i) for g, its, _ in comp_groups for i in its]
     catalog += [("원텍", i) for i in own_items] + [(f"해외·{i.get('country', '')}", i) for i in overseas]
+    catalog += [(f"써지컬·{g}", i) for g, its, _ in surgical for i in its]
     if not catalog:
         return None
     by_link = {}
@@ -295,7 +325,8 @@ def ai_enrich(cfg, comp_groups, own_items, overseas):
                 "각 기사에 대해 영업사원용 요약과 영업 포인트를 쓰세요.\n"
                 "[요약] 기사의 핵심 사실(누가·무엇을·숫자)을 1~2문장으로.\n"
                 "[영업 포인트] 원텍 영업사원이 병원 원장님 상담이나 경쟁 대응에서 바로 쓸 수 있는 구체적인 1문장만 쓰세요. "
-                "기사 속 사실(제품명·숫자·시장·시술명)을 반드시 근거로 하고, 원텍 제품(올리지오·타이탄·피코케어·라비앙 등)과 연결될 때만 쓰세요. "
+                "기사 속 사실(제품명·숫자·시장·시술명)을 반드시 근거로 하고, 원텍 제품(에스테틱: 올리지오·타이탄·피코케어·라비앙 등 / "
+                "써지컬: 홀린원(홀뮴 레이저·결석·전립선비대증), 베인케어(하지정맥류·치핵 레이저), 벨라도나(질 타이트닝), 스카힐(CO2 프랙셔널), 엘리제(통증 레이저))과 연결될 때만 쓰세요. "
                 "예: '포텐자 팁 누적 400만 개 → 소모품 비용을 묻는 원장님께 장비별 시술당 소모품 비용 비교 자료로 대응'. "
                 "'참고해야', '모니터링', '대응해야 할 것으로 보입니다', '강조하는 방향으로' 같은 일반론은 금지합니다. "
                 "구체적으로 쓸 내용이 없으면 반드시 빈 문자열로 두세요(대부분의 기사는 빈 문자열이어도 됩니다).\n"
@@ -310,7 +341,7 @@ def ai_enrich(cfg, comp_groups, own_items, overseas):
                  for n, (g, i) in enumerate(catalog[:30])]
         data = _chat(
             "아래 기사 중 오늘 아침 영업사원이 꼭 알아야 할 이슈 3개를 고르고, 각각 60자 내외 1문장으로 쓰세요. "
-            "경쟁사 신제품·인허가·실적, 원텍 소식, 시장 변화 순으로 우선하세요.\n"
+            "경쟁사 신제품·인허가·실적, 원텍 소식, 시장 변화 순으로 우선하세요. 에스테틱·써지컬(group이 '써지컬·'로 시작) 구분 없이 중요도로 고르세요.\n"
             '형식: {"issues":[{"text":"...","id":기사id}, ... 3개]}\n기사:\n' + json.dumps(brief, ensure_ascii=False),
             models, token) or {}
     except Exception as e:  # AI 실패 시 규칙 기반으로 발송
@@ -464,7 +495,7 @@ def brief_box(items, k_own, k_comp):
     cats = {}
     for i in items:
         for c in i.get("categories") or []:
-            if c != "기타":
+            if c != "기타" and c not in SURG_CATS and c != "Surgical":
                 cats[c] = cats.get(c, 0) + 1
     prods = {}
     for i in items:
@@ -481,6 +512,14 @@ def brief_box(items, k_own, k_comp):
         text += " 경쟁제품 중에서는 " + "·".join(f"'{p}'({n}건)" for p, n in top) + " 노출이 두드러집니다."
     elif text.endswith(","):
         text = text[:-1] + "."
+    surg = {}
+    for i in items:
+        if "써지컬" in (i.get("segments") or []):
+            for c in i.get("categories") or []:
+                if c in SURG_CATS:
+                    surg[c] = surg.get(c, 0) + 1
+    if surg:
+        text += " 써지컬은 " + ", ".join(f"'{c}' {n}건" for c, n in sorted(surg.items(), key=lambda x: -x[1])) + " 순입니다."
     text += f" 원텍 언급 {k_own:,}건, 경쟁사 언급 {k_comp:,}건입니다."
     return (f'<tr><td style="padding:12px 32px 0"><div style="background:#F1EDFF;border-radius:8px;padding:12px 16px">'
             f'<div style="font:800 12px {FONT};color:#5846A8">브리핑 요약 · 최근 7일</div>'
@@ -521,8 +560,6 @@ def reg_alerts(reg, now, days=7):
     """최근 새로 확인된 경쟁사 인허가 (data/regulatory.json의 is_new). 없으면 섹션 자체를 생략."""
     out = []
     for i in reg.get("items") or []:
-        if i.get("seg") == "써지컬":  # 써지컬 메일 반영 전까지 제외
-            continue
         try:
             found = datetime.strptime(i.get("found", ""), "%Y-%m-%d").replace(tzinfo=KST)
         except ValueError:
@@ -532,7 +569,7 @@ def reg_alerts(reg, now, days=7):
     if not out:
         return ""
     rows = "".join(
-        f'<tr><td style="padding:9px 14px;border-top:1px solid {LINE};font:700 13px {FONT};color:{OR if i.get("own") else INK};white-space:nowrap">{e(i["company"])}</td>'
+        f'<tr><td style="padding:9px 14px;border-top:1px solid {LINE};font:700 13px {FONT};color:{OR if i.get("own") else INK};white-space:nowrap">{seg_chip(i.get("seg"))}{e(i["company"])}</td>'
         f'<td style="padding:9px 10px;border-top:1px solid {LINE};font:400 13px {FONT};color:{INK}">{e(i.get("device", ""))}'
         f'<div style="font:400 11px {FONT};color:{MUTED};margin-top:2px">{e(i.get("country", ""))} · {e(i.get("type", ""))} · {e(i.get("group", ""))} · {e(i.get("date", ""))}</div></td>'
         f'<td align="right" style="padding:9px 14px;border-top:1px solid {LINE};font:400 12px {FONT};white-space:nowrap"><a href="{e(i.get("url", ""))}" target="_blank" style="color:{OR};text-decoration:none">{e(i.get("k_number", ""))} →</a></td></tr>'
@@ -542,6 +579,12 @@ def reg_alerts(reg, now, days=7):
  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#fff;border:1px solid {LINE}">{rows}</table>
  <div style="font:400 10px/1.6 {FONT};color:{MUTED};margin-top:6px">출처: {e(reg.get('source', ''))} · 최근 {days}일 내 새로 확인된 허가 · 전체 이력은 대시보드 'Tracker'에서 확인</div>
 </td></tr>"""
+
+
+def seg_chip(seg):
+    if seg != "써지컬":
+        return ""
+    return f'<span style="display:inline-block;background:#E6F6F4;color:#0F766E;font:700 10px {FONT};padding:2px 6px;border-radius:3px;margin-right:6px">써지컬</span>'
 
 
 def empty(msg):
@@ -612,10 +655,8 @@ def competitor_card(x):
 def build(cfg, now):
     se = cfg.get("sales_email", {})
     news = load_json("news.json", [])
-    # 써지컬 메일 반영 전까지: 써지컬 전용 기사는 메일에서 제외 (메일은 기존 에스테틱 범위 그대로)
-    news = [i for i in news if i.get("segments") != ["써지컬"]]
     metrics = load_json("market_metrics.json", {})
-    events = [e for e in load_json("exhibitions.json", []) if e.get("seg") != "써지컬"]  # 써지컬 메일 반영 전까지 제외
+    events = load_json("exhibitions.json", [])
     items, hours = window_items(news, now)
     # 상단 숫자 카드: 최근 7일 (대시보드 '주간'과 같은 기준)
     wk_since = now - timedelta(days=7)
@@ -625,6 +666,9 @@ def build(cfg, now):
     k_own = sum(1 for i in week if i.get("own_brand_mentions") or i.get("own_company_mentions") or i.get("own_product_mentions"))
     k_ov = sum(1 for i in week if i.get("is_overseas"))
     items = dedupe(items)
+    # 써지컬 전용 기사는 '써지컬 동향' 섹션으로 따로 모음 (기존 경쟁사·해외 섹션은 에스테틱 범위 그대로)
+    surg_all = [i for i in items if i.get("segments") == ["써지컬"]]
+    items = [i for i in items if i.get("segments") != ["써지컬"]]
     domestic = [i for i in items if not i.get("is_overseas")]
     overseas = [i for i in items if i.get("is_overseas")]
     overseas_total = len(overseas)
@@ -656,7 +700,8 @@ def build(cfg, now):
         if len(ov_pick) >= int(se.get("max_overseas", 8)):
             break
 
-    ai = ai_enrich(cfg, comp_groups, own, ov_pick)
+    surg_groups, surg_span = pick_surgical(surg_all, news, now, used_links, int(se.get("max_surgical", 6)))
+    ai = ai_enrich(cfg, comp_groups, own, ov_pick, surg_groups)
     info = (ai or {}).get("items", {})
 
     # ① 오늘의 영업 포인트
@@ -685,7 +730,7 @@ def build(cfg, now):
   <td align="right" style="font:400 12px {FONT};color:#fff;vertical-align:middle">{date_s}<br><span style="opacity:.85">영업부문 데일리</span></td>
  </tr></table>
  <div style="font:800 26px {FONT};color:#fff;margin-top:18px;letter-spacing:-0.3px">Sales Morning Brief</div>
- <div style="font:400 12px {FONT};color:#fff;opacity:.9;margin-top:4px">미용의료기기 시장 · 경쟁사 · 해외 동향 &nbsp;|&nbsp; 영업전략팀</div>
+ <div style="font:400 12px {FONT};color:#fff;opacity:.9;margin-top:4px">미용·수술용 의료기기 시장 · 경쟁사 · 해외 동향 &nbsp;|&nbsp; 영업전략팀</div>
 </td></tr>""")
     rows.append(kpi_strip([
         ("수집 기사 · 최근 7일", f"{k_total:,}건", False),
@@ -748,6 +793,16 @@ def build(cfg, now):
     else:
         rows.append(empty("최근 경쟁사 관련 기사가 없습니다."))
 
+    # 써지컬 (홀린원·베인케어·벨라도나·스카힐·엘리제 시장)
+    rows.append(section(next(sec_no), "써지컬 동향", f"비뇨·정맥·여성·통증 · {surg_span}"))
+    if surg_groups:
+        for name, its, total in surg_groups:
+            rows.append(group_header(name, total))
+            for i in its:
+                rows.append(article(i, info.get(i["link"])))
+    else:
+        rows.append(empty("최근 7일 써지컬 관련 기사가 없습니다."))
+
     # ③ 원텍
     rows.append(section(next(sec_no), "원텍 언급 기사", f"{own_total}건 중 {len(own)}건"))
     if own:
@@ -787,7 +842,7 @@ def build(cfg, now):
     if upcoming:
         trs = "".join(
             f'<tr><td style="padding:10px 12px;border-bottom:1px solid {LINE};font:800 12px {FONT};color:{OR};white-space:nowrap">{s:%m.%d}{"–" + t.strftime("%m.%d") if t != s else ""}</td>'
-            f'<td style="padding:10px 12px;border-bottom:1px solid {LINE};font:700 13px {FONT};color:{INK}"><a href="{e(ev.get("source"))}" style="color:{INK};text-decoration:none">{e(ev.get("name"))}</a></td>'
+            f'<td style="padding:10px 12px;border-bottom:1px solid {LINE};font:700 13px {FONT};color:{INK}">{seg_chip(ev.get("seg"))}<a href="{e(ev.get("source"))}" style="color:{INK};text-decoration:none">{e(ev.get("name"))}</a></td>'
             f'<td style="padding:10px 12px;border-bottom:1px solid {LINE};font:400 12px {FONT};color:{SUB}">{e(ev.get("location"))}</td></tr>'
             for s, t, ev in upcoming)
         rows.append(f'<tr><td style="padding:0 32px 6px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#fff;border:1px solid {LINE}">{trs}</table></td></tr>')
