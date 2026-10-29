@@ -521,6 +521,8 @@ def reg_alerts(reg, now, days=7):
     """최근 새로 확인된 경쟁사 인허가 (data/regulatory.json의 is_new). 없으면 섹션 자체를 생략."""
     out = []
     for i in reg.get("items") or []:
+        if i.get("seg") == "써지컬":  # 써지컬 메일 반영 전까지 제외
+            continue
         try:
             found = datetime.strptime(i.get("found", ""), "%Y-%m-%d").replace(tzinfo=KST)
         except ValueError:
@@ -610,6 +612,8 @@ def competitor_card(x):
 def build(cfg, now):
     se = cfg.get("sales_email", {})
     news = load_json("news.json", [])
+    # 써지컬 메일 반영 전까지: 써지컬 전용 기사는 메일에서 제외 (메일은 기존 에스테틱 범위 그대로)
+    news = [i for i in news if i.get("segments") != ["써지컬"]]
     metrics = load_json("market_metrics.json", {})
     events = load_json("exhibitions.json", [])
     items, hours = window_items(news, now)

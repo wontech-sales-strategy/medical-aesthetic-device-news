@@ -6,6 +6,7 @@
   · DEKA 레이저 = El.En S.p.A. (동명 회사 'Deka Research and Development'는 인슐린 펌프 회사라 제외)
   · 울쎄라(Merz) = Ulthera, Inc.
 - 새로 잡힌 허가는 is_new=True 로 표시 → 아침 메일 알림에 사용
+- seg: 에스테틱/써지컬 (대시보드 탭에 따라 표시) · 보스턴사이언티픽은 레이저 제품코드(GEX)만
 """
 import json
 import re
@@ -32,16 +33,26 @@ WATCH_LIST = [
     {"company": "제이시스메디칼", "q": "jeisys", "must": ["jeisys"]},
     {"company": "알마레이저", "q": "\"alma lasers\"", "must": ["alma lasers"]},
     {"company": "사이노슈어 루트로닉", "q": "lutronic", "must": ["lutronic"]},
+    # ── 써지컬 (홀린원·베인케어·벨라도나·스카힐·엘리제 경쟁사) ──
+    {"company": "보스턴사이언티픽", "seg": "써지컬", "q": "boston", "codes": ["GEX"], "must": ["boston scientific"]},
+    {"company": "콴타시스템", "seg": "써지컬", "q": "quanta", "must": ["quanta system"]},
+    {"company": "바이오리텍", "seg": "써지컬", "q": "biolitec", "must": ["biolitec"]},
+    {"company": "LSO Medical", "seg": "써지컬", "q": "lso", "must": ["lso medical"]},
+    {"company": "Diotech", "seg": "써지컬", "q": "diotech", "must": ["diotech"]},
+    {"company": "Multi Radiance", "seg": "써지컬", "q": "radiance", "must": ["multi radiance"]},
+    {"company": "Erchonia", "seg": "써지컬", "q": "erchonia", "must": ["erchonia"]},
 ]
 
 # 제품코드 → 분류 (FDA 분류 기준을 단순화)
 CODE_GROUP = {"GEI": "RF", "GEX": "Laser", "ONG": "Laser", "ONF": "Laser", "OHV": "초음파(HIFU)", "IPF": "EMS",
-              "NGX": "EMS", "PBX": "기타", "OAP": "레이저(홈케어)", "PKT": "기타"}
+              "NGX": "EMS", "PBX": "기타", "OAP": "레이저(홈케어)", "PKT": "기타",
+              "NHN": "저출력 레이저(통증)", "ILY": "저출력 레이저(통증)", "OLI": "저출력 레이저", "OLP": "저출력 레이저"}
 
 
-def fetch(q):
+def fetch(q, codes=None):
     url = "https://api.fda.gov/device/510k.json"
-    params = {"search": f"applicant:{q} AND decision_date:[{SINCE} TO 29991231]", "sort": "decision_date:desc", "limit": 100}
+    code_q = f" AND product_code:({' OR '.join(codes)})" if codes else ""  # 대형사는 레이저 제품코드만
+    params = {"search": f"applicant:{q}{code_q} AND decision_date:[{SINCE} TO 29991231]", "sort": "decision_date:desc", "limit": 100}
     for attempt in range(3):
         r = requests.get(url, params=params, timeout=40)
         if r.status_code == 404:  # 결과 없음
@@ -55,15 +66,18 @@ def fetch(q):
 
 def main():
     prev = {}
+    prev_cos = set()
     try:
-        prev = {i["k_number"] for i in json.loads(OUTS[0].read_text(encoding="utf-8")).get("items", [])}
+        _old = json.loads(OUTS[0].read_text(encoding="utf-8")).get("items", [])
+        prev = {i["k_number"] for i in _old}
+        prev_cos = {i["company"] for i in _old}
     except (FileNotFoundError, ValueError, KeyError):
         prev = set()
     first_run = not prev
     items, seen = [], set()
     for w in WATCH_LIST:
         try:
-            rows = fetch(w["q"])
+            rows = fetch(w["q"], w.get("codes"))
         except Exception as e:  # noqa: BLE001
             print(f"[FDA] {w['company']} 조회 실패: {e}")
             continue
@@ -78,13 +92,14 @@ def main():
             seen.add(k)
             d = r.get("decision_date", "")
             items.append({
-                "company": w["company"], "own": w.get("own", False), "applicant": r.get("applicant"),
+                "company": w["company"], "own": w.get("own", False), "seg": w.get("seg", "에스테틱"), "applicant": r.get("applicant"),
                 "device": re.sub(r"[\u0000-\u001f\u0080-\u009f\ue000-\uf8ff\ufffd]", "", (r.get("device_name") or "").replace("\x99", "™")).strip(), "product_code": r.get("product_code"),
                 "group": CODE_GROUP.get(r.get("product_code"), "기타"),
                 "country": "미국", "type": "FDA 510(k)", "decision": r.get("decision_description"),
                 "date": d, "k_number": k,
                 "url": f"https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID={k}",
-                "is_new": (not first_run) and k not in prev,
+                # 새로 추가한 회사의 기존 허가는 '신규'로 보지 않음 (메일 알림 폭주 방지)
+                "is_new": (not first_run) and w["company"] in prev_cos and k not in prev,
                 "found": datetime.now(KST).strftime("%Y-%m-%d"),
             })
             n += 1
@@ -104,7 +119,7 @@ def main():
     items.sort(key=lambda i: i["date"], reverse=True)
     data = {"updated": datetime.now(KST).strftime("%Y-%m-%d %H:%M"),
             "source": "U.S. FDA 510(k) Premarket Notification Database (openFDA)",
-            "note": "FDA DB는 제조사 법인명 기준 · DEKA는 El.En S.p.A., 울쎄라는 Ulthera, Inc. 명의",
+            "note": "FDA DB는 제조사 법인명 기준 · DEKA는 El.En S.p.A., 울쎄라는 Ulthera, Inc., 콴타시스템은 Quanta System Spa 명의 · 보스턴사이언티픽은 레이저(GEX)만",
             "items": items}
     for p in OUTS:
         p.parent.mkdir(parents=True, exist_ok=True)

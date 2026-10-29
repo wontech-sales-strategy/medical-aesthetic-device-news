@@ -622,8 +622,18 @@ const productAliases={
 '볼뉴머':['볼뉴머','Volnewmer'],'덴서티':['덴서티','Jeisys Density'],'울쎄라':['울쎄라','Ultherapy'],'써마지':['써마지','Thermage'],
 '티타늄':['티타늄 리프팅','티타늄리프팅','하이퍼 티타늄','Alma Titanium'],'세르프':['세르프','XERF'],'리프테라':['리프테라','Liftera'],'소프웨이브':['소프웨이브','Sofwave']
 };
+// 써지컬 경쟁제품 (홀린원·베인케어·벨라도나·스카힐·엘리제 경쟁군)
+const surgicalAliases={
+'보스턴사이언티픽':['Boston Scientific','보스턴사이언티픽','보스턴 사이언티픽','MOSES laser','MOSES 2.0','Moses technology','Pulse 120H'],
+'콴타시스템':['Quanta System','콴타시스템','Cyber Ho','Litho Evo'],'루메니스':['Lumenis','루메니스'],
+'바이오리텍':['Biolitec','바이오리텍','Leonardo 1470','Leonardo 1940'],'LSO':['LSO Medical','Lumeseal'],'Diotech':['Diotech'],
+'모나리자 터치':['MonaLisa Touch','모나리자 터치','SmartXide'],'CO2RE':['CO2RE'],
+'MR4':['Multi Radiance','MR4 Laser','MR4 LaserStim'],'FX-635':['Erchonia','FX-635','FX 635']
+};
 // 버튼 추가/삭제: 위 목록에 '표시명':['국문','영문'] 한 줄을 넣거나 빼면 됩니다.
-const competitorOrder=Object.keys(productAliases);
+const aestheticOrder=Object.keys(productAliases),surgicalOrder=Object.keys(surgicalAliases);
+Object.assign(productAliases,surgicalAliases);
+const segOrder=()=>state.segment==='에스테틱'?aestheticOrder:state.segment==='써지컬'?surgicalOrder:[...aestheticOrder,...surgicalOrder];
 let allNews=[],events=[],state={days:1,segment:'전체',category:'전체',product:'전체',q:'',kpi:null,origin:'all',country:'전체'};
 const A=v=>Array.isArray(v)?v:[]; const D=s=>{const d=new Date(s);return isNaN(d)?null:d};
 function own(i){return A(i.own_company_mentions).length+A(i.own_product_mentions).length+A(i.own_brand_mentions).length>0}
@@ -645,7 +655,7 @@ function renderExposure(){
     (state.segment==='전체'||segs(i).includes(state.segment))
   );
 
-  const counts=competitorOrder.map(p=>[
+  const counts=segOrder().map(p=>[
     p,
     base.filter(i=>prodHit(i,p)).length
   ]);
@@ -672,12 +682,12 @@ function renderExposure(){
   });
 }
 function renderMetrics(items){const pl={1:'최근 24시간',7:'최근 7일',30:'최근 30일'}[state.days]||'';mTotalLabel.textContent=`수집 뉴스 · ${pl}`;mTotal.textContent=items.length.toLocaleString()+'건';mOwn.textContent=items.filter(own).length+'건';mComp.textContent=items.filter(comp).length+'건';const top=countRows(items,i=>A(i.categories))[0];mTop.textContent=top?`${top[0]} ${top[1]}건`:'-';metricOwn.classList.toggle('selected',state.kpi==='own');metricComp.classList.toggle('selected',state.kpi==='comp')}
-function renderBrief(items){if(!items.length){briefText.textContent='선택한 조건에 해당하는 뉴스가 없습니다.';return}const topCat=countRows(items,i=>A(i.categories))[0];const topProd=competitorOrder.map(p=>[p,items.filter(i=>prodHit(i,p)).length]).sort((a,b)=>b[1]-a[1])[0];let s=`이 기간 총 ${items.length}건이 수집되었습니다.`;if(topCat&&topCat[1])s+=` '${topCat[0]}' 관련 이슈가 가장 많았습니다.`;if(topProd&&topProd[1])s+=` 경쟁제품 중 '${topProd[0]}' 노출이 두드러집니다.`;if(state.product!=='전체')s+=` 현재 '${state.product}' 관련 기사만 보고 있습니다.`;if(state.kpi==='own')s+=` WONTECH 관련 기사만 필터링 중입니다.`;if(state.kpi==='comp')s+=` 경쟁사 관련 기사만 필터링 중입니다.`;briefText.textContent=s}
+function renderBrief(items){if(!items.length){briefText.textContent='선택한 조건에 해당하는 뉴스가 없습니다.';return}const topCat=countRows(items,i=>A(i.categories))[0];const topProd=segOrder().map(p=>[p,items.filter(i=>prodHit(i,p)).length]).sort((a,b)=>b[1]-a[1])[0];let s=`이 기간 총 ${items.length}건이 수집되었습니다.`;if(topCat&&topCat[1])s+=` '${topCat[0]}' 관련 이슈가 가장 많았습니다.`;if(topProd&&topProd[1])s+=` 경쟁제품 중 '${topProd[0]}' 노출이 두드러집니다.`;if(state.product!=='전체')s+=` 현재 '${state.product}' 관련 기사만 보고 있습니다.`;if(state.kpi==='own')s+=` WONTECH 관련 기사만 필터링 중입니다.`;if(state.kpi==='comp')s+=` 경쟁사 관련 기사만 필터링 중입니다.`;briefText.textContent=s}
 const CATEGORY_COLORS={'RF':{bg:'#fff0e8',text:'#c2410c'},'HIFU':{bg:'#e8f1ff',text:'#1d4ed8'},'Laser·Pico':{bg:'#f1edff',text:'#5846a8'},'RF Microneedling':{bg:'#fde8f1',text:'#be185d'},'Surgical':{bg:'#e6f6f4',text:'#0f766e'},'시장동향':{bg:'#eaf7ea',text:'#15803d'},'신제품·출시':{bg:'#fff7e0',text:'#a16207'},'인허가·규제':{bg:'#fdeaea',text:'#b91c1c'},'학회·임상':{bg:'#e7f5fb',text:'#0369a1'},'글로벌사업':{bg:'#eef2f6',text:'#475569'}};
-function categoryPill(cats){const c=A(cats)[0]||'기타';const col=CATEGORY_COLORS[c]||{bg:'var(--surface2)',text:'var(--sub)'};return `<span class="cat-pill" style="background:${col.bg};color:${col.text}">${c}</span>`}
+function categoryPill(cats){const c=(state.segment==='써지컬'&&A(cats).includes('Surgical'))?'Surgical':(A(cats)[0]||'기타');const col=CATEGORY_COLORS[c]||{bg:'var(--surface2)',text:'var(--sub)'};return `<span class="cat-pill" style="background:${col.bg};color:${col.text}">${c}</span>`}
 function renderNews(items){newsList.innerHTML=items.length?items.slice(0,80).map(i=>`<a class="news has-pill" href="${i.link}" target="_blank" rel="noopener">${categoryPill(i.categories)}<div class="news-body"><div class="news-title">${i.is_overseas?`<span class="badge-overseas">${i.country||'해외'}</span>`:''}${own(i)?'<span class="badge">WONTECH</span>':''}${i.title}</div><div class="meta">${i.source||''} · ${A(i.categories).join(' · ')} · ${D(i.pub_date)?D(i.pub_date).toLocaleDateString('ko-KR'):''}${i.is_overseas?` · <span class="tr-link" data-t="${encodeURIComponent(i.title)}">번역</span>`:''}</div></div></a>`).join(''):'<div class="empty">해당 조건의 기사가 없습니다.</div>'}
 function render(){document.querySelectorAll('.seg-tab').forEach(x=>x.classList.toggle('active',x.dataset.seg===state.segment));document.querySelectorAll('.period button').forEach(x=>x.classList.toggle('active',+x.dataset.days===state.days));renderCats();renderCountries();const items=baseFiltered();renderTop(items);renderExposure();renderMetrics(items);renderBrief(items);renderNews(items);const ds=allNews.map(i=>D(i.pub_date)).filter(Boolean);lastUpdated.textContent=ds.length?`최근 수집 기사: ${new Date(Math.max(...ds)).toLocaleString('ko-KR')}`:'아직 수집된 데이터가 없습니다.'}
-document.querySelectorAll('.seg-tab').forEach(x=>x.onclick=()=>{state.segment=x.dataset.seg;state.category='전체';state.product='전체';state.kpi=null;render()});document.querySelectorAll('.period button').forEach(x=>x.onclick=()=>{state.days=+x.dataset.days;render()});searchBox.oninput=e=>{state.q=e.target.value.trim();render()};mobileCategory.onchange=e=>{state.category=e.target.value;state.product='전체';render()};
+document.querySelectorAll('.seg-tab').forEach(x=>x.onclick=()=>{state.segment=x.dataset.seg;state.category='전체';state.product='전체';state.kpi=null;render();syncReg()});document.querySelectorAll('.period button').forEach(x=>x.onclick=()=>{state.days=+x.dataset.days;render()});searchBox.oninput=e=>{state.q=e.target.value.trim();render()};mobileCategory.onchange=e=>{state.category=e.target.value;state.product='전체';render()};
 originList.querySelectorAll('.cat').forEach(b=>b.onclick=()=>{state.origin=b.dataset.o;originList.querySelectorAll('.cat').forEach(x=>x.classList.toggle('active',x===b));mobileOrigin.value=state.origin;render()});countrySel.onchange=e=>{state.country=e.target.value;render()};
 newsList.addEventListener('click',e=>{const t=e.target.closest('.tr-link');if(!t)return;e.preventDefault();e.stopPropagation();window.open('https://translate.google.com/?sl=auto&tl=ko&op=translate&text='+t.dataset.t,'_blank','noopener')});
 mobileOrigin.onchange=e=>{state.origin=e.target.value;originList.querySelectorAll('.cat').forEach(x=>x.classList.toggle('active',x.dataset.o===state.origin));render()};
@@ -879,15 +889,21 @@ loadStocks();
 
 // ───── 경쟁사 글로벌 인허가 Tracker ─────
 let regData=null,regShow=12,regCo='전체';
-function drawReg(){const it=regData.items.filter(i=>regCo==='전체'||i.company===regCo);const now=Date.now();
+const regSeg=i=>i.seg||'에스테틱';
+function drawReg(){const it=regData.items.filter(i=>(state.segment==='전체'||regSeg(i)===state.segment)&&(regCo==='전체'||i.company===regCo));const now=Date.now();
   regBody.innerHTML=it.slice(0,regShow).map(i=>{const nw=i.is_new&&(now-new Date(i.found))<14*864e5;const d=i.date||'';
     return `<tr class="${i.own?'own':''}"><td>${i.company}${nw?'<span class="reg-new">NEW</span>':''}</td><td>${(i.device||'').replace(/\u0099/g,'™').replace(/[\u0000-\u001f\u0080-\u009f\ue000-\uf8ff\ufffd]/g,'').trim()}</td><td><span class="reg-grp">${i.group||''}</span></td><td class="hide-m">${i.country}</td><td class="hide-m">${i.type}</td><td style="white-space:nowrap">${d}</td><td><a href="${i.url}" target="_blank" rel="noopener">${i.k_number}</a></td></tr>`}).join('')||'<tr><td colspan="7" class="empty">해당 회사의 허가 이력이 없습니다.</td></tr>';
   regMore.style.display=it.length>regShow?'':'none';regMore.textContent=`더보기 ▾ (${it.length-regShow}건 더)`}
+function fillRegCompany(){if(!regData)return;const cos=seg=>[...new Set(regData.items.filter(i=>regSeg(i)===seg).map(i=>i.company))];
+  const grp=(seg,label)=>{const c=cos(seg);return c.length?`<optgroup label="${label}">${c.map(x=>`<option ${x===regCo?'selected':''}>${x}</option>`).join('')}</optgroup>`:''};
+  const segs=state.segment==='전체'?[['에스테틱','에스테틱'],['써지컬','써지컬']]:[[state.segment,state.segment]];
+  regCompany.innerHTML=`<option>전체</option>`+segs.map(([k,l])=>grp(k,l)).join('');
+  if(![...regCompany.options].some(o=>o.value===regCo)){regCo='전체';regCompany.value='전체'}}
+function syncReg(){if(!regData||!regData.items)return;regShow=12;fillRegCompany();drawReg();const n=regData.items.filter(i=>state.segment==='전체'||regSeg(i)===state.segment).length;regAsOf.textContent=`· 2023년 이후 ${n}건${state.segment==='전체'?'':' ('+state.segment+')'} · 갱신 ${regData.updated}`}
 async function loadReg(){
   try{const r=await fetch('data/regulatory.json',{cache:'no-store'});if(!r.ok)return;regData=await r.json()}catch(e){return}
   if(!regData.items||!regData.items.length)return;
-  const cos=[...new Set(regData.items.map(i=>i.company))];
-  regCompany.innerHTML=['전체',...cos].map(c=>`<option>${c}</option>`).join('');
+  fillRegCompany();
   regCompany.onchange=()=>{regCo=regCompany.value;regShow=12;drawReg()};regMore.onclick=()=>{regShow+=20;drawReg()};
   regAsOf.textContent=`· 2023년 이후 ${regData.items.length}건 · 갱신 ${regData.updated}`;
   regNote.innerHTML=`출처: ${regData.source} · ${regData.note} · 현재 미국 FDA부터 연결, EU·캐나다·호주는 순차 추가 예정`;
