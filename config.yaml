@@ -276,7 +276,7 @@ relevance:
 telegram:
   enabled: false
   send_hour_kst: 8
-  dashboard_url: "https://gyumin-lee0120.github.io/medical-aesthetic-device-news/"
+  dashboard_url: "https://wontech-sales-strategy.github.io/medical-aesthetic-device-news/"
   max_items: 8
 email:
   enabled: false
