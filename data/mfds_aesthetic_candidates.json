@@ -366,13 +366,13 @@
         "PRMISN_STTEMNT": "1",
         "PRDUCT_PRMISN_NO": "제허 23-687 호",
         "PRMISN_DT": "20230620",
-        "RTRCN_DSCTN_DIVS_CD": "",
-        "RTRCN_DSCTN_DT": "",
+        "RTRCN_DSCTN_DIVS_CD": "2",
+        "RTRCN_DSCTN_DT": "2026-10-30",
         "MDEQ_PRDLST_SN": "2023003532",
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2023-06-20"
+        "CHG_DT": "2026-10-30"
       }
     },
     {
@@ -784,13 +784,13 @@
         "PRMISN_STTEMNT": "1",
         "PRDUCT_PRMISN_NO": "제허 23-487 호",
         "PRMISN_DT": "20230411",
-        "RTRCN_DSCTN_DIVS_CD": "",
-        "RTRCN_DSCTN_DT": "",
+        "RTRCN_DSCTN_DIVS_CD": "2",
+        "RTRCN_DSCTN_DT": "2026-10-30",
         "MDEQ_PRDLST_SN": "2023002160",
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2023-04-11"
+        "CHG_DT": "2026-10-30"
       }
     },
     {
@@ -12862,13 +12862,13 @@
         "PRMISN_STTEMNT": "1",
         "PRDUCT_PRMISN_NO": "제허 15-606 호",
         "PRMISN_DT": "20150422",
-        "RTRCN_DSCTN_DIVS_CD": "",
-        "RTRCN_DSCTN_DT": "",
+        "RTRCN_DSCTN_DIVS_CD": "2",
+        "RTRCN_DSCTN_DT": "2026-10-30",
         "MDEQ_PRDLST_SN": "2015002895",
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2015-04-22"
+        "CHG_DT": "2026-10-30"
       }
     },
     {
@@ -13682,7 +13682,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "Aesculap AG",
-        "CHG_DT": "2023-06-12"
+        "CHG_DT": "2026-10-30"
       }
     },
     {
@@ -22366,13 +22366,13 @@
         "PRMISN_STTEMNT": "1",
         "PRDUCT_PRMISN_NO": "제허 10-229 호",
         "PRMISN_DT": "20100322",
-        "RTRCN_DSCTN_DIVS_CD": "",
-        "RTRCN_DSCTN_DT": "",
+        "RTRCN_DSCTN_DIVS_CD": "5",
+        "RTRCN_DSCTN_DT": "2026-11-01",
         "MDEQ_PRDLST_SN": "2010001473",
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2025-04-15"
+        "CHG_DT": "2026-11-01"
       }
     },
     {
