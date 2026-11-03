@@ -1,5 +1,533 @@
 [
   {
+    "title": "[THE CEO] 김병훈 에이피알 대표",
+    "summary": "에이피알은 지난해 유럽 주요 유통기업과 계약을 체결하며 화장품과 미용기기 수출을 확대했다. 올해 3월에는 글로벌 뷰티 편집숍 세포라를 중심으로 유럽 판매망을 넓혔다. 프랑스와 독일, 이탈리아, 스페인 등 유럽...",
+    "link": "http://www.the-biz.co.kr/news/articleView.html?idxno=729289",
+    "source": "네이버 뉴스",
+    "pub_date": "Wed, 04 Nov 2026 06:30:00 +0900",
+    "matched_keyword": "미용기기 수출",
+    "categories": [
+      "시장동향",
+      "글로벌사업"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "홈케어 넘어 의료기기로…메디큐브의 스케일업",
+    "summary": "화장품과 홈뷰티 디바이스로 성장한 에이피알은 미용 의료기기와 스킨부스터 시장에 도전하며 사업 영역을 넓힌다. 원천기술 확보부터 효능 검증, 생산 내재화까지 구축한 에이피알의 뷰티테크 전략과 경쟁력을 두...",
+    "link": "https://www.sidae.com/article/2026110309181975539",
+    "source": "네이버 뉴스",
+    "pub_date": "Wed, 04 Nov 2026 05:45:00 +0900",
+    "matched_keyword": "홈뷰티 디바이스",
+    "categories": [
+      "시장동향"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Agência de Comunicação - Com tecnologia brasileira, VYDENCE reforça marca e estratégia de expansão global",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOT2xXeGpVWXpKWWo5QV9keE0xR2ZEZDBnN3g2Q2JBbUZtVGhQeFNfaUZ2SkI3VEtpM3dUZ3pKM1RZZk9udUtQdXQ1R09jVGYyRTNTbkdzQzk2T1JoY3JXX043X2lOWmJ3ZFdVWXBzUEtiMzJkSjNicm1ycXdPbTBGaEYtdXNCRGQ1SWcxVndZYXhrN3gtMng3MFd1TW5Gei1UZFh4RHJXcENrelpMX3hqRXl6c1hVZDh3VkJVemtEMVg5c1Z2RThtOFpjUVVkcDdzY0xMYkZuSjhYOGc1SG5Zdmxn?oc=5",
+    "source": "Estadão Blue Studio",
+    "pub_date": "Tue, 03 Nov 2026 17:20:31 GMT",
+    "matched_keyword": "해외: 브라질",
+    "is_overseas": true,
+    "country": "브라질",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Theraclion obtient le feu pour Sonovein en Arabie saoudite",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRnJzN0otRDF5R3FVeWVkdkR1TnZ4UEpKQU9XOVpGSzhMQU9aS3hMYngwb0M5bTA1ZnRjS3Bqbzk0R21lOUljNTBEY05fSF9UUmFqNkRBMWstdEJWbW1TTXJ0TGNrVElGdmdJN0pZcThmekhKcVRXeWNVZXRISXF3MWRScEx0QWJpT2luX2d5UE9uMEd5VGRTQWQyamhTTXJlNk1oM05heDJTYzZJbnJhVU9MMEgtb3dhSUFSUFNHTWF4cjhoQjNCZ3E1SS1LbVViMVNocGRPONIB1wFBVV95cUxNRnJzN0otRDF5R3FVeWVkdkR1TnZ4UEpKQU9XOVpGSzhMQU9aS3hMYngwb0M5bTA1ZnRjS3Bqbzk0R21lOUljNTBEY05fSF9UUmFqNkRBMWstdEJWbW1TTXJ0TGNrVElGdmdJN0pZcThmekhKcVRXeWNVZXRISXF3MWRScEx0QWJpT2luX2d5UE9uMEd5VGRTQWQyamhTTXJlNk1oM05heDJTYzZJbnJhVU9MMEgtb3dhSUFSUFNHTWF4cjhoQjNCZ3E1SS1LbVViMVNocGRPOA?oc=5",
+    "source": "Boursorama",
+    "pub_date": "Tue, 03 Nov 2026 17:07:00 GMT",
+    "matched_keyword": "해외: 프랑스",
+    "is_overseas": true,
+    "country": "프랑스",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Morpheus8 Cool Aims to Make Popular Skin Treatments More Comfortable",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeW5sTjEzY2szaUdEdl9nV2Z0dzI2VGNIdFZtOUhSUWE5d0t0b1ZsY1lJSGd2eloyWVd2UGdHa1dJOVRwbTlxZURLM1hkdFRXdXN3M210d2ZydnNkWVNIWmg5aVBNVi1DUTd3TnJNUk1jVUlsVEZqTjVfS01vOGxORldpTEJOM1BJ?oc=5",
+    "source": "Yahoo",
+    "pub_date": "Tue, 03 Nov 2026 16:34:01 GMT",
+    "matched_keyword": "해외: 영국",
+    "is_overseas": true,
+    "country": "영국",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [
+      "Morpheus8"
+    ],
+    "categories": [
+      "RF Microneedling"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "Morpheus8"
+    ],
+    "ai_ok": true
+  },
+  {
+    "title": "\"Minimalismo facial? As chaves para combinar os cuidados em casa com a medicina estética\", por Inês Neves",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQSDNkVzY3VEZhYnRkZlotZmFwbWZlYXpyaHVSUXdkYXptVEhxVWdIYl9uUUtKb1BsSUFhMXBDYVdKZ2I4OF9lVmRKOHRjcURScmlDQk5fVFhKOWEzM0swdWl0dFRyM0NnbHBJUC1WUG9oV00yRUtZY2ROYWlhSHV1NEFlcEU0cnJuZFZXNnBoOGlFZHFhakh6V1NQQ09NM3lDMUdRNmdrUW1KT0N6Q3E2Vk1aQllvZkowc3l3dVJQTGNhQ09YTDlmM1ZwekVBWm5aT21jbHpMRFNjbXA2aE5tZ1NDbXMtb3NuVE1icFdXZ0QxbHVOdHRtcGZ0S3JibHJNWFA2OUFxMFZDUEthdHN3dHgtMV83Zw?oc=5",
+    "source": "SELFIE",
+    "pub_date": "Tue, 03 Nov 2026 16:28:20 GMT",
+    "matched_keyword": "해외: 브라질",
+    "is_overseas": true,
+    "country": "브라질",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Sofwave reforça sua presença na Espanha e Portugal com a Optimedic como principal distribuidora",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOOHJON3pZUW0taUkxYjU1aGwzMGF2YzFGSTQ5OEpYbXBrZktuUUlnYThmMnVjTmpoY2dyVGpLbmY2NW9BaUtFOVFBSkx5bEc2Rm1EbXh4STFUTUMwZk96eDE3clRoaGNhSmZYUy1JNWpaZS02MjhDUUNxWWFISDJZekdfcG01b2VPSkpZZlBRdE8tSEFQbTZHd1lqcml5cHhXeTdxd3ZPaEV0R0VJRi10X2dKSWlDTVNOQ3h6eGhtNnJkbF94b3VHb3lQR29rX3F6Uk5fM0kxTHhvR3V4dDFOOEphYkjSAeoBQVVfeXFMUGw0UHI3OUIwcFljMnp3aFhJWVV2YndtZlhjOHdHanpsejdzTFp5bFJ5UmwzSGhmaWQzdFhOSlF2a2hXTG9iVW51ODByQjFndV9xVGxGRnNxZ1BleVFGOGFlQWNsbHlHQWNyVURUN0FsTHFCbXFEMnJad3RwN1llVjktVUstNUl5S3VDZE1QSUpYU3ZHWlJjWGZRV2MtWlhLZTR6SnEwR2JaSFpVTmFfQ1pQV3l1Y3hiVG5ObzMtTjdMMGdhd25WRmoycE9IaC0yRXhaRUdyRE9yNi1tclNNcGJ5Z1RRam1keXZB?oc=5",
+    "source": "Demócrata",
+    "pub_date": "Tue, 03 Nov 2026 15:18:50 GMT",
+    "matched_keyword": "해외: 브라질",
+    "is_overseas": true,
+    "country": "브라질",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [
+      "Sofwave"
+    ],
+    "competitor_product_mentions": [
+      "Sofwave"
+    ],
+    "categories": [
+      "HIFU"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "Sofwave",
+      "Sofwave"
+    ],
+    "ai_ok": true
+  },
+  {
+    "title": "Sofwave renforce sa présence en Espagne et au Portugal avec Optimedic comme principal distributeur",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxORkNnYzRPUkVlbGI3SDBZbnNEcm5RTTJUc3l4S1JsRXVQMUFEZmxZOC1kMkJGcUxUVkZhalZ5MjF5NHowOGk1cWdsQ3JlM2lWbHZUczJuSGdNeTVQRlJ6SnNDWW5LT1N1MUxXS1U3SS1heXpxMVBLeWJFT1Y0dExEdzB4TzY4SHhNdm1mbV8yOGVmWkRBR3FGZmxhOG1sUFd6dDRsckFnMjZxVHpCRy01ZXE5Ui0zQkg0WWl5NEsweld3akQ0SUZpckFwaHpXdEY0c2VRcGRMc1pIU1hoNk91OHdzNThVNVZabTJkNWNn0gHuAUFVX3lxTE5GQ2djNE9SRWVsYjdIMFluc0RyblFNMlRzeXhLUmxFdVAxQURmbFk4LWQyQkZxTFRWRmFqVnkyMXk0ejA4aTVxZ2xDcmUzaVZsdlRzMm5IZ015NVBGUnpKc0NZbktPU3UxTFdLVTdJLWF5enExUEt5YkVPVjR0TER3MHhPNjhIeE12bWZtXzI4ZWZaREFHcUZmbGE4bWxQV3p0NGxyQWcyNnFUekJHLTVlcTlSLTNCSDRZaXk0SzB6V3dqRDRJRmlyQXBoeld0RjRzZVFwZExzWkhTWGg2T3U4d3M1OFU1VlptMmQ1Y2c?oc=5",
+    "source": "Demócrata",
+    "pub_date": "Tue, 03 Nov 2026 15:18:50 GMT",
+    "matched_keyword": "해외: 프랑스",
+    "is_overseas": true,
+    "country": "프랑스",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [
+      "Sofwave"
+    ],
+    "competitor_product_mentions": [
+      "Sofwave"
+    ],
+    "categories": [
+      "HIFU"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "Sofwave",
+      "Sofwave"
+    ],
+    "ai_ok": true
+  },
+  {
+    "title": "Sofwave rafforza la sua presenza in Spagna e Portogallo con Optimedic come principale distributore",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNY1FwWkFlTG5aWXJoS1ZhSzBoZzBibEhzWmthQmd6eEFaUEcyQWJZTG9RX2ktU1BMNjJPVElnMUEyS3lzd200X1RNd29MSGh0MEtSeFBxcGlnZzRoRjdHMEltbWE1c09OSHVhV004VGtzS0JXN0hudFpfN3h4bk1qZE5kaW9COUUtYkR6Ym1BSmZSQml1LVpZSmM2Mm01ODdPb3RKYWtTVFNBZjU5ZzM5Rm9xSkdCdE1jbXR6QkxrVm93OHhvYTJDc09laURyQ2RuVnlEZzJ5cUswM29qVkx0eUlKSE53VHE0LTZOUDVhd9IB7wFBVV95cUxNY1FwWkFlTG5aWXJoS1ZhSzBoZzBibEhzWmthQmd6eEFaUEcyQWJZTG9RX2ktU1BMNjJPVElnMUEyS3lzd200X1RNd29MSGh0MEtSeFBxcGlnZzRoRjdHMEltbWE1c09OSHVhV004VGtzS0JXN0hudFpfN3h4bk1qZE5kaW9COUUtYkR6Ym1BSmZSQml1LVpZSmM2Mm01ODdPb3RKYWtTVFNBZjU5ZzM5Rm9xSkdCdE1jbXR6QkxrVm93OHhvYTJDc09laURyQ2RuVnlEZzJ5cUswM29qVkx0eUlKSE53VHE0LTZOUDVhdw?oc=5",
+    "source": "Demócrata",
+    "pub_date": "Tue, 03 Nov 2026 15:18:50 GMT",
+    "matched_keyword": "해외: 이탈리아",
+    "is_overseas": true,
+    "country": "이탈리아",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [
+      "Sofwave"
+    ],
+    "competitor_product_mentions": [
+      "Sofwave"
+    ],
+    "categories": [
+      "HIFU",
+      "글로벌사업"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "Sofwave",
+      "Sofwave"
+    ],
+    "ai_ok": true
+  },
+  {
+    "title": "BrandPilot AI Announces Paid Trial with B2C Dermatology and Medical Aesthetics Brand",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNN0lTRXVOQ0NrVmhxQmZPSnZvMzlCVEVYRHM4QWRZWmZHS2VEYWJoOUtUdUJ3QjhGUVN0dHpwdS1OZ29nQlJnQVZGUVJfZnc5eTY0X1lta0dlOUFualhGNWwxaTNtY0k3djA2ZUItWF9tUW5jbnlOeXFPdVNyOFFza0ViTmR1R1dSNmZ4WFBfRWRnVEM2UWNIdVR4M3VlN2ViZkItMVhsb1pMaThIV0E5clpQTGl0YnBqaS04RlU3WmZCMkdXOThXXzAxakpycEpVamZPYzE4bTVQdHJ0VHdDdg?oc=5",
+    "source": "TradingView",
+    "pub_date": "Tue, 03 Nov 2026 14:08:00 GMT",
+    "matched_keyword": "해외: 시장·규제",
+    "is_overseas": true,
+    "country": "글로벌",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Sofwave refuerza su presencia en España y Portugal con Optimedic como principal distribuidor",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORFc0T0stRU1HbmN2TWdHcFdXNjNZeHNwbDdrSXdRM1dsSXkxQnMzbFFBR1ZPNUFXbzE5QUZ4S21VbmJUMVVNRE45YTBaWXlqSXFWbGd5NG9yNmx5SENhQ0VqOWN5ZXg0OWNHSVotY0lJdXRFU2NyVS1jb2lvQm5YUWZSOWs?oc=5",
+    "source": "Comunicae",
+    "pub_date": "Tue, 03 Nov 2026 13:43:39 GMT",
+    "matched_keyword": "해외: 멕시코·중남미",
+    "is_overseas": true,
+    "country": "중남미",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [
+      "Sofwave"
+    ],
+    "competitor_product_mentions": [
+      "Sofwave"
+    ],
+    "categories": [
+      "HIFU"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "Sofwave",
+      "Sofwave"
+    ],
+    "ai_ok": true
+  },
+  {
+    "title": "“Güzellik bir kalıba sığmaz”: Nouvelle Vie’den kişiye özel bakım",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQREhRd0VPcUVuNkRUYlpmMFpPbnQzenpGRnlnRF94SVlEWEhpRTIzUTBJdy02LUFiRlVKOXlyeWR6anFXZERpOEJvTnl5aWtSa3ZkaUtXRWZtZDZCNnJfNDNSM3RzREZnRlpQWGpLOUhQWW9iV3B6OTJ3ajk4SmdTSnlxbEJDQ2NXWHN2ZkR6cERqc2VlcXFGdURtMGd6amwxN2VRZEFOZ1TSAagBQVVfeXFMUERIUXdFT3FFbjZEVGJaZjBaT250M3p6RkZ5Z0RfeElZRFhIaUUyM1EwSXctNi1BYkZVSjl5cnlkempxV2REaThCb055eWlrUmt2ZGlLV0VmbWQ2QjZyXzQzUjN0c0RGZ0ZaUFhqSzlIUFlvYldwejkyd2o5OEpnU0p5cWxCQ0NjV1hzdmZEenBEanNlZXFxRnVEbTBnempsMTdlUWRBTmdU?oc=5",
+    "source": "Kocaeli Gündem",
+    "pub_date": "Tue, 03 Nov 2026 13:08:00 GMT",
+    "matched_keyword": "해외: 튀르키예",
+    "is_overseas": true,
+    "country": "튀르키예",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Quotas d'activité sur la médecine esthétique : la CSMF appelle à ne pas \"condamner les cabinets existants\"",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcTJhVU5HT1p4aHN1QmdTNk5WSVp0VFhqODNFZ0F0RXdsSGdTcUpGeDRCbTB3R1JJOVpTV3N4Y1UzYVF1N094SnA0U3pFY0VQSUkwTGVKNTVlU244ZnM1OXF0X2JFeW1KNFFFTlYzeXFrZzB6SFhxaXN4QnVHTlB6UGZHWW91Vi0zMXNPbUxzNE9LRU5jNTJaSFBrRjd1NTlxUmoyYWd5c0ttRnB0SFZEVzR1YkJEMjlKbUE?oc=5",
+    "source": "Egora",
+    "pub_date": "Tue, 03 Nov 2026 11:47:00 GMT",
+    "matched_keyword": "해외: 프랑스",
+    "is_overseas": true,
+    "country": "프랑스",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Tendência glass skin: \"Uma pele bonita não tem de estar livre de poros\"",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUENkTkZRMmgxVUp6aTJkTGRBTTc1NS0ybnF0aExVWlJaakxfU1hhNEdMcVgwdkdZRUh6dlFSMTJ5a2cwTW1tQXRSeWNWNlNjTkdmajJRaTRFcWo2eGFyWGhaV0RXMFR3UnJwRnJERzNfS3dRME9GU2U2ZkV4a01fQVVHYWhiRHhwLWZReUZfNmhRUFZxT0NPNnR5WnhpQUNKak1Bd21IeGpBMHEtakpwUWFnWEtkTVJBVDNN?oc=5",
+    "source": "Notícias ao Minuto",
+    "pub_date": "Tue, 03 Nov 2026 08:33:00 GMT",
+    "matched_keyword": "해외: 브라질",
+    "is_overseas": true,
+    "country": "브라질",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "에이피알, 뷰티 디바이스 성장에 제동…신제품·해외서 돌파구 찾을까",
+    "summary": "에이피알 관계자는 \"뷰티 디바이스 시장은 아직까지 아시아를 중심으로 형성돼 있으며, 타 지역에서의 신규 수요를 지속 창출해 내야 하는 상황\"이라고 밝혔다. 회사는 구매 부담이 상대적으로 낮은 화장품으로...",
+    "link": "https://www.bloter.net/news/articleView.html?idxno=677560",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 03 Nov 2026 16:10:00 +0900",
+    "matched_keyword": "뷰티 디바이스 시장",
+    "categories": [
+      "시장동향",
+      "신제품·출시",
+      "글로벌사업"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "포텐자, 개인별 피부 상태에 따른 맞춤 시술 계획 중요",
+    "summary": "시술인 '포텐자'에 대한 관심도 높아지고 있다. 다만 시술을 결정하기 전에는 기대 효과뿐 아니라 개인의 피부 상태와 부작용 가능성, 회복 기간 등을 충분히 확인하는 과정이 필요하다. 포텐자는 미세 침(마이크로 니들)을...",
+    "link": "https://www.hemophilia.co.kr/news/articleView.html?idxno=45451",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 03 Nov 2026 15:38:00 +0900",
+    "matched_keyword": "포텐자",
+    "categories": [
+      "RF Microneedling"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [
+      "포텐자"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "포텐자"
+    ],
+    "ai_ok": true
+  },
+  {
+    "title": "제이시스메디칼, '포텐자 BASIC' 일본 추가 승인",
+    "summary": "제이시스메디칼의 고주파 의료기기 '포텐자 BASIC'이 일본에서 사용할 수 있는 부품 구성을 확대하는 추가 허가를 받았다. 제이시스메디칼은 일본 후생노동성(MHLW)으로부터 포텐자 BASIC의 의료기기 제조판매 일부 변경...",
+    "link": "https://www.biotimes.co.kr/news/articleView.html?idxno=35873",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 03 Nov 2026 15:18:00 +0900",
+    "matched_keyword": "포텐자",
+    "categories": [
+      "RF",
+      "RF Microneedling",
+      "인허가·규제"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [
+      "제이시스메디칼",
+      "제이시스"
+    ],
+    "competitor_product_mentions": [
+      "포텐자"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "제이시스메디칼",
+      "제이시스",
+      "포텐자"
+    ],
+    "ai_ok": true
+  },
+  {
+    "title": "South Korea's GC Wellbeing Breaks Ground on Filler and Skin Booster GMP Plant in Eumseong, Targeting 2027 Completion",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4tSmdXbDZTT01uZGJOUlo1SFk2cTRSOG5sdC1kZm5DWTdWRXJNa2dxS005M1ZOQXFEOHRaV3NHU1dPMllpOGhYeE1TZHRGdnAxQTVFbnNQQnROcEh5Ry1iUkVjY01vODZSeF9HYmFHcDZqUFdJc2c?oc=5",
+    "source": "BigGo Finance",
+    "pub_date": "Tue, 03 Nov 2026 05:55:00 GMT",
+    "matched_keyword": "해외: 시장·규제",
+    "is_overseas": true,
+    "country": "글로벌",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "[글로벌 승부수] [휴젤] 차세대 톡신·필러에 신소재까지…다변화 속도",
+    "summary": "이미 독일 멀츠의 제오민과 메디톡스의 코어톡스 등 복합단백질을 제거한 제품이 상용화된 만큼 향후 임상에서 기존 제품과의 차별성을 확보해야 하는 상황이다. 또 다른 차세대 프로젝트로 꼽히는 E형 톡신 ‘HG401’...",
+    "link": "https://www.topdaily.kr/articles/112661",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 03 Nov 2026 14:43:00 +0900",
+    "matched_keyword": "멀츠",
+    "categories": [
+      "학회·임상",
+      "글로벌사업"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [
+      "멀츠"
+    ],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "멀츠"
+    ],
+    "ai_ok": true
+  },
+  {
+    "title": "화장품 관련주, 해외 시장 다변화 기대…네오팜·마녀공장 화색도네",
+    "summary": "제이투케이바이오와 라파스, 피엔케이피부임상연구센타, 파마리서치, 클래시스, 동국제약, 동구바이오제약, 네이처셀, 제닉, 바이오비쥬, 셀로맥스사이언스, 메타랩스, 차AI헬스케어, HLB펩, 강스템바이오텍, 케어젠...",
+    "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=500932",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 03 Nov 2026 14:36:00 +0900",
+    "matched_keyword": "클래시스",
+    "categories": [
+      "시장동향",
+      "학회·임상",
+      "글로벌사업"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [
+      "클래시스"
+    ],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "클래시스"
+    ],
+    "ai_ok": true
+  },
+  {
     "title": "제이시스메디칼, 고주파 의료기기 '포텐자' 일본 추가 승인",
     "summary": "포텐자(POTENZA) BASIC'이 일본 후생노동성으로부터 일부 변경 승인을 받았다. 기존 승인에 더해 팁과 핸드피스 등이 추가되면서 일본 시장에서 제품을 운용할 수 있는 범위가 넓어졌다. 제이시스메디칼은 포텐자 BASIC이...",
     "link": "https://www.news1.kr/bio/healthcare/6341241",
@@ -117,6 +645,34 @@
     "competitor_product_mentions": [],
     "own_brand_mentions": [],
     "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Sylfirm X Highlighted as a “Restorative Foundation” for Combination Treatment of Problem Skin at AMWC China 2026",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5HazR5TFFXNVMtMTljcUVUN1h0ejZ2Q2ZhOVJiN1ZwTG91WDNla2lOY3hYemtlNjFCNVhKb1RTcGN4dnk3QWY5bkJLc1NIei14Q2VGVWVuUjh1X3UtMGVCREpISnZfME1rSll4N2E1bENFdw?oc=5",
+    "source": "Medical Aesthetic News",
+    "pub_date": "Tue, 03 Nov 2026 01:39:54 GMT",
+    "matched_keyword": "해외: 업계 동향",
+    "is_overseas": true,
+    "country": "글로벌",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [
+      "Sylfirm"
+    ],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "Sylfirm"
+    ],
     "ai_ok": true
   },
   {
@@ -631,6 +1187,30 @@
     "ai_ok": true
   },
   {
+    "title": "HelloNation Article Featuring Facial Rejuvenation Expert Dr. Sherif Salama Explains How Botox, Dermal Fillers, IPL Treatment, Microneedling, and Skin Tightening Address Common Signs of Aging",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxNd09vOFhTUTFkRE11aUhUUFVDR3J0V3c2T2dHRFRidEtNSk1URWU5d1hHSGRfcUMwRkFhVnB2d2VueDhYUFFVcm02Y0t1TWdLS1Bwdm5aZENSN1Q1RlU4Y19YNl9YcUx3cTI5cVJuYU5iX3BTQ21RUFBkSlJ5ZFFPdjNTQTBQRkdvcXNqaHlBVTRDWjNtNnpSNnFtYUg2MzVudTFkY25FWDZMbnRmNVlXTXRhbjd4aG00WVpGSXN5ZFY1amF3NjNzVExNRFB2cG9Rek9fanV2WFhyZnlGQ29fTThrNldDQkU0SDdqaV9JQU0yUlAxcWFYN3d5cWhBb04wZ2V4UERCbERZWTMzMzRSSHBJcm5DcVA1OVhhejdvVWJpWnNIb18wekJKNlZqaHBSblpWckpycUtYYjZrRXAxNEpMTmJ1ZFpGeEJDVGJ3UGlFa1J1NzFMWkdNMWJYdw?oc=5",
+    "source": "PR Newswire",
+    "pub_date": "Mon, 02 Nov 2026 18:48:00 GMT",
+    "matched_keyword": "해외: 호주",
+    "is_overseas": true,
+    "country": "호주",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "RF Microneedling"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
     "title": "The Art of Subtlety: Thermage FLX at Riko NYC",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNVJuU2RtcmZHWWZ2aVdjNVVObkROZzI0RXYya2g0R0tmNkFDOWJaMWFIcXBxc1BQT1ZpSVVLa29DSGx4eWpGZUxRM19rS0FoTFhrWGhtaDhROTF1bVZvN0tlWldDYW5VXzZBN09HV1Rvc0pMSHRFU2g4X21pZGEzNWNNdVBId2Y0U2ZlcGR6V3BlX3NycW1iOFVR?oc=5",
@@ -683,6 +1263,30 @@
     "ai_ok": true
   },
   {
+    "title": "Video: Bec Judd reveals her 'collagen-boosting' skin-tightening treatment",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQRXM5X1VscGZLZmdnTjRoUC01NXZwd2VvYlBjdFRFU2RUZmpLQ1BHYmRWaFFjNVdIX1l5bUdRNDcyam1IajVpSllsVXJkYnUzek9mcV9nMUNEWldIM1NPaEc4RlpXcGI0cldJYlNZTnRteThEYV9LckNEdDBYY0tPcVZzY205WmxtWGpKRFpyMTFmRVozb2VleFZ6UnlkYU81dWhzdGx3bVdRYjhxX1J6TVlvTGlQQlpvcm1wR1JIV1lfbzFHUXMxbW1NSGQ?oc=5",
+    "source": "Daily Mail",
+    "pub_date": "Mon, 02 Nov 2026 18:23:12 GMT",
+    "matched_keyword": "해외: 싱가포르",
+    "is_overseas": true,
+    "country": "싱가포르",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
     "title": "Dra. Mariana Álvarez: medicina estética enfocada en la naturalidad y la calidad de la piel",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOSzNMLWY5THFVT3pIc013MTJYU01yNDFwRlM3U2dkMU1BUG5aNndqX01BWUlsVjh2bkJJeUNkbkhQbEtXcmxyMVQ1NE5wQzJadFg1T3B6WldIeXpkdGx3OE9iYXpEY2V0ZkdUdHRMbWo2b3Fma2hsWS1PeXVrVmxicE5uNFJKNTFSLWZCbUxHaFZPZ0JXUFBFM1pJRDdvY3pCZjBrR1FudFpYZDc1Z21qWExXajRETVdTRUdSUVFXcWFfX3cxc3VMVVUtcGJ4eDk1X2VmNkIwZklYb1HSAdsBQVVfeXFMTkszTC1mOUxxVU96SHNNdzEyWFNNcjQxcEZTN1NnZDFNQVBuWjZ3al9NQVlJbFY4dm5CSXlDZG5IUGxLV3JscjFUNTROcEMyWnRYNU9welpXSHl6ZHRsdzhPYmF6RGNldGZHVHR0TG1qNm9xZmtobFktT3l1a1ZsYnBObjRSSjUxUi1mQm1MR2hWT2dCV1BQRTNaSUQ3b2N6QmYwa0dRbnRaWGQ3NWdtalhMV2o0RE1XU0VHUlFRV3FhX193MXN1TFVVLXBieHg5NV9lZjZCMGZJWG9R?oc=5",
@@ -712,9 +1316,9 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSnlhbHBLYi1uOWtieE1BVFItMGtYSHZJd3d6U3U3eWhROG8yLUYxZHBCZTZ1RDdjX2l0T05FcEZiZWtOVE9URWxIZGlKdXNOWE5jMTlUR2tyQklzM080YVFfMkh3R1hoN1dkRlkyVzNjWU04bDBpMEx3N09YTnR5dV9qby1hWHRpY1dYVVZqNVhZaktNUWF4UEkxNA?oc=5",
     "source": "openPR.com",
     "pub_date": "Mon, 02 Nov 2026 15:20:26 GMT",
-    "matched_keyword": "해외: 중동(영문)",
+    "matched_keyword": "해외: 호주",
     "is_overseas": true,
-    "country": "중동",
+    "country": "호주",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -787,6 +1391,30 @@
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNdTlPejV0Z0ZuWEw0amY4YWhJTDlaaVMxYk8tNlRyUHEyM19PY0VfSHFxV2tYbElmTmFJZjJXaG11ODBVUGRib3B4RDhVemFxU29Zek15dHFIVXFWb3NJNWlvQUFwN1JYVkFBWTJXLVN6bmlPSk9WSVQyYnhPdmVESFdTMTNvUkxlaUFyMUFTZHVTYnloRlNEM0hkWnFkS3Y1dVRwNlo4NXltbkZwSFJpcHh5VQ?oc=5",
     "source": "Frankfurter Rundschau",
+    "pub_date": "Mon, 02 Nov 2026 10:10:00 GMT",
+    "matched_keyword": "해외: 독일",
+    "is_overseas": true,
+    "country": "독일",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Hautstraffung ohne OP: Was Radiofrequenz & Co. können – und wo sie scheitern",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOb2J4RUxVbG5UWGVQOFQxMjFmSjRhWWtoRUpHY0Q0SVE4MXk5ajY5R2R6Y1dfcWlfRHZMbHRTLWNTLUJOVjlHTHJ6WkpPcUNEbTE5RWVHS1VSNjVtTUJnTHNvT2ZsQnBrXzNYVlo1b194YTI1QXZHMTBsTVB0TWtNQWExaHg4SzRwb1VJWlB0eXFLbE9YRkZVbXdXVTRiQlVHUWdMalRZZTFuWkdFU21fSHF4RU1ITG9nbGRCNVdEYzlWeU05VXotdFlRbXY0M3hsVDZN?oc=5",
+    "source": "Soester Anzeiger",
     "pub_date": "Mon, 02 Nov 2026 10:10:00 GMT",
     "matched_keyword": "해외: 독일",
     "is_overseas": true,
@@ -995,6 +1623,30 @@
     "ai_ok": true
   },
   {
+    "title": "مؤتمر الطب التجميلي سام 2026 ينطلق في الرياض بمشاركة 18 دولة",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYUZWY3UyVEdNYzhacXM4VnhXbzJQd1ZzNnhxRU1oV0s0UEVtbGpHd1BmODZCZjZCUFpVTF9Cak1mYXdESFJYVy1qb0ZqYnJqbElvSTVQVkVjaG1uaE5QLWVqOVIyYko0YXFjbkJrSThCUjNjWGwzTEhQRklxUUNhVFlBaTdhTmt3cF9sbDRDb2RZbDlTSG5VUmlFSC1hMlhXUmhuRzdHdk9aOXZLMEYzWHlLdw?oc=5",
+    "source": "أخبار السعودية | saudi news",
+    "pub_date": "Mon, 02 Nov 2026 08:00:00 GMT",
+    "matched_keyword": "해외: 중동(아랍어)",
+    "is_overseas": true,
+    "country": "중동",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
     "title": "유재형비뇨의학과 유재형 원장 \"비뇨기질환, 환자 상태에 따른 진단과 ...",
     "summary": "대표적인 수술법으로는 홀뮴 레이저를 이용해 비대해진 전립선 조직을 제거하는 홀렙수술(HoLEP)이 있다. 이 밖에도 수증기 열에너지를 이용하는 리줌수술, 아이틴트(iTind) 시술, 전립선결찰술 등 다양한 치료법이...",
     "link": "https://www.stardailynews.co.kr/news/articleView.html?idxno=601112",
@@ -1041,32 +1693,6 @@
     "own_brand_mentions": [],
     "competitor_mentions": [
       "멀츠"
-    ],
-    "ai_ok": true
-  },
-  {
-    "title": "2PM 닉쿤, 콘서트 앞두고 피부 관리 근황 공개…‘오후셋이’서 쿨소닉...",
-    "summary": "이 과정에서 닉쿤은 준케이와 함께 ‘쿨소닉’ 시술을 받고 왔다고 밝혔다. 멤버가 얼굴선이 달라 보인다는... 이번 쿨소닉 시술은 약 10분 안에 끝났다고 자신의 경험을 전했다. 이어 나이가 들면서 느끼는 얼굴 변화에...",
-    "link": "https://isplus.com/article/view/isp202611020161",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 02 Nov 2026 16:26:00 +0900",
-    "matched_keyword": "쿨소닉",
-    "categories": [
-      "신제품·출시"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [
-      "쿨소닉"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "쿨소닉"
     ],
     "ai_ok": true
   },
@@ -1425,30 +2051,6 @@
       "솔타메디칼",
       "써마지"
     ],
-    "ai_ok": true
-  },
-  {
-    "title": "VIP동물의료센터 동대문점, 비뇨기종양클리닉 출범…\"증례도 확인\"",
-    "summary": "초소형 내시경으로 종양 조직검사, 홀뮴 레이저 종양 절제, 스텐트 장착을 한 번에 진행하는 원스톱 시술이다. 마취 부담을 줄이고 빠르고 안전하게 치료를 마칠 수 있다. 수술 후 항암치료를 통한 사후 관리 시스템도...",
-    "link": "https://www.news1.kr/industry/general-industry/6339763",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 02 Nov 2026 11:58:00 +0900",
-    "matched_keyword": "홀뮴 레이저",
-    "categories": [
-      "Laser·Pico",
-      "Surgical",
-      "비뇨·결석"
-    ],
-    "segments": [
-      "써지컬"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [],
     "ai_ok": true
   },
   {
@@ -2420,6 +3022,30 @@
     "ai_ok": true
   },
   {
+    "title": "Câncer de próstata é silencioso: sintomas só aparecem quando já avançou",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbVVGU0FhNjh5Rk5DbUVTZjZRYWRKS1lLamVlcldzR3FQTjJXS0I4NndPcFRETktGSmVyRVYtOEQ5cURpVjFmU2VoWTVmYkRZaEJZaEs0WlpRZ1lZSjAzNkRWTGN5VzdxdXRXS2xaTlFUV2RHS0R6Q25VbVMzbjdSY0dnSlhQMW1Y0gGIAUFVX3lxTE9tVUZTQWE2OHlGTkNtRVNmNlFhZEpLWUtqZWVyV3NHcVBOMldLQjg2d09wVEROS0ZKZXJFVi04RDlxRGlWMWZTZWhZNWZiRFloQlloSzRaWlFnWVlKMDM2RFZMY3lXN3F1dFdLbFpOUVRXZEdLRHpDblVtUzNuN1JjR2dKWFAxbVg?oc=5",
+    "source": "Tribuna do Paraná",
+    "pub_date": "Sun, 01 Nov 2026 20:59:00 GMT",
+    "matched_keyword": "해외: 브라질",
+    "is_overseas": true,
+    "country": "브라질",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
     "title": "Médecine esthétique clandestine : danger mortel",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYTFKUms4RnRZWGkwMjEyazBlMHM1MUlzLXI0TmJSWnhvQzF4TnRTRkczdzZpdnRjWEZTR0Y2N2l5aDJEajA1WHB2ZTRkSWpfTzV0ckoybXlfbWd5U0VvLXRMX0tXTDNSMnRSMEhIaVU5bWx1WUEtTVZ5QlJCVFcyZEJKMk1kXy1WNGlIZld0dTBuLWRiOW1QbEowNGgyRWlSRnBV?oc=5",
@@ -2429,6 +3055,30 @@
     "is_overseas": true,
     "country": "프랑스",
     "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Alex Hickman's Skin-First Approach at Nude in Napa",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZEJrUWl0QVFuRHphem5jMTFXWWl3cjhsYkZqUmFVQ01LRFVFU19XX25QNEtOU3QyNVRmUDhGaWVlSnBlMmh2OG1hR19WZEFkLUhxQnEtajBYa0hZR0Z5UHhuVk5FRlR0UExyYlQ2T3JGam52SHU5OWlTUFdva1dlS2ZvcFNQUTAtNUpjUlduZG5SaDZXeTlhZFJVMEpSRGxMRngyOUFYcmQyLU1UYU8tT25haVJJUQ?oc=5",
+    "source": "Haute Living",
+    "pub_date": "Sun, 01 Nov 2026 17:46:01 GMT",
+    "matched_keyword": "해외: 업계 동향",
+    "is_overseas": true,
+    "country": "글로벌",
+    "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
     "competitor_company_mentions": [],
@@ -2520,30 +3170,6 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYVFwV1hUZ3VwQTZnY0lwSTBwWHpJMlA4ei02UkEzekp2N0NYcFNZY1E4SEIybkF6Y2RyVUk3UUNxRFhKNk5JOVpzZWxnTk1LbWtPakJjQ1lBT3VOVWJSOVBDWnVyb0lKeUJFOFB3QWVxdXRTVTg5blU2ci0tRmJxcXFGZmhfaF9nMWIxZVhWbld3RmpsekHSAZsBQVVfeXFMT0VlbGtOSXdaQWo1VzdId0NHeGU1cGRuMm1tTEhIY21lbUVBUlhyX0dNTS1nOXZWU3NwVzY1Ny1CeHBsLU56UERpb2ZmZUt6RXJ1dWEzSlVtaE1CejhXNzhVZThPWHU0Q3pzTFZ4V2NVZWxDT2FlYVgzcHVHalI1LXhicXl6SktjZjJvU2tlLXZ3R2haT3h5eWlkTVU?oc=5",
     "source": "Le Matin.ma",
     "pub_date": "Sun, 01 Nov 2026 11:21:00 GMT",
-    "matched_keyword": "해외: 프랑스",
-    "is_overseas": true,
-    "country": "프랑스",
-    "local_lang": true,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
-  },
-  {
-    "title": "« Sperme de saumon », le dernier buzz beauté",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVThkN3hQTUlwZDVjMjh3em1lRHpLUWFlbzVIRTVUbDllRTl3UjFLSl9sbjdhM3FOS1RkWUJaVGdHelFYRk4yU2YtdHpwMTNMRHdkcVJaQ3VuUGV2TV9Tdk1ITEwteFdKVG1PNk5oSXh6TUpPWmlpVm5fNDFLUl9ZS2JIZXlKWUcycTZiOWhkT2s5MU5iT0E?oc=5",
-    "source": "Les Echos",
-    "pub_date": "Sun, 01 Nov 2026 11:10:07 GMT",
     "matched_keyword": "해외: 프랑스",
     "is_overseas": true,
     "country": "프랑스",
@@ -2884,30 +3510,6 @@
     "ai_ok": true
   },
   {
-    "title": "Irish men keen to copy Barry Keoghan’s skin-tightening treatment",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOU2pNRUxkbXFva05SNU9CcWZqbFdSVkxyaTZGYnM3cU5hbUlQcTNTaFVHd3pVOXgwb1dtSm5nUzY2U1Y5Y3hrYXFJbHZfNW1uR0FIbDNLbUFuRnp3OUtUcDFlTjFuekRqbVNWaWxfeUhuNDlVY3IxU0Q0RXBRX0JjVXhsMFZNbkJkRS1NZ09zaTl0SGhnWFRfaGRtUkRVRGpzNWRN?oc=5",
-    "source": "The Times",
-    "pub_date": "Sat, 31 Oct 2026 21:45:00 GMT",
-    "matched_keyword": "해외: 영국",
-    "is_overseas": true,
-    "country": "영국",
-    "local_lang": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
-  },
-  {
     "title": "[단독]'활동 재개' 김수현, 드디어 결론..광고주 28억 소송 내년 1월 선...",
     "summary": "김수현은 프롬바이오, 클래시스, 쿠쿠전자, 트렌드메이커 등 여러 업체로부터 총 100억원대 규모의 손해배상 소송을 당한 것으로 알려졌다. 사생활 이슈로 이미지에 타격을 입었던 김수현이 자신을 향해 폭로성 방송을...",
     "link": "https://www.starnewskorea.com/star/2026/11/01/2026103116082747381",
@@ -3056,6 +3658,30 @@
     "ai_ok": true
   },
   {
+    "title": "Ángela Ballestero, doctora en medicina estética íntima masculina: \"Más de la mitad de los hombres tienen una erección en consulta. Sí, sí que pasa\"",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPelJqR0tyRUFxajlvTHZsU3ppWG5ybXA4ZW1nSzhuemVud0Y1MXd2ZXEtREF0TUhQc2pzMUpjdEdsVmdBNTYzYVNzVkxZZVBWRnZKOHZFRFdBN1hJZ1VSZzlsdEZ0Q1NxTmwzMlh5UUtaVzNnMGRyczFGWW5vS1oxN0RCV3RhWW4wclh2Z1F0UzllV3JRSWNHcmJVZEJiTC1xNnJpa3h2a1pDYkNTYTFMclNPdmlqTkp1ZWJfZ2MzQW5aTmZHRkU3dWZqRE5YRGs?oc=5",
+    "source": "El Confidencial",
+    "pub_date": "Sat, 31 Oct 2026 13:45:00 GMT",
+    "matched_keyword": "해외: 멕시코·중남미",
+    "is_overseas": true,
+    "country": "중남미",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
     "title": "Dra. Beatriz Beltrán, médico estético: \"Una boca puede ser carnosa y resultar muy natural, lo que importa es su proporción con la nariz, los pómulos y el mentón\"",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPN25HX2dxTElBV0cyOUVaNmRfN2RqV1RvV1l1Yk1odUstSmM2d294VloxWGczZURmVTlpdU83eUdqR2lXRnRRUzc5V2ZJLTFxOS1MWXVGajZEX3hEbmNheDM1Um5VR0pXeWMxSlVkMUpTRTlHck10eWo2S19rOXkxbW13b2FtTkthQ2VydnJzZVdqQTlRMnZiVWpudlZTa1gyVW03N0M2NVhfQlU1SEF4Xy1nYw?oc=5",
@@ -3137,6 +3763,54 @@
     "is_overseas": true,
     "country": "중남미",
     "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Margarita Esteban: “Las mujeres no tenemos que justificar nuestras arrugas”",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOExoTFRKbHVnNkw4N2h5UHhHa0FwNHVUbDdId3ZLQU04OThRTWJJNG13Z1ZhOWxjQVZlakVPMEFpMkRMLXpWVTdzZXR2UkFCalZfd25hbDdzX0pYV1dxSUtmZEJNcko0aUlya1FEWWVKQmpRVGtMNTA2RkU1Q3Y3RkNyM1JnRktJeHR1UUR3ekNrZXUxcHVRSHRzd3VIemtPZDZXYXZwdUZGaHRLTUotT2FKQnRTcWlIbDY1SFFPQmp0WGPSAcgBQVVfeXFMT045WjNZcWlUQ0ttRmhablpRZXRSN1FrYVNNWGJRblNsVkhwUDV5MWsyU005dFBoTUoxWUh3anN3a3k4b3pSUDE4T3ZqQU1iakFISW5md2xHOEJxajdmZTJPcnhPYVhLVUJaX0lTYzdXS1pWaFZ2emNuZW42eFlvWFlzYVBmalQteFlMbkl6djBOc3pXdU1FRkg3WG1UdEpfWEI2QVBQWjVrcEZuTEtzVzdwajBreFR4Vk5CTmpJVWZkTHh4b3VsU0E?oc=5",
+    "source": "Diario de Noticias de Álava",
+    "pub_date": "Sat, 31 Oct 2026 12:00:23 GMT",
+    "matched_keyword": "해외: 멕시코·중남미",
+    "is_overseas": true,
+    "country": "중남미",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Utopian Skin owner grows medical aesthetics business in Green Bay area",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNVozRHdsUEtXd1g4ZjhfcWxpamlRa2RNMGMyREFMU2lQYUd2QUJ6eWdVMVUyQWxWZktYRlEtYW9tWUtQcExRRUU2dzJIYjM4ZVlDRDB3TWRiYncwOWFiaXF3UmxzTnlfMHhHbHFzamJkbnpIUUxIWFhpYmxNdFFoa3VCWTVjazhlaWhSR01pSmpFRTVJamZIUmE2YnlUMzljeHlyNUxGb3NnZnhadWFDSkk0VFJNcUdxUXc1X2E5VUdzZFN6eU40T3lFQVdXZFRjc2txNw?oc=5",
+    "source": "Green Bay Press-Gazette",
+    "pub_date": "Sat, 31 Oct 2026 11:00:00 GMT",
+    "matched_keyword": "해외: 시장·규제",
+    "is_overseas": true,
+    "country": "글로벌",
+    "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
     "competitor_company_mentions": [],
@@ -3277,9 +3951,9 @@
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE94Sll1X2tGNWQ0MGlPWTZVSGlacWlUMlJZa1IwZzlXVC1ObTBKcTh6OFotT3BIQUZWbXdibDFxSFZua1VxMnlaZzVYNnBYQTNpM0E0UGh1VFo0QTRxVE1xTjBMdm1lUUVzNFpubUMteGhRSHgxekttRGxBcUN2UQ?oc=5",
     "source": "Yahoo Lifestyle Singapore",
     "pub_date": "Sat, 31 Oct 2026 06:00:00 GMT",
-    "matched_keyword": "해외: 인도",
+    "matched_keyword": "해외: 기술 트렌드",
     "is_overseas": true,
-    "country": "인도",
+    "country": "글로벌",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -3393,54 +4067,6 @@
     "ai_ok": true
   },
   {
-    "title": "Kim Kardashian shares glimpse of her $3.5K skin-tightening treatment instead of plastic surgery",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTHI1UHp5bVF6N2laZTBuMTllT2pNNGVtbFp2OUFqb29vR254UHp5cG55M1JQSHoxZW5ick0wWm1xQmhabUFKV2dOWWtsMVUyckxlLTRJVk1zaWdiaXQtNDk0TDZoaUw0dGFWTkpFekpkcHA5b2U0WWVzQW5ZRzZ3OEhxWmR3dw?oc=5",
-    "source": "AOL.com",
-    "pub_date": "Fri, 30 Oct 2026 22:46:15 GMT",
-    "matched_keyword": "해외: 영국",
-    "is_overseas": true,
-    "country": "영국",
-    "local_lang": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
-  },
-  {
-    "title": "Barry Keoghan Documents Skin-Tightening Treatment, Months After Addressing Online Abuse",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8tRVFuTVVTcVc3N3licWJCUGFIVF9oNHNCZDNYeE9qLUtneFN4a0NyRlVzTnBycnRhRTI5MUoySEN6bXp3bTA1X01Gb0ZyeFNxaVQxQzk3amJTelhXT0c1aTBjNU42clk?oc=5",
-    "source": "IMDb",
-    "pub_date": "Fri, 30 Oct 2026 22:45:50 GMT",
-    "matched_keyword": "해외: 영국",
-    "is_overseas": true,
-    "country": "영국",
-    "local_lang": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
-  },
-  {
     "title": "[AT 체험기] \"자극 없는데 광채가\"…앳홈 ‘톰 더 글로우 시그니처’",
     "summary": "최근 홈 뷰티 디바이스 시장에서는 고주파와 초음파 등 다양한 에너지원을 활용해 탄력과 리프팅 등을 관리하는 제품들이 잇따라 등장하고 있다. 이 가운데 더 글로우 시그니처는 강한 사용감보다 물방울 초음파를 활용한...",
     "link": "https://www.asiatime.co.kr/article/20261030500240",
@@ -3492,54 +4118,6 @@
     "ai_ok": true
   },
   {
-    "title": "Barry Keoghan, il volto cambia e lui confessa i trattamenti estetici: «Mi sento meglio». Dopo gli insulti online, la scelta dell’attore di Saltburn",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOdEFPamdLNGFRRDhtclBLUFJBRTdRZlZ3RTB1QTd4M19Zd2NNVzlfSTRCc180eGNDZzg1U2tjcVk1bGN5WEhibm9iVW5zSHZxNEZFVzNwV2RfN0o4aUxvM0VLSG5OZGQwaGVUNDZTcWlWbjdvb1dMS0p2RktNMFBNRzF4cllIMmNRNUJmN0VJRGRqOV9TUmFBOTU4b1B5R3p0YzJmaFA5QnZxYndUX0FFR2tYaVZBRmJxVVgtbjZFTS1yclE5VXZNMkZWajNwLWV2ME5EeGo5bzNyYnZwRUI1czUwVVctLVpVajhtQTJQSTEwM29XaTMxTmpGWFdCcWZVWHIta1RieGV1MERlaFJ2aXpsU1diZWtralHSAZoCQVVfeXFMTnRBT2pnSzRhUUQ4bXJQS1BSQUU3UWZWd0UwdUE3eDNfWXdjTVc5X0k0QnNfNHhjQ2c4NVNrY3FZNWxjeVhIYm5vYlVuc0h2cTRGRVczcFdkXzdKOGlMbzNFS0huTmRkMGhlVDQ2U3FpVm43b29XTEtKdkZLTTBQTUcxeHJZSDJjUTVCZjdFSURkajlfU1JhQTk1OG9QeUd6dGMyZmhQOUJ2cWJ3VF9BRUdrWGlWQUZicVVYLW42RU0tcnJROVV2TTJGVmozcC1ldjBORHhqOW8zcmJ2cEVCNXM1MFVXLS1aVWo4bUEyUEkxMDNvV2kzMU5qRlhXQnFmVVhyLWtUYnhldTBEZWhSdml6bFNXYmVra2pR?oc=5",
-    "source": "LaCityMag",
-    "pub_date": "Fri, 30 Oct 2026 18:41:15 GMT",
-    "matched_keyword": "해외: 이탈리아",
-    "is_overseas": true,
-    "country": "이탈리아",
-    "local_lang": true,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
-  },
-  {
-    "title": "Kim Kardashian copies Barry Keoghan as she undergoes same $3.5K skin-tightening treatment",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMi1xZXFuODFYVHcwVFJ1d1ZVR25GR3ZHWGg2YWFuYUQ2ZHVtbXZERmtDMWVHOWdjeHBfOHI1c2dMeTNzMTZQQVFRd2JPTUxnVVV4X1pkZkp4N0lVSzNlWEszem95MzllcG5NeGp0bThTOUo2ZlNVdVdFSzhPR0ZiVkRSa0ZoTDhha2dtbjdUZFBqZ1ExLVRn0gGcAUFVX3lxTE5ST0lGOEwwU2ZIRmJoS2ZCazR5Umo5ZXBIck1NUFR0YmhGbURGOTdMTVppWm4xVTF4cUZiN0Z4azVQU0RwTkdfemxsN281b1RNSWVFSFNrUGp6Wm1aMGlVcmdhbnNtRTVpSXdiOV9tNmI5dDRyNXZEUmM1WDdlTHhaenpEbFE1UFB0bmpnTG0tOUdSM1J6V3dvTHIxUQ?oc=5",
-    "source": "Irish Star",
-    "pub_date": "Fri, 30 Oct 2026 17:01:00 GMT",
-    "matched_keyword": "해외: 호주",
-    "is_overseas": true,
-    "country": "호주",
-    "local_lang": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
-  },
-  {
     "title": "Menos es más: la nueva era de la medicina estética natural",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOblU0Q2IxaUFoYmw2R3ViOGp5My1mSWZCU0hiMm9UdVNtVmFGNlRVaW5LZFJZdGMxTGMwQ0pEajE1Ri1UUHRmZzJYN1BidTYwSHlaMWl6UWJ2cDZLZVFVX0g4Y0UtUHJ6dG1LY0xZVUZHWDRBcGFaaExFcG02ZWdRcEtnRUMxZi1hUDZCRl9FdVFjZ0k1cUluMklHeXhEVUZRWWdKNEJIRjM?oc=5",
@@ -3549,30 +4127,6 @@
     "is_overseas": true,
     "country": "중남미",
     "local_lang": true,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
-  },
-  {
-    "title": "Kim Kardashian Showed What Her Makeup-Free Skin Actually Looks Like Before And After A Wild Cosmetic Treatment",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxONjB3dEtDX1VIcWNPMWNCLWVBMHN4SzJqY3hockZHR2lhTjBoVTFHaGptZmlZNkpYQVBwcEJNTGRXRFE1ek5feEJQT09hc2Q2WWpCWWZnWVNmWFFlbXV2VURwaGxZMlFWMlR4dk56RXh2ZFpQNXd3WUVGX0R0TVpYd3dVRV9pNnFUTjRrZWhzX09tdmNMTkxRTFlBOA?oc=5",
-    "source": "BuzzFeed",
-    "pub_date": "Fri, 30 Oct 2026 15:38:45 GMT",
-    "matched_keyword": "해외: 영국",
-    "is_overseas": true,
-    "country": "영국",
-    "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
     "competitor_company_mentions": [],
@@ -3631,6 +4185,54 @@
     "categories": [
       "RF",
       "RF Microneedling"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Medicina rigenerativa, nuove frontiere per le cure: a Milano il congresso nazionale guidato da Massimo Danese",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOdE1saGh1WEs3NGJ0cmJ0amN5anpEbnk4dU41UzVNTzBkb0gza3BLZjE0aUEyRERNcll5cjlUdVh3dkdiakg0TThvcEZZaDc0dnBndHV2UGhpbXNIbjJnaG51NDFKQVlNR1c1RGo1Rkw3MjFYazFYVXhuYThGaUxHbFdUNVI1X3dDWkNnMDBLalBjaFNYbjlTemxzeG9WR0N4T2VyNEZyRi1ESTFwVE81dGlxNTl2NDI5d0RQY1hLellWbVRfZlItN1R3S29DX3NjdEVEMHRRa2E5UEl5emZBY3NOSHdENHRFZWVz0gHkAUFVX3lxTE9mdVFfbXlqNlozU1M3U2RTVy1aOC1Qcm9EUWh6THNBQ00yVWNwUEVxbnVHR2FHU0l2c09GWF9rR25sTHNwakpNMC1qV28wN0I2OThhNzdUUHMwalVqeHczNnlTSXVDSzV2aGtFem1BOVYzRUxGdzduT1NTYS1pVVZkZTc5Nm9zOW4yWlVOQTNuMk1Ca2hGeVRxQTFwY0dJWEJXV1VKeUFqNWJhZGEzOVRfaXhKT1JzTV9iZlNMZ3lkZEVsSDJ1dGNzd3Uya3RHbFNFMHpPNENLR3FiNjE5MGpmaVZITA?oc=5",
+    "source": "Il Messaggero",
+    "pub_date": "Fri, 30 Oct 2026 15:19:50 GMT",
+    "matched_keyword": "해외: 이탈리아",
+    "is_overseas": true,
+    "country": "이탈리아",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "학회·임상"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "O mundo deseja o corpo brasileiro: os médicos daqui são referência lá fora",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOYUlreDR2SldKMzRRWnp5dUI1bVRXWU9iazFiWks3STF1TEdORXI0Y2pGNVJ2MnVFMndEaE9QNnRxNEtZUEtSVVFWSl82OER2X2ZtNkx4d0JhZmZscVAxbWJ6MXBBQnN1XzVQWW5hcmlFaXBnMDJfSFM0dmtKTEZoX19tamZ4R0pLaE9Mb1pGUXN1OEpLVkRFU2Q5cTU2LUw4TnV3UlZVbnFqWGh3MVBCZE4xdmMyXzEyZXdwUnNIcWFQc1Via3FfMTE4bHJOVVhVdi1BbUwybXNsV3FkRmFKX2Qzd9IB8gFBVV95cUxQaWE0blNqaXNvM3ZZNWVfT0VHX3RSQWtmcVFrMHFDMzRHSTVYU09tYmtWUzBoWTQ3MG42bm5sQzZqVmZLeWRpZ093cDN4UHBuSkJyUktWcC00MGc0eEdmZTRzbFdTUHQ3M2tBa1R4MVV0Z2dXdGxZWnBlMGJ1NDVzdW9MU0dlMnpuYzcyWjNLaHhiV29fSFJuejJ5cWNGQnVOUGpwY3NHN21KS2xwc2ZTajk5ZjVzanhrUWtrTnlWYTJpaHhxSlRINnd0M1hqd2d5TUlUcU9ZM00zRHFTQWVBUVd6ZHZLS0Iyc3k1em96U3ZxUQ?oc=5",
+    "source": "O GLOBO",
+    "pub_date": "Fri, 30 Oct 2026 14:21:50 GMT",
+    "matched_keyword": "해외: 브라질",
+    "is_overseas": true,
+    "country": "브라질",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
     ],
     "segments": [
       "에스테틱"
@@ -3719,38 +4321,14 @@
     "ai_ok": true
   },
   {
-    "title": "66歳イ・ミスク、しわのない肌の秘訣は美容皮膚科施術「バレないでしょ？」",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUXlqSEFGdjdRczBWRTBUYmNNTmVBb1oybnVzUS1KWnBfYU4zX2s4N1EwNnl1YVZHb00tTE4wM045dU5iYUZXcmVHY1JnOWt4QUZxdU55V3F3WHpUdHo1ZE9jV0FHaVpXVDV0R0JjcTBmeWRfdlFIRlBGT2JqYjIybG5vd1F5cVU?oc=5",
-    "source": "조선일보",
-    "pub_date": "Fri, 30 Oct 2026 11:49:00 GMT",
-    "matched_keyword": "해외: 일본",
-    "is_overseas": true,
-    "country": "일본",
-    "local_lang": true,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
-  },
-  {
     "title": "Silk Laser Australia (ASX:SLA) Expands Aesthetic Clinic Network as Body Contouring and Injectables Revenue Grows",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPTnoyZ04zTkFrUE5mVUVoRS1fTXNGUVEzTEJBYlNGWHdCYkVjdjdKWXBmYjdBd2RjVzF1cW1WSnRyeFNqMl9GTmlqbHp1TUxPdDM4QzNJNnVSM0REc2JjVnJiS3JJbnRicEFJd2FqMF9XNk82dllQVHVhbUJrT3hQaVNDLUtvZmh6TWVqVDRITTZGcTNIQ3lsNHMteWNEVFdfQWFITzQ3V1lNbWJ6dzVaT2IzRGNLYV9YZS1pWVdtRk1WZVNDaENKdTc5eWZSUEtDNjZkRmszOHRaTkxtT01MaVRR?oc=5",
     "source": "Kalkine",
     "pub_date": "Fri, 30 Oct 2026 08:52:00 GMT",
-    "matched_keyword": "해외: 인도",
+    "matched_keyword": "해외: 영국",
     "is_overseas": true,
-    "country": "인도",
+    "country": "영국",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -3790,14 +4368,14 @@
     "ai_ok": true
   },
   {
-    "title": "Diego Prada, experto en medicina estética, sobre los retoques de Mariló Montero: \"Por lo menos un tratamiento antiarrugas cada 6 meses o el ácido hialurónico o inductores de colágeno una vez al año\"",
+    "title": "Il dottor Pablo Torres e la medicina estetica: un percorso internazionale che passa da Milano",
     "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVExlLTdDMy16cE1ERU03V3ZkNG1aYUEzNVRCLUk4NDl2eGYxQUNaWEFMc3hkVWVOVVZrNUxCUGZoNGI4SEhvZHowQ0F5SlFCdVprWEI5VUxOTmh6eVNRRFRwX2ozRXBUenVYWUFqdkNlenlDTU92R3J6QldwdUZZSTNGRkxIRXVGZ2tsTHNLQWJlN2tLckdpVWRfUUhPdmlHWUs3ZU9abm9mZw?oc=5",
-    "source": "Revista CLARA",
-    "pub_date": "Fri, 30 Oct 2026 08:00:00 GMT",
-    "matched_keyword": "해외: 멕시코·중남미",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNFo0ekpiaWptbzBKSU5GVmkxb2ZTOWo3TGFXb04zT1Q5NkQ0dldlbVNqRTlneUxZM19nY0ZIcDRpNjBOSmg3ZmltX1IxMUhXWXl3RlBiTDBobnBhSGpVNGJJN3ZSbzg2S0FEZ0p5MmFjdGV4RGNFS0VwaG1xaDNVb2NGQldaWVE0U0UxN3daQTBqelBfSmRGa3RUNFBNcmdTVUxuM3VHVkdvdmVYWDRlbUFReFE3bjF6cW04dzBB?oc=5",
+    "source": "Notizie.it",
+    "pub_date": "Fri, 30 Oct 2026 08:05:21 GMT",
+    "matched_keyword": "해외: 이탈리아",
     "is_overseas": true,
-    "country": "중남미",
+    "country": "이탈리아",
     "local_lang": true,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -3865,6 +4443,30 @@
       "쿨소닉",
       "CoolSoniq"
     ],
+    "ai_ok": true
+  },
+  {
+    "title": "El paciente ideal para el Deep Plane: \"Corrige la flacidez, pero no detiene el envejecimiento\"",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOanNlTUFJTE1jLU8wMWZRSC01QWs0NjAwSGVZT29qVW5ud1dwRWhMdGVnSXhyZ2Q2UXlzdVVncENwaF80VnhwdTF6UHY3ZVZNeFlmSzBtM2NuU0lpYXlhamxuYjQ1TG9ldWo4VXZ4UE03SjI2NzBCUmNLWU81TjIzbDdjMVdBN2hK?oc=5",
+    "source": "ConSalud",
+    "pub_date": "Fri, 30 Oct 2026 07:30:00 GMT",
+    "matched_keyword": "해외: 멕시코·중남미",
+    "is_overseas": true,
+    "country": "중남미",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
     "ai_ok": true
   },
   {
@@ -4197,6 +4799,30 @@
     "matched_keyword": "해외: 베트남",
     "is_overseas": true,
     "country": "베트남",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Clínica Revitae del Dr. Oyola en Jerez: Estética avanzada en Cádiz, sin salir de tu provincia",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONUt3YkVKajl5TjY0Vm03a3FuOUt1aXJabmN4Wm94emRXcnRTM3FzSFptVnJmYVhzR3ZPZFlnR3E4WXZ2WWxGVWU4bUNTRnFzSlVCWFp1X2F0ak5CeVZyT3VmbTNHSXhjWUpkRndQSy1vdGJMemxia1ROZjY3anZTZWFQUkhCUUplNEJKWTYyZ9IBlAFBVV95cUxNeGVSYzJHV0hZaVVrdDJjSlY5akZsYUJka0pSeVdLVE9pQnFSTXM0VE54SC0tZVpqXzdMMUp1b0lNemxrMTExVXJpTWlhWW9uQ3JoLU9FZFhMQXY0YURPR3l3YmJBV0YzcmFfRGY1bnRfbm9ZZjdiQlFlLUQxNjB4NVR5Y3p0eEsyUzY2MjZFSS10UTFY?oc=5",
+    "source": "Diario de Jerez",
+    "pub_date": "Fri, 30 Oct 2026 04:00:14 GMT",
+    "matched_keyword": "해외: 멕시코·중남미",
+    "is_overseas": true,
+    "country": "중남미",
     "local_lang": true,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -4835,8 +5461,7 @@
     "own_brand_mentions": [],
     "competitor_mentions": [
       "울쎄라"
-    ],
-    "ai_ok": true
+    ]
   },
   {
     "title": "Trẻ hóa da với công nghệ RF vi điểm",
@@ -4859,8 +5484,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "Tư vấn sức khoẻ trực tuyến | “Nâng cơ mặt, xóa nọng cằm, tạo mặt V-line đón Xuân” đã lên sóng.",
@@ -4883,8 +5507,122 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
+  },
+  {
+    "title": "Làm sao để trị nám mà không làm da yếu đi?",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE05Vl95SHZTTHpZZDlBc280UXF2a0hDc182elZabUduNGpBTW44Z05qZm9kZm1wcTdNSk9sRFh5SFI?oc=5",
+    "source": "VTVgo",
+    "pub_date": "Fri, 30 Oct 2026 00:00:00 GMT",
+    "matched_keyword": "해외: 베트남",
+    "is_overseas": true,
+    "country": "베트남",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
+  },
+  {
+    "title": "Trị nám là hành trình cần sự kiên trì",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBFNUhrMi0xbjVhdHFHbkZLWEo1LVJvbWFUTmV2bHUzWGc5dTZISGVRTGR5MUo2blZwTmlqOUViTzhLNExRVFJBdw?oc=5",
+    "source": "VTVgo",
+    "pub_date": "Fri, 30 Oct 2026 00:00:00 GMT",
+    "matched_keyword": "해외: 베트남",
+    "is_overseas": true,
+    "country": "베트남",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
+  },
+  {
+    "title": "Bộ môn vận động phù hợp giúp người mỡ máu cao duy trì lối sống khỏe",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5YVzFYWUlMZGlfYjBQcDNPdEZhck9vVzg0VjRFZ3VXdGlXMUZXRlZhSU5CWTVMYWtDeFh0MWpPdDQ?oc=5",
+    "source": "VTVgo",
+    "pub_date": "Fri, 30 Oct 2026 00:00:00 GMT",
+    "matched_keyword": "해외: 베트남",
+    "is_overseas": true,
+    "country": "베트남",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
+  },
+  {
+    "title": "Người có cơ địa dị ứng có thể tiêm vắc xin để chủ động bảo vệ sức khỏe không?",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1zT0RwQUEwSXJnZDlVLXk5a2NqdGpLMW1HQ3prdmNzNmQ4a2ZEbENzQVd5cmx4d2xDWFpuLVZtR1A?oc=5",
+    "source": "VTVgo",
+    "pub_date": "Fri, 30 Oct 2026 00:00:00 GMT",
+    "matched_keyword": "해외: 베트남",
+    "is_overseas": true,
+    "country": "베트남",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
+  },
+  {
+    "title": "Kiểm chứng thực hư: Ăn mắt cá ngừ giúp bổ mắt?",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE0xNWduSDQ5N0xhZHdvVTE1ZkJPd2kxX1lOaHNLSklteVdDQUxyQTdWUHF4ZTVoaHhucV9nOWFNWDRBOXJVdHVNeQ?oc=5",
+    "source": "VTVgo",
+    "pub_date": "Fri, 30 Oct 2026 00:00:00 GMT",
+    "matched_keyword": "해외: 베트남",
+    "is_overseas": true,
+    "country": "베트남",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
   },
   {
     "title": "안국약품, 필러·스킨부스터 시장 진출 추진…\"2027년 사업 본격화\"",
@@ -4905,8 +5643,30 @@
     "competitor_company_mentions": [],
     "competitor_product_mentions": [],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
+  },
+  {
+    "title": "From Makeup Artistry to Medical Aesthetics: My Next Chapter in the Hudson Valley Beauty Scene",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQzRxY2ZFYW9wVEp4TGF0U2J0bkVqcXdNVUFJWUdjU1hjUXI1OXctRXI0X2tUTTBQM3BqRkd3TG1mSUFob3U5NWo3TkhBMTRVXzNSR2RKSy1OTzBibFRGMm4xa3Q5bUY2dXlraTRJSHdVSVowLUZSY2RIczgxTW1rS3Q0bS01ZGFTb3RDbFhOMjFHQUROeTNtaFRvU29sYTFWLWxIU3ZOV3RPOGxDYi1mNE5DNlhaTUZhU2lEdVZMUUZHeG10OUE?oc=5",
+    "source": "Hudson Valley Style Magazine",
+    "pub_date": "Thu, 29 Oct 2026 22:31:48 GMT",
+    "matched_keyword": "해외: 업계 동향",
+    "is_overseas": true,
+    "country": "글로벌",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
   },
   {
     "title": "“8조 시장 잡자”…中 공략 줄잇는 韓톡신",
@@ -4933,8 +5693,7 @@
     "own_brand_mentions": [],
     "competitor_mentions": [
       "멀츠"
-    ],
-    "ai_ok": true
+    ]
   },
   {
     "title": "[전문의 칼럼] 늘어나는 잔주름과 피부 처짐, 보톡스부터 리프팅까지",
@@ -4963,8 +5722,7 @@
     "competitor_mentions": [
       "인모드",
       "포텐자"
-    ],
-    "ai_ok": true
+    ]
   },
   {
     "title": "“닉쿤 확 달라졌네?”… ‘이 시술’로 얼굴 날렵해져, 뭘 했길래?",
@@ -4994,8 +5752,7 @@
       "슈링크",
       "울쎄라",
       "쿨소닉"
-    ],
-    "ai_ok": true
+    ]
   },
   {
     "title": "Uzmanına göre Alexandrite Lazer her ciltte aynı etkiyi göstermiyor!",
@@ -5042,8 +5799,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "Barry Keoghan gets skin-tightening cosmetic treatment after online abuse over appearance",
@@ -5066,8 +5822,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "[K-뷰티를 만든 사람들 ①] 실패한 앱에서 K-뷰티의 길을 찾다- 김병훈",
@@ -5088,8 +5843,7 @@
     "competitor_company_mentions": [],
     "competitor_product_mentions": [],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "Barry Keoghan gets skin-tightening cosmetic treatment after online abuse over appearance",
@@ -5116,6 +5870,29 @@
     "ai_ok": true
   },
   {
+    "title": "澳門日報電子版",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0zaUwwM1ppdHF6Mk1uN3p6Y25OcGIyQlZUZnlScVRRM3VjOFZzSUFtR21EdU5MbHZkNnZfTWZTam1hQ2pwSDV1cGFKVHQ1Tnd1cVhoOTNwV0w5WXFqM21QNG9tWEtkOUNwUTNOUmZJTQ?oc=5",
+    "source": "澳門日報",
+    "pub_date": "Thu, 29 Oct 2026 20:17:20 GMT",
+    "matched_keyword": "해외: 홍콩",
+    "is_overseas": true,
+    "country": "홍콩",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
+  },
+  {
     "title": "Barry Keoghan receives cosmetic treatment to 'look better'",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNa0wybF9VenRoM0g1djJwQ2Voc0RBaUVfNWV3VFR5NGRHUFdWQjFCNFNLcWNtcW8taHlqSkhYaC1sWFl0MDU4aURUT05FY2JzbW9GSlRaTUFYaFhGQXpYVmRpdFpGNXg0UlJ3TVRSdWFfXzYzRWItYktEZUt0d0IxUnFNbm5CRDQ2NFh0dGU2bEZKcE16MjZPWFZCaVlubVcxNGpScVdsa0RkclFpdGNuLUNFemZzcHd5dm1fVQ?oc=5",
@@ -5136,8 +5913,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "Barry Keoghan Gets $3k 'Skin-Tightening' Procedure: VIDEO",
@@ -5160,8 +5936,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "Your Requisite Update on Barry Keoghan’s Skin-Tightening Treatment",
@@ -5169,9 +5944,9 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd09iV2trc2JHdHZCQk1qNzd5QXlSYWpLMjI1c1N5UU9TNFk1cmxkVy02dmNJNGZkRG8wNVBhYXBCVmc1V3RFSlI3clMzcEdKaG01cS11aVZMZ01kdGo1aGRTSEMzMFkwb0oxeTAyZWY4S09kQktwdzZlYl9oRmVGcTc4cXdKMGtjSmM1X2RwZFd0Q2M?oc=5",
     "source": "Jezebel",
     "pub_date": "Thu, 29 Oct 2026 19:31:43 GMT",
-    "matched_keyword": "해외: 영국",
+    "matched_keyword": "해외: 호주",
     "is_overseas": true,
-    "country": "영국",
+    "country": "호주",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -5184,8 +5959,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "“سام 2026” يناقش مستجدات الطب التجميلي في الرياض بمشاركة 18 دولة",
@@ -5208,8 +5982,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "\"سام 2026\" يناقش مستجدات الطب التجميلي في الرياض بمشاركة 18 دولة",
@@ -5232,8 +6005,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "خبراء من 18 دولة يبحثون مستجدات الطب التجميلي في الرياض 5 نوفمبر",
@@ -5304,8 +6076,30 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
+  },
+  {
+    "title": "I migliori trattamenti per il collo antiage",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZ2N0ZC10aTl0ekhXaDkzWWFVbkZsTzJkSjVWMmFiTjhtV1d4bmhNV2o0bHU5R3ozNGthRWp6dEVabHlBMnJ5d29ZSk5BNC1jSFZnN0ZNcnFKUUoyai1ZR2NKT2t1N2NrSUpUbXNnUTZfdnZkTFZXdHJTaVlycy1nNV9iNnFVbWJkWFRaUHdUWlIwYktybVFr?oc=5",
+    "source": "Marie Claire",
+    "pub_date": "Thu, 29 Oct 2026 17:38:55 GMT",
+    "matched_keyword": "해외: 이탈리아",
+    "is_overseas": true,
+    "country": "이탈리아",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
   },
   {
     "title": "LaserAway, Nation's Largest Aesthetic Dermatology Brand, Opens Its 238th Clinic",
@@ -5332,6 +6126,29 @@
     "ai_ok": true
   },
   {
+    "title": "Verona: falso medico estetico, farmaci illegali e oltre 100 trattamenti. Come difendersi",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1YOVBtSVpJckZnZ0JEZDFaeXRPalFZckNIdWZlYTJEcFJJeFVxRWtZZEFxMzFVMS1RU1pfWmN4aHZqY0ItTEp0dl92NjJTS3d5Xy1mOVVyOWFyMHIwVUVINkJLNnp5THpCa3AtQ2Q4czJOQQ?oc=5",
+    "source": "Qui Salute Magazine",
+    "pub_date": "Thu, 29 Oct 2026 17:00:00 GMT",
+    "matched_keyword": "해외: 이탈리아",
+    "is_overseas": true,
+    "country": "이탈리아",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
+  },
+  {
     "title": "Barry Keoghan undergoes skin-tightening treatment after online abuse over his looks",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPbXVOaVRFeVRUaVdCMlBJWDFWTmpLXzcwWFhwdDFDUmhQX0RyUGZoczM3cTRlMUFINkVGNWdnamlnNXQ0QUtFYk1RdUtSQzU4dWhDQ1FBS1dQUU5VOEtEX2drMGl1THJDYk1HUEUtUFR0MjU3TW5GaW1zYWl3Z3RuTkhNeDFDeEhXSGgzMkRobFRoc05aM0cyUVBpZTBOMGxKaW9tWHBXeUN6WEFEYkxsU0JHR0NvZkNHSFBiXy1Qa0ZjRDJUVEw0SlFtXzhqYzhEakFzenZfMkJ5UDNaR2hN0gHsAUFVX3lxTE14T1RqU1R2VXVFbVVHZXladGpTT01leGVzOGtvemU3UzhTRWdBUzQtQ19hNG1vVnlFMVd5TkVXQ2tTMFFpUUprVUlKd0RKTzd2SS1oblFiZkFrWndxSEJVUWszMTJyZEg1ODRFTmVBSkdpWXBFNjdyNW9GckFyMnN6Y0xBc0ZHbF94aFdOZ0liNkwyLTFhNU10aklVeUJ3UDhkOXVOV1hSems5TUpXSVdnbS0xSjVuaklPdFphSkdzbXVOaVh2cTFsWl9hUkNoamJFNEtBSTl6WksyUDJEcER0T256LTUyMzZfZnhQ?oc=5",
@@ -5352,8 +6169,30 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
+  },
+  {
+    "title": "SALUD Y BIENESTAR: CUATRO ESPECIALISTAS, UNA MISMA META, CUIDAR DE LAS PERSONAS",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE50RVliRVBtclZEOWlyWW1YVkI3VVZmeExzR2VUVDZfWTM1c0FydmtQdmhaZWxGblJtV0ZnUVp1TjFldFF0RWJTZExpczVXZjNSa3BRZFVvQmN1alM4UU93MQ?oc=5",
+    "source": "Hoy",
+    "pub_date": "Thu, 29 Oct 2026 16:31:56 GMT",
+    "matched_keyword": "해외: 멕시코·중남미",
+    "is_overseas": true,
+    "country": "중남미",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
   },
   {
     "title": "Greffe capillaire : peut-on vraiment retrouver confiance en soi ? en replay - De l'autre côté du miroir",
@@ -5440,6 +6279,29 @@
     "competitor_product_mentions": [],
     "categories": [
       "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
+  },
+  {
+    "title": "Hilary Duff: «Una volta al mese faccio microneedling e salmon sperm facial. Funziona!». Di cosa si tratta",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWXZaVDZZNW1mNWFvZjhYSGJNcFp1dm5adzVKVXlfbHlxSTBJUEtSLWFoRklqc3d0M1ItMnA2dVZzUDExYlR3dDZscWpRSzl3bEtzTXhleG11UWdTd2lCTGN0ZEQwM29GemFGS0RYNnViUHE4OUFVdjVYZFBUNlFwSERKYlhZNGJ4N3dSSjVlLTAyWlVtcXljNWNKcU9yOGdjNk1UVy1hbw?oc=5",
+    "source": "Vanity Fair Italia",
+    "pub_date": "Thu, 29 Oct 2026 14:22:23 GMT",
+    "matched_keyword": "해외: 이탈리아",
+    "is_overseas": true,
+    "country": "이탈리아",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "RF Microneedling"
     ],
     "segments": [
       "에스테틱"
@@ -5629,9 +6491,9 @@
     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPTDFxaUNhWHVyYks5LVJLZEFYV0I3VERQRkVQaG82Wno5aUJGMlZGSWVWX0VOaThVR3p1Q2gwLXVaaURJOE1UUkxURzBES29WSGhCQzVzNHhaYjJwUUVPd00yQ0tZeTAwUlRtWlN6NHRsX2FWdmV3MndfODJOVVFBMVVDQXpRNU14bkk4Nm9sVG8tWmdKMFRLYTFJTnhNc1JCYk1MZTN2bk0wdk90VEtLQ25Pc3A2ZU9HZFpuaC1mRHJldXFIamFEV3M3eENrWE9VSkNmeGY3YmUxcGl4SFhCbjFQSm8?oc=5",
     "source": "Business Wire",
     "pub_date": "Thu, 29 Oct 2026 13:03:00 GMT",
-    "matched_keyword": "해외: 중동(영문)",
+    "matched_keyword": "해외: 업계 동향",
     "is_overseas": true,
-    "country": "중동",
+    "country": "글로벌",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -5761,8 +6623,30 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
+  },
+  {
+    "title": "Navigating Aesthetic Innovations with a China Top Lyophilization for Medical Aesthetics Supplier",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVXdrcmJ2M0wxX3pROE1qRjliRjNxcTVYVTVPQ1pyamtHZ1VnamtJY01CLTJnQXpoNGN2dnctaDE1UUFvU0lGWjZobkhYUWh5ZW1rclkxb3RVaUt0V3ppc3cwVmRTU2NwbXEyMzlFbnBPYTRFTTNOQndOMzMtRFNaM3g5amEtbDdpS0o2MV9IYjRlTnVIcTJRR3hJRFlicW5jaDhTOEpyVFZtUjJGTS0yNmdmVVpTV0E?oc=5",
+    "source": "The National Law Review",
+    "pub_date": "Thu, 29 Oct 2026 11:05:09 GMT",
+    "matched_keyword": "해외: 시장·규제",
+    "is_overseas": true,
+    "country": "글로벌",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
   },
   {
     "title": "هذه هي مواد الحقن التجميلية المسروقة التي تحذّر وزارة الصحة من استخدامها",
@@ -5791,6 +6675,29 @@
     "title": "«El otoño, momento clave para recuperar la piel tras el verano y prevenir el envejecimiento cutáneo»",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZkpvU1Q3a2tIbWJ3Mk1Rby10aFZ3UWNjRjZvNms3ZVdJSFczU1ZreFU2RzZISHRXaklrMjlFWDRLek8za0Z6QzRkNlVSXzF5WE5EMWdWMTBVQlJ6a1FweXFObmtHRkluekk4LWhoZnhJZkNuTUdlc3JHUzU3TzV3NGtPT3Z4VGNrZUVnaWMtLWFKbGNSSkJGY1QxWmxpVDhpU2U3cEtyUzFaSnd5eGNLdE13a25yTGJWYWNsX1hn0gG-AUFVX3lxTFBmSm9TVDdra0htYncyTVFvLXRoVndRY2NGNm82azdlV0lIVzNTVmt4VTZHNkhIdFdqSWsyOUVYNEt6TzNrRnpDNGQ2VVJfMXlYTkQxZ1YxMFVCUnprUXB5cU5ua0dGSW56STgtaGhmeElmQ25NR2VzckdTNTdPNXc0a09PdnhUY2tlRWdpYy0tYUpsY1JKQkZjVDFabGlUOGlTZTdwS3JTMVpKd3l4Y0t0TXdrbnJMYlZhY2xfWGc?oc=5",
+    "source": "El Diario Vasco",
+    "pub_date": "Thu, 29 Oct 2026 10:42:18 GMT",
+    "matched_keyword": "해외: 멕시코·중남미",
+    "is_overseas": true,
+    "country": "중남미",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
+  },
+  {
+    "title": "«El otoño, momento clave para recuperar la piel tras el verano y prevenir el envejecimiento cutáneo»",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbTJHQkdYQ21Fdzg2b0J4UTdqeVNnSmY3THBwWTVrbkJUNld3cnZLWjNyX0pwNk5QOXJBd0VZY01RTjVwb1ZnQ2JyQVkxcWJFUlZRb2FHNk5keE1VVi1MZ2ZNZFRFZkNEQ1BVVEw2MzFNQjRIN3BOVHJrWEFIcDI0YWN5TVY5QkRCZGh3X1Y2QVg2TzNVdEcyWDlKUVFWMzdySEI0UGh3NnVPMDlPbGtESmw4cUxSRVZo0gG-AUFVX3lxTFBmSm9TVDdra0htYncyTVFvLXRoVndRY2NGNm82azdlV0lIVzNTVmt4VTZHNkhIdFdqSWsyOUVYNEt6TzNrRnpDNGQ2VVJfMXlYTkQxZ1YxMFVCUnprUXB5cU5ua0dGSW56STgtaGhmeElmQ25NR2VzckdTNTdPNXc0a09PdnhUY2tlRWdpYy0tYUpsY1JKQkZjVDFabGlUOGlTZTdwS3JTMVpKd3l4Y0t0TXdrbnJMYlZhY2xfWGc?oc=5",
     "source": "El Diario Vasco",
     "pub_date": "Thu, 29 Oct 2026 10:42:18 GMT",
     "matched_keyword": "해외: 멕시코·중남미",
@@ -5854,8 +6761,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "Infosalus.- Nuevo avance técnico en la mejora del seguimiento de pacientes con Parkinson o temblor esencial tratados con HIFU",
@@ -5981,9 +6887,9 @@
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPMkNUUjZFWUNwQjZBWXZra3lDZjROXzlGYW9yY2xFeXRaYXJxbUdFSDZXOEFMNjRiRFhlNV84ZjNqZld6VnNQc096RjQ3QnhhODF1MEl5M3ZKSlJCUy1ZYzhuSXJHM1RqenktalRseXBMM2RUTjZOckl4a2tHeElWTk1YQVhsQ0V2NzRJbVZhdjVfWkk1dENaR3RtSW5ISVNWZFVXZ21zSFBGUWNLV3NvbFE3VXlITmRKcFpBeDdiNHV1V01vemVYdDBhVUxVZ2ZNYVBpY2IwNDJtd3Bj0gHiAUFVX3lxTE1xeGJjSVgxd3V1VmtjQm54dHFodUppa3dmeGtCSVBTdlE2YzQ1ZXlkd2tFaFVuSzloOFZRY3I2UmZWRFVxTU5KVFRLaHNKQy1xbWdTdzltdEVMQ1ZSNGMtZko4WFJRdFI0N0R0aGRsWC1UMzRGQ3k0Q2c1MmNRWDBpcXpEZ0ItNlhtLTZPTTVSSnZoVW9EVGJidHZMTWF0RU9QMkFQTmN6R3pWX2ZPd3Mxa3J3WmJSQmlvckszN25GTkJGSUJVSTBwaVRkVFBaRjdDcXNYRmVEbEVEbmhJckIxamc?oc=5",
     "source": "Demócrata",
     "pub_date": "Thu, 29 Oct 2026 10:12:47 GMT",
-    "matched_keyword": "해외: 영국",
+    "matched_keyword": "해외: 호주",
     "is_overseas": true,
-    "country": "영국",
+    "country": "호주",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -6076,6 +6982,29 @@
     "matched_keyword": "해외: 이탈리아",
     "is_overseas": true,
     "country": "이탈리아",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "HIFU"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
+  },
+  {
+    "title": "Nouvelle méthode de résonance améliore le contrôle des patients atteints de Parkinson ou de tremblement essentiel traités par HIFU",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQT1pQZXFtM0FmN0RHVnpZZWcxUUVqeWdPSXUwbUwzVldPX0IwaTZra2tSZ0RHUFJQS0VBNXlqaThPcmFmenFkd2VaQlp6Q2hNSmRGYTgzamQxWGNFQ2MyYmtPMmZoSDZ3Um1VQ1NvRnd5Zk9ZUjFsMWtMZ0E2cEU5a3l5T2VHd19QX0JvY3dKOWJJOGo4bVJlUVdJZFVFZGVTSnM0MTdLS19xUloxeHpGNmxCdDZxbmZMOU05dnlaWDI2TkVOckladXFsczhmWW1mVGRQNG01dm56aHJJSnFCaXM5V2hFTFdsakUwanRUWkxMQmoxVVh4MdIB_gFBVV95cUxPankyN3FCaC1SWkQzcXV4dTFRXzRBMzg5ZVRDT082SUt0SUdwbTBsSTNaeDh5YnJETEp5djRLclNGS1lWeEFQSVVzTG1nd1p3SGVTUm1KQWpLbGV3OGtWQnhFcEF3RHNrck45S2ZHeDhfS1hxNG1XTmQxeVNzNWpObmFITU1UWWNmYXMta3F3b3BEMjdoU3VxalY4dVdwVTNSM2M3aEdJYUcxMUE2NGwtbVlIdVEtSGNNU25pa0dTVjlUMWI5SHNBNUhXN0Y2TmxjUGpTSjZERWhYeUtFUHRRZDFudU1PVFRWejVQdFZJTDNLdmZBamRvd2FFamhRdw?oc=5",
+    "source": "Demócrata",
+    "pub_date": "Thu, 29 Oct 2026 10:12:47 GMT",
+    "matched_keyword": "해외: 프랑스",
+    "is_overseas": true,
+    "country": "프랑스",
     "local_lang": true,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -6468,8 +7397,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "CosMedics Medical Aesthetics Clinic Announces Opening of New Location to Coincide with Three-Year Milestone",
@@ -6827,7 +7755,7 @@
   },
   {
     "title": "신한에스 김정주 대표, 2026 대미레 추계학술대회서 의료기기·턴키 업체...",
-    "summary": "신한에스 김정주 대표가 오는 11월 8일 열리는 '2026 대한미용성형레이저의학회(대미레) 미용의료기기 박람회 및 추계 국제학술대회'에서 의료기기 및 턴키 업체 선정 전략을 주제로 강연을 진행한다고 밝혔다 이번...",
+    "summary": "신한에스 김정주 대표가 오는 11월 8일 열리는 '2026 대한미용성형레이저의학회(대미레) 미용의료기기 박람회 및 추계 국제학술대회'에서 의료기기 및 턴키 업체 선정 전략을 주제로 강연을 진행한다고 밝혔다. 이번...",
     "link": "https://www.mdtoday.co.kr/news/articleView.html?idxno=621712",
     "source": "네이버 뉴스",
     "pub_date": "Thu, 29 Oct 2026 10:56:00 +0900",
@@ -7326,9 +8254,9 @@
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORGVnWVdtcGZlQXFTUDF6a0FVVE9wdTZxYUVBdmdmcmFwZXNPUGhILTVDYURoVjhzN0JYMGdHV1hJejRveHlIa3E4ZUxvLTFITEMwWU5uRm1QTzhaTzZ6bUFjNDk4TkltTkd6eS1QeDF2VHhVVy05MFdBNmMwQWo3NEJVUWxaelVFc00wcU85aFpsaVZKRm5OaU5ScDI2aUVpakJmOE5CeUl1aTk5bGQyeElpaWNYVHdfc0NObDgxc21PdjAyWDRoaA?oc=5",
     "source": "USA Today",
     "pub_date": "Wed, 28 Oct 2026 20:58:39 GMT",
-    "matched_keyword": "해외: 중동(영문)",
+    "matched_keyword": "해외: 업계 동향",
     "is_overseas": true,
-    "country": "중동",
+    "country": "글로벌",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -7341,8 +8269,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "Barry Keoghan Reveals He Had A Skin-Tightening Treatment, And People Have... Thoughts",
@@ -7493,6 +8420,29 @@
     "matched_keyword": "해외: 이탈리아",
     "is_overseas": true,
     "country": "이탈리아",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
+  },
+  {
+    "title": "CELSET lance SOLTOX, une marque coréenne de toxine botulique de type A, sur les marchés internationaux",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPazYxTzZPYkZUeGtuZU5iT1FDMVpPOW85UEJxajNldlI3N0d5SzZScnRtWjRuLVM3QXhlU1MtZnZULUczZ1ZUc1FXVVg4UTVTdVd2bWlEdWpBVDJOUjJSeGF4NDdyVHhPaUVWTzMyRC13SnhzbzJEMDBrZjU0XzJaRVFBSnE4SzB6T1NXU3dWMkJ5VThva1NQYXpKWTNVbUdUWTJtWEt2aktiSWhPYzNDVE5jeVJ5ZnNkcHZ5V2JRR2Y2QXdIY2t4TVkzemlmeTJEbzJHUGJzc1NTNy1hS2tUYkpfZWlPOHVF?oc=5",
+    "source": "PR Newswire Canada",
+    "pub_date": "Wed, 28 Oct 2026 17:24:47 GMT",
+    "matched_keyword": "해외: 프랑스",
+    "is_overseas": true,
+    "country": "프랑스",
     "local_lang": true,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -7741,6 +8691,29 @@
     ]
   },
   {
+    "title": "Pino Insegno in onda con la sciarpa: «Ho fatto un intervento al collo per togliere la pappagorgia, sono pieno di lividi». Cos'è endolift",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUDl3bXdsakdnQ1NUMnRnZUdNTkRHODBSNnlyeHNxYnhMVTQ5UXprQ1ZJdVlOQllvNk9CWGhLUnB6ekhnUzhqblRCaEo2OS1rajc2NDRmMGVuMGluRHNRXzVLMDcxSGVTU0c3VlRaYWhNM0ZpbWdmQnA1R2VHNGFURkRvNzQ2WmtZSWxvRUNzZVV5V1gxdHhGNGpYR3k4YXUxcVRiQTJqWlRWMFpZUTZYWtIBtgFBVV95cUxNel9mSGRuWVZhNjlORUFZSEhERkF0UEJQaUlub0JRcm5sT3UxdkJtS0UyM0theXZrTlN0ZnRaTm9OSkhTQUk2ck92d1k2S0RnX0wyY3pJblBmRHk4WU1rNldpelZjSERWaXFFUmZFTncyRFlsVHlpMlBVREJaY18tY3JsMWN2dm42OUN0Wm9uTWlxNFYxMkVsVER3bTEyYzZlaDRpcVNGTHZ0QjE1MWUzaDQ3ZWhzUQ?oc=5",
+    "source": "Corriere Adriatico",
+    "pub_date": "Wed, 28 Oct 2026 15:22:20 GMT",
+    "matched_keyword": "해외: 이탈리아",
+    "is_overseas": true,
+    "country": "이탈리아",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
+  },
+  {
     "title": "Nach Hass wegen seines Aussehens: Barry Keoghan zeigt Beauty-Eingriff",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1qVzZhbmFiUkJWb1ZaZ1lrMXNrMDI1MXRGbVFpVzdsd2U1bEZMV1lCeFlwVTRLcTRPT1l4dm1LdThDZUtLZzQyMUxZMHNSN2lBeTJlWXY5bEFLTVI4?oc=5",
@@ -7902,6 +8875,29 @@
     "competitor_mentions": []
   },
   {
+    "title": "DC’s New Joker Barry Keoghan Undergoes Skin-Tightening Treatment",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSHFZWjFPcEttQ0ZPY2tjYVdmODQwbWM4WlE1ak5nTXVCeU9PQ1FsYm0ySGw1TzE5RmtlbmR3U0ZMZF9zc3ZGS2FlVHY5eUUwdHNJLV9BZFNlaW9mZjY2RTNIRHdoSjdKOGdfWFQyLUtWeUJiLVJiYjIwMWctd21yZkhR?oc=5",
+    "source": "AOL.com",
+    "pub_date": "Wed, 28 Oct 2026 13:51:26 GMT",
+    "matched_keyword": "해외: 영국",
+    "is_overseas": true,
+    "country": "영국",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
+  },
+  {
     "title": "Barry Keoghan Undergoes Skin-Tightening Procedure",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTldlYUxUOXNiMUhHVktNMVU2Y1E3eWZaUjVLTjdaRUwyclRaTjZZM2dtTDVTVXpBZkNDMVhrUC1BTVdPMVB5aURlZl9yaHJEQzRab0R6b0E3M3FvUjJjczY0UkVTRlNFdFR1cXZScWprYlZ4V0JKMUJKNGluUDZLeWw1UnNNQmdYNzdhT2Vjb25uQQ?oc=5",
@@ -7995,6 +8991,33 @@
     "own_brand_mentions": [],
     "competitor_mentions": [
       "XERF"
+    ]
+  },
+  {
+    "title": "InMode (INMD) Stock: Down -1.02%, Support Test at $12.90 2026-10-28 - Call Resistance",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQjJSenBnRGNXWVRyTHdBbl9TWlc4RTdjNnNnZlRpMno0WTRwb0g0QlllbGowMWpNbUpyUXlhTFJRdk5OSEJ5MHljWHI2OVJMRkN5VXFOVlFnZVpyOXFqN0FLSUoxMU1iTHVzQk1VNVpVZ2V2LWlCdlYtenV6X1NQY1o0Wkl3QUlYVnk3U0hfajBoNnY1SlFUN19LWHNtR3J6ZkE?oc=5",
+    "source": "https://www.siam.in/",
+    "pub_date": "Wed, 28 Oct 2026 11:48:05 GMT",
+    "matched_keyword": "해외: 시장·규제",
+    "is_overseas": true,
+    "country": "글로벌",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [
+      "InMode"
+    ],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "InMode"
     ]
   },
   {
@@ -8531,8 +9554,30 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
+  },
+  {
+    "title": "Barry Keoghan Reveals Skin-Tightening Treatment Months After Speaking Out on Online Abuse",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Pc29MWGZtRElBSW5JeFBrd194MkZtTldXVlJTaDRBNTVQbWxCZGdhVGp5RHNRRlhYZF9qYzdSUnEzT1NfU2xIMXZ6MzAxMFFHVXB3VWhUY1dfUEQ1Q1c4R3dpQWNSanM?oc=5",
+    "source": "IMDb",
+    "pub_date": "Wed, 28 Oct 2026 09:04:30 GMT",
+    "matched_keyword": "해외: 영국",
+    "is_overseas": true,
+    "country": "영국",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
   },
   {
     "title": "金鐘影后蔡淑臻十年代言見證！「海芙電音雙波」獲蘋果愛美獎多項肯定",
@@ -9365,9 +10410,9 @@
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVHk1VWNFelk4Tm83Ry1LODk5SXpnbWdQTDhYNHFadWtsNHJ3TzRrdE1hMmdDV3prdEdEcjhtTlFoZzBRQ0Y5Mnc2WVVVSmMyRGdXUFVFaThUN0xKTWdpc1MwOG1uaUlYUVFOSWxpaUFHTUlqNXQ3Zk9BbEktRHd0OFQyX2xDX1dETjcyLUw3TWxoWGFWRTdESUswNmFNTFIxOTV3RVlyck5xYTV3eHRtTjVaZ0NQazhKYzcwbEJIbnhCXzhzVmFV?oc=5",
     "source": "Zoom TV | Entertainment",
     "pub_date": "Wed, 28 Oct 2026 05:19:22 GMT",
-    "matched_keyword": "해외: 인도",
+    "matched_keyword": "해외: 호주",
     "is_overseas": true,
-    "country": "인도",
+    "country": "호주",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -9413,9 +10458,9 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNU1xbHlzMDhSRzl3MHUzVEZLWmFVMy1aOE1Kczh4Sy0yU0hlMFN2dl93cnRGV09kSmFQMHNJUmFTN21nN3c0aGJwcURleU1hS1JyaWtSbHVqeXRyQVFXM1lYaFFlWDJiQWFNVFNBRmY0eXNnYl9CMDFUZWd6bm03NnBXbEdINjYyMUN2VTB1SmVNd1pVVFpPU3J6MGNLZXNr?oc=5",
     "source": "ARYnews.tv",
     "pub_date": "Wed, 28 Oct 2026 04:49:40 GMT",
-    "matched_keyword": "해외: 필리핀",
+    "matched_keyword": "해외: 인도",
     "is_overseas": true,
-    "country": "필리핀",
+    "country": "인도",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -9428,8 +10473,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "하이로닉, 서울 학회·부산 전시회 동시 참가 '미글로우·시너젯 프로' ...",
@@ -9527,8 +10571,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "«La medicina estética va más allá de la apariencia, busca el bienestar global»",
@@ -9950,33 +10993,6 @@
       "레이저옵텍"
     ],
     "ai_ok": true
-  },
-  {
-    "title": "InMode Ltd. Research & Ratings | INMDN",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNURfUV9UVGJUSVNKVTExRHF3SU9UZkFOS3M0MUZQTHZJTmM0cnU0ZzJCSThjS0ZzdXZPOU93ZUZ2RGxZZURvcVNfb2RLc1h3SEdjbEJTSnRzLXFYWEg3cFIzdTJDTFR3cHRUU0NIZ08xS3RHTkwxQ1BMSHhTLXlJNnhQZnhZV3QydzN3a1RVZlV1bDM5TUE?oc=5",
-    "source": "Barron's",
-    "pub_date": "Wed, 28 Oct 2026 01:08:29 GMT",
-    "matched_keyword": "해외: 영국",
-    "is_overseas": true,
-    "country": "영국",
-    "local_lang": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "InMode"
-    ],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "InMode"
-    ]
   },
   {
     "title": "InMode Ltd. Advanced Charts | INMDN",
@@ -105492,442 +106508,6 @@
       "사이노슈어 루트로닉",
       "사이노슈어",
       "Cynosure"
-    ]
-  },
-  {
-    "title": "'싱글맘' 지연수, 명품 사치 논란 진실 \"레이싱모델시절 산 옷..출산 선...",
-    "summary": "울쎄라를 진짜 하고 싶다\"고 솔직하게 말했다. 그러면서 \"사각턱 보톡스는 맞는다. 인정한다. 그러나 미간과 이마는 안 맞는다. 맞았다가 사무라이가 된 적이 있다. 그래서 위에는 안 건드려서 주름이 심하다\"고 덧붙였다....",
-    "link": "https://www.sportschosun.com/entertainment/2026-07-07/202607070100040530002383",
-    "source": "네이버 뉴스",
-    "pub_date": "Tue, 07 Jul 2026 06:22:00 +0900",
-    "matched_keyword": "울쎄라",
-    "categories": [
-      "HIFU"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [
-      "울쎄라"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "울쎄라"
-    ],
-    "segments": [
-      "에스테틱"
-    ]
-  },
-  {
-    "title": "사이노슈어 루트로닉, ‘IMCAS Asia 2026’ 참가···아태 미용의료 시장...",
-    "summary": "미국에 본사를 둔 글로벌 에스테틱 기업 사이노슈어 루트로닉(Cynosure Lutronic)이 태국 방콕에서 열린 ‘IMCAS... 사이노슈어 루트로닉은 지난달 19~20일 IMCAS 아시아에서 △듀얼 모노폴라 고주파(RF) 의료기기 ‘세르프...",
-    "link": "https://sports.khan.co.kr/article/202607070330003?pt=nv",
-    "source": "네이버 뉴스",
-    "pub_date": "Tue, 07 Jul 2026 03:32:00 +0900",
-    "matched_keyword": "사이노슈어",
-    "categories": [
-      "RF",
-      "시장동향",
-      "글로벌사업"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "루트로닉",
-      "Lutronic",
-      "사이노슈어 루트로닉",
-      "Cynosure Lutronic",
-      "사이노슈어",
-      "Cynosure"
-    ],
-    "competitor_product_mentions": [
-      "세르프"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "루트로닉",
-      "Lutronic",
-      "사이노슈어 루트로닉",
-      "Cynosure Lutronic",
-      "사이노슈어",
-      "Cynosure",
-      "세르프"
-    ]
-  },
-  {
-    "title": "더퍼스트피부과 네트워크, '써마지 FLX 임상연구 심포지엄' 성료",
-    "summary": "더퍼스트피부과 네트워크는 지난 6월 13일 부산 웨스틴조선 부산 2층 바이올렛룸에서 솔타메디칼코리아(SOMA, Solta Medical Academy) 후원으로 '더퍼스트피부과 네트워크 심포지엄'을 개최했다고 6일 밝혔다. 이번...",
-    "link": "https://www.mdtoday.co.kr/news/articleView.html?idxno=603832",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 06 Jul 2026 18:36:00 +0900",
-    "matched_keyword": "솔타메디칼",
-    "categories": [
-      "RF",
-      "학회·임상"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "솔타메디칼",
-      "Solta Medical"
-    ],
-    "competitor_product_mentions": [
-      "써마지"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "솔타메디칼",
-      "Solta Medical",
-      "써마지"
-    ]
-  },
-  {
-    "title": "멀츠 에스테틱스 코리아, '파인드미 캠페인' 발대식 개최",
-    "summary": "멀츠 에스테틱스 코리아가 '파인드미' 캠페인 발대식 및 사전 워크숍을 개최했다.[메디칼타임즈=이인복 기자]멀츠 에스테틱스 코리아(대표 유수연)는 문학의 집 서울에서 '파인드미(FIND ME) 캠페인' 발대식 및 사전...",
-    "link": "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1169622&ref=naverpc",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 06 Jul 2026 18:00:00 +0900",
-    "matched_keyword": "멀츠",
-    "categories": [
-      "학회·임상"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "멀츠"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "멀츠"
-    ]
-  },
-  {
-    "title": "\"혼자가 아닌 함께\"…멀츠, 자립준비청년 '파인드미 캠페인' 본격 시작",
-    "summary": "4일 문학의집 서울에서 진행된 '파인드미 캠페인 발대식 및 워크숍'에서 자립준비청년과 멀츠 임직원들이 남산 트레일러닝에 참여하고 있다. 멀츠 에스테틱스 코리아(이하 멀츠)가 자립준비청년의 신체적·정서적...",
-    "link": "https://www.k-health.com/news/articleView.html?idxno=93695",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 06 Jul 2026 17:44:00 +0900",
-    "matched_keyword": "멀츠",
-    "categories": [
-      "학회·임상"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "멀츠"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "멀츠"
-    ]
-  },
-  {
-    "title": "여름에 늘어난 피지·여드름·모공… 효과적으로 관리하려면?",
-    "summary": "마이크로니들을 통해 고주파 에너지를 진피층에 직접 전달하는 시술인 포텐자는 콜라겐과 엘라스틴 재생을 유도해 피부 탄력을 높이고 모공과 피지선을 개선하는데 도움을 준다. 이는 여드름 흉터 완화에도 효과적이며...",
-    "link": "https://www.mdtoday.co.kr/news/articleView.html?idxno=603818",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 06 Jul 2026 17:42:00 +0900",
-    "matched_keyword": "포텐자",
-    "categories": [
-      "RF",
-      "RF Microneedling"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [
-      "포텐자"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "포텐자"
-    ]
-  },
-  {
-    "title": "즉각적인 변화보다 자연스러운 균형으로… '구조 미학'의 진화",
-    "summary": "졸업 Harvard Wyss Institute Internship 대한기능의학회 정회원 대한리프팅학회 이사 싱클레어 사(실루엣소프트, 엘란쎄) Faculty 솔타메디칼 사(써마지FLX) MTL 전 사적인 아름다움 지유 총괄원장 전 이지동안 원장",
-    "link": "https://www.ikunkang.com/news/articleView.html?idxno=51148",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 06 Jul 2026 16:34:00 +0900",
-    "matched_keyword": "솔타메디칼",
-    "categories": [
-      "RF",
-      "학회·임상"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "솔타메디칼"
-    ],
-    "competitor_product_mentions": [
-      "써마지"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "솔타메디칼",
-      "써마지"
-    ]
-  },
-  {
-    "title": "[뷰티업계 이모저모] 몽클로스, 발란사와 한정판 협업 컬렉션 출시 外",
-    "summary": "■사이노슈어 루트로닉, IMCAS Asia 2026 참가 사이노슈어 루트로닉은 태국 방콕에서 열린 IMCAS Asia 2026에 참가해 아시아·태평양 지역 의료진을 대상으로 주요 의료기기와 임상 기술을 소개했다. 행사에서는 고주파...",
-    "link": "https://health.chosun.com/site/data/html_dir/2026/07/06/2026070602121.html",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 06 Jul 2026 16:11:00 +0900",
-    "matched_keyword": "사이노슈어",
-    "categories": [
-      "RF",
-      "신제품·출시",
-      "학회·임상"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "루트로닉",
-      "사이노슈어 루트로닉",
-      "사이노슈어"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "루트로닉",
-      "사이노슈어 루트로닉",
-      "사이노슈어"
-    ]
-  },
-  {
-    "title": "피부 자신감 높이는 맞춤 치료… 색소·흉터·피부결까지 함께 고려해야",
-    "summary": "이러한 복합 레이저 시스템 가운데 하나인 '헬리오스785 피코(HELIOS 785 PICO)'는 785nm 피코초 레이저와 532nm·1064nm 나노초 레이저를 하나의 플랫폼에 구현한 장비다. 피코초 레이저와 나노초 레이저를 병변의 특성에 따라...",
-    "link": "https://www.rapportian.com/news/articleView.html?idxno=237905",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 06 Jul 2026 15:58:00 +0900",
-    "matched_keyword": "피코초 레이저",
-    "categories": [
-      "Laser·Pico"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": []
-  },
-  {
-    "title": "액상형 PCL 스킨부스터 고우리 활용, 볼륨과 피부 구조 개선 도움",
-    "summary": "개인별 피부 상태에 따라 세르프, 쿨소닉 등의 시술 등과 병행할 경우, 탄력 개선과 피부 구조 강화 시너지를 함께 기대할 수 있다. 다만, 시술 과정에서 선행되어야 하는 것은 정확한 진단이다. 개인에 맞는 면밀한 상담...",
-    "link": "https://www.beopbo.com/news/articleView.html?idxno=336449",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 06 Jul 2026 15:36:00 +0900",
-    "matched_keyword": "쿨소닉",
-    "categories": [
-      "RF"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [
-      "세르프",
-      "쿨소닉"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "세르프",
-      "쿨소닉"
-    ]
-  },
-  {
-    "title": "멀츠 에스테틱스 코리아, '파인드미 캠페인' 발대…\"자립 준비 청년과 ...",
-    "summary": "멀츠 에스테틱스 코리아(대표 유수연)는 지난 4일 서울 중구 문학의집 서울에서 '파인드미(FIND ME·파인드미)... 파인드미 캠페인은 멀츠 에스테틱스 코리아가 사회복지법인 아이들과미래재단과 함께 자립 준비 청년의...",
-    "link": "https://www.rapportian.com/news/articleView.html?idxno=237897",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 06 Jul 2026 15:32:00 +0900",
-    "matched_keyword": "멀츠",
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "멀츠"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "멀츠"
-    ]
-  },
-  {
-    "title": "기미와 잡티, 여름 방치하면 더 악화된다…즉각 치료가 답",
-    "summary": "이 경우 붉은 혈관에 선택적으로 반응하는 브이빔 퍼펙타나 엑셀V를 통해 기미 주변의 확장된 혈관과 붉은기를 먼저 안정화시켜 색소의 자극 요인을 줄여준다. 여기에 BBL(BroadBand Light) 치료를 병행하면 색소, 홍조, 칙칙한...",
-    "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=04080326645511896",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 06 Jul 2026 15:32:00 +0900",
-    "matched_keyword": "엑셀V",
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [
-      "브이빔",
-      "엑셀V"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "브이빔",
-      "엑셀V"
-    ]
-  },
-  {
-    "title": "신혜선, 듀오타이트 캠페인 화보 같은 근황 공개",
-    "summary": "리프팅 장비 '듀오타이트'를 중심으로 한 캠페인과 연결된 이미지를 공개한 것으로 보인다. 신혜선은 2012년 드라마 '학교 2013'으로 데뷔한 이후 꾸준히 활동을 이어 왔다. 드라마 '황금빛 내 인생'에서 서지안 역으로 첫...",
-    "link": "https://www.topstarnews.net/news/articleView.html?idxno=16125129",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 06 Jul 2026 15:00:00 +0900",
-    "matched_keyword": "듀오타이트",
-    "categories": [
-      "신제품·출시"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [
-      "듀오타이트"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "듀오타이트"
-    ]
-  },
-  {
-    "title": "하이로닉, 복합 의료기기 '시너젯 프로' 식약처 정식 허가 취득",
-    "summary": "하이로닉(대표이사 이진우)은 지난 7월 3일 자사의 무바늘 복합 의료기기 '시너젯 프로(SYNERJET PRO)'가... 이를 통해 하이로닉은 자체 개발한 가스 없이 작동하는 플라즈마 기술과 무침 미세분사 기술을 공식적으로 인정받게...",
-    "link": "http://www.hemophilia.co.kr/news/articleView.html?idxno=43018",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 06 Jul 2026 13:48:00 +0900",
-    "matched_keyword": "하이로닉",
-    "categories": [
-      "인허가·규제"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "하이로닉"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "하이로닉"
-    ]
-  },
-  {
-    "title": "[건강 칼럼] 안면거상 레이저 및 실 리프팅, 피부 상태에 맞는 방법 선택...",
-    "summary": "대표적으로 울쎄라피 프라임과 써마지FLX는 각각 초음파와 고주파 에너지를 이용해 피부 탄력 개선을 목표로 하며, 피부 상태와 고민 부위에 따라 적용 여부가 달라질 수 있다. 경우에 따라서는 두 시술을 병행해 계획하는...",
-    "link": "https://www.thefairnews.co.kr/news/articleView.html?idxno=81350",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 06 Jul 2026 13:10:00 +0900",
-    "matched_keyword": "써마지",
-    "categories": [
-      "RF",
-      "HIFU",
-      "Laser·Pico"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [
-      "울쎄라",
-      "써마지"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "울쎄라",
-      "써마지"
-    ]
-  },
-  {
-    "title": "멀츠, 자립준비청년 지원 캠페인 진행",
-    "summary": "멀츠가 자립준비청년 지원 캠페인을 진행한다. 멀츠 에스테틱스 코리아(대표 유수연, 이하 멀츠)는 지난 4일 서울 중구 문학의 집 서울에서 '파인드미(FIND ME) 캠페인' 발대식 및 사전 워크숍을 개최하고, 자립준비청년들과...",
-    "link": "http://www.whosaeng.com/171883",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 06 Jul 2026 13:00:00 +0900",
-    "matched_keyword": "멀츠",
-    "categories": [
-      "학회·임상"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "멀츠"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "멀츠"
     ]
   }
 ]
