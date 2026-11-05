@@ -60,10 +60,15 @@ def _hits(text, values):
     return [v for v in values if v and not v.startswith("TODO") and v.lower() in lowered]
 
 
+def _own_hits(text, values):
+    """회사명은 앞에 다른 글자가 붙은 경우 제외 (예: '브이원텍'은 원텍이 아님)."""
+    return [v for v in values if v and re.search(r"(?<![가-힣A-Za-z0-9])" + re.escape(v), text or "", re.I)]
+
+
 def find_mentions(text, cfg):
     brand = cfg.get("brand", {})
     return {
-        "own_company_mentions": _hits(text, brand.get("own_company", [])),
+        "own_company_mentions": _own_hits(text, brand.get("own_company", [])),
         "own_product_mentions": _hits(text, brand.get("own_products", [])),
         "competitor_company_mentions": _hits(text, brand.get("competitor_companies", [])),
         "competitor_product_mentions": _hits(text, brand.get("competitor_products", [])),
@@ -84,8 +89,8 @@ def is_relevant(text, cfg, local=False, overseas=False):
     lowered = (text or "").lower()
     brand = cfg.get("brand", {})
     ambig = {t.lower() for t in rel.get("ambiguous_names", [])}
-    own = [t for t in brand.get("own_company", []) + brand.get("own_products", []) if t.lower() not in ambig]
-    if any(t.lower() in lowered for t in own):  # 원텍 기사는 항상 통과
+    own = [t for t in brand.get("own_products", []) if t.lower() not in ambig]
+    if _own_hits(text, brand.get("own_company", [])) or any(t.lower() in lowered for t in own):  # 원텍 기사는 항상 통과
         return True
     surgical = any(t.lower() in lowered for t in rel.get("surgical_terms", []) if t)
     exempt = {t.lower() for t in rel.get("surgical_exempt", [])} if surgical else set()
@@ -97,9 +102,9 @@ def is_relevant(text, cfg, local=False, overseas=False):
         contexts = [t.lower() for t in rel.get("context_terms", []) if t]
         return not contexts or any(t in lowered for t in contexts)
     has = lambda terms: [t for t in terms if t and t.lower() in lowered]
-    names = [t for t in brand.get("own_company", []) + brand.get("own_products", []) + brand.get("competitor_companies", [])
+    names = [t for t in brand.get("own_products", []) + brand.get("competitor_companies", [])
              if t.lower() not in ambig]
-    if has(names) or has(rel.get("specific_terms", [])):
+    if has(names) or _own_hits(text, brand.get("own_company", [])) or has(rel.get("specific_terms", [])):
         return True
     generic = set(has(rel.get("generic_terms", [])))
     if generic and has(brand.get("competitor_products", [])):
@@ -162,9 +167,10 @@ def ai_check(items, cfg):
         return
     models = ai_cfg.get("models") or ["gemini-flash-latest", "gemini-flash-lite-latest"]
     brand = cfg.get("brand", {})
-    own = [t.lower() for t in brand.get("own_company", []) + brand.get("own_products", [])]
+    own = [t.lower() for t in brand.get("own_products", [])]
     for i in items:  # 원텍 언급 기사는 검수 없이 유지
-        if "ai_ok" not in i and any(t in f"{i.get('title', '')} {i.get('summary', '')}".lower() for t in own):
+        t = f"{i.get('title', '')} {i.get('summary', '')}"
+        if "ai_ok" not in i and (_own_hits(t, brand.get("own_company", [])) or any(x in t.lower() for x in own)):
             i["ai_ok"] = True
     # 최근 기사만 검수 (오래된 기사까지 검수하면 무료 하루 한도를 다 써서 아침 메일 AI가 멈춤)
     age = int(ai_cfg.get("max_age_days", 10))
