@@ -21430,28 +21430,6 @@
       }
     },
     {
-      "category": "RF",
-      "query_product": "범용전기수술기",
-      "permit_date": "20101019",
-      "permit_no": "",
-      "product": "범용전기수술기",
-      "company": "스미스앤드네퓨(주)",
-      "raw": {
-        "ENTRPS": "스미스앤드네퓨(주)",
-        "PRDUCT": "범용전기수술기",
-        "PRMISN_STTEMNT": "1",
-        "PRDUCT_PRMISN_NO": "수허 10-1078 호",
-        "PRMISN_DT": "20101019",
-        "RTRCN_DSCTN_DIVS_CD": "",
-        "RTRCN_DSCTN_DT": "",
-        "MDEQ_PRDLST_SN": "2010005808",
-        "TRCK_MNG_TRGT_YN": "N",
-        "MNFT_CLNT_NM": "ArthroCare Corporation",
-        "MANUF_NM": "Smith & Nephew Inc.",
-        "CHG_DT": "2026-11-04"
-      }
-    },
-    {
       "category": "LASER",
       "query_product": "엔디야그레이저수술기",
       "permit_date": "20101014",
