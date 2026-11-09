@@ -10360,7 +10360,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2016-07-19"
+        "CHG_DT": "2026-11-09"
       }
     },
     {
@@ -18398,28 +18398,6 @@
       "query_product": "엔디야그레이저수술기",
       "permit_date": "20120710",
       "permit_no": "",
-      "product": "안과용엔디야그레이저수술기",
-      "company": "(주)네비스메디칼",
-      "raw": {
-        "ENTRPS": "(주)네비스메디칼",
-        "PRDUCT": "안과용엔디야그레이저수술기",
-        "PRMISN_STTEMNT": "1",
-        "PRDUCT_PRMISN_NO": "수허 12-1051 호",
-        "PRMISN_DT": "20120710",
-        "RTRCN_DSCTN_DIVS_CD": "",
-        "RTRCN_DSCTN_DT": "",
-        "MDEQ_PRDLST_SN": "2012004212",
-        "TRCK_MNG_TRGT_YN": "N",
-        "MNFT_CLNT_NM": "",
-        "MANUF_NM": "OPTOTEK d.o.o.",
-        "CHG_DT": "2024-07-16"
-      }
-    },
-    {
-      "category": "LASER",
-      "query_product": "엔디야그레이저수술기",
-      "permit_date": "20120710",
-      "permit_no": "",
       "product": "엔디야그레이저수술기",
       "company": "코스모메디텍",
       "raw": {
@@ -18919,50 +18897,6 @@
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
         "CHG_DT": "2021-05-12"
-      }
-    },
-    {
-      "category": "LASER",
-      "query_product": "엔디야그레이저수술기",
-      "permit_date": "20120406",
-      "permit_no": "",
-      "product": "안과용엔디야그레이저수술기",
-      "company": "(주)네비스메디칼",
-      "raw": {
-        "ENTRPS": "(주)네비스메디칼",
-        "PRDUCT": "안과용엔디야그레이저수술기",
-        "PRMISN_STTEMNT": "1",
-        "PRDUCT_PRMISN_NO": "수허 12-522 호",
-        "PRMISN_DT": "20120406",
-        "RTRCN_DSCTN_DIVS_CD": "",
-        "RTRCN_DSCTN_DT": "",
-        "MDEQ_PRDLST_SN": "2012001831",
-        "TRCK_MNG_TRGT_YN": "N",
-        "MNFT_CLNT_NM": "",
-        "MANUF_NM": "OPTOTEK d.o.o.",
-        "CHG_DT": "2024-07-24"
-      }
-    },
-    {
-      "category": "LASER",
-      "query_product": "엔디야그레이저수술기",
-      "permit_date": "20120405",
-      "permit_no": "",
-      "product": "안과용엔디야그레이저수술기",
-      "company": "(주)네비스메디칼",
-      "raw": {
-        "ENTRPS": "(주)네비스메디칼",
-        "PRDUCT": "안과용엔디야그레이저수술기",
-        "PRMISN_STTEMNT": "1",
-        "PRDUCT_PRMISN_NO": "수허 12-513 호",
-        "PRMISN_DT": "20120405",
-        "RTRCN_DSCTN_DIVS_CD": "",
-        "RTRCN_DSCTN_DT": "",
-        "MDEQ_PRDLST_SN": "2012001801",
-        "TRCK_MNG_TRGT_YN": "N",
-        "MNFT_CLNT_NM": "",
-        "MANUF_NM": "OPTOTEK d.o.o.",
-        "CHG_DT": "2024-07-24"
       }
     },
     {
@@ -20018,7 +19952,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2023-12-01"
+        "CHG_DT": "2026-11-09"
       }
     },
     {
