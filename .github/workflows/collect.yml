@@ -40,6 +40,7 @@ jobs:
 
       - name: MFDS 에스테틱 허가 후보 수집
         working-directory: collectors
+        continue-on-error: true
         env:
           MFDS_API_KEY: ${{ secrets.MFDS_API_KEY }}
         run: python mfds_approvals.py
@@ -61,6 +62,12 @@ jobs:
         working-directory: collectors
         continue-on-error: true
         run: python fda_clearances.py
+      - name: 경쟁사 공시 (DART)
+        working-directory: collectors
+        continue-on-error: true
+        env:
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
+        run: python dart_disclosures.py        
       - name: 변경사항 커밋 및 푸시
         run: |
           git config user.name "news-clipping-bot"
