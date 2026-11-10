@@ -468,6 +468,37 @@
 .news-toolbar .nt-title b{font-size:16px}
 .news-toolbar .seg-tabs{margin:0}
 /* 넓은 화면: 좌우 여백을 줄이고 본문을 넓게 */
+/* ── 휴대폰 (640px 이하): 뉴스를 위로, 지표는 가로로 넘기기, 인허가 표는 카드형 ── */
+@media(max-width:640px){
+  .wrap{display:flex;flex-direction:column;padding-left:16px;padding-right:16px}
+  .wrap>.header{order:1}.wrap>.top-metrics{order:2}.wrap>.news-toolbar{order:3}.wrap>.comp-list{order:4}
+  .wrap>.main-layout{order:5}.wrap>.hero-row{order:6}.wrap>.reg-card{order:7}.wrap>.footer{order:8}
+  .header-tools .jump-btn[href="#newsTop"]{display:none}
+  .top-metrics{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:10px;margin:0 -16px 14px;padding:2px 16px 8px;-webkit-overflow-scrolling:touch}
+  .top-metrics .trend-card{flex:0 0 78%;scroll-snap-align:start;min-height:0}
+  .top-metrics .metric-scope{display:none}
+  .mswipe{display:block;font-size:11px;color:var(--sub);margin:-8px 0 12px;order:2}
+  .news-toolbar{padding:8px 0;margin:0}
+  .news-toolbar .nt-title .muted{display:none}
+  .reg-table thead{display:none}
+  .reg-table,.reg-table tbody{display:block}
+  .reg-table tr{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:10px;padding:10px 12px;border-bottom:1px solid var(--border)}
+  .reg-table td{border:0;padding:1px 0;min-width:0;overflow-wrap:anywhere}
+  .reg-table td:nth-child(1){grid-column:1;grid-row:1;font-weight:700}
+  .reg-table td:nth-child(6){grid-column:2;grid-row:1;color:var(--sub);white-space:nowrap}
+  .reg-table td:nth-child(2){grid-column:1/3;grid-row:2}
+  .reg-table td:nth-child(3){grid-column:1;grid-row:3;color:var(--sub);font-size:11px}
+  .reg-table td:nth-child(7){grid-column:2;grid-row:3;text-align:right;font-size:11px}
+  .reg-table td.hide-m{display:none}
+  .header{gap:10px;padding-bottom:10px}.brand{gap:10px}.brand-logo{width:34px;height:auto}.logo{font-size:13px}
+  .title h1{font-size:16px;line-height:1.25}
+  .comp-head span{display:none}
+  .comp-pills{flex-wrap:nowrap;overflow-x:auto;margin:0 -16px;padding:0 16px 6px;-webkit-overflow-scrolling:touch}
+  .comp-pills .comp-pill{flex:0 0 auto}
+}
+.mswipe{display:none}
+.share-btn{border:1px solid var(--border);background:var(--bg);color:var(--sub);border-radius:8px;padding:6px 10px;font-size:12px;cursor:pointer;white-space:nowrap}
+.share-btn.done{color:var(--accent);border-color:var(--accent)}
 @media(min-width:1500px){.wrap{max-width:1840px;padding:24px 40px 40px}.main-layout{grid-template-columns:185px minmax(0,1fr) 310px;gap:32px}body{font-size:15px}.news-title{font-size:14px}.wm-wrap svg{max-height:520px}}
 @media(min-width:2200px){.wrap{max-width:2200px}}
 @media(max-width:900px){.main-layout{grid-template-columns:1fr}.desktop-cats{display:none}.mobile-cat{display:block}.mobile-origin{display:block}.right-col{position:static;display:grid;grid-template-columns:1fr 1fr;gap:12px}.top-metrics{grid-template-columns:1fr}.comp-grid{grid-template-columns:1fr}}
@@ -529,6 +560,7 @@
   </div>
 
 </section>
+<div class="mswipe">← 옆으로 넘겨서 시장 지표 5개를 볼 수 있습니다</div>
 
 
 
@@ -559,6 +591,7 @@
     <div class="nt-title"><b>뉴스 클리핑</b><span class="muted">아래 필터는 뉴스 영역에만 적용됩니다</span></div>
     <nav class="seg-tabs"><button class="seg-tab active" data-seg="전체">전체</button><button class="seg-tab" data-seg="에스테틱">에스테틱</button><button class="seg-tab" data-seg="써지컬">써지컬</button></nav>
     <div class="period"><button data-days="1">오늘</button><button class="active" data-days="7">주간</button><button data-days="30">월간</button></div>
+    <button class="share-btn" id="shareBtn" title="지금 보고 있는 탭·기간 그대로 열리는 링크를 복사합니다">🔗 링크 복사</button>
   </div>
   <section class="comp-list">
     <div class="comp-head">
@@ -635,6 +668,11 @@ const aestheticOrder=Object.keys(productAliases),surgicalOrder=Object.keys(surgi
 Object.assign(productAliases,surgicalAliases);
 const segOrder=()=>state.segment==='에스테틱'?aestheticOrder:state.segment==='써지컬'?surgicalOrder:[...aestheticOrder,...surgicalOrder];
 let allNews=[],events=[],state={days:7,segment:'전체',category:'전체',product:'전체',q:'',kpi:null,origin:'all',country:'전체'};
+// 공유 링크: ?seg=써지컬&days=30&q=검색어 로 들어오면 그 화면으로 바로 열림
+(()=>{try{const p=new URLSearchParams(location.search);const sg=p.get('seg'),d=+p.get('days'),q=p.get('q');
+  if(['전체','에스테틱','써지컬'].includes(sg))state.segment=sg;if([1,7,30].includes(d))state.days=d;if(q){state.q=q.slice(0,60)}}catch(e){}})();
+function syncUrl(){try{const p=new URLSearchParams();if(state.segment!=='전체')p.set('seg',state.segment);if(state.days!==7)p.set('days',state.days);if(state.q)p.set('q',state.q);
+  const u=location.pathname+(p.toString()?'?'+p:'')+location.hash;if(u!==location.pathname+location.search+location.hash)history.replaceState(null,'',u)}catch(e){}}
 const A=v=>Array.isArray(v)?v:[]; const D=s=>{const d=new Date(s);return isNaN(d)?null:d};
 function own(i){return A(i.own_company_mentions).length+A(i.own_product_mentions).length+A(i.own_brand_mentions).length>0}
 function comp(i){return A(i.competitor_company_mentions).length+A(i.competitor_product_mentions).length+A(i.competitor_mentions).length>0}
@@ -688,8 +726,10 @@ function renderBrief(items){if(!items.length){briefText.textContent='선택한 �
 const CATEGORY_COLORS={'RF':{bg:'#fff0e8',text:'#c2410c'},'HIFU':{bg:'#e8f1ff',text:'#1d4ed8'},'Laser·Pico':{bg:'#f1edff',text:'#5846a8'},'RF Microneedling':{bg:'#fde8f1',text:'#be185d'},'Surgical':{bg:'#e6f6f4',text:'#0f766e'},'비뇨·결석':{bg:'#e6f6f4',text:'#0f766e'},'정맥·치핵':{bg:'#e8f0fb',text:'#1e40af'},'여성·CO2':{bg:'#fbe9f3',text:'#9d174d'},'통증·PBM':{bg:'#f3eefc',text:'#6b21a8'},'시장동향':{bg:'#eaf7ea',text:'#15803d'},'신제품·출시':{bg:'#fff7e0',text:'#a16207'},'인허가·규제':{bg:'#fdeaea',text:'#b91c1c'},'학회·임상':{bg:'#e7f5fb',text:'#0369a1'},'글로벌사업':{bg:'#eef2f6',text:'#475569'}};
 function categoryPill(cats){const allow=preferredCats();const c=A(cats).find(x=>allow.includes(x))||'기타';const col=CATEGORY_COLORS[c]||{bg:'var(--surface2)',text:'var(--sub)'};return `<span class="cat-pill" style="background:${col.bg};color:${col.text}">${c}</span>`}
 function renderNews(items){newsList.innerHTML=items.length?items.slice(0,80).map(i=>`<a class="news has-pill" href="${i.link}" target="_blank" rel="noopener">${categoryPill(i.categories)}<div class="news-body"><div class="news-title">${i.is_overseas?`<span class="badge-overseas">${i.country||'해외'}</span>`:''}${own(i)?'<span class="badge">WONTECH</span>':''}${i.title}</div><div class="meta">${i.source||''} · ${A(i.categories).join(' · ')} · ${D(i.pub_date)?D(i.pub_date).toLocaleDateString('ko-KR'):''}${i.is_overseas?` · <span class="tr-link" data-t="${encodeURIComponent(i.title)}">번역</span>`:''}</div></div></a>`).join(''):'<div class="empty">해당 조건의 기사가 없습니다.</div>'}
-function render(){document.querySelectorAll('.seg-tab').forEach(x=>x.classList.toggle('active',x.dataset.seg===state.segment));document.querySelectorAll('.period button').forEach(x=>x.classList.toggle('active',+x.dataset.days===state.days));renderCats();renderCountries();const items=baseFiltered();renderTop(items);renderExposure();renderMetrics(items);renderBrief(items);renderNews(items);const ds=allNews.map(i=>D(i.pub_date)).filter(Boolean);lastUpdated.textContent=ds.length?`최근 수집 기사: ${new Date(Math.max(...ds)).toLocaleString('ko-KR')}`:'아직 수집된 데이터가 없습니다.'}
-document.querySelectorAll('.seg-tab').forEach(x=>x.onclick=()=>{state.segment=x.dataset.seg;state.category='전체';state.product='전체';state.kpi=null;render();syncReg();renderEvents();loadPatent()});document.querySelectorAll('.period button').forEach(x=>x.onclick=()=>{state.days=+x.dataset.days;render()});searchBox.oninput=e=>{state.q=e.target.value.trim();render()};mobileCategory.onchange=e=>{state.category=e.target.value;state.product='전체';render()};
+function render(){document.querySelectorAll('.seg-tab').forEach(x=>x.classList.toggle('active',x.dataset.seg===state.segment));document.querySelectorAll('.period button').forEach(x=>x.classList.toggle('active',+x.dataset.days===state.days));renderCats();renderCountries();const items=baseFiltered();renderTop(items);renderExposure();renderMetrics(items);renderBrief(items);renderNews(items);const ds=allNews.map(i=>D(i.pub_date)).filter(Boolean);lastUpdated.textContent=ds.length?`최근 수집 기사: ${new Date(Math.max(...ds)).toLocaleString('ko-KR')}`:'아직 수집된 데이터가 없습니다.';syncUrl()}
+document.querySelectorAll('.seg-tab').forEach(x=>x.onclick=()=>{state.segment=x.dataset.seg;state.category='전체';state.product='전체';state.kpi=null;render();syncReg();renderEvents();loadPatent()});document.querySelectorAll('.period button').forEach(x=>x.onclick=()=>{state.days=+x.dataset.days;render()});searchBox.oninput=e=>{state.q=e.target.value.trim();render()};if(state.q)searchBox.value=state.q;
+shareBtn.onclick=async()=>{const u=location.href;let ok=false;try{await navigator.clipboard.writeText(u);ok=true}catch(e){try{const t=document.createElement('textarea');t.value=u;document.body.appendChild(t);t.select();ok=document.execCommand('copy');t.remove()}catch(_){}}
+  shareBtn.textContent=ok?'✓ 복사됨':'주소창 링크를 복사하세요';shareBtn.classList.add('done');setTimeout(()=>{shareBtn.textContent='🔗 링크 복사';shareBtn.classList.remove('done')},1800)};mobileCategory.onchange=e=>{state.category=e.target.value;state.product='전체';render()};
 originList.querySelectorAll('.cat').forEach(b=>b.onclick=()=>{state.origin=b.dataset.o;originList.querySelectorAll('.cat').forEach(x=>x.classList.toggle('active',x===b));mobileOrigin.value=state.origin;render()});countrySel.onchange=e=>{state.country=e.target.value;render()};
 newsList.addEventListener('click',e=>{const t=e.target.closest('.tr-link');if(!t)return;e.preventDefault();e.stopPropagation();window.open('https://translate.google.com/?sl=auto&tl=ko&op=translate&text='+t.dataset.t,'_blank','noopener')});
 mobileOrigin.onchange=e=>{state.origin=e.target.value;originList.querySelectorAll('.cat').forEach(x=>x.classList.toggle('active',x.dataset.o===state.origin));render()};
@@ -919,7 +959,7 @@ async function loadReg(){
   regCompany.onchange=()=>{regCo=regCompany.value;regShow=12;drawReg()};regMore.onclick=()=>{regShow+=20;drawReg()};
   regAsOf.textContent=`· 2023년 이후 ${regData.items.length}건 · 갱신 ${regData.updated}`;
   regNote.innerHTML=`출처: ${regData.source} · ${regData.note} · 현재 미국 FDA부터 연결, EU·캐나다·호주는 순차 추가 예정`;
-  drawReg();regCard.style.display='';
+  syncReg();regCard.style.display='';
 }
 loadReg();
 load();

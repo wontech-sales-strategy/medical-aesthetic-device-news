@@ -366,13 +366,23 @@ def fmt_date(i):
     return d.astimezone(KST).strftime("%m/%d") if d else ""
 
 
-def section(num, title, sub=""):
-    return f"""
+def more_link(dash, query="", anchor="newsTop"):
+    """대시보드의 해당 화면(탭·기간)으로 바로 가는 링크."""
+    if not dash:
+        return ""
+    from urllib.parse import urlencode
+    return f"{dash}{'?' + urlencode(query) if query else ''}{'#' + anchor if anchor else ''}"
+
+
+def section(num, title, sub="", more=""):
+    more_html = (f'<br><a href="{e(more)}" style="font:700 11px {FONT};color:{OR};text-decoration:none">대시보드에서 더 보기 →</a>'
+                 if more else "")
+    return f"""<!--SEC:{e(title)}-->
 <tr><td style="padding:30px 32px 10px">
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
     <td style="font:800 11px {FONT};color:{OR};letter-spacing:1px;width:28px;vertical-align:middle">{num}</td>
     <td style="font:800 17px {FONT};color:{INK};vertical-align:middle">{e(title)}</td>
-    <td align="right" style="font:400 11px {FONT};color:{MUTED};vertical-align:middle">{e(sub)}</td>
+    <td align="right" style="font:400 11px {FONT};color:{MUTED};vertical-align:middle;line-height:1.6">{e(sub)}{more_html}</td>
   </tr></table>
   <div style="height:2px;background:{INK};margin-top:10px;line-height:2px;font-size:0">&nbsp;</div>
 </td></tr>"""
@@ -383,13 +393,13 @@ def article(i, info=None, accent=False):
     title = i.get("title", "")
     orig = ""
     summ = info.get("summary") or i.get("summary", "")
-    summ = summ[:180] + ("…" if len(summ) > 180 else "")
+    summ = summ[:110] + ("…" if len(summ) > 110 else "")  # 메일에서는 2줄 정도로
     point = info.get("point", "")
     tag = ""
     if i.get("is_overseas"):
         tag = f'<span style="display:inline-block;background:{INK};color:#fff;font:700 10px {FONT};padding:2px 7px;border-radius:3px;margin-right:6px">{e(i.get("country") or "해외")}</span>'
     border = OR if accent else LINE
-    return f"""
+    return f"""<!--ART-->
 <tr><td style="padding:0 32px 12px">
  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border:1px solid {LINE};border-left:3px solid {border};background:#fff">
   <tr><td style="padding:14px 16px">
@@ -401,6 +411,28 @@ def article(i, info=None, accent=False):
   </td></tr>
  </table>
 </td></tr>"""
+
+
+TOC_SHORT = {"Today’s Top 3": "Top 3", "주요 경쟁사 주가": "주가", "🔔 경쟁사 신규 인허가": "신규 인허가",
+             "글로벌 시장 지역 비중": "시장 지도", "원텍 언급 기사": "원텍 언급", "해외 시장 소식": "해외",
+             "다가오는 학회·전시회": "학회·전시회"}
+
+
+def toc_row(rows):
+    """맨 위 목차 한 줄: 이 메일에 무엇이 몇 건 있는지."""
+    parts, cur, n = [], None, 0
+    for r in rows + ["<!--SEC:END-->"]:
+        m = re.match(r"<!--SEC:(.*?)-->", r)
+        if m:
+            if cur:
+                parts.append(f"{TOC_SHORT.get(cur, cur)}{f' <b>{n}</b>' if n else ''}")
+            cur, n = html.unescape(m.group(1)), 0
+        elif r.startswith("<!--ART-->"):
+            n += 1
+    if not parts:
+        return ""
+    return (f'<tr><td style="padding:14px 32px 0;font:400 12px/1.8 {FONT};color:{SUB}">'
+            f'<b style="color:{INK}">오늘 메일</b>&nbsp; ' + " &nbsp;·&nbsp; ".join(parts) + "</td></tr>")
 
 
 def group_header(name, total):
@@ -545,12 +577,12 @@ def stock_table(st):
                  f'<span style="font:400 10px {FONT};color:{MUTED};margin-left:5px">{e(s_.get("market", ""))}</span></td>'
                  f'<td align="right" style="padding:8px 10px;border-top:1px solid {LINE};font:800 13px {FONT};color:{INK}">{px}</td>'
                  f'<td align="right" style="padding:8px 10px;border-top:1px solid {LINE};font:700 12px {FONT};color:{col};white-space:nowrap">{arr} {ch} ({pct:+.2f}%)</td>'
-                 f'<td align="right" style="padding:8px 14px;border-top:1px solid {LINE};font:400 11px {FONT};color:{MUTED}">{int(d[4:6]) if len(d) == 8 else ""}/{int(d[6:8]) if len(d) == 8 else ""}</td></tr>')
+                 f'<td class="hide-sm" align="right" style="padding:8px 14px;border-top:1px solid {LINE};font:400 11px {FONT};color:{MUTED}">{int(d[4:6]) if len(d) == 8 else ""}/{int(d[6:8]) if len(d) == 8 else ""}</td></tr>')
     return f"""
 <tr><td style="padding:0 32px 6px">
  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#fff;border:1px solid {LINE}">
   <tr><td style="padding:7px 14px;font:400 11px {FONT};color:{MUTED}">종목</td><td align="right" style="padding:7px 10px;font:400 11px {FONT};color:{MUTED}">종가</td>
-      <td align="right" style="padding:7px 10px;font:400 11px {FONT};color:{MUTED}">전일 대비</td><td align="right" style="padding:7px 14px;font:400 11px {FONT};color:{MUTED}">기준일</td></tr>{rows}
+      <td align="right" style="padding:7px 10px;font:400 11px {FONT};color:{MUTED}">전일 대비</td><td class="hide-sm" align="right" style="padding:7px 14px;font:400 11px {FONT};color:{MUTED}">기준일</td></tr>{rows}
  </table>
  <div style="font:400 10px/1.6 {FONT};color:{MUTED};margin-top:6px">출처: {e(st.get('source_kr', ''))}{' · 해외: ' + e(st.get('source_us', '')) if any(x.get('currency') == 'USD' for x in items) else ''} · 국내 종가는 다음 영업일 13시 이후 공개되어 1~2영업일 늦게 반영 · 대시보드에서 3개월 추이 확인</div>
 </td></tr>"""
@@ -616,10 +648,10 @@ def mini_bars(hist, color=OR):
 def metric_card(title, unit, x):
     hist = (x or {}).get("history", [])
     if not hist:
-        return f'<td width="33%" style="padding:6px"></td>'
+        return f'<td class="stack" width="33%" style="padding:6px"></td>'
     last, prev = hist[-1]["value"], hist[-2]["value"] if len(hist) > 1 else None
     yoy = f'{(last - prev) / prev * 100:+.1f}%' if prev else ""
-    return (f'<td width="33%" valign="top" style="padding:6px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#fff;border:1px solid {LINE}"><tr><td style="padding:12px 10px">'
+    return (f'<td class="stack" width="33%" valign="top" style="padding:6px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#fff;border:1px solid {LINE}"><tr><td style="padding:12px 10px">'
             f'<div style="font:700 11px {FONT};color:{SUB}">{e(title)}</div>'
             f'<div style="margin-top:4px"><span style="font:800 18px {FONT};color:{INK}">{last:,.0f}</span> '
             f'<span style="font:400 10px {FONT};color:{MUTED}">{e(unit)}</span> '
@@ -632,7 +664,7 @@ def metric_card(title, unit, x):
 def competitor_card(x):
     items = sorted((x or {}).get("items", []), key=lambda it: -(it["history"][-1]["value"]))
     if not items:
-        return '<td width="33%"></td>'
+        return '<td class="stack" width="33%"></td>'
     mx = max(it["history"][-1]["value"] for it in items)
     rows = ""
     for it in items:
@@ -644,7 +676,7 @@ def competitor_card(x):
                  f'<td width="100%" style="padding:3px 4px"><div style="background:{LINE};height:8px;line-height:8px;font-size:0"><div style="width:{w}%;background:{OR if own else "#9A9A94"};height:8px;line-height:8px;font-size:0">&nbsp;</div></div></td>'
                  f'<td align="right" style="font:700 11px {FONT};color:{INK};padding:3px 0;white-space:nowrap">{v:,.0f}</td>'
                  f'<td align="right" style="font:700 10px {FONT};color:{OR};padding:3px 0 3px 5px;white-space:nowrap">{((v - p) / p * 100):+.1f}%</td></tr>' if p else '')
-    return (f'<td width="66%" colspan="2" valign="top" style="padding:6px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#fff;border:1px solid {LINE}"><tr><td style="padding:12px 14px">'
+    return (f'<td class="stack" width="66%" colspan="2" valign="top" style="padding:6px"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#fff;border:1px solid {LINE}"><tr><td style="padding:12px 14px">'
             f'<div style="font:700 11px {FONT};color:{SUB}">주요 경쟁사 매출 (2025, 억원)</div>'
             f'<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin-top:8px">{rows}</table>'
             f'<div style="font:400 9px {FONT};color:{MUTED};margin-top:6px">DART · 제이시스 별도, 그 외 연결</div>'
@@ -741,7 +773,8 @@ def build(cfg, now):
 
     # ① 이슈
     use_ai_issues = bool(ai and len(ai.get("issues") or []) >= 2)
-    rows.append(brief_box(week, k_own, k_comp))
+    brief = brief_box(week, k_own, k_comp)
+    rows.append(brief)
     sec_no = iter(f"{i:02d}" for i in range(1, 20))
     rows.append(section(next(sec_no), "Today’s Top 3",
                         "AI 요약" if use_ai_issues else "회사별 대표 기사"))
@@ -767,7 +800,7 @@ def build(cfg, now):
     reg = load_json("regulatory.json", {})
     reg_html = reg_alerts(reg, now)
     if reg_html:
-        rows.append(section(next(sec_no), "🔔 경쟁사 신규 인허가", "FDA 510(k)"))
+        rows.append(section(next(sec_no), "🔔 경쟁사 신규 인허가", "FDA 510(k)", more_link(dash, anchor="regCard")))
         rows.append(reg_html)
 
     # ④ 글로벌 시장 지역 비중 (대시보드 지도와 동일, 공개 자료만)
@@ -784,7 +817,7 @@ def build(cfg, now):
             rows.append(f'<tr><td style="padding:0 32px 6px">{map_caption(market, cfg.get("telegram", {}).get("dashboard_url", ""), False)}</td></tr>')
 
     # ② 경쟁사
-    rows.append(section(next(sec_no), "경쟁사 동향", f"{len(comp_groups)}개사"))
+    rows.append(section(next(sec_no), "경쟁사 동향", f"{len(comp_groups)}개사", more_link(dash, {"seg": "에스테틱"})))
     if comp_groups:
         for name, its, total in comp_groups:
             rows.append(group_header(name, total))
@@ -794,7 +827,7 @@ def build(cfg, now):
         rows.append(empty("최근 경쟁사 관련 기사가 없습니다."))
 
     # 써지컬 (홀린원·베인케어·벨라도나·스카힐·엘리제 시장)
-    rows.append(section(next(sec_no), "써지컬 동향", f"비뇨·정맥·여성·통증 · {surg_span}"))
+    rows.append(section(next(sec_no), "써지컬 동향", f"비뇨·정맥·여성·통증 · {surg_span}", more_link(dash, {"seg": "써지컬"})))
     if surg_groups:
         for name, its, total in surg_groups:
             rows.append(group_header(name, total))
@@ -804,7 +837,7 @@ def build(cfg, now):
         rows.append(empty("최근 7일 써지컬 관련 기사가 없습니다."))
 
     # ③ 원텍
-    rows.append(section(next(sec_no), "원텍 언급 기사", f"{own_total}건 중 {len(own)}건"))
+    rows.append(section(next(sec_no), "원텍 언급 기사", f"{own_total}건 중 {len(own)}건", more_link(dash, {"q": "원텍"})))
     if own:
         for i in own:
             rows.append(article(i, info.get(i["link"]), accent=True))
@@ -862,8 +895,14 @@ def build(cfg, now):
  문의·수신 변경: 영업전략팀
 </td></tr>""")
 
+    toc = toc_row(rows)
+    if toc:
+        rows.insert(rows.index(brief) + 1 if brief in rows else 2, toc)
     body = "".join(rows)
-    doc = f"""<!DOCTYPE html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>WONTECH Sales Morning Brief</title></head>
+    # 휴대폰에서 좌우 여백 줄이기 (지원하는 메일 앱에서만 적용, PC 메일은 그대로)
+    body = re.sub(r'<td([^>]*?) style="padding:(\S+) 32px', r'<td\1 class="px" style="padding:\2 32px', body)
+    doc = f"""<!DOCTYPE html><html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>WONTECH Sales Morning Brief</title>
+<style>@media only screen and (max-width:480px){{.px{{padding-left:14px!important;padding-right:14px!important}}.stack{{display:block!important;width:100%!important;box-sizing:border-box}}.hide-sm{{display:none!important}}}}</style></head>
 <body style="margin:0;padding:0;background:{BG}">
 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:{BG}"><tr><td align="center" style="padding:24px 8px">
 <table role="presentation" width="680" cellpadding="0" cellspacing="0" style="max-width:680px;width:100%;background:#FAF9F7;border:1px solid {LINE}">
