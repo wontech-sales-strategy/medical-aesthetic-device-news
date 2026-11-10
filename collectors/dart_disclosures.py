@@ -24,8 +24,8 @@ CORP_MAP = BASE / "data" / "dart_corp_map.json"
 API = "https://opendart.fss.or.kr/api"
 
 # 종목코드 기준 (주가 카드와 같은 회사 + 비상장 전환 여부 확인용 제이시스·비올)
+# 원텍 자체 공시는 제외 (사내에서 이미 공유되는 내용 + 공개 대시보드에 자사 공시를 올리지 않기 위함)
 COMPANIES = [
-    {"stock": "336570", "name": "원텍", "own": True},
     {"stock": "214150", "name": "클래시스"},
     {"stock": "287410", "name": "제이시스메디칼"},
     {"stock": "149980", "name": "하이로닉"},
@@ -39,9 +39,10 @@ TYPES = [
     ("실적", ["영업(잠정)실적", "매출액또는손익구조", "사업보고서", "반기보고서", "분기보고서", "결산실적"]),
     ("계약", ["단일판매", "공급계약"]),
     ("투자", ["신규시설투자", "타법인주식", "유형자산", "특허권"]),
-    ("자금", ["유상증자", "무상증자", "전환사채", "신주인수권부사채", "교환사채", "자기주식", "현금ㆍ현물배당", "현금·현물배당"]),
-    ("지배구조", ["최대주주", "합병", "분할", "영업양수", "영업양도", "공개매수", "상장폐지", "주식교환"]),
+    ("자금", ["유상증자", "무상증자", "전환사채", "신주인수권부사채", "교환사채", "자기주식", "주식소각", "현금ㆍ현물배당", "현금·현물배당"]),
+    ("지배구조", ["최대주주", "합병", "분할", "영업양수", "영업양도", "공개매수", "상장폐지", "주식교환", "대표이사", "대표집행임원"]),
 ]
+# 위 유형에 안 걸리는 공시는 '기타'로 두고 대시보드·메일에는 표시하지 않음 (주식매수선택권, 주주명부 등)
 ROUTINE = ["임원ㆍ주요주주특정증권등소유상황보고서", "주식등의대량보유상황보고서", "기업설명회", "주주총회소집",
            "참고서류", "증권발행실적보고서", "투자설명서", "일괄신고"]
 
@@ -52,7 +53,7 @@ def classify(title):
             return label, True
     if any(w in title for w in ROUTINE):
         return "참고", False
-    return "기타", True
+    return "기타", False
 
 
 def corp_codes(key):
@@ -140,8 +141,9 @@ def main():
 
     # 이번에 조회하지 않은 기간(30일 이전)의 기존 공시는 180일까지 유지
     cutoff = (now - timedelta(days=180)).strftime("%Y%m%d")
+    names = {c["name"] for c in COMPANIES}
     for no, old in seen.items():
-        if no not in items and old.get("date", "") >= cutoff:
+        if no not in items and old.get("date", "") >= cutoff and old.get("company") in names:
             old["is_new"] = False
             items[no] = old
     out = sorted(items.values(), key=lambda x: (x["date"], x["rcept_no"]), reverse=True)

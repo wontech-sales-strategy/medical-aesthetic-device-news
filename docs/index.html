@@ -956,13 +956,16 @@ loadStocks();
 let discShow=6;const escH=t=>String(t||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 async function loadDisclosures(){
   let d;try{const r=await fetch('data/disclosures.json',{cache:'no-store'});if(!r.ok)return;d=await r.json()}catch(e){return}
-  const it=(d.items||[]).filter(i=>i.important);if(!it.length)return;
+  const KEEP=['실적','계약','투자','자금','지배구조'],RE=[['주식소각','자금'],['대표이사','지배구조'],['대표집행임원','지배구조']];
+  (d.items||[]).forEach(i=>{if(i.type==='기타'){const m=RE.find(([w])=>i.title.includes(w));if(m)i.type=m[1]}});
+  const it=(d.items||[]).filter(i=>!i.own&&KEEP.includes(i.type));if(!it.length)return;
+  d.companies=(d.companies||[]).filter(c=>c!=='원텍');
   const now=Date.now();
   const draw=()=>{discList.innerHTML=it.slice(0,discShow).map(i=>{const dt=i.date?`${i.date.slice(4,6)}.${i.date.slice(6,8)}`:'';const nw=i.is_new&&(now-new Date(i.found))<7*864e5;
       return `<a class="disc-row ${i.own?'own':''}" href="${escH(i.url)}" target="_blank" rel="noopener"><div class="disc-top"><span class="disc-co">${escH(i.company)}</span><span class="disc-type t-${i.type}">${i.type}</span><span>${dt}</span>${nw?'<span class="disc-new">NEW</span>':''}</div><div class="disc-title">${escH(i.title)}</div></a>`}).join('');
     discMore.style.display=it.length>discShow?'':'none';discMore.textContent=`더보기 ▾ (${it.length-discShow}건 더)`};
   discMore.onclick=()=>{discShow+=10;draw()};draw();
-  discNote.textContent=`출처: ${d.source} · ${d.companies.join('·')} · 지분 변동 보고 등 반복 공시는 제외 · 갱신 ${d.updated}`;
+  discNote.textContent=`출처: ${d.source} · ${d.companies.join('·')} · 실적·계약·투자·자금·지배구조 공시만 표시 · 갱신 ${d.updated}`;
   discCard.style.display='';
 }
 loadDisclosures();

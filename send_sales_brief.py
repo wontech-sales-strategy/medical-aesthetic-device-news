@@ -616,7 +616,7 @@ def reg_alerts(reg, now, days=7):
 def disc_alerts(disc, now):
     """어제(월요일은 금요일) 이후 접수된 경쟁사 주요 공시 (DART). 없으면 섹션 생략."""
     since = (now - timedelta(days=3 if now.weekday() == 0 else 1)).strftime("%Y%m%d")
-    out = [i for i in disc.get("items") or [] if i.get("important") and i.get("date", "") >= since]
+    out = [i for i in disc.get("items") or [] if i.get("important") and not i.get("own") and i.get("date", "") >= since]
     if not out:
         return ""
     rows = "".join(
@@ -627,7 +627,7 @@ def disc_alerts(disc, now):
     return f"""
 <tr><td style="padding:0 32px 6px">
  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#fff;border:1px solid {LINE}">{rows}</table>
- <div style="font:400 10px/1.6 {FONT};color:{MUTED};margin-top:6px">출처: {e(disc.get('source', ''))} · 지분 변동 보고 등 반복 공시는 제외 · 공시 원문은 제목 클릭</div>
+ <div style="font:400 10px/1.6 {FONT};color:{MUTED};margin-top:6px">출처: {e(disc.get('source', ''))} · 실적·계약·투자·자금·지배구조 공시만 · 공시 원문은 제목 클릭</div>
 </td></tr>"""
 
 
