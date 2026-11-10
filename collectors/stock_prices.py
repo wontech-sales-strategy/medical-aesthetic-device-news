@@ -3,7 +3,7 @@
 - 국내: 금융위원회_주식시세정보 (공공데이터포털, Secret DATA_GO_KR_KEY)
   · 기준일 다음 영업일 13시 이후 갱신 → 아침에는 보통 '전전 영업일' 종가가 최신입니다.
   · 이용조건: 공공누리 제4유형(출처표시·상업적 이용금지·변경금지)
-- 해외(인모드 INMD): Alpha Vantage 무료 API (Secret ALPHAVANTAGE_KEY) — 키가 없으면 건너뜀
+- 해외(인모드 INMD, 보스턴사이언티픽 BSX): Alpha Vantage 무료 API (Secret ALPHAVANTAGE_KEY) — 키가 없으면 건너뜀
 - 조회 결과가 없는 종목(상장폐지 등)은 자동으로 빠지고 로그에 표시됩니다.
 """
 import json
@@ -28,7 +28,8 @@ KR_STOCKS = [
     {"code": "199550", "name": "레이저옵텍"},
     {"code": "462510", "name": "라메디텍"},
 ]
-US_STOCKS = [{"symbol": "INMD", "name": "인모드", "market": "NASDAQ"}]
+US_STOCKS = [{"symbol": "INMD", "name": "인모드", "market": "NASDAQ"},
+             {"symbol": "BSX", "name": "보스턴사이언티픽", "market": "NYSE", "seg": "써지컬"}]  # 홀린원 경쟁(MOSES 등)
 
 KR_ENDPOINTS = [
     "https://apis.data.go.kr/1160100/service/GetStockSecuritiesInfoService/getStockPriceInfo",
@@ -102,7 +103,7 @@ def fetch_us(meta, key):
     hist = [{"d": d.replace("-", ""), "c": float(v["4. close"])} for d, v in days][-70:]
     last, prev = hist[-1]["c"], hist[-2]["c"]
     return {
-        "name": meta["name"], "code": meta["symbol"], "own": False, "market": meta["market"], "currency": "USD",
+        "name": meta["name"], "code": meta["symbol"], "own": False, "market": meta["market"], "currency": "USD", "seg": meta.get("seg", "에스테틱"),
         "date": hist[-1]["d"], "close": last, "change": round(last - prev, 2), "pct": round((last - prev) / prev * 100, 2),
         "history": hist,
     }
@@ -128,6 +129,7 @@ def main():
         if not av:
             skipped.append(f"{m['name']}({m['symbol']}): ALPHAVANTAGE_KEY 없음")
             continue
+        time.sleep(1.5)  # Alpha Vantage 무료: 초당 1회 제한
         try:
             item = fetch_us(m, av)
             out.append(item)

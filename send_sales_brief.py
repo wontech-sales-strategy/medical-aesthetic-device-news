@@ -414,7 +414,7 @@ def article(i, info=None, accent=False):
 
 
 TOC_SHORT = {"Today’s Top 3": "Top 3", "주요 경쟁사 주가": "주가", "🔔 경쟁사 신규 인허가": "신규 인허가",
-             "글로벌 시장 지역 비중": "시장 지도", "원텍 언급 기사": "원텍 언급", "해외 시장 소식": "해외",
+             "글로벌 시장 지역 비중": "시장 지도", "원텍 언급 기사": "원텍 언급", "해외 시장 소식": "해외", "📑 경쟁사 주요 공시": "공시",
              "다가오는 학회·전시회": "학회·전시회"}
 
 
@@ -613,6 +613,24 @@ def reg_alerts(reg, now, days=7):
 </td></tr>"""
 
 
+def disc_alerts(disc, now):
+    """어제(월요일은 금요일) 이후 접수된 경쟁사 주요 공시 (DART). 없으면 섹션 생략."""
+    since = (now - timedelta(days=3 if now.weekday() == 0 else 1)).strftime("%Y%m%d")
+    out = [i for i in disc.get("items") or [] if i.get("important") and i.get("date", "") >= since]
+    if not out:
+        return ""
+    rows = "".join(
+        f'<tr><td style="padding:9px 14px;border-top:1px solid {LINE};font:700 13px {FONT};color:{OR if i.get("own") else INK};white-space:nowrap">{e(i["company"])}</td>'
+        f'<td style="padding:9px 10px;border-top:1px solid {LINE};font:400 13px {FONT};color:{INK}"><a href="{e(i.get("url", ""))}" target="_blank" style="color:{INK};text-decoration:none">{e(i.get("title", ""))}</a>'
+        f'<div style="font:400 11px {FONT};color:{MUTED};margin-top:2px">{e(i.get("type", ""))} · {i.get("date", "")[4:6]}.{i.get("date", "")[6:8]}</div></td></tr>'
+        for i in out[:8])
+    return f"""
+<tr><td style="padding:0 32px 6px">
+ <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#fff;border:1px solid {LINE}">{rows}</table>
+ <div style="font:400 10px/1.6 {FONT};color:{MUTED};margin-top:6px">출처: {e(disc.get('source', ''))} · 지분 변동 보고 등 반복 공시는 제외 · 공시 원문은 제목 클릭</div>
+</td></tr>"""
+
+
 def seg_chip(seg):
     if seg != "써지컬":
         return ""
@@ -802,6 +820,11 @@ def build(cfg, now):
     if reg_html:
         rows.append(section(next(sec_no), "🔔 경쟁사 신규 인허가", "FDA 510(k)", more_link(dash, anchor="regCard")))
         rows.append(reg_html)
+
+    disc_html = disc_alerts(load_json("disclosures.json", {}), now)
+    if disc_html:
+        rows.append(section(next(sec_no), "📑 경쟁사 주요 공시", "DART · 어제 접수분" if now.weekday() else "DART · 금요일 이후"))
+        rows.append(disc_html)
 
     # ④ 글로벌 시장 지역 비중 (대시보드 지도와 동일, 공개 자료만)
     market = load_json("market_regions.json", {})
