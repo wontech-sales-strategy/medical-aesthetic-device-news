@@ -575,7 +575,7 @@ def stock_table(st):
         nm_col = OR if s_.get("own") else INK
         rows += (f'<tr><td style="padding:8px 14px;border-top:1px solid {LINE};font:700 13px {FONT};color:{nm_col}">{e(s_["name"])}'
                  f'<span style="font:400 10px {FONT};color:{MUTED};margin-left:5px">{e(s_.get("market", ""))}</span></td>'
-                 f'<td align="right" style="padding:8px 10px;border-top:1px solid {LINE};font:800 13px {FONT};color:{INK}">{px}</td>'
+                 f'<td align="right" style="padding:8px 10px;border-top:1px solid {LINE};font:800 13px {FONT};color:{INK};white-space:nowrap">{px}</td>'
                  f'<td align="right" style="padding:8px 10px;border-top:1px solid {LINE};font:700 12px {FONT};color:{col};white-space:nowrap">{arr} {ch} ({pct:+.2f}%)</td>'
                  f'<td class="hide-sm" align="right" style="padding:8px 14px;border-top:1px solid {LINE};font:400 11px {FONT};color:{MUTED}">{int(d[4:6]) if len(d) == 8 else ""}/{int(d[6:8]) if len(d) == 8 else ""}</td></tr>')
     return f"""
