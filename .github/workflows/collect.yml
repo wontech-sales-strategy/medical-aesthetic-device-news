@@ -61,6 +61,12 @@ jobs:
         working-directory: collectors
         continue-on-error: true
         run: python fda_clearances.py
+      - name: 경쟁사 공시 (DART)
+        working-directory: collectors
+        continue-on-error: true
+        env:
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
+        run: python dart_disclosures.py        
       - name: 변경사항 커밋 및 푸시
         run: |
           git config user.name "news-clipping-bot"
