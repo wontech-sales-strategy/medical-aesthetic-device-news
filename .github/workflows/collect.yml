@@ -40,6 +40,7 @@ jobs:
 
       - name: MFDS 에스테틱 허가 후보 수집
         working-directory: collectors
+        continue-on-error: true
         env:
           MFDS_API_KEY: ${{ secrets.MFDS_API_KEY }}
         run: python mfds_approvals.py
