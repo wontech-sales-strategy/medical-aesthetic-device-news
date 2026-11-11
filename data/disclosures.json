@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11 11:15",
+  "updated": "2026-11-12 07:43",
   "source": "금융감독원 전자공시시스템(DART) 오픈API",
   "companies": [
     "클래시스",
@@ -20,7 +20,7 @@
       "filer": "클래시스",
       "rcept_no": "20261111900155",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111900155",
-      "is_new": true,
+      "is_new": false,
       "found": "2026-11-11"
     },
     {
@@ -748,71 +748,6 @@
       "filer": "클래시스",
       "rcept_no": "20260518900795",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518900795",
-      "is_new": false,
-      "found": "2026-11-11"
-    },
-    {
-      "company": "클래시스",
-      "own": false,
-      "title": "타인에대한채무보증결정",
-      "type": "기타",
-      "important": true,
-      "date": "20260515",
-      "filer": "클래시스",
-      "rcept_no": "20260515903232",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515903232",
-      "is_new": false,
-      "found": "2026-11-11"
-    },
-    {
-      "company": "클래시스",
-      "own": false,
-      "title": "[기재정정]주식매수선택권부여에관한신고",
-      "type": "기타",
-      "important": true,
-      "date": "20260515",
-      "filer": "클래시스",
-      "rcept_no": "20260515003087",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515003087",
-      "is_new": false,
-      "found": "2026-11-11"
-    },
-    {
-      "company": "라메디텍",
-      "own": false,
-      "title": "분기보고서 (2026.03)",
-      "type": "실적",
-      "important": true,
-      "date": "20260515",
-      "filer": "라메디텍",
-      "rcept_no": "20260515002892",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515002892",
-      "is_new": false,
-      "found": "2026-11-11"
-    },
-    {
-      "company": "레이저옵텍",
-      "own": false,
-      "title": "분기보고서 (2026.03)",
-      "type": "실적",
-      "important": true,
-      "date": "20260515",
-      "filer": "레이저옵텍",
-      "rcept_no": "20260515001494",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515001494",
-      "is_new": false,
-      "found": "2026-11-11"
-    },
-    {
-      "company": "클래시스",
-      "own": false,
-      "title": "분기보고서 (2026.03)",
-      "type": "실적",
-      "important": true,
-      "date": "20260515",
-      "filer": "클래시스",
-      "rcept_no": "20260515001293",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260515001293",
       "is_new": false,
       "found": "2026-11-11"
     }
