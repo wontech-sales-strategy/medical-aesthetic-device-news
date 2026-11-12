@@ -305,6 +305,14 @@ def ai_dedupe(cfg, comp_groups, per_group):
     return out
 
 
+# 칼럼·기자수첩 등 의견 기사: 섹션에는 남기되 Today's Top 3에서는 제외
+OPINION_RE = re.compile(r"^\s*[\[【(<〈]\s*(기자수첩|취재수첩|기자의\s*눈|칼럼|.{0,6}칼럼|사설|기고|독자기고|시론|오피니언|데스크|논단|발언대|기자석)")
+
+
+def is_opinion(item):
+    return bool(OPINION_RE.match(item.get("title", "") or ""))
+
+
 def ai_enrich(cfg, comp_groups, own_items, overseas, surgical=()):
     models, token = _ai_models(cfg)
     if not models:
@@ -338,10 +346,12 @@ def ai_enrich(cfg, comp_groups, own_items, overseas, surgical=()):
         # 2) 오늘의 영업 포인트 3줄 (제목·요약만 사용)
         brief = [{"id": n, "group": g, "title": i.get("title", ""),
                   "summary": (by_link.get(i["link"], {}).get("summary") or i.get("summary", ""))[:120]}
-                 for n, (g, i) in enumerate(catalog[:30])]
+                 for n, (g, i) in enumerate(catalog[:30]) if not is_opinion(i)]
         data = _chat(
             "아래 기사 중 오늘 아침 영업사원이 꼭 알아야 할 이슈 3개를 고르고, 각각 60자 내외 1문장으로 쓰세요. "
-            "경쟁사 신제품·인허가·실적, 원텍 소식, 시장 변화 순으로 우선하세요. 에스테틱·써지컬(group이 '써지컬·'로 시작) 구분 없이 중요도로 고르세요.\n"
+            "경쟁사 신제품·인허가·실적, 원텍 소식, 시장 변화 순으로 우선하세요. 에스테틱·써지컬(group이 '써지컬·'로 시작) 구분 없이 중요도로 고르세요. "
+            "기사 제목·요약에 적힌 사실만 쓰고, '~로 보입니다', '~인 것으로 보입니다', '~할 전망' 같은 추측 표현은 쓰지 마세요. "
+            "고유명사(인물·제품·회사)가 기사에 있으면 그대로 쓰세요.\n"
             '형식: {"issues":[{"text":"...","id":기사id}, ... 3개]}\n기사:\n' + json.dumps(brief, ensure_ascii=False),
             models, token) or {}
     except Exception as e:  # AI 실패 시 규칙 기반으로 발송
@@ -350,6 +360,8 @@ def ai_enrich(cfg, comp_groups, own_items, overseas, surgical=()):
     issues = []
     for it in (data.get("issues") or [])[:3]:
         k = it.get("id")
+        if isinstance(k, int) and 0 <= k < len(catalog) and is_opinion(catalog[k][1]):
+            continue  # 안전장치: 칼럼이 골라져도 제외
         link = catalog[k][1]["link"] if isinstance(k, int) and 0 <= k < len(catalog) else ""
         if it.get("text"):
             issues.append({"text": it["text"], "link": link})
@@ -759,8 +771,9 @@ def build(cfg, now):
         issues = ai["issues"]
     else:
         # 규칙 기반: 원텍 1건 + 경쟁사는 회사마다 대표 기사 1건씩, 점수 높은 순으로 3건
-        cands = [(score(i, i.get("own_brand_mentions", [])) + 2, "원텍", i) for i in own[:1]]
+        cands = [(score(i, i.get("own_brand_mentions", [])) + 2, "원텍", i) for i in [x for x in own if not is_opinion(x)][:1]]
         for g, its, _ in comp_groups:
+            its = [x for x in its if not is_opinion(x)]
             if g != "기타 경쟁사" and its:
                 cands.append((score(its[0], groups.get(g, [])) - (2 if its[0].get("local_lang") else 0), g, its[0]))
         cands.sort(key=lambda x: x[0], reverse=True)
