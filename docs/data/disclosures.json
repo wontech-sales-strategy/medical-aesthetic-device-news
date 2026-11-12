@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12 12:22",
+  "updated": "2026-11-13 07:46",
   "source": "금융감독원 전자공시시스템(DART) 오픈API",
   "companies": [
     "클래시스",
@@ -10,6 +10,19 @@
     "비올"
   ],
   "items": [
+    {
+      "company": "클래시스",
+      "own": false,
+      "title": "연결재무제표기준영업(잠정)실적(공정공시)",
+      "type": "실적",
+      "important": true,
+      "date": "20261112",
+      "filer": "클래시스",
+      "rcept_no": "20261112900535",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112900535",
+      "is_new": true,
+      "found": "2026-11-13"
+    },
     {
       "company": "클래시스",
       "own": false,
