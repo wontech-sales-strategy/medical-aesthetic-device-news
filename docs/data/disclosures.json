@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13 07:46",
+  "updated": "2026-11-13 12:03",
   "source": "금융감독원 전자공시시스템(DART) 오픈API",
   "companies": [
     "클래시스",
@@ -20,7 +20,7 @@
       "filer": "클래시스",
       "rcept_no": "20261112900535",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261112900535",
-      "is_new": true,
+      "is_new": false,
       "found": "2026-11-13"
     },
     {
