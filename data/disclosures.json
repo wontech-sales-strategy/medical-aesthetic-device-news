@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13 12:03",
+  "updated": "2026-11-16 07:42",
   "source": "금융감독원 전자공시시스템(DART) 오픈API",
   "companies": [
     "클래시스",
@@ -10,6 +10,32 @@
     "비올"
   ],
   "items": [
+    {
+      "company": "비올",
+      "own": false,
+      "title": "분기보고서 (2026.09)",
+      "type": "실적",
+      "important": true,
+      "date": "20261113",
+      "filer": "비올메디컬",
+      "rcept_no": "20261113000621",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000621",
+      "is_new": true,
+      "found": "2026-11-16"
+    },
+    {
+      "company": "하이로닉",
+      "own": false,
+      "title": "분기보고서 (2026.09)",
+      "type": "실적",
+      "important": true,
+      "date": "20261113",
+      "filer": "하이로닉",
+      "rcept_no": "20261113000501",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000501",
+      "is_new": true,
+      "found": "2026-11-16"
+    },
     {
       "company": "클래시스",
       "own": false,
@@ -735,32 +761,6 @@
       "filer": "클래시스",
       "rcept_no": "20260526900779",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260526900779",
-      "is_new": false,
-      "found": "2026-11-11"
-    },
-    {
-      "company": "클래시스",
-      "own": false,
-      "title": "기업설명회(IR)개최",
-      "type": "참고",
-      "important": false,
-      "date": "20260519",
-      "filer": "클래시스",
-      "rcept_no": "20260519900173",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260519900173",
-      "is_new": false,
-      "found": "2026-11-11"
-    },
-    {
-      "company": "클래시스",
-      "own": false,
-      "title": "기업설명회(IR)개최",
-      "type": "참고",
-      "important": false,
-      "date": "20260518",
-      "filer": "클래시스",
-      "rcept_no": "20260518900795",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260518900795",
       "is_new": false,
       "found": "2026-11-11"
     }
