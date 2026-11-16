@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16 11:43",
+  "updated": "2026-11-17 07:50",
   "source": "금융감독원 전자공시시스템(DART) 오픈API",
   "companies": [
     "클래시스",
@@ -10,6 +10,45 @@
     "비올"
   ],
   "items": [
+    {
+      "company": "라메디텍",
+      "own": false,
+      "title": "분기보고서 (2026.09)",
+      "type": "실적",
+      "important": true,
+      "date": "20261116",
+      "filer": "라메디텍",
+      "rcept_no": "20261116002020",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116002020",
+      "is_new": true,
+      "found": "2026-11-17"
+    },
+    {
+      "company": "레이저옵텍",
+      "own": false,
+      "title": "분기보고서 (2026.09)",
+      "type": "실적",
+      "important": true,
+      "date": "20261116",
+      "filer": "레이저옵텍",
+      "rcept_no": "20261116000598",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116000598",
+      "is_new": true,
+      "found": "2026-11-17"
+    },
+    {
+      "company": "클래시스",
+      "own": false,
+      "title": "분기보고서 (2026.09)",
+      "type": "실적",
+      "important": true,
+      "date": "20261116",
+      "filer": "클래시스",
+      "rcept_no": "20261116000298",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261116000298",
+      "is_new": true,
+      "found": "2026-11-17"
+    },
     {
       "company": "비올",
       "own": false,

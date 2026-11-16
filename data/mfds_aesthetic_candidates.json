@@ -1956,7 +1956,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "(주)클래시스",
-        "CHG_DT": "2026-09-21"
+        "CHG_DT": "2026-11-16"
       }
     },
     {
@@ -19908,7 +19908,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-06-22"
+        "CHG_DT": "2026-11-16"
       }
     },
     {
@@ -22637,6 +22637,28 @@
         "MNFT_CLNT_NM": "QUANTEL MEDICAL",
         "MANUF_NM": "QUANTEL MEDICAL",
         "CHG_DT": "2020-10-21"
+      }
+    },
+    {
+      "category": "LASER",
+      "query_product": "레이저수술기",
+      "permit_date": "20091202",
+      "permit_no": "",
+      "product": "레이저수술기",
+      "company": "비손메디칼(주)",
+      "raw": {
+        "ENTRPS": "비손메디칼(주)",
+        "PRDUCT": "레이저수술기",
+        "PRMISN_STTEMNT": "1",
+        "PRDUCT_PRMISN_NO": "제허 09-1010 호",
+        "PRMISN_DT": "20091202",
+        "RTRCN_DSCTN_DIVS_CD": "",
+        "RTRCN_DSCTN_DT": "",
+        "MDEQ_PRDLST_SN": "2009005784",
+        "TRCK_MNG_TRGT_YN": "N",
+        "MNFT_CLNT_NM": "",
+        "MANUF_NM": "",
+        "CHG_DT": "2026-11-16"
       }
     },
     {
