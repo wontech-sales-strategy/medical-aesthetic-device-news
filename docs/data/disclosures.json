@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16 07:42",
+  "updated": "2026-11-16 11:43",
   "source": "금융감독원 전자공시시스템(DART) 오픈API",
   "companies": [
     "클래시스",
@@ -20,7 +20,7 @@
       "filer": "비올메디컬",
       "rcept_no": "20261113000621",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000621",
-      "is_new": true,
+      "is_new": false,
       "found": "2026-11-16"
     },
     {
@@ -33,7 +33,7 @@
       "filer": "하이로닉",
       "rcept_no": "20261113000501",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113000501",
-      "is_new": true,
+      "is_new": false,
       "found": "2026-11-16"
     },
     {
