@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20 07:43",
+  "updated": "2026-11-20 12:50",
   "source": "금융감독원 전자공시시스템(DART) 오픈API",
   "companies": [
     "클래시스",
@@ -10,6 +10,19 @@
     "비올"
   ],
   "items": [
+    {
+      "company": "클래시스",
+      "own": false,
+      "title": "기업설명회(IR)개최",
+      "type": "참고",
+      "important": false,
+      "date": "20261120",
+      "filer": "클래시스",
+      "rcept_no": "20261120900339",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120900339",
+      "is_new": true,
+      "found": "2026-11-20"
+    },
     {
       "company": "라메디텍",
       "own": false,
