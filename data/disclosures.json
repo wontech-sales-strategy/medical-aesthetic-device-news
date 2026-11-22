@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20 12:50",
+  "updated": "2026-11-23 07:46",
   "source": "금융감독원 전자공시시스템(DART) 오픈API",
   "companies": [
     "클래시스",
@@ -20,7 +20,7 @@
       "filer": "클래시스",
       "rcept_no": "20261120900339",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261120900339",
-      "is_new": true,
+      "is_new": false,
       "found": "2026-11-20"
     },
     {
@@ -800,19 +800,6 @@
       "filer": "클래시스",
       "rcept_no": "20260528900463",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260528900463",
-      "is_new": false,
-      "found": "2026-11-11"
-    },
-    {
-      "company": "클래시스",
-      "own": false,
-      "title": "지속가능경영보고서등관련사항(자율공시)",
-      "type": "기타",
-      "important": true,
-      "date": "20260526",
-      "filer": "클래시스",
-      "rcept_no": "20260526900779",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260526900779",
       "is_new": false,
       "found": "2026-11-11"
     }
