@@ -1938,28 +1938,6 @@
       }
     },
     {
-      "category": "LASER",
-      "query_product": "엔디야그레이저수술기",
-      "permit_date": "20220415",
-      "permit_no": "",
-      "product": "엔디야그레이저수술기",
-      "company": "(주)클래시스",
-      "raw": {
-        "ENTRPS": "(주)클래시스",
-        "PRDUCT": "엔디야그레이저수술기",
-        "PRMISN_STTEMNT": "1",
-        "PRDUCT_PRMISN_NO": "제허 22-251 호",
-        "PRMISN_DT": "20220415",
-        "RTRCN_DSCTN_DIVS_CD": "",
-        "RTRCN_DSCTN_DT": "",
-        "MDEQ_PRDLST_SN": "2022001956",
-        "TRCK_MNG_TRGT_YN": "N",
-        "MNFT_CLNT_NM": "",
-        "MANUF_NM": "(주)클래시스",
-        "CHG_DT": "2026-11-16"
-      }
-    },
-    {
       "category": "HIFU",
       "query_product": "집속형초음파자극시스템",
       "permit_date": "20220407",
@@ -2155,28 +2133,6 @@
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
         "CHG_DT": "2026-11-20"
-      }
-    },
-    {
-      "category": "RF",
-      "query_product": "범용전기수술기",
-      "permit_date": "20220224",
-      "permit_no": "",
-      "product": "범용전기수술기",
-      "company": "봄텍전자(주)",
-      "raw": {
-        "ENTRPS": "봄텍전자(주)",
-        "PRDUCT": "범용전기수술기",
-        "PRMISN_STTEMNT": "1",
-        "PRDUCT_PRMISN_NO": "제허 22-128 호",
-        "PRMISN_DT": "20220224",
-        "RTRCN_DSCTN_DIVS_CD": "",
-        "RTRCN_DSCTN_DT": "",
-        "MDEQ_PRDLST_SN": "2022000981",
-        "TRCK_MNG_TRGT_YN": "N",
-        "MNFT_CLNT_NM": "",
-        "MANUF_NM": "",
-        "CHG_DT": "2026-11-11"
       }
     },
     {
@@ -6695,9 +6651,9 @@
       "permit_date": "20180706",
       "permit_no": "",
       "product": "범용전기수술기",
-      "company": "(주)엔도비전",
+      "company": "휴빅사이언스 주식회사",
       "raw": {
-        "ENTRPS": "(주)엔도비전",
+        "ENTRPS": "휴빅사이언스 주식회사",
         "PRDUCT": "범용전기수술기",
         "PRMISN_STTEMNT": "1",
         "PRDUCT_PRMISN_NO": "제허 18-478 호",
@@ -8499,9 +8455,9 @@
       "permit_date": "20170714",
       "permit_no": "",
       "product": "반도체레이저수술기",
-      "company": "(주)엔도비전",
+      "company": "휴빅사이언스 주식회사",
       "raw": {
-        "ENTRPS": "(주)엔도비전",
+        "ENTRPS": "휴빅사이언스 주식회사",
         "PRDUCT": "반도체레이저수술기",
         "PRMISN_STTEMNT": "1",
         "PRDUCT_PRMISN_NO": "제허 17-507 호",
@@ -19890,28 +19846,6 @@
       }
     },
     {
-      "category": "RF",
-      "query_product": "범용전기수술기",
-      "permit_date": "20110929",
-      "permit_no": "",
-      "product": "범용전기수술기",
-      "company": "(주)클래시스",
-      "raw": {
-        "ENTRPS": "(주)클래시스",
-        "PRDUCT": "범용전기수술기",
-        "PRMISN_STTEMNT": "1",
-        "PRDUCT_PRMISN_NO": "제허 11-1071 호",
-        "PRMISN_DT": "20110929",
-        "RTRCN_DSCTN_DIVS_CD": "",
-        "RTRCN_DSCTN_DT": "",
-        "MDEQ_PRDLST_SN": "2011004812",
-        "TRCK_MNG_TRGT_YN": "N",
-        "MNFT_CLNT_NM": "",
-        "MANUF_NM": "",
-        "CHG_DT": "2026-11-20"
-      }
-    },
-    {
       "category": "LASER",
       "query_product": "엔디야그레이저수술기",
       "permit_date": "20110915",
@@ -20860,28 +20794,6 @@
     {
       "category": "RF",
       "query_product": "범용전기수술기",
-      "permit_date": "20110314",
-      "permit_no": "",
-      "product": "범용전기수술기",
-      "company": "(주)썸텍",
-      "raw": {
-        "ENTRPS": "(주)썸텍",
-        "PRDUCT": "범용전기수술기",
-        "PRMISN_STTEMNT": "1",
-        "PRDUCT_PRMISN_NO": "제허 11-264 호",
-        "PRMISN_DT": "20110314",
-        "RTRCN_DSCTN_DIVS_CD": "",
-        "RTRCN_DSCTN_DT": "",
-        "MDEQ_PRDLST_SN": "2011001177",
-        "TRCK_MNG_TRGT_YN": "N",
-        "MNFT_CLNT_NM": "",
-        "MANUF_NM": "(주)썸텍",
-        "CHG_DT": "2026-11-10"
-      }
-    },
-    {
-      "category": "RF",
-      "query_product": "범용전기수술기",
       "permit_date": "20110311",
       "permit_no": "",
       "product": "범용전기수술기",
@@ -21009,28 +20921,6 @@
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
         "CHG_DT": "2014-04-08"
-      }
-    },
-    {
-      "category": "LASER",
-      "query_product": "엔디야그레이저수술기",
-      "permit_date": "20110119",
-      "permit_no": "",
-      "product": "엔디야그레이저수술기",
-      "company": "(주)유니온메디칼",
-      "raw": {
-        "ENTRPS": "(주)유니온메디칼",
-        "PRDUCT": "엔디야그레이저수술기",
-        "PRMISN_STTEMNT": "1",
-        "PRDUCT_PRMISN_NO": "제허 11-60 호",
-        "PRMISN_DT": "20110119",
-        "RTRCN_DSCTN_DIVS_CD": "",
-        "RTRCN_DSCTN_DT": "",
-        "MDEQ_PRDLST_SN": "2011000279",
-        "TRCK_MNG_TRGT_YN": "N",
-        "MNFT_CLNT_NM": "",
-        "MANUF_NM": "",
-        "CHG_DT": "2026-11-11"
       }
     },
     {
