@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24 15:25",
+  "updated": "2026-11-25 07:43",
   "source": "금융감독원 전자공시시스템(DART) 오픈API",
   "companies": [
     "클래시스",
@@ -787,19 +787,6 @@
       "filer": "하이로닉",
       "rcept_no": "20260529001516",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529001516",
-      "is_new": false,
-      "found": "2026-11-11"
-    },
-    {
-      "company": "클래시스",
-      "own": false,
-      "title": "기업설명회(IR)개최",
-      "type": "참고",
-      "important": false,
-      "date": "20260528",
-      "filer": "클래시스",
-      "rcept_no": "20260528900463",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260528900463",
       "is_new": false,
       "found": "2026-11-11"
     }
