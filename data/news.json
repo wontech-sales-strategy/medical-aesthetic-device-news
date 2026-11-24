@@ -1,5 +1,889 @@
 [
   {
+    "title": "윤준오 클래시스 대표 “내년 글로벌 확장 원년”…美 제품 5종으로 확...",
+    "summary": "올해 마이크로니들 고주파(MNRF) 미용의료기기 쿼드세이를 추가했으며 내년에는 3개 제품을 더 선보일 계획이다. 중국에서는 올해 12월 제품 1개, 내년 2분기 제품 2개의 인허가를 확보할 것으로 예상하고 있다. 현재 중국...",
+    "link": "https://www.mk.co.kr/article/12217110",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 15:15:00 +0900",
+    "matched_keyword": "쿼드세이",
+    "categories": [
+      "RF",
+      "RF Microneedling",
+      "신제품·출시",
+      "인허가·규제",
+      "글로벌사업"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [
+      "클래시스"
+    ],
+    "competitor_product_mentions": [
+      "쿼드세이"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "클래시스",
+      "쿼드세이"
+    ],
+    "ai_ok": true
+  },
+  {
+    "title": "AI·로봇주 30% 급등할때…맥못추는 제약·바이오주 [이런주식 저런국장...",
+    "summary": "피부미용 의료기기 ‘리쥬란’으로 잘 알려진 파마리서치도 3.66% 내린 26만 3000원에 거래 중이다. 이밖에 펩트론(-1.54%)과 삼천당제약(-0.07%) 등도 약세를 보이고 있다. 이날 코스닥에 처음 입성한 3차원(3D) 세포배양...",
+    "link": "https://www.sedaily.com/article/20118258?ref=naver",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 14:46:00 +0900",
+    "matched_keyword": "피부미용 의료기기",
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "원텍, UAE서 의료기기 3종 추가 허가…중동 시장 확대",
+    "summary": "울트라스킨 타이탄은 고강도 집속 초음파를 활용한 리프팅 장비다. 벨라스타는 532nm와 1064nm 두 가지 파장을 구현하는 레이저 의료기기로, UAE에서는 기존 제품명인 '브이레이저'로 인허가를 획득했다. 이번 허가로...",
+    "link": "https://www.sentv.co.kr/article/view/sentv202611240160",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 14:46:00 +0900",
+    "matched_keyword": "리프팅 장비",
+    "categories": [
+      "Laser·Pico",
+      "시장동향",
+      "인허가·규제"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [
+      "원텍"
+    ],
+    "own_product_mentions": [
+      "울트라스킨 타이탄",
+      "브이레이저"
+    ],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [
+      "원텍",
+      "울트라스킨 타이탄",
+      "브이레이저"
+    ],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "원텍, UAE서 주력 의료기기 3종 추가 인허가 획득",
+    "summary": "울트라스킨 타이탄은 고강도 집속 초음파를 활용하는 리프팅 장비다. 이밖에 벨라스타는 532nm와 1064nm 두 가지 파장을 한 장비에서 구현하는 엔디야그(Nd:YAG) 레이저로 '제네시스 모드'를 탑재했다. 회사는 중동...",
+    "link": "https://www.rapportian.com/news/articleView.html?idxno=242817",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 14:38:00 +0900",
+    "matched_keyword": "리프팅 장비",
+    "categories": [
+      "Laser·Pico",
+      "인허가·규제"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [
+      "원텍"
+    ],
+    "own_product_mentions": [
+      "울트라스킨 타이탄"
+    ],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [
+      "원텍",
+      "울트라스킨 타이탄"
+    ],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "미용·성형·피부 의료계 \"외국인 환자 없인 생존 불가능…부가세 환급...",
+    "summary": "병원 간 경쟁으로 합리적인 가격이 형성되고, 보툴리눔 톡신과 필러, 레이저·리프팅 장비 등의 수요가 늘면서 관련 기업도 동반 성장했다는 것이다. 이 회장은 \"직접 제조업을 가지고 있는 나라이기 때문에 수입하는...",
+    "link": "https://www.medigatenews.com/news/1302166767",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 14:16:00 +0900",
+    "matched_keyword": "리프팅 장비",
+    "categories": [
+      "Laser·Pico",
+      "시장동향"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "\"Sécurité des patients\" ou \"affichage politique\" ? On vous explique le conflit entre les dermatologues et le gouvernement sur l'encadrement de la médecine esthétique",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMirAJBVV95cUxPRHdzREhPbFJZSV9BMC1Iel9QOUlRM3pUQW1oRndtWnI0R3J5MTdBQ3U0clZjRmc0OVJOS0diTEtUUk1Xd1daQVNuYS1QZFBSZGk5dnlnMXFSeHF1X05yTnMtZUwzcDkwOTVqakp4dHE0LWU5bVNKVkNvTmRwX2dZWnN4Njl2emxOb0dLSTJoMTlHUC12OF96OElyVGlTSHdCd2ZkMkFpV2VkZ0ZRWE9ZdWp2WHVKdXZHQTRRNHg1cWRHd0dyOGdkb3pPT1J4SElpYzRmM2ZCa1VueU9zam5sVTFXaDM3ZWFHWXE1VmdRMHpLaFVYNzQ0a0RQa2JYNUFlRzBNMmtXSDNueUhuRklBZGhOM3lqNmFVbnYtZlN0SzJtUWpPY24zb3VaRTY?oc=5",
+    "source": "franceinfo",
+    "pub_date": "Tue, 24 Nov 2026 04:59:37 GMT",
+    "matched_keyword": "해외: 프랑스",
+    "is_overseas": true,
+    "country": "프랑스",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "스타로닉, 한국미용외과의학회서 씨엘로·레이브·SRT-100 공개...전문 의...",
+    "summary": "학회 현장에서는 자체 기술로 개발한 마이크로웨이브 기반 리프팅 장비 ‘레이브(RAVE)’와 초음파·이온도입 기능이 조합된 ‘씨엘로(CIELO)’, ‘씨엘로 프로(CIELO PRO)’를 중심으로 자사 기술력을 알렸다. 자사...",
+    "link": "http://www.beyondpost.co.kr/view.php?ud=2026112413401188939aeda69934_30",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 13:56:00 +0900",
+    "matched_keyword": "리프팅 장비",
+    "categories": [
+      "신제품·출시",
+      "학회·임상"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "아비크의원, 냉각 접목 초음파 리프팅 '쿨소닉' 도입",
+    "summary": "강남 아비크의원(대표원장 임승규)은 얼굴의 세부 부위별 탄력과 피부 상태를 고려한 진료를 위해 냉각 기능을 접목한 고강도 집속 초음파(HIFU) 리프팅 장비 '쿨소닉(CoolSoniq)'을 도입했다고 밝혔다. 쿨소닉은 초음파를...",
+    "link": "http://www.medisobizanews.com/news/articleView.html?idxno=144713",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 13:48:00 +0900",
+    "matched_keyword": "쿨소닉",
+    "categories": [
+      "HIFU"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [
+      "쿨소닉",
+      "CoolSoniq"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "쿨소닉",
+      "CoolSoniq"
+    ],
+    "ai_ok": true
+  },
+  {
+    "title": "프레임 청담의원 개원…이호영 대표원장 \"1:1 맞춤 진료로 책임 다하고...",
+    "summary": "프레임 청담의원은 환자 개개인의 피부 상태에 맞는 시술을 고려할 수 있도록 온다리프팅, 울쎄라피 프라임, 아이울쎄라, 써마지, 소프웨이브 장비와 함께 압토스, 민트실리프팅, 다양한 보툴리눔 톡신 및 필러 제품을...",
+    "link": "https://www.ikunkang.com/news/articleView.html?idxno=51892",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 13:26:00 +0900",
+    "matched_keyword": "소프웨이브",
+    "categories": [
+      "RF",
+      "HIFU"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [
+      "소프웨이브"
+    ],
+    "competitor_product_mentions": [
+      "울쎄라",
+      "써마지",
+      "온다리프팅",
+      "소프웨이브"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "소프웨이브",
+      "울쎄라",
+      "써마지",
+      "온다리프팅",
+      "소프웨이브"
+    ],
+    "ai_ok": true
+  },
+  {
+    "title": "건강관리장비 상장기업 2026년 11월 브랜드평판...클래시스, 엘앤씨바이...",
+    "summary": "건강관리장비 상장기업 브랜드평판 2026년 11월 빅데이터 분석결과, 1위 클래시스 2위 엘앤씨바이오... 건강관리장비 상장기업 브랜드평판 2026년 11월 빅데이터 분석 30위 순위는 클래시스, 엘앤씨바이오...",
+    "link": "https://www.energy-news.co.kr/news/articleView.html?idxno=230026",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 12:46:00 +0900",
+    "matched_keyword": "클래시스",
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [
+      "클래시스"
+    ],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "클래시스"
+    ],
+    "ai_ok": true
+  },
+  {
+    "title": "레이저제모 효과 높이려면? 피부 상태·체모 굵기부터 살펴야",
+    "summary": "제모에 사용되는 젠틀맥스 프로와 젠틀맥스 프로 플러스는 알렉산드라이트 755nm와 엔디야그(Nd:YAG) 1064nm 두 가지 파장을 활용하는 장비다. 피부색과 체모 특성에 따라 파장과 에너지를 선택적으로 적용할 수 있으며, 냉각...",
+    "link": "https://www.mdtoday.co.kr/news/articleView.html?idxno=627301",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 12:32:00 +0900",
+    "matched_keyword": "젠틀맥스",
+    "categories": [
+      "Laser·Pico"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [
+      "젠틀맥스"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "젠틀맥스"
+    ],
+    "ai_ok": true
+  },
+  {
+    "title": "추워진 날씨에 두드러지는 모공, 피부 건조와 탄력 저하 등 원인 구분해...",
+    "summary": "쿨페이즈(Coolfase)는 모노폴라 RF 방식의 고주파 리프팅 장비로, 진피층에 열 자극을 전달하며 팁이 피부에... 이어 박 원장은 \"쿨페이즈는 냉각과 온도 감지 기능을 갖추고 있어 시술 부위의 민감도를 고려해 강도를 조절할...",
+    "link": "https://www.rapportian.com/news/articleView.html?idxno=242811",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 11:56:00 +0900",
+    "matched_keyword": "쿨페이즈",
+    "categories": [
+      "RF"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [
+      "쿨페이즈",
+      "Coolfase"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "쿨페이즈",
+      "Coolfase"
+    ],
+    "ai_ok": true
+  },
+  {
+    "title": "건강관리장비 상장기업 브랜드평판 2026년 11월 빅데이터…1위 클래시스...",
+    "summary": "1위 클래시스, 2위 엘앤씨바이오, 3위 인바디 순으로 나타났다고 밝혔다. 이번 조사는 2026년 10월... 2026년 11월 건강관리장비 상장기업 브랜드평판 1위부터 15위까지의 순위는 클래시스, 엘앤씨바이오...",
+    "link": "https://www.cbci.co.kr/news/articleView.html?idxno=630188",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 11:20:00 +0900",
+    "matched_keyword": "클래시스",
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [
+      "클래시스"
+    ],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "클래시스"
+    ],
+    "ai_ok": true
+  },
+  {
+    "title": "\"한국비티비, 여드름 레이저 경쟁력 주목\" - CMIR",
+    "summary": "보고서에 따르면 한국비티비는 여드름 치료용 레이저 'LEXER 1726', 피부 재생용 레이저 'LEXER 2910', 집속초음파(HIFU) 리프팅 장비 'HEXA HL' 등 신제품 3종의 사업화를 추진하고 있다. LEXER 1726은 현재...",
+    "link": "https://www.newspim.com/news/view/20261124000388",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 11:16:00 +0900",
+    "matched_keyword": "리프팅 장비",
+    "categories": [
+      "HIFU",
+      "Laser·Pico",
+      "신제품·출시"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "틴스테틱 티타몬드, 카카오톡 선물하기 입점…연말 선물 수요 겨냥",
+    "summary": "홈뷰티 디바이스 브랜드 틴스테틱이 카카오톡 선물하기에 입점했다고 24일 밝혔다. 이번 입점으로 '티타몬드 리프샷 2.0 PLUS'와 전용 크림 '티타몬드 리프샷 크림'을 카카오톡 선물하기에서 직접 구매하거나 가족...",
+    "link": "http://www.segyebiz.com/newsView/20261124506620?OutUrl=naver",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 11:04:00 +0900",
+    "matched_keyword": "홈뷰티 디바이스",
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "황금피부과, 2026년 3분기 연속 '세르프 헤비유저' 선정",
+    "summary": "기업 사이노슈어 루트로닉(Cynosure Lutronic)으로부터 2026년 1·2·3분기 연속 고주파(RF) 리프팅 장비 '세르프(XERF) 헤비유저(Heavy User)'로 선정돼 기념 상패를 수상했다고 밝혔다. 세르프 헤비유저는 사이노슈어...",
+    "link": "https://www.biotimes.co.kr/news/articleView.html?idxno=36435",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 10:50:00 +0900",
+    "matched_keyword": "사이노슈어",
+    "categories": [
+      "RF"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [
+      "루트로닉",
+      "Lutronic",
+      "사이노슈어 루트로닉",
+      "Cynosure Lutronic",
+      "사이노슈어",
+      "Cynosure"
+    ],
+    "competitor_product_mentions": [
+      "세르프",
+      "XERF"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "루트로닉",
+      "Lutronic",
+      "사이노슈어 루트로닉",
+      "Cynosure Lutronic",
+      "사이노슈어",
+      "Cynosure",
+      "세르프",
+      "XERF"
+    ],
+    "ai_ok": true
+  },
+  {
+    "title": "원텍, 주력 의료기기 3종 UAE 허가 획득···중동 수출 확대 가속",
+    "summary": "원텍(대표 김종원·김정현)은 24일 UAE 보건당국으로부터 고주파(RF) 기기 '올리지오X(Oligio X)' 등 주력 의료기기 3종의 인허가를 획득했다고 밝혔다. 이번에 허가받은 기기는 올리지오X와 고강도 집속 초음파(HIFU)...",
+    "link": "https://www.biotimes.co.kr/news/articleView.html?idxno=36423",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 10:46:00 +0900",
+    "matched_keyword": "올리지오",
+    "categories": [
+      "RF",
+      "HIFU",
+      "시장동향",
+      "인허가·규제",
+      "글로벌사업"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [
+      "원텍"
+    ],
+    "own_product_mentions": [
+      "Oligio",
+      "올리지오",
+      "Oligio X"
+    ],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [
+      "원텍",
+      "Oligio",
+      "올리지오",
+      "Oligio X"
+    ],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "윤만순 에코디엠랩 대표, '중소기업 혁신 유공' 국무총리 표창",
+    "summary": "최근 홈 뷰티 디바이스 시장에서는 유명 연예인을 앞세운 광고와 마케팅 경쟁이 치열하다. 이러한 가운데 에코디엠랩은 화려한 광고보다 제품의 본질인 기술력에 집중하며 차별화된 길을 걸어왔다. 약 30년간 축적한...",
+    "link": "https://www.etnews.com/20261124000181",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 10:33:00 +0900",
+    "matched_keyword": "뷰티 디바이스 시장",
+    "categories": [
+      "시장동향"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "케이바이오솔루션, 클래시스 수퍼벨로체 MDR 인증",
+    "summary": "국내 미용의료기기 기업 클래시스의 '수퍼벨로체4800'이 유럽 의료기기 규정(MDR)에 따른 CE 인증을... 컨설팅으로 클래시스의 MDR 허가를 이끌어냈다. 케이바이오솔루션은 미용 목적 기기의 심사가 더 까다롭다고...",
+    "link": "https://www.getnews.co.kr/news/articleView.html?idxno=888251",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 10:06:00 +0900",
+    "matched_keyword": "클래시스",
+    "categories": [
+      "인허가·규제"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [
+      "클래시스"
+    ],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "클래시스"
+    ],
+    "ai_ok": true
+  },
+  {
+    "title": "아리바이오, 아리바이오랩 지배력 강화…40억 대여 이어 최대주주 등극...",
+    "summary": "아리바이오랩은 치매 예방백신과 스킨부스터, 미용의료기기 등 신사업을 추진하고 있다. 아리바이오 그룹은 아리바이오가 알츠하이머병 치료제 개발을 주도하고 아리바이오랩이 예방백신과 안티에이징 분야를 담당하는...",
+    "link": "http://www.popcornnews.net/news/articleView.html?idxno=141227",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 09:54:00 +0900",
+    "matched_keyword": "미용의료기기",
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "CMIR \"한국비티비, 미용의료기기 경쟁력 확대\"",
+    "summary": "한국비티비는 KGMP와 ISO 13485 인증을 확보했으며 기존 의료기기 5종의 CE MDD 인증과 홈뷰티 디바이스 ODM 양산 경험을 보유하고 있다. 최대주주인 한국비엔씨와 피부과·성형외과 고객 기반을 공유할 수 있다는...",
+    "link": "https://www.cstimes.com/news/articleView.html?idxno=729137",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 09:52:00 +0900",
+    "matched_keyword": "홈뷰티 디바이스",
+    "categories": [
+      "인허가·규제"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "원텍, 올리지오 x 등 주력 의료기기 3종 UAE 추가 인허가 획득...중동 사...",
+    "summary": "원텍이 고주파 의료기기 '올리지오 x', 고강도 집속 초음파 장비 '울트라스킨 타이탄', 듀얼 파장 레이저 의료기기 벨라스타의 UAE 인허가를 동시에 획득했습니다. 이로써 원텍은 UAE에서 RF·HIFU·레이저 세 가지...",
+    "link": "http://www.paxetv.com/news/articleView.html?idxno=287688",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 09:52:00 +0900",
+    "matched_keyword": "올리지오",
+    "categories": [
+      "RF",
+      "HIFU",
+      "Laser·Pico",
+      "인허가·규제"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [
+      "원텍"
+    ],
+    "own_product_mentions": [
+      "올리지오",
+      "올리지오 X",
+      "울트라스킨 타이탄"
+    ],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [
+      "원텍",
+      "올리지오",
+      "올리지오 X",
+      "울트라스킨 타이탄"
+    ],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "[바이오스냅] 식약처, 해썹 업체 대상 가이드라인 마련",
+    "summary": "허가된 제품은 고주파 의료기기 '올리지오 x', 집속 초음파 장비 '울트라스킨 타이탄', 레이저 의료기기 '벨라스타'다. ▲ 헤일리온은 종합 비타민 제품인 '센트룸 플러스+' 4종을 새롭게 출시했다고 24일 밝혔다. 신제품은...",
+    "link": "https://www.yna.co.kr/view/AKR20261124048300017?input=1195m",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 09:49:00 +0900",
+    "matched_keyword": "올리지오",
+    "categories": [
+      "RF",
+      "Laser·Pico",
+      "신제품·출시",
+      "인허가·규제"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [
+      "올리지오",
+      "올리지오 X",
+      "울트라스킨 타이탄"
+    ],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [
+      "올리지오",
+      "올리지오 X",
+      "울트라스킨 타이탄"
+    ],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "[기획-국비 공모사업, 얼마나 따왔고 무엇을 남겼나] 원주시①",
+    "summary": "2026년도 목록에는 AI 융합 에스테틱 의료기기 글로벌 사업화 기반구축 사업이 포함됐다. 총 217억5000만원 가운데 국비는 150억원, 도비와 시비는 각각 33억7500만원이다. 제품 개발과 시험평가, 인증·마케팅 등을...",
+    "link": "https://www.cnbnews.com/news/articleView.html?idxno=1024968",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 09:36:00 +0900",
+    "matched_keyword": "에스테틱 의료기기",
+    "categories": [
+      "인허가·규제",
+      "글로벌사업"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "원텍, UAE서 의료기기 3종 추가 승인…중동 공략 속도",
+    "summary": "울트라스킨 타이탄은 고강도 집속 초음파를 활용하는 리프팅 장비다. 벨라스타는 532㎚와 1064㎚ 두 파장을 한 장비에서 구현하는 엔디야그(Nd:YAG) 레이저로 '제네시스 모드'를 탑재했다. 원텍은 중동 지역 내 인허가...",
+    "link": "https://www.etnews.com/20261124000076",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 09:29:00 +0900",
+    "matched_keyword": "리프팅 장비",
+    "categories": [
+      "Laser·Pico",
+      "인허가·규제"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [
+      "원텍"
+    ],
+    "own_product_mentions": [
+      "울트라스킨 타이탄"
+    ],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [
+      "원텍",
+      "울트라스킨 타이탄"
+    ],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "연말 사진 속 도드라지는 얼굴 윤곽, 이중턱과 피부 처짐의 차이는?",
+    "summary": "이어 \"인모드와 온다 등 리프팅 장비는 에너지의 종류와 작용 깊이, 적용 목적 등에 차이가 있어, 단순히 유행하는 장비를 선택하기보다 개선하고자 하는 부위와 피부 상태에 맞춰 계획해야 한다\"며 \"특히 지방과 피부...",
+    "link": "http://www.medisobizanews.com/news/articleView.html?idxno=144684",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 09:14:00 +0900",
+    "matched_keyword": "리프팅 장비",
+    "categories": [
+      "RF"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [
+      "인모드"
+    ],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "인모드"
+    ],
+    "ai_ok": true
+  },
+  {
+    "title": "The 2026 Skin Tightening Scam Why Your Routine For How To Get Rid Of Double Chin Guide",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOW1VSDVudU00YnBtWHI2eHlyQmdvSFR1VjR2a09vYTMwUVYyUmxYd1lSZ2pXV3RuUW10d2xacUJNUEZHSnp4Nm84alZnMVVZMkFRVkVlQVR5X3hVUkNRSnR3b2EwclkxRjBQYWlyOG5zdHJWSVA4Um1hbDhOVXJnRXNmZzA3TlpTVHNfb1Q4VDVOa25zdWpCMjNabjJsSmVwbmtDbHNpcTdYZE1ieUp2d0RSMGk?oc=5",
+    "source": "Derby - Diocese",
+    "pub_date": "Tue, 24 Nov 2026 00:07:19 GMT",
+    "matched_keyword": "해외: 영국",
+    "is_overseas": true,
+    "country": "영국",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "원텍, UAE서 의료기기 3종 추가 허가…중동 공략 속도",
+    "summary": "한편 원텍은 1999년 설립된 피부미용 의료기기 전문기업으로, 고주파 리프팅 장비 '올리지오'와 레이저 장비 '피코케어', '라비앙' 등을 주력 제품으로 보유하고 있다.",
+    "link": "https://www.news1.kr/bio/pharmaceutical-bio/6363648",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 09:02:00 +0900",
+    "matched_keyword": "레이저 장비",
+    "categories": [
+      "RF",
+      "Laser·Pico",
+      "인허가·규제"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [
+      "원텍"
+    ],
+    "own_product_mentions": [
+      "올리지오",
+      "피코케어"
+    ],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [
+      "원텍",
+      "올리지오",
+      "피코케어"
+    ],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "원텍, UAE서 주력 의료기기 3종 추가 승인…총 11종으로 중동 사업 확장...",
+    "summary": "'울트라스킨 타이탄'은 고강도 집속 초음파를 활용하는 리프팅 장비이다. 벨라스타는 532nm와 1064nm 두 파장을 한 장비에서 구현하는 엔디야그(Nd:YAG) 레이저로, '제네시스 모드'를 탑재했다. '벨라스타'는 올해...",
+    "link": "http://www.newsprime.co.kr/news/article.html?no=756168",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 09:00:00 +0900",
+    "matched_keyword": "리프팅 장비",
+    "categories": [
+      "Laser·Pico",
+      "인허가·규제"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [
+      "원텍"
+    ],
+    "own_product_mentions": [
+      "울트라스킨 타이탄"
+    ],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [
+      "원텍",
+      "울트라스킨 타이탄"
+    ],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "의학정보/'비뇨의학과 전문의' 이무연 원장이 조언하는 전립선비대증 탈...",
+    "summary": "이후 홀뮴 레이저로 전립선 조직을 제거하는 방법이 나왔고, 최근에는 워터젯(수압)을 이용하는 수술법도 있어요. 그런데 어떤 수술이든 역행성 사정이라는 부작용이 생길 위험이 있어요. 사정할 때 정액이 몸 밖으로...",
+    "link": "https://monthly.chosun.com/news/articleView.html?idxno=72114",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 08:32:00 +0900",
+    "matched_keyword": "홀뮴 레이저",
+    "categories": [
+      "Laser·Pico",
+      "Surgical",
+      "비뇨·결석"
+    ],
+    "segments": [
+      "써지컬"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Carbossiterapia, carbo-agopuntura, flussi controllati in medicina estetica e rigenerativa per lavorare in sicurezza ed efficacia",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNbzkyNVJPQnJ5eUpCRUl2NDE3VlhPdXo5cHNNRDlCSkZFR0plTUVPY0h2U09HandxOHpSa0RYN0VSaWxvd3JHM1NYOXBNdW5TbWI0S1JOVlRBR2Z2eV9TYWc1emV2cWUyejFUN21MV3pWX3JsVzZBZHVQRGxRT19NcTB2WTJxbWZIdTh6SzRlVjdWWmNkQW1YSjdoY0hhdDkwNjRXcUtnakxWcnVvQmlJVmxadEhmTGduOEZoQzlzbmkwN0kzWmFWN3JHT2RFR051V2RGNGNRR1A3Y2dmWjZ3SWQ1LUNmNzNUcVR1QkVlelVPUWpNYm5MSg?oc=5",
+    "source": "Tagmedicina.it",
+    "pub_date": "Mon, 23 Nov 2026 23:20:28 GMT",
+    "matched_keyword": "해외: 이탈리아",
+    "is_overseas": true,
+    "country": "이탈리아",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "[오늘의 IR] LG화학ㆍ에어부산ㆍ보로노이 등",
+    "summary": "업데이트 △클래시스, 기업가치 및 투자가치 제고 △나라스페이스테크놀로지, 해외 투자수요 확대와 인지도 제고 △이랜텍, 투자자들의 회사에 대한 이해 증진 및 기업가치 제고 △쿠콘, 2026년 3분기 경영실적...",
+    "link": "https://www.etoday.co.kr/news/view/2651931",
+    "source": "네이버 뉴스",
+    "pub_date": "Tue, 24 Nov 2026 07:42:00 +0900",
+    "matched_keyword": "클래시스",
+    "categories": [
+      "시장동향",
+      "글로벌사업"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [
+      "클래시스"
+    ],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "클래시스"
+    ],
+    "ai_ok": true
+  },
+  {
     "title": "La cara de Instagram pasa de moda en Madrid: \"Los jóvenes buscan una piel que solo existe con filtros\" y la nueva estética quiere que \"nadie sepa qué te has hecho\"",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaFMzVUlwQkNhX19sSHB3em9pR2FyVDROOXpRQVRrX3pOTkRvVENXYVA0MlpUN2pMZ2FCM2VTdkE3RnQwc1VJTEM1U2JFSlNuMEVSS1doMEEyUjlBUDAzTVhuWG93NnFNcmQ0aTkxZFVJYkJ1b1pkY0hoOEsxc1dVV2J4akdwOVB3X1ZZcFJ1QVZnV0pOX0NQcng0LXp1QTVDU3pFLTQ4QdIBpwFBVV95cUxPTWJpSGJPaGk5N2Z5WmdObnJHMXhGNWoybEdyclJqSkxxME1JX0ZiYXZ6dkw0MC1OZVI5RG91Q205NC1QOG5Sa0NGQnJoYkNMalhtX2liQzh2bEFsS2pHcFY0Y1A1d2FZdTBWMDMwMzQ0RlpCdVJjc0Y2ekQtTWZ3VVZVRmFFX3ZIei1mYWNOaWd0VDJHcGZsNTdfazEyUi1vQzdSaU5naw?oc=5",
@@ -8,6 +892,30 @@
     "matched_keyword": "해외: 스페인",
     "is_overseas": true,
     "country": "스페인",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "La cara de Instagram pasa de moda en Madrid: \"Los jóvenes buscan una piel que solo existe con filtros\" y la nueva estética quiere que \"nadie sepa qué te has hecho\"",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTWJpSGJPaGk5N2Z5WmdObnJHMXhGNWoybEdyclJqSkxxME1JX0ZiYXZ6dkw0MC1OZVI5RG91Q205NC1QOG5Sa0NGQnJoYkNMalhtX2liQzh2bEFsS2pHcFY0Y1A1d2FZdTBWMDMwMzQ0RlpCdVJjc0Y2ekQtTWZ3VVZVRmFFX3ZIei1mYWNOaWd0VDJHcGZsNTdfazEyUi1vQzdSaU5na9IBpwFBVV95cUxPTWJpSGJPaGk5N2Z5WmdObnJHMXhGNWoybEdyclJqSkxxME1JX0ZiYXZ6dkw0MC1OZVI5RG91Q205NC1QOG5Sa0NGQnJoYkNMalhtX2liQzh2bEFsS2pHcFY0Y1A1d2FZdTBWMDMwMzQ0RlpCdVJjc0Y2ekQtTWZ3VVZVRmFFX3ZIei1mYWNOaWd0VDJHcGZsNTdfazEyUi1vQzdSaU5naw?oc=5",
+    "source": "El Periódico de España",
+    "pub_date": "Mon, 23 Nov 2026 22:00:34 GMT",
+    "matched_keyword": "해외: 멕시코·중남미",
+    "is_overseas": true,
+    "country": "중남미",
     "local_lang": true,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -54,7 +962,7 @@
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOaWg4TE9vZy1GVWh3dXZ4MkN5cWNaaDY2eUN5ZldsZzl3dGFzajB1NzJlM2xsN29Mc2s3QWQ1RW1NN05jbVc5TFNTQ3lZY0Qwc2tYWktRb0laam9tNkk2VlhlR2VtN25kV0tEazFnbzhTd1dvdC1jRGZrUEY2bndzSUZYeWJablFDaGFqVTZJeWNOZkp0bXBUVGZ0TzZKbnBGSEJpUUtCR2Y?oc=5",
     "source": "Paris Côte d'Azur",
-    "pub_date": "Mon, 23 Nov 2026 21:44:04 GMT",
+    "pub_date": "Mon, 23 Nov 2026 21:43:48 GMT",
     "matched_keyword": "해외: 프랑스",
     "is_overseas": true,
     "country": "프랑스",
@@ -74,7 +982,7 @@
     "ai_ok": true
   },
   {
-    "title": "[브랜드평판] 클래시스, 건강관리장비 상장기업 11월 1위... 엘앤씨바이...",
+    "title": "[브랜드평판] 클래시스, 건강관리장비 상장기업 11월 1위···엘앤씨바이...",
     "summary": "건강관리장비 상장기업 브랜드 빅데이터가 3%대 늘어난 가운데, 클래시스가 1.11% 상승하며 1위를... 결과, 클래시스가 브랜드평판지수 1,628,980으로 정상을 지켰다. 엘앤씨바이오(1,556,068)와 인바디(1,111,276)가...",
     "link": "https://www.enetnews.co.kr/news/articleView.html?idxno=56708",
     "source": "네이버 뉴스",
@@ -212,30 +1120,6 @@
     "ai_ok": true
   },
   {
-    "title": "Botox in salotto: la Finanza scopre a Catania un ambulatorio di medicina estetica abusiva",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA3OFZoN09iU0N5XzJvY29vOHJlZndKSVFkVlhnZE1xMGt2dG1XTGNNM0trci1lOUdSY1pqOXNySkpLN042aVA4QXBRWnJ5bGNsajhVdkswVkZBaTBKcjNaSW8xZzdIckxaeFk1TXFqUnhGRnQzV2lz?oc=5",
-    "source": "Il Moderatore",
-    "pub_date": "Mon, 23 Nov 2026 19:56:54 GMT",
-    "matched_keyword": "해외: 이탈리아",
-    "is_overseas": true,
-    "country": "이탈리아",
-    "local_lang": true,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
-  },
-  {
     "title": "[메디컬아시아 2026] JY성형외과피부과, 필러 & 스킨부스터 부문 대상",
     "summary": "주요 진료 내용을 보면, 동안탄력 리프팅 클리닉은 자연스러운 동안 얼굴을 추구하며, 울쎄라피 프라임을 비롯한 프리미엄 리프팅 장비와 PCL, 실루엣소프트, 민트실 등 개인별 피부 탄력 상태에 맞춘 정교한 복합...",
     "link": "https://www.koreadaily.com/article/20261123111758767",
@@ -334,6 +1218,54 @@
     "ai_ok": true
   },
   {
+    "title": "Alertan de los riesgos de las ofertas de medicina estética por el Black Friday",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVzM5NXcxNGVxaWRRakJzV0ROcVB0aDczTDV5UTVKbHBQaHF3U082a1phS1dpZC14TUNnb3pZclRkOV90MnhTZUh4S1VacmRSc2IxLWtVOGJjcnFaNk1LVEQwMmFlajM2d2Fld2VoRGFWUmxRLXlrX1RuelplME5nY2FDa3lrelZlSmtzUWdWcjNLOUs3Z0Q0Y3FqN3VadC1ucVdjX053eFpOR0hQcWlySjB1dGRyNUhYdk5MTnJORjFad9IB1gFBVV95cUxQZVB4enRQTXdCMkNzZEdtNjRta3hleThXYmo2dnlodkJIWlJobWMwMVR1dFJZSGNYSTRRbkdINEJBai1kLVhjRTQ1WEk5d05nXzB6eV9RZldRd0FDcmRyeG5Ka25UQ0N4S2FwNmxyc1d3VnJXYUxUd3VVNERqRHc2YktEcVVLYm5CamJEOXJidHlRTzZiMElHNE14RUExTXF3NFJJVW5wNmlNRi1Ra3BIR1ItMUd1S01taVFFV01QQ1VTVVVCbFdoVV82TlNPLUJHLTVranp3?oc=5",
+    "source": "La Razón",
+    "pub_date": "Mon, 23 Nov 2026 18:25:14 GMT",
+    "matched_keyword": "해외: 멕시코·중남미",
+    "is_overseas": true,
+    "country": "중남미",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Il DNA del salmone cancella davvero le rughe? La verità sulla nuova moda della bellezza",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTTdkZHI1ZWwzX1dFOF9NY3RZTHBXa2xJTTN2d0tka2MyWnRYZWZHNmVLUHdaRVR6eVZmam51c0FDV1Z1TDZDSnJ4NWNmOWxVcjhiaHdzRjl3ZVVlNVllRUwyV1d5b05SbkpRRXowamV5TnFJMENUUS00bmV3RldzbGJQNXF3Um92SEktcW00QXVTeno1ZE52a3V5M29YbWt3cml3b2dDWTduY3Nna2xIMkJXVGpaTXBxU0hfVGRvbzFBcTFEbFJiMFlWdnVnWTVqeWZz?oc=5",
+    "source": "Mondosanità",
+    "pub_date": "Mon, 23 Nov 2026 17:42:00 GMT",
+    "matched_keyword": "해외: 이탈리아",
+    "is_overseas": true,
+    "country": "이탈리아",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
     "title": "Clínica Etérea: la medicina estética que empieza por escuchar",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOYUNNTElUR1RRM1dFLUlPckVLMzBkalhUNzBsaDFoelZPQmtkd0JEdGxDbUw1ei15YTFlbkcxZjRzc09zeEJLWWVsMVFvaGtXQmlKYXNhVGVyOUFRdEtqa2JndUdtZXRFcXJSX0hWUmpOYlFfMGxQT1ZDay1aOGJOM1RTdGhHMDQ0VHpFMmZvWndySExIZFZrbWdUVVI1bDk2NV9saHFvX1BJWS1FMENMUXhJa1RPOXJfYXdHSV85ZzVoODQ2c3p2QkQtRmdqZlRvdDA0a0lB0gHbAUFVX3lxTE5nWnVLVC1McmYtU3FDbEVYZnFseHhmSVVZN3A1THhENHdEcEdIMzh0N1RzMVZMQ1kwTmtlYnVIMko0VW4yV2hkSEdvODJUMTBVRklaUDlZTUY2eUZOM2FLT0MzeEFSaXEyV1JkRVhnemE2aF93cl9fVkNVR01MWWduRS13blVRZVRST3AtdHZFR2FvZExnMDdmc01kcmtraGk2Y25mbkVBa1EyNVNZUXVGbXhRWUtMWWhzYlpKek1fMy1vcTNSaWpWbEk3dW02M3dIenlmQjBFNmotcw?oc=5",
@@ -363,9 +1295,9 @@
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaWoyS3V3LWdlZWVicVJRQ2hETEVleDU2MkFRZHBCZXpISl9Ea0szeU1HNVNmSWY1VHN5S29Ic21ieE9BWENGR0ZoR1F5LUZ0WkVldUc4RmwxWWt3TjE5Sl9KOEEzX1pZeHMwYTlyV0xVZVJKQ3JWRVItTUtoZVZ4SVdqRlRLSmc0V0RHbWxiX1NscTRKUmxVbEVob2RleS1XTllfRmNGaFJjTzBuV0s1cWIzMjU1Tk5WQ1RqX2d3U1M2UQ?oc=5",
     "source": "IndyStar",
     "pub_date": "Mon, 23 Nov 2026 17:08:25 GMT",
-    "matched_keyword": "해외: 업계 동향",
+    "matched_keyword": "해외: 중동(영문)",
     "is_overseas": true,
-    "country": "글로벌",
+    "country": "중동",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -397,30 +1329,6 @@
     "competitor_product_mentions": [],
     "categories": [
       "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
-  },
-  {
-    "title": "Diffraction Aberration Correction Outperforms Ray Tracing in Transcranial Focused Ultrasound Simulations",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRmNTQXg0QzhBY2toVmg2eTR1WWtwWGVNX0diN1E3N1ZUZERUZzNLYzFycGFONHNLZ1BqaDlkUUl2dXZiUjFkek8tS3k0VUkyZnJKMjM0WWJwRzZYckd3QnBfSmItaGR4NEx5eExlUTdUY0tSQ1dhSkFjMzcxdjlqSGJKemZEejQxQ1FYN0ZrVVMzR1NHNmpqMFZ6bURNMHlnMFdmeGdDcDV4NGhnQjFrQ2FJR1RhM3RiMkxieUIzOHBiZHB6MmxYeg?oc=5",
-    "source": "Bioengineer.org",
-    "pub_date": "Mon, 23 Nov 2026 16:43:35 GMT",
-    "matched_keyword": "해외: 기술 트렌드",
-    "is_overseas": true,
-    "country": "글로벌",
-    "local_lang": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "HIFU"
     ],
     "segments": [
       "에스테틱"
@@ -506,6 +1414,54 @@
     "ai_ok": true
   },
   {
+    "title": "The 2026 Skin Tightening Scam Why Your Routine For How To Get Rid Of Double Chin Review",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPM0NTcEJ6UXNmUW1pSGh5TXRvanZkTWlMNjE4SDB5VEw1R2d1R0F2elNBZHNZeEVZTWhNNGdRVFNQVFBwV09odlBMUXFsVUoxMk0xSWxyV1pHUTY1elBqZE44NEIzOXowOFBwOXFDTWxEVzBvNzhPVzZmRTNra1V0eXZSWXhzUVJiRlRJQ1J6OU9DNEhKX3dWd1dlYmVaNUd1RHNVMEllQjJ6VzdKWkN6VGJHVFJ2UQ?oc=5",
+    "source": "Derby - Diocese",
+    "pub_date": "Mon, 23 Nov 2026 14:52:33 GMT",
+    "matched_keyword": "해외: 영국",
+    "is_overseas": true,
+    "country": "영국",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Strata Skin Sciences' new CEO plans awareness push, hiring - Bizwomen",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNF9RRnFybWw0RmE1VzBEQWFadDRpTG95dDhqNFYzdlF6ZU9BNXF3YTVnR1NEZ0JvUGdfbUlXc0dZajhGVFQtOHBIcmpLWlRQOHRqTW5YajhlWXJGQlV0aGdjVWtIT3E4eGZSVldlLU5QQm5HWW9scFdDeXBUSEhaVFl5RXYyWWVTNW16M1d0U3Y4VzMxTjZJc2hpM2ZBczlKa3RKZVVkRGJjRjQ2a1R1MVFuSXd4WWZENHNxWDlZVVdIX1U?oc=5",
+    "source": "The Business Journals",
+    "pub_date": "Mon, 23 Nov 2026 14:16:15 GMT",
+    "matched_keyword": "해외: 중동(영문)",
+    "is_overseas": true,
+    "country": "중동",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
     "title": "Plafonnement de l'activité en médecine esthétique : le Syndicat national des dermatologues va saisir le Conseil d'État",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWGxiQzZSTFRJRk9PNDdxdDR4ZEN4alF6RkR0VUFOZ29peFh0Vkd6U2IzRmlTY2E0eFRyOUU3NjZJUDYxSG9OSTdROVkzbVo4Wm9VeE5BNC1LQk5QWkdOZ0loNFpPeURybXppRzJKYlZSRWNsWnF5QTVYREVVeGYwMGdJbks3MGgzajY2Sko5azU1YnJiSjdhcXRTa0pqMGk0b2d1aXpTY1Q4WHBWT3BnbFdR?oc=5",
@@ -559,9 +1515,9 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNY1R3b3pYbDBHcWZKWnJ3b054RnBYemExWnZMSGo5MVJvSGhXVWlCUS1kV0xmUTJ1MXRNQWN5UDBwZE80UE5BcnpCOC1neFBpUXRFUV81akJhNnl4RG5oM1VTdzdha2w0MElUSFlRZjBNZnlkRDlJdmR2dEhydWNSVXRKSXF0YUdUdE4tWjZyZnF0T1RLaEkzLVhzZmdBZDVud2RKVjNtT2E4dFg0dUxzRXRMVktNemNSYkJnNtIBwgFBVV95cUxNRXhpakpIbVhTVFI2dmxTcnY4S3NvQ19zRzR5SFBOT1FSSHg5eGVlVWRkLXpXM2FlSHBDelJuMzduT0FSQ1NuVDV0S2Nfb3pBa04tbHRKQ1dUczZvU3VrYndXc0dQNS16ejNhMU5qQXk5Vzc3VE9SSW12S19KdkNqenZuZWtjU2owMUNjWS1RRDlCOXRZUUdmYjY5RE5uRnFOY2EwT2JxWGljOWVMWGxhbnV1bXNuOGloZm1CNFRMRkdlZw?oc=5",
     "source": "Demócrata",
     "pub_date": "Mon, 23 Nov 2026 13:50:55 GMT",
-    "matched_keyword": "해외: 멕시코·중남미",
+    "matched_keyword": "해외: 스페인",
     "is_overseas": true,
-    "country": "중남미",
+    "country": "스페인",
     "local_lang": true,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -722,6 +1678,30 @@
     "ai_ok": true
   },
   {
+    "title": "The 2 000 Skin Tightening Scam My Honest Review Of What Actually Works To Avoid",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVDczSVlwYTJZVWNMRDlaMTdGWTB6aXNtYTJvZG9sMnRyd1o2M0xpNFowWU1EZzBuRm9VMmFsbEVxcnNsZFVXLTRYeFdISDE2dzljc0pTenBEOXB3WUVkY21zUUtpbGFLWF9VNzFOTUdWMUd1WlVPb0w1SUYyN2RWXzNLaG5XRm1kODBzNTdEVXJvZkVaZFlKUmRuTm02OUhFZTFPTHVod3dYSHM?oc=5",
+    "source": "Derby - Diocese",
+    "pub_date": "Mon, 23 Nov 2026 12:49:27 GMT",
+    "matched_keyword": "해외: 영국",
+    "is_overseas": true,
+    "country": "영국",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
     "title": "Dalla corsia all’estetica: il viaggio di Agata Borsella attraverso la cura autentica",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNT0c0LVhkdjd1dm1QQ0hvcmZYTzZZeEg1dVdIdTZ0MkxVWGYwNG12YndiQklIV2NPY3ZkUzR6ZDh1T1Z6Y0dnUXcxUTZJMjc4SlNwVnZwWWVPWHRwYkNrb29UbE1kRVMxbUVoNFF5blBXOVIzREhhTU5IQUVwckdDcVZkMEJfVXNacHhWNEtoYzdOZmVYZ3ZkbWxmSkdQeG03M0VIcDMxbkhibXZfWGZhTjZQWkVCb1ZfLVM4V0NR?oc=5",
@@ -832,6 +1812,30 @@
     "ai_ok": true
   },
   {
+    "title": "Botricello, la pressione estetica, rischi e buone pratiche",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcGxVLW8yX0ZyYmU1bjRVQXBKYWdpaV9LQVAxVW0wSVJZb0RESjNsMWVuNmFwckI2ZmFtR1EzNmxnWW1MOWdYeHpKNFJEM05Cdk1hRTFrdXRvN1FuTUJtdF82RGhtekloX2ZjamJQWmU4dFkwZ3dJN0JYMnNzY3F2eklNWlQ2N25CaDhyMWZiejRCM05ZY2poYjVRSjRUNjZDdHlIa3Y2QmhMZ3ZRZ2JHOFJOZ0t2Z9IBuwFBVV95cUxQMjc0YzhiXzk2XzdjTm5nLTJWZnVINDUtcFpzUVpuR2pZRW83ZlNPSmFaVTR2NlRCTFRQaUFZR2Jyalp4VDZJdWVkdkxra1ktS2NEOWlBaHdmOUgzWmpiRTNVcWpjQU9vYTk2SUZBd29maXBhRUI5MVNKb3NqOHBELTluVnlFS0J3dVU1dDlUbWJRMDU1b2thb25NQmJZLXcyMjZXSzY1SG51ZmFKTTM4ME0zZmJHY2N6VDdR?oc=5",
+    "source": "Catanzaro Informa",
+    "pub_date": "Mon, 23 Nov 2026 11:09:00 GMT",
+    "matched_keyword": "해외: 이탈리아",
+    "is_overseas": true,
+    "country": "이탈리아",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
     "title": "El tratamiento sin agujas que se ha hecho Paula Echevarría para lucir un rostro más firme esta Navidad",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQdE92eldTUENFbnlHMnFQdWVuTThGaUR4SlhiSl94akw4X2lQNk9DMW9qVUFNNnNyV0pGZkpFOXR1T282T0xWNDVSYTlMLUdON0NKajhycGpBWXBlNFBodDUwbDVrRDIyOHlQRmZLMVpIdU1qeGNocUUwejRueFBGMGFISmY5amhCcUxmNVQwYk03SjNYemoxckVISVRFc0hTci1EVG9iMjZnd2pxbVk4Z3MtZ1dNYXRuQkVLUXBjMURmTFNodTFFa1ZhaHfSAcwBQVVfeXFMUHRPdnpXU1BDRW55RzJxUHVlbk04RmlEeEpYYkpfeGpMOF9pUDZPQzFvalVBTTZzcldKRmZKRTl0dU9vNk9MVjQ1UmE5TC1HTjdDSmo4cnBqQVlwZTRQaHQ1MGw1a0QyMjh5UEZmSzFaSHVNanhjaHFFMHo0bnhQRjBhSEpmOWpoQnFMZjVUMGJNN0ozWHpqMXJFSElURXNIU3ItRFRvYjI2Z3dqcW1ZOGdzLWdXTWF0bkJFS1FwYzFEZkxTaHUxRWtWYWh3?oc=5",
@@ -840,6 +1844,30 @@
     "matched_keyword": "해외: 스페인",
     "is_overseas": true,
     "country": "스페인",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "El tratamiento sin agujas que se ha hecho Paula Echevarría para lucir un rostro más firme esta Navidad",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVVNCNHpWU0hwczZsOE8yYWZfMmVLVF9OdjVPQjN4LWxZQ2tvc2dlSUpzTUJXS0VDOGdsNVlWcVNVWmFkM2I3TXVVYmpKcC1hZUFDRE5VeW5LMmNyRm0wX1pqTnJIZ0J3UG1TNWhTVndMdngwNXRYc3ZiS1Jpbl9PUUFLaVBhbFpjWG9ua0x0aDZLdHN1RG9OUEpMVU81MUxVT19CV1hvc1RzSTNXbTdiS3dNYVpuZ21sSWVGMWxDU2haTEVrcXRn0gHMAUFVX3lxTFB0T3Z6V1NQQ0VueUcycVB1ZW5NOEZpRHhKWGJKX3hqTDhfaVA2T0Mxb2pVQU02c3JXSkZmSkU5dHVPbzZPTFY0NVJhOUwtR043Q0pqOHJwakFZcGU0UGh0NTBsNWtEMjI4eVBGZksxWkh1TWp4Y2hxRTB6NG54UEYwYUhKZjlqaEJxTGY1VDBiTTdKM1h6ajFyRUhJVEVzSFNyLURUb2IyNmd3anFtWThncy1nV01hdG5CRUtRcGMxRGZMU2h1MUVrVmFodw?oc=5",
+    "source": "OkDiario",
+    "pub_date": "Mon, 23 Nov 2026 11:05:07 GMT",
+    "matched_keyword": "해외: 멕시코·중남미",
+    "is_overseas": true,
+    "country": "중남미",
     "local_lang": true,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -885,9 +1913,9 @@
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPcGV4QUxuTlVCZEFwSm9MTDlhLVpodm1xWTlDMjNEZDAxRkJmdlYybTFDWkZrQjRnanRwRjV5WkFPc1Z2Zkw5VkxCcHhPTlBjRjAxSDZ3Sk9ucWwzUzJKY3hwa1FPZEJmOHVWa0lpX0pQRmRsUTc5cWRMX0pFUFEtVHRiZUhJeUZZXzJ1VFFZQTRkN29pczZQUVV2UE5Cck82SDVTcS1OeHl4TExQOG0wMNIBtgFBVV95cUxOcTBvb2JKNV9wQzVIMXJDQnlEU1hIVkZ1b0E3TVpaWEh6WmJ1U0d0YXBwblBXUE9EN0tmN1Nhb2RSb1l5Z3VfSWUxSHRsY2xxQ29vamNLSnlZS1hWWHJsd0ZIQ0ozRVpIN2lnWDB2dVN6SGh1cmRnaUtZVXctMlZCX0tLOFowenFlSkpSV1otcnpZMXhNbGFHeHZuRUFmbnFMQzQ2Z3JibkRmaDNqZVkyVHVpdVhGZw?oc=5",
     "source": "Canarias7",
     "pub_date": "Mon, 23 Nov 2026 10:44:22 GMT",
-    "matched_keyword": "해외: 스페인",
+    "matched_keyword": "해외: 멕시코·중남미",
     "is_overseas": true,
-    "country": "스페인",
+    "country": "중남미",
     "local_lang": true,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -895,6 +1923,30 @@
     "competitor_product_mentions": [],
     "categories": [
       "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Specialists from Clínica Dermatológica Internacional at Hospital Ruber Internacional Lead the Publication of a Major Reference Textbook on Clinical and Aesthetic Dermatology",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTmVaTnpxZkEyLXN0dVY2UENuQndlUjRVRjZDQ2ZhTlRUaVpodmtQZnU2V0xpNmJMMWF2MGNFMktFam43YWl6Mk1SX09QakN4bTNyM1gtYW02czl2ZlIxNkRmMDVwRVZGSzFET3NpTnFVYmFWSzdmSnlQS2pobDBEQWxxTy10LU0tNXVKSTNON2dyX09kY2h2ajQwSUdyTjUzV2VXeFU3R0xZam52WV9icWt5Y01QNmdXODVj?oc=5",
+    "source": "Quirónsalud",
+    "pub_date": "Mon, 23 Nov 2026 10:37:08 GMT",
+    "matched_keyword": "해외: 인도",
+    "is_overseas": true,
+    "country": "인도",
+    "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "학회·임상"
     ],
     "segments": [
       "에스테틱"
@@ -945,6 +1997,30 @@
     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQQ1NGVGxaWWM4S1J6NnB5dGR3RFJlSWJKWVZGTlFzR0tVY0t3ZUZJNW9tQlNKZHFuNUdwYzhxTG1ZdS1yTTVWNjdCQUxqMEgyR05GTkltNnZBMUtsNmlpQWNldFhQeXZCVUlVQi1XVU1iaDNkbkMzNExMZ1ctUmt3UXJNSEFCSWpJRnRoUVpabDU2SGxfTWxPemhKOThrZVljUEk1RENKdXRkNFl5UlBzX2xkNHZoMUV3S3FYb05fSjhwc1h2Nk5uRTVYVHZhSVVwTDd6NTluM2pHVHItdi1WbVBZajFyWlROYmFvRzBWbXNhSVM0WFE?oc=5",
     "source": "Dentaire365",
     "pub_date": "Mon, 23 Nov 2026 10:13:20 GMT",
+    "matched_keyword": "해외: 프랑스",
+    "is_overseas": true,
+    "country": "프랑스",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Limiter les actes de médecine esthétique des dermatologues, \"ça paraît une évidence\", estime un collectif de patients",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxObXNLZ1plWU8wU05sR2ZSeWtFLVgwcUNPOHgwTXU0WTlYS2tHN3NKY21mMEQwREFWX0pfRjdBNHdYeGg2RHFaQ19aVVNlT1plRi1KbjRSWHpkQldXXzhNU21lV2o3YXY4emIyRXBYc3lOd25vUnJjU2w1anFUeWd1Zm9QMzZFYW1QM3lYdkk3M0RzQjNIZHVoZ2lmOGZWT29yX3ljY1IyYkVQXzdhVnVWS2hWY0lTM2ZxaGdQa1lzS2tHclJyWm40WVJPUGpEazZocm1xOGh6RWtSdmZrR0Ntbmp6NmVXS0Ywc2U2a3NMNUFZYmhFUGl4OW91S2dHRkk3eFpXSEJBY0tWTjd5SUZiX1ByNC1fMDV3UHhYNU9R?oc=5",
+    "source": "Radio France",
+    "pub_date": "Mon, 23 Nov 2026 09:00:00 GMT",
     "matched_keyword": "해외: 프랑스",
     "is_overseas": true,
     "country": "프랑스",
@@ -1333,6 +2409,53 @@
     "ai_ok": true
   },
   {
+    "title": "HCB Hospitales pone en marcha el programa Instituto de Estética Integral y Longevidad",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZ2tFdFBjclNmcU9ZOUFEaUFQZXJJU3MzYy1La3VpVkhPcjN1dk93RGNtdkNXaEgwcVZpaXVFbVdIcHRPdW9waEQ4S3VVeXlMTlJXSFVfbjNmVy1Ed0hsMk1CamlxbkI2eTUyX2RicEZJdV8tdzNxOVRkYzl6SFdtU2VIejBabGFoWV85ZVZKRS16dmE1WkJtRms1bE9IUGlZd0o1UjU1TmdZc0ZQY1dRUnE5amJibHRJN0NfbXBjbVJjYUNfVDZsNVRNcnh1d9IB0wFBVV95cUxOanlxY3FJY2RwMERHcmRTb21VNXotcXFTcV9BcG1CWXJWV0ZLODFoUDlmVl8wNXdwdnZLZjBocUo0T3JDd3RJY2thR0tIellVaHZDMlFoUldZQ1dfVERBX19wMkgtdWNxcXdyamROS1RIdFhRRDA0bEl1WGI5Y1NzcGVmVmNqbEVhYlIwbW1SWndXS1R3TEFGNjNDcDdvQ240WHduTzF1N0hsUWpCanZVZncxUlVuTExhb2FjZXdOYTdlS0oxVXNNMzNpUGs2ME8xT2xr?oc=5",
+    "source": "Alimarket.es",
+    "pub_date": "Mon, 23 Nov 2026 04:12:53 GMT",
+    "matched_keyword": "해외: 스페인",
+    "is_overseas": true,
+    "country": "스페인",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "아모레퍼시픽 미래 먹거리 'AI·디바이스·바이오'",
+    "summary": "회사는 약 3800개의 마이크로 LED를 적용한 '온페이스 LED 마스크'를 선보이며 홈 뷰티 디바이스 시장 공략을 강화하고 있다. 김 대표는 \"중요한 것은 AI, 디바이스, 바이오 기술 자체가 아니라 이를 통해 고객에게 어떤...",
+    "link": "https://www.thebk.co.kr/news/articleView.html?idxno=312973",
+    "source": "네이버 뉴스",
+    "pub_date": "Mon, 23 Nov 2026 12:56:00 +0900",
+    "matched_keyword": "뷰티 디바이스 시장",
+    "categories": [
+      "시장동향",
+      "신제품·출시"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
     "title": "사이노슈어 루트로닉 '세르프', 국내 누적 1천대 판매 돌파",
     "summary": "에스테틱 기업 사이노슈어 루트로닉은 듀얼 모노폴라 고주파(RF) 의료기기 '세르프'(XERF)가 국내 누적 판매 1000대를 돌파했다고 23일 밝혔다. 세르프는 사이노슈어 루트로닉 통합 출범 후 첫 제품이다. 2024년 5월 국내...",
     "link": "https://www.etnews.com/20261123000256",
@@ -1419,6 +2542,30 @@
     "competitor_mentions": [
       "멀츠"
     ],
+    "ai_ok": true
+  },
+  {
+    "title": "Cierran centro estético ilegal en Tunjuelito por riesgo sanitario",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdExCTjBqT1Q5N1FiNUdpUkkwNmdwVUZuVlVTUFVoelVOQ1hvbFVLY2lqTFllR01XUnd6RWdvSy13cGtWRDYyRGtYXzBfUDJPMDhPOEdhRGZtVHZvbjlvazh6MTlSV295RW81ZTlza1pWd1QtYnJ0OGl1ckpwbmU3bDdVTnZhb3hPYTJILURLcTNYX091SGNKTy1JZEZ4aUJHeU9zRWVNNktrMDVzU00xNmZTa2c5ZFJRRjJTU0pZQQ?oc=5",
+    "source": "Secretaría Distrital de Gobierno de Bogotá",
+    "pub_date": "Mon, 23 Nov 2026 03:11:23 GMT",
+    "matched_keyword": "해외: 멕시코·중남미",
+    "is_overseas": true,
+    "country": "중남미",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
     "ai_ok": true
   },
   {
@@ -2157,30 +3304,6 @@
     "ai_ok": true
   },
   {
-    "title": "Lazer epilasyonda büyük indirim!",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5IQ25fcklwVEczenZjWmV5SmFMT25rS0xiTURBd1JvVHpYVE5hd2VZX0xlQmdiWjRXWTNtM2FYYU1pSWQ2aUFqMFZfVW5LRnZFNGVxUjFWUTJOX1l0bnBqdlBKckp3SzUtWGdXXzZiLXIxdGFHRGtGeS10dG4?oc=5",
-    "source": "Yuzhaber",
-    "pub_date": "Sun, 22 Nov 2026 14:52:17 GMT",
-    "matched_keyword": "해외: 튀르키예",
-    "is_overseas": true,
-    "country": "튀르키예",
-    "local_lang": true,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
-  },
-  {
     "title": "Known for Melasma and Dark Spots, Can a Picosecond Laser Also Firm the Skin? Dr. Donghyun Kim on SCULPIO’s PicoSculpting",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFA0cTVKSzhIdW0xNUNjNTlIVnlUcWQ5dTczTjVBbkJ5YkI0REF3dVBtVWJkN1F2MVktd0FDMWVNVFNNVE9EY095b2tvUWUxUXVWaHFxYjNXaXk3Wks0am1Ob2gyUW5BR3JIZUFBeVVia3pvUQ?oc=5",
@@ -2255,38 +3378,14 @@
     "ai_ok": true
   },
   {
-    "title": "Layers Skin & Hair Clinics || Hair Transplant | Best Skin Care || Hair | layer | Body | RTV",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNVmRsaXVDRHpmUmRVVC1LcnpzUGdGZktBaWpYQnNEV0RTRWRkUUJRaGc2LWg3bHFEeFdlbHYwcjc4b3N6YlplSkVZdjdtclV1TnYxRU15Y2FYek9iRFdxaEg3QUhiMGhjTFk4dzhPUlRTYi0yc0VTTGk5RUtmMTNXUjZCVFdjN08yTmhpeUY2aUlYQW1qVkszN0xNOXA3b3M4UkNjMXdOZDJ1RmoxMFEyWk5DSFloTTVSN3BfODNkdjA1ZjUtY09HMmQydmJ2dXM1Wi1uazZRM0h1QQ?oc=5",
-    "source": "Facebook",
-    "pub_date": "Sun, 22 Nov 2026 10:04:30 GMT",
-    "matched_keyword": "해외: 인도",
-    "is_overseas": true,
-    "country": "인도",
-    "local_lang": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
-  },
-  {
     "title": "Sofía Ruiz del Cueto, médica estética con más de 25 años de experiencia, sobre los retoques: «Más vale dejar una arruga que acabar hinchada»",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNa1RpNWdraGtqQ3ZzdmV4eG44TnRFNVJ0VDNyNFI3bDliUTJZMUlTUGJRcWFUME9YMTNaaGN3UXY0SUxJVnVUTEVBcGt3WTJpU1NNT2ZUUTl0UUZIVmdMcWllSVlidmpRZDBBbk15Z05Tam81bEdmWkpsVWw5a1RSZFpYTHZvQXNDLTI2SlBfaUpOT1pmZnF0X1M3NmdCYmN1TnlNTV9nT0JCdUpLZF9RLXpOMUNQYmR6MWROWW5GeEZHdHVTVnU1SExIalpwcHRoNW5razZqSUNWUWEtVUhkS0VhQVhvSkUxeXk2TzBNUTAwS1VHRThIcTNERXZydFo1RF8xM1B3NjNnSmgwN0F3?oc=5",
     "source": "La Razón",
     "pub_date": "Sun, 22 Nov 2026 09:30:00 GMT",
-    "matched_keyword": "해외: 스페인",
+    "matched_keyword": "해외: 멕시코·중남미",
     "is_overseas": true,
-    "country": "스페인",
+    "country": "중남미",
     "local_lang": true,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -2765,6 +3864,30 @@
     "ai_ok": true
   },
   {
+    "title": "Hugo Valenzuela, médico estético, sobre los retoques de Mar Flores: \"En su rostro evitaría perfilar demasiado la mandíbula o dar a los labios un volumen que cambie su proporción\"",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQT25XU2JqQWR6ZXc3dGNsaGRpQkphbVNVZ2RraldkRE9vV1JHUHV3ZTVlRzNoQkZFcnBUMzlyTHpwTXBwMDBxUEJBMEotU1VXajFza1poQ250a3N1VWdJanpMR1kwdXVkd3B2Tm54RTZYdTI4TEVUbVV1bWE0VEJCQzVZMUVFUl9WbUgzam9WaEpNMkFjYXM2MVlYMmE?oc=5",
+    "source": "Revista CLARA",
+    "pub_date": "Sat, 21 Nov 2026 15:00:00 GMT",
+    "matched_keyword": "해외: 멕시코·중남미",
+    "is_overseas": true,
+    "country": "중남미",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
     "title": "Afyon’da Uzman Dr. Merve Özkan’ın Kliniği Hizmete Açıldı",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeWNBZ295RzE3anpjMkV5UW84dzNkXzlTRDdmMVZKMVhmQm1qQlZyekhxYy11ZDlGS1dXMlR5a01Ma2pJX1VyZ1lQdGV4RGxmeEQ0bWZQLURIMTBFUE5kUTNUS0hLWFpHel9URFZITV9pbGRIWnpVcGV2QzAxVlFjalFoLTh0SDg?oc=5",
@@ -2861,6 +3984,30 @@
     "ai_ok": true
   },
   {
+    "title": "Afyonkarahisar’da Sağlık ve Estetikte Yeni Dönem! Uzman Dr. Merve Özkan’ın Kliniği Açıldı",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSy0xclpCd0dlYjAzMTFlUEVJdWZlS1RTbDZMX1k5aFF0NnlzMHI3ZG9xaElDdERxNlZkMk9mcUZBUlRWYllDXzRSLXFoelg5enJ3QkUwbG1oYUVFZEc5UEk0QmVNWnFfcmlJNHlYYXJmVk1ySVduTVhocmJqQ1Z0TmVBbWotS2R2cUlYQUI5c0xhRmMzS1lBbVZ5WVd0RkEwUFdJejR6RTNRaUpBZ2hoMWZ0VWFHVm9ibXNpdUNmb0VOck1qdEttTw?oc=5",
+    "source": "Afyon Türkeli Gazetesi",
+    "pub_date": "Sat, 21 Nov 2026 13:08:06 GMT",
+    "matched_keyword": "해외: 튀르키예",
+    "is_overseas": true,
+    "country": "튀르키예",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
     "title": "Rejuvemed: 11 anos de uma história com visão, ciência e dedicada às pessoas",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTm1ua21zWUlRY0FMVW5kTmpEVkJuVl8yTHU0WkQ3T0E1YnNsekpEVEN0M3hWR0Y1bUVWVDFldXItVDdQbzZ3NEFjQU53UVlRQTdCVU5sbWVZV1hXdi15NW51RUhIamhERUNNclRUX1pGSXhWV2pvZEJheFJQSmxlY3RLeFlzMGoxeGNGYk5jX1VzcWZhNkJXanQ1QmNjWkxEZ0ZiZGc1WnZYdWhXRTRraXA1dVc?oc=5",
@@ -2912,6 +4059,30 @@
       "올리지오 X",
       "올리지오 XM"
     ],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Yeni Medikal Estetik Kliniği Açıldı",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5MZ1hNRmREZmliWmwwVkNsWTNLVWhfbm1zMEdpSi1LZW9kZWV0a3hsUC1MZE1Qby1seVkybUFvQm9QSzhPRlRYeXA3eFBnSjBsdE5KMHNmTzdfREJGM2E4dHRVbVVZaVpJRUV0MjhScnFUNzZfcG1QZl85Y2J4QQ?oc=5",
+    "source": "https://beyazbelgehaber.com/",
+    "pub_date": "Sat, 21 Nov 2026 10:13:17 GMT",
+    "matched_keyword": "해외: 튀르키예",
+    "is_overseas": true,
+    "country": "튀르키예",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
     "competitor_mentions": [],
     "ai_ok": true
   },
@@ -3088,6 +4259,30 @@
     "ai_ok": true
   },
   {
+    "title": "Holaglow, nominada al premio 'Mejor transformación digital en punto de venta' en los Digital Beauty Awards",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5FU3NUdGJtdXdWVmRHUDN5M3QzS0xaMkRqRTY1ajVHc2pnR3FlcmlkN0JFaWh2b1g0NUs0OE80S2RTaEl5LVVocXFnQURRSUVVNGxmdVJhdU5aTWxEbjFPREFieEdfM0ZWaW9xel9oaEZReHNXcE5HNDEtNmlXQQ?oc=5",
+    "source": "Comunicae",
+    "pub_date": "Sat, 21 Nov 2026 03:41:54 GMT",
+    "matched_keyword": "해외: 스페인",
+    "is_overseas": true,
+    "country": "스페인",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
     "title": "Médecine esthétique : devis obligatoire et 5 jours de délai avant l’acte, ce que change le décret du 12 novembre 2026",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5LVTZOdkh0cnJ1R2daX2R4NE8ySHlZQUZETEFaZnJwdDAxU1ZMSzJKRTdxZGliQTFnWjd2cFlOaVJVSndTOFROaFpNWWJ6aThvcGtRY29tbF95emg5RDdVV1RxUDV0bldDV1o4dFBtTjBWWUcyZHpDdVVsX2gydw?oc=5",
@@ -3208,11 +4403,59 @@
     "ai_ok": true
   },
   {
+    "title": "تطلب «UA.NEWS» من وزارة الصحة التحقق من عيادة ماريا تريفونوفا في ضوء قضية التيرزيباتيد المزور",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOE9jal93SzVnbmp2RnA1NUY3VVV4WWRNWHAwOXVTelFFQ3FUVVdWeVQzb2R5N0E3QUJSWTJTTjNtY0Q4Z3BaV3VSQzVJUEpGM0JRUElfY2h0ZDh6bUNZN0ttSFJGdm9pYk1KdkxPS0VSWXBvemQ1aXRaOWFFdXBlbHozYmpDcWZkcU5Ua0J0YzdsZUVlUnBmYUtCVUlJdU5uWTk1X0pnZzRVamNLQThNQ2kwXzR3cElIdDgzZllmVGsydzFOQ3c?oc=5",
+    "source": "UA.NEWS",
+    "pub_date": "Fri, 20 Nov 2026 17:39:19 GMT",
+    "matched_keyword": "해외: 중동(아랍어)",
+    "is_overseas": true,
+    "country": "중동",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
     "title": "Medicina estetica abusiva nell'ambulatorio clandestino",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaGUyaFRVa2EzZjRfZzg3RGhTbG43U0JQZVdSUWNKT1RBd0U2ZlpoQlhlcFZRV0s3SjJuU3RmN1F6bldDSExqYjNZV3BCYzJqREFUUHA4elV2dVUzWXRqZ0hUbzhISnpGT0pXUjNxcUhoQ3BqczdzTUZVd2RCWldPWnVQN0U5Szl6clppUXY2VFZMUGVU0gGaAUFVX3lxTE80M3ByanZocW1CT0h1TGU4dW56dGRPX3hZQ1BjY3NwNVBoZXFxSmNva1YtVTNERGRnQXNDXzNLaVNxTkpEVVRHN2J0ZlpVNEI1M0JWcnBvU2ZINGpEM3pXd01zUWpmVXF6OE12Z2NCZVZKNnF6OHN6d2N5ZzRvRHQwSlRGUXNMWGJPc0lxRG9YS1hXRTlSbGgzR3c?oc=5",
     "source": "ToscanaMediaNews.it",
     "pub_date": "Fri, 20 Nov 2026 17:10:00 GMT",
+    "matched_keyword": "해외: 이탈리아",
+    "is_overseas": true,
+    "country": "이탈리아",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Botox in salotto: la Finanza scopre a Catania un ambulatorio di medicina estetica abusiva",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA3OFZoN09iU0N5XzJvY29vOHJlZndKSVFkVlhnZE1xMGt2dG1XTGNNM0trci1lOUdSY1pqOXNySkpLN042aVA4QXBRWnJ5bGNsajhVdkswVkZBaTBKcjNaSW8xZzdIckxaeFk1TXFqUnhGRnQzV2lz?oc=5",
+    "source": "Il Moderatore",
+    "pub_date": "Fri, 20 Nov 2026 17:06:27 GMT",
     "matched_keyword": "해외: 이탈리아",
     "is_overseas": true,
     "country": "이탈리아",
@@ -3333,9 +4576,9 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPNWRESWpnZXRidFNQMzRBNDJYNE81dVlJc2xwWHowNFI4bEJqV2doSTJpRXNSTW14VTNKaW9iamZvcTJzUnNVaGVFbzhtRkRELUhmaUg3dmZxNDhJOFN0OURyNlY3QWllMmFjMElBUWdSX2E2V2hMc083LUp5Y25Ra1duZ3ktaGVWc3pzWGpqSG0tOEwtRjJUS0ZhNVRwVzV1WVBNRndZenBmU2Y5bEdHay1INWpjRGpLWG5pdURBZ291dUk?oc=5",
     "source": "Business Wire",
     "pub_date": "Fri, 20 Nov 2026 13:52:00 GMT",
-    "matched_keyword": "해외: 업계 동향",
+    "matched_keyword": "해외: 호주",
     "is_overseas": true,
-    "country": "글로벌",
+    "country": "호주",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -3343,6 +4586,30 @@
     "competitor_product_mentions": [],
     "categories": [
       "Laser·Pico"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Dra. Beatriz Beltrán, experta en medicina estética, sobre el bigote de ácido hialurónico: \"Un volumen excesivo puede alterar el contorno de los labios y la expresión\"",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPXy1zcWwtZXZHODhpTHRfZ1pNVDZjaHVna1J5YjNVMXNXaWZTSGd4NFM0R1ZLRUtSM2ZzczRPRjV2anl5akxqMS1OYWZ2OU5GczVjYjBqUURvTWtXSWVwekJucTI2OGxXVGZMNlVjUnZVT2NaM0dVdUhXRC1Cem5sb0RlcXU5UGx1MVNuZF9VUERfOHBGdVdHbGc3bzhPclE1ME5mbEw1VU91SXZ0M2NEVDltU2g0bk1ZWVM5MWlnWFloOTRPRUdicA?oc=5",
+    "source": "HOLA",
+    "pub_date": "Fri, 20 Nov 2026 13:12:00 GMT",
+    "matched_keyword": "해외: 멕시코·중남미",
+    "is_overseas": true,
+    "country": "중남미",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
     ],
     "segments": [
       "에스테틱"
@@ -3404,9 +4671,9 @@
     "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNZHZHc3pETzd6c3pzbzhnU1IxYmU0RkxYQTlPODR3eEpXSEw4UUx2Xzg1VVNOUXgyRVpqUW1ieEFQN2twajdDejNtYkwtZGZSMmJhUUw2R2FKTUJQR28xekk2R1hfb0RHMDNzTkNqaHlOWmh0WGhwcURsbUdZQWtROEN0LVlsT3NrdGtLY0x5S3JEelB6Q2xmbS10RXhINTVlbkFnbHZ2LWRNcXhwOGxKRFIyMUpQOXZLeDdMNGlWQnFPTWV2MHp5TmY5ZXkzQ0lrSEZwSTE2Zk82M2xHTnZuMzM2MTNsWUs1cGxRcWlqNnBveHdWMEtDYlZ30gH6AUFVX3lxTE1kdkdzekRPN3pzenNvOGdTUjFiZTRGTFhBOU84NHd4SldITDhRTHZfODVVU05ReDJFWmpRbWJ4QVA3a3BqN0N6M21iTC1kZlIyYmFRTDZHYUpNQlBHbzF6STZHWF9vREcwM3NOQ2poeU5aaHRYaHBxRGxtR1lBa1E4Q3QtWWxPc2t0a0tjTHlLckR6UHpDbGZtLXRFeEg1NWVuQWdsdnYtZE1xeHA4bEpEUjIxSlA5dkt4N0w0aVZCcU9NZXYwenlOZjlleTNDSWtIRnBJMTZmTzYzbEdOdm4zMzYxM2xZSzVwbFFxaWo2cG94d1YwS0NiVnc?oc=5",
     "source": "COPE",
     "pub_date": "Fri, 20 Nov 2026 12:04:43 GMT",
-    "matched_keyword": "해외: 스페인",
+    "matched_keyword": "해외: 멕시코·중남미",
     "is_overseas": true,
-    "country": "스페인",
+    "country": "중남미",
     "local_lang": true,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -3452,9 +4719,9 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOb3BzdzQ0VVJXY2NaMDUweU5mY1JLTWR4djBFWFp0UWI2UkoxNDl1cC1JbVNLRzF2NzJuTFczYlRJbVo0a3Jrd2VrVjFreTlmcTZVLXBwRy1MNVl0YUZFTVkzMU9laEtKaWZ0QzZGSWZZQmNMN3pLbENhTHFPNk5XUlBKWUNsUmdkWUV3?oc=5",
     "source": "Comunicae",
     "pub_date": "Fri, 20 Nov 2026 11:23:02 GMT",
-    "matched_keyword": "해외: 스페인",
+    "matched_keyword": "해외: 멕시코·중남미",
     "is_overseas": true,
-    "country": "스페인",
+    "country": "중남미",
     "local_lang": true,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -3519,11 +4786,59 @@
     "ai_ok": true
   },
   {
+    "title": "Medikal estetikte yeni uygulama için adana’da lansman toplantısı yapıldı",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMURnbm9XM2tqYVcybThHTV9pTjF3LUVaQ09VenNVMFZMUy12c2ZOSnByaXFKMXFZa0s2UWpOVEFOejNzSGlvYzVtRS1uRHVFUnN5djVuc3A4WElVR2lIdnRwd1EtRjYyZ1Vmekt3bkpGdnFuSWtVbmxldkRyaG1nbUdvZnhPTTFDeXFqcmZlUDZfc3NmTzNIMUhraFl3MUpfTHJjMjBPNDhxdUxlQ1lIR1g3MTgyNmVLbXfSAb8BQVVfeXFMTTlqc1l1MnpZNW5VMnA2WEVpSnJUb21tS0VIVEVpUlJsOEdkNHozUTJXX19paGkzSjNNNHNsbnZSV2N0NzFiZm5HWEJOMW8xZmUtR0FpalJTR0NkS3FWWDlVQWRXSmluVTdRV0t5czVmWEl5U1FwUFRYWUVHUTdmNS1vb2d0LVpodkhmU0wtX3VtS1F5RE9nOE5WbDhod1BDQ0VtR0ZlLTdUZFE2MHFzdDZraTRqTVZpSHgtaXk1MW8?oc=5",
+    "source": "Referans Türk",
+    "pub_date": "Fri, 20 Nov 2026 11:00:00 GMT",
+    "matched_keyword": "해외: 튀르키예",
+    "is_overseas": true,
+    "country": "튀르키예",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
     "title": "Medicina estetica, scoperto un ambulatorio abusivo: ecco dove",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWlFvM1JQRWVBY1BxMUVJbUJOV05OaDBBd3VRY2J5a3JDNmZvZkpjS3VpWDhabTJ5c0tmZURLUlBKWEFBYXJZcWpkS0Y2N2JrWWZ0MkRGM2t3aVNpSElSUkkwTUtjQ1ZtR00waDBxc3hwSWlxNnlTSUNWajV6UEhpcDdDXy0?oc=5",
     "source": "VTrend",
     "pub_date": "Fri, 20 Nov 2026 10:54:26 GMT",
+    "matched_keyword": "해외: 이탈리아",
+    "is_overseas": true,
+    "country": "이탈리아",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Trattamenti estetici invasivi ma senza alcun titolo per farli | quattro denunciati in Valdinievole",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQenBtRVNYMXFiT0gwVHQtTk5td2xzYThPQVg5ZjNEZDRJelBTNk5UOGVsQ0FuSjJmMFhDMElLRHYxVDZqMTdITzd2N3lFYktyVTNJRmVKVk1IY1liNXA0QXZtb1diMHdLMUU0LTBBYllPSllqdmxoS1VTbVY3dXE3bkZOWmRMT2xaQ0NGNG5NbTZsOGZyTXRueS1kb0lYODFYMVBLZ2dhb2hLYjJ4ZXBadS0zdFVEMTdhLW1Qb2J6eXU0OERsSm96MjdpQTBISFFfZTBwNFBn?oc=5",
+    "source": "Zazoom Social News",
+    "pub_date": "Fri, 20 Nov 2026 10:36:35 GMT",
     "matched_keyword": "해외: 이탈리아",
     "is_overseas": true,
     "country": "이탈리아",
@@ -3552,6 +4867,30 @@
     "is_overseas": true,
     "country": "글로벌",
     "local_lang": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": [],
+    "ai_ok": true
+  },
+  {
+    "title": "Scoperto in Valdinievole un ambulatorio clandestino di medicina estetina",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS1RxcmR4ekdWMlVfU2c4cUEyclc0ay1Ea2h3OVlPeW5VdVhPTTRCT0JiRVVqbnRhOEdpV21mRWc5SnZIQVdQN2hCVF9maXZSU0Jhc3U1a3BNd0JGYkVWUEJIR1g5Y3dobGpoblZVVWEtM0FUbzMydnA1TGNabnludHNhWDBrOV9Jejc5WEdKWVNVSWZqMFM1eE84cU00bDcyU0czUGJqY0cyU0xQOXJ5NEd4STYwUEhBSTdCZXZlNlZzbW8tY2hv?oc=5",
+    "source": "Corriere Pistoiese",
+    "pub_date": "Fri, 20 Nov 2026 10:04:12 GMT",
+    "matched_keyword": "해외: 이탈리아",
+    "is_overseas": true,
+    "country": "이탈리아",
+    "local_lang": true,
     "own_company_mentions": [],
     "own_product_mentions": [],
     "competitor_company_mentions": [],
@@ -3759,6 +5098,34 @@
     "ai_ok": true
   },
   {
+    "title": "[HIT알공] 큐라클, 황반부종 치료제 FDA 2b상 닻 올렸다",
+    "summary": "② 클래시스, 국내외 기관투자자 대상 IR = 2026년 11월 24일부터 27일까지 싱가포르·홍콩·서울에서 IR 진행. 한국거래소 코스닥 글로벌 IR, 미래에셋증권 헬스케어 Corporate Day, 한국투자증권 국내 NDR 참가....",
+    "link": "https://www.hitnews.co.kr/news/articleView.html?idxno=80980",
+    "source": "네이버 뉴스",
+    "pub_date": "Fri, 20 Nov 2026 18:04:00 +0900",
+    "matched_keyword": "클래시스",
+    "categories": [
+      "시장동향",
+      "인허가·규제",
+      "글로벌사업"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [
+      "클래시스"
+    ],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "클래시스"
+    ],
+    "ai_ok": true
+  },
+  {
     "title": "Guardia di finanza scopre ambulatorio abusivo di medicina estetica: 4 denunce, sequestrati oltre 1000 prodotti",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPWndmakV0NWZhM0FBTk1qNDY0aHMxWWdhcmR6RlpfMWxLemg2bWFfakdydHl0UXE5azJncm9rTGZhYlhFamhlWGpHX2EwZDNEMy1ObUw2Znc0OFJvTWRoMXNPdTBtc05Bb1RudG9mRWdUUndaNEE4SHhVRXctNFpsU080ZUZYSEtUMWpyM0ZYUFJFVk9SVkM5QkdTeG1LUGROeG1GaXRvSThxamVWTkFJU2R2ZmlGOXEwX1lNZDNsNTY3aDB6dVpfWndVZlMwVV9aTmFhaDY1Nk9IRUJtMXIwS0E3WXg4RE1J?oc=5",
@@ -3812,9 +5179,9 @@
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9vb2dabHNhS3N3ZXkwUmF0RjhtSG9FVWZraFRyZjI5T21KX3B6WW9GcUZWakdkWlhBemU3NWVoZUhBR1VybDFSdW52YnNjTjRlai1oSk93V1RmVXlHSzhtNVU1UmhuZmpFM3h1a0M5cC1GNUktcVY2R0Rqdw?oc=5",
     "source": "L'Officiel Chile",
     "pub_date": "Fri, 20 Nov 2026 08:52:22 GMT",
-    "matched_keyword": "해외: 스페인",
+    "matched_keyword": "해외: 멕시코·중남미",
     "is_overseas": true,
-    "country": "스페인",
+    "country": "중남미",
     "local_lang": true,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -3827,8 +5194,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "원주 미용의료기기 기업 5곳, 홍콩서 수출 판로 확대",
@@ -3945,8 +5311,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "Scoperto in Valdinievole un ambulatorio clandestino di medicina estetica",
@@ -3969,37 +5334,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
-  },
-  {
-    "title": "[마켓 24시] 인포뱅크, 비즈고 플러스 출시…AI로 고객관리부터 발송까...",
-    "summary": "기업 멀츠 에스테틱스 아시아퍼시픽(Merz Aesthetics Asia Pacific, 멀츠 에스테틱스 APAC)과 정품인증 태그 칩 공급 및 구독형(SaaS) 정품인증 플랫폼 서비스 계약을 체결했다고 20일 밝혔다. 이번 계약으로 쓰리에이로직스는...",
-    "link": "https://news.dealsitetv.com/articles/178972",
-    "source": "네이버 뉴스",
-    "pub_date": "Fri, 20 Nov 2026 17:00:00 +0900",
-    "matched_keyword": "멀츠",
-    "categories": [
-      "신제품·출시",
-      "인허가·규제"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "멀츠",
-      "Merz Aesthetics"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "멀츠",
-      "Merz Aesthetics"
-    ],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "【2026年】東京都の美容皮膚科 おすすめしたい22医院",
@@ -4022,8 +5357,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "【2026年】広島市の美容皮膚科 おすすめしたい8医院",
@@ -4046,8 +5380,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "【2026年】神戸市の美容皮膚科 おすすめしたい7医院",
@@ -4070,8 +5403,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "[릿트렌드] \"장원영은 못 돼도 화잘먹 피부 완성\" 메디큐브 부스터 프로...",
@@ -4097,6 +5429,29 @@
     "ai_ok": true
   },
   {
+    "title": "A101 19 Kasım 2026 aktüel kataloğu yayınlandı! Bu hafta hangi ürünler, kaç TL'den satışa çıkacak?",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQM2hsbUZmVmZiMFQ1RGkwZGtOS3pZRlowWlZoUlc0YmpJNVV2RFNGeEZON2tWTlFfV0RYSkZJdTIzbnNaTExlVlF4SnBSMFJiMjlDX01fVWFTQ0g0X21zRzJ0Q1I2djZNbWVUY01EU2dUeW1DaUhhcFNRLTloLVlldVBNRlRpUGV2aFhDQ3VjSURjRTd4d3NBMmN4XzFIalNIVjM5WXR0dWZHMVRiNzBwUWVTSDF5SUJlb0JWQg?oc=5",
+    "source": "Yeşil Afşin Gazetesi",
+    "pub_date": "Fri, 20 Nov 2026 07:26:06 GMT",
+    "matched_keyword": "해외: 튀르키예",
+    "is_overseas": true,
+    "country": "튀르키예",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
+  },
+  {
     "title": "Blitz delle Fiamme Gialle nell'ambulatorio clandestino di medicina estetica: sequestrati medicinali. In 4 nei guai",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxObzFWeXhQNVJsWU4wbElZSVlxVjFsWmFaVEdkUW1nQ3dKNFN5bWU4M2t6U2RQNmEyeEIzdDFqdWkzazdxQ3FvRWQtTUdGS051Wml0cERGakl1VWsxQmJCQkhpNU9SN3BxVm1Ud3g5dDhBRGFaNUs1X29XUkxYcUdGSzlCUUNuaW45OG1zcWlJYWExS0ZRYUtNTE0xMVBMR1JaeWk2SkhLWEI5RWNmemxtR3FlQmNqd3Qxek52RGNWeGNOdVhVcXFPNlFvV3o5QnFSb3RSZGNrck9lSFFLYjY0Mzl0M0hDTUU?oc=5",
@@ -4117,8 +5472,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "A101'e Philips lazer epilasyon cihazı geliyor! 19 Kasım 2026 kataloğu yayınlandı",
@@ -4141,8 +5495,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "셀레스티얼의원 강미지 원장, 2026 세르프 '헤비유저·마스터 클래스 스...",
@@ -4193,8 +5546,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "Médecine esthétique : les seringues de la colère",
@@ -4217,8 +5569,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "SORA Aesthetics Skin and Hair Clinic opens in Dimapur",
@@ -4374,8 +5725,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "Bellair Laser Clinic Expects Fewer One-Off Procedures and More Combined Treatment Plans This Year",
@@ -4398,8 +5748,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "리프팅, 에너지 강도만 따져서는 안 돼 … '올타이트리프팅'의 피부층별...",
@@ -4450,8 +5799,7 @@
     "competitor_mentions": [
       "Ultherapy",
       "Ultherapy Prime"
-    ],
-    "ai_ok": true
+    ]
   },
   {
     "title": "페이지랩의원 이소유 원장, 멀츠 '울쎄라피 프라임' 세미나서 최신 리프...",
@@ -4791,33 +6139,6 @@
     "ai_ok": true
   },
   {
-    "title": "최대 250만원대 울쎄라인데…맹승지, 의사 남친 덕분에 공짜로 리프팅",
-    "summary": "맹승지는 20일 자신의 SNS에 \"갑자기 울쎄라 당함;;\"이라는 글과 함께 영상을 게재했다. 공개된 영상 속... 울쎄라는 초음파 에너지를 이용해 피부 속 조직에 열을 전달하는 고가의 리프팅 시술이다. 피부 탄력 개선과...",
-    "link": "https://www.tenasia.co.kr/article/2026112095174",
-    "source": "네이버 뉴스",
-    "pub_date": "Fri, 20 Nov 2026 10:59:00 +0900",
-    "matched_keyword": "울쎄라",
-    "categories": [
-      "HIFU",
-      "신제품·출시"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [
-      "울쎄라"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "울쎄라"
-    ],
-    "ai_ok": true
-  },
-  {
     "title": "까다로운 대형문신 제거, 피코레이저와 R0 방식으로 만족도 높일 수 있...",
     "summary": "그 중 피코웨이는 532nm, 730nm, 785nm, 1064nm 등 다양한 파장의 핸드피스를 활용할 수 있어 검정 잉크뿐 아니라 일부 까다로운 컬러 문신에도 적합한 파장을 선택하여 효율적으로 대응할 수 있는 것이 특징이다\"고 설명했다....",
     "link": "https://www.hemophilia.co.kr/news/articleView.html?idxno=45766",
@@ -4982,7 +6303,7 @@
     "link": "https://www.newsis.com/view/NISX20261120_0003876315",
     "source": "네이버 뉴스",
     "pub_date": "Fri, 20 Nov 2026 10:06:00 +0900",
-    "matched_keyword": "레이저 장비",
+    "matched_keyword": "피부미용 의료기기",
     "categories": [
       "Laser·Pico",
       "시장동향"
@@ -5054,6 +6375,31 @@
     "competitor_mentions": []
   },
   {
+    "title": "[52주] 최고가 4개, 최저가 122개... 코스피 4900선 하회",
+    "summary": "6% 63,700 ★★★★ 29 클래시스 21,750 ▼4.6% 21,450 ★★★ 30 한화오션 42,950 ▼4.6% 42,950 ★★★ 31 덕산테코피아 7,770 ▼4.6% 7,770 ★ 32 HLB테라퓨틱스 1,232 ▼4.5% 1,201 ★★ 33 HD현대...",
+    "link": "https://www.itooza.com/common/iview.php?no=2026112009340102470",
+    "source": "네이버 뉴스",
+    "pub_date": "Fri, 20 Nov 2026 09:54:00 +0900",
+    "matched_keyword": "클래시스",
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [
+      "클래시스"
+    ],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "클래시스"
+    ]
+  },
+  {
     "title": "원텍, 일본 탈모 클리닉 인수에 108억원 투자…현지 장비 판로 확보",
     "summary": "원텍 관계자는 “이번 투자는 일본 내 의료기기 공급 기반을 넓히기 위한 전략적 결정”이라며 “현지 클리닉 체인과의 협력을 통해 레이저 장비의 판매 기반을 확대하고 일본 시장에서의 입지를 한층 강화해...",
     "link": "https://www.etnews.com/20261120000054",
@@ -5104,8 +6450,7 @@
     "own_brand_mentions": [],
     "competitor_mentions": [
       "멀츠"
-    ],
-    "ai_ok": true
+    ]
   },
   {
     "title": "다양해지는 피부과 리프팅 장비, 온다ㆍ올타이트ㆍ레비나스의 차이점은...",
@@ -5126,8 +6471,7 @@
     "competitor_company_mentions": [],
     "competitor_product_mentions": [],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "黑色星期五美妝早鳥開跑 亞馬遜下殺37折醫美儀器省近萬元",
@@ -5172,8 +6516,7 @@
     "competitor_company_mentions": [],
     "competitor_product_mentions": [],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "원텍, 日시장 진출 확대 위한 108억원 지분투자 단행",
@@ -5248,8 +6591,7 @@
     "own_brand_mentions": [],
     "competitor_mentions": [
       "하이로닉"
-    ],
-    "ai_ok": true
+    ]
   },
   {
     "title": "블리비의원 용인 수지점, 레블라이트SI 토닝 도입…\"기미·잡티 등 색소...",
@@ -5278,6 +6620,54 @@
     "ai_ok": true
   },
   {
+    "title": "코스닥 연 1회 IR 의무화 추진…'참여 확대' 넘어 실효성 과제",
+    "summary": "기업은 클래시스로, 연내 22회 개최했다. 이어 에코프로비엠(20회), 고영·HLB이노베이션(각 17회), 파두(14회) 등의 순이었다. 다만 IR 개최 횟수가 기업의 시가총액과 반드시 비례하는 것은 아니었다. 클래시스의...",
+    "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=903733",
+    "source": "네이버 뉴스",
+    "pub_date": "Fri, 20 Nov 2026 09:00:00 +0900",
+    "matched_keyword": "클래시스",
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [
+      "클래시스"
+    ],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "클래시스"
+    ]
+  },
+  {
+    "title": "Những sai lầm phổ biến khi kiểm soát cholesterol mà nhiều người mắc phải",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1WLXBoWjJjX3hkNkQ3dm01M2V1WUZFRERZOG1aVENLUm5YS3NRMm51V2x0bkNiU2pHOXY3d0xOWWc?oc=5",
+    "source": "VTVgo",
+    "pub_date": "Fri, 20 Nov 2026 00:00:00 GMT",
+    "matched_keyword": "해외: 베트남",
+    "is_overseas": true,
+    "country": "베트남",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
+  },
+  {
     "title": "쓰리에이로직스, 멀츠와 정품인증 태그 칩·플랫폼 계약",
     "summary": "멀츠 에스테틱스 아시아퍼시픽(Merz Aesthetics Asia Pacific)과 정품인증 태그 칩 공급 및 구독형(SaaS) 정품인증 플랫폼 서비스 계약을 체결했다고 20일 밝혔다. 회사 측에 따르면 이번 계약으로 쓰리에이로직스는 멀츠...",
     "link": "https://www.newsis.com/view/NISX20261120_0003876163",
@@ -5302,8 +6692,7 @@
     "competitor_mentions": [
       "멀츠",
       "Merz Aesthetics"
-    ],
-    "ai_ok": true
+    ]
   },
   {
     "title": "원텍, 108억 규모 지분투자로 일본 탈모 시장 공략",
@@ -5387,16 +6776,15 @@
       "클래시스",
       "제이시스메디칼",
       "제이시스"
-    ],
-    "ai_ok": true
+    ]
   },
   {
     "title": "원텍, 일본 탈모 클리닉 인수에 108억 투자...장비 공급망 확보",
-    "summary": "원텍 관계자는 \"이번 투자는 일본 내 의료기기 공급 기반을 넓히기 위한 전략적 결정\"이라며 \"현지 클리닉 체인과의 협력을 통해 레이저 장비 판매 기반을 확대하고 일본 시장에서 입지를 강화하겠다\"고 말했다.",
+    "summary": "레이저·에너지 기반 의료기기 기업 원텍이 일본 탈모 치료 시장 공략을 위해 108억원 규모의 지분투자에 나섰다. 현지 탈모 치료 전문 클리닉 네트워크를 보유한 의료법인 인수에 참여해 의료기기 공급처를 확보하고...",
     "link": "https://www.fnnews.com/news/202611200840190940",
     "source": "네이버 뉴스",
     "pub_date": "Fri, 20 Nov 2026 08:42:00 +0900",
-    "matched_keyword": "레이저 장비",
+    "matched_keyword": "에너지 기반 의료기기",
     "categories": [
       "Laser·Pico",
       "시장동향"
@@ -5497,6 +6885,34 @@
     "ai_ok": true
   },
   {
+    "title": "태평양, ALB 한국법률대상 4관왕…이준기 ‘경영변호사’·장호경 ‘딜...",
+    "summary": "올해에만 ▷KKR-SK 신재생에너지 합작투자 및 SK 데이터센터 사업 투자 ▷TKG휴켐스·IMM의 에이프릴바이오 인수 ▷KKR의 센트럴터미널코리아 매각 ▷VIG파트너스의 비올메디컬 인수·공개매수·상장폐지 ▷KKR의 삼성SDS...",
+    "link": "https://biz.heraldcorp.com/article/10943427?ref=naver",
+    "source": "네이버 뉴스",
+    "pub_date": "Fri, 20 Nov 2026 08:17:00 +0900",
+    "matched_keyword": "비올메디컬",
+    "categories": [
+      "시장동향",
+      "신제품·출시"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [
+      "비올메디컬",
+      "비올"
+    ],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": [
+      "비올메디컬",
+      "비올"
+    ]
+  },
+  {
     "title": "김윤수 피부과원장 조선대병원에 '리팟 레이저' 기증",
     "summary": "안양에서 피부과를 운영하는 김윤수 원장(피부과 전문의)이 조선대병원에 리팟 레이저 장비를 기증했다. 조선대병원(병원장 최남규)은 지난 19일 행정동 2층 대회의실에서 의료장비 기증 전달식을 개최하고, 김윤수...",
     "link": "https://www.bosa.co.kr/news/articleView.html?idxno=3016908",
@@ -5537,8 +6953,7 @@
     "competitor_company_mentions": [],
     "competitor_product_mentions": [],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "다인메디컬그룹·스위스 EMS, 美 합작법인 설립 '비뇨기과 통합 플랫폼...",
@@ -5644,8 +7059,7 @@
     "own_brand_mentions": [],
     "competitor_mentions": [
       "하이로닉"
-    ],
-    "ai_ok": true
+    ]
   },
   {
     "title": "[갱년기라는 터닝포인트] ⑧ 말하기 어려운 불편함, 질건조증의 진실",
@@ -5668,8 +7082,7 @@
     "competitor_company_mentions": [],
     "competitor_product_mentions": [],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "Smadia Clinic celebra 15 años de trayectoria, innovación y confianza en medicina estética",
@@ -5781,8 +7194,7 @@
     "own_brand_mentions": [],
     "competitor_mentions": [
       "더블로"
-    ],
-    "ai_ok": true
+    ]
   },
   {
     "title": "\"내시경에 에너지 기술 더해\"…다인메디컬·EMS, 비뇨의학 공략",
@@ -5979,9 +7391,9 @@
     "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPS3NrYUpOWEkxMzBvQV8ya1BDWDdaUm9fSFZCSlpXd29KUm5vaFNZY2dyNC1xN3VnRVF6ZGJvczRFWllJNW5MbExGSFh1ZWtROG5JZGFUWnA3Z3RCODJPc0N2YnNMX1RybmQwV1ZaM3gtdF9PLUliXzBMaS16N2g2Y2V6eVVTUG5WYm1palpEQ01BcGE4TnFHM21vTWQ1dk9sSW9IeWJxcG9rRzRmd3YwdFdPSThjemZjQkIwV1F5dnhGeXFzamxYYW4zREtnbDJHdjJlZU9TcFo5M3E4X0NpMmw1N2puRkxXZjRJUmRVVy1YN2dDMGVqWXV6cXh1R0VLR3FEcUxpNk80dGUzd2ZjN9IBlgJBVV95cUxNRmhZdkJnU1lsYmg4NGxNdmtrX0lnMEJXdUlPdDE3V2hibnFNODF4QndsczBpZUZ0NmxHTHRWaDlyRkFyQ3lhVGx0OUVMTWEzQmNDRV9kemNpUk5ldWVzTnlGOUFjdk8wT2M5cUpVVGFrOXFKMVc5TXdUcHZVNVVpWjBFeV9yQVdncW5yREdWR1ZNbUZ2WFN1dVdVa2RXcXVHZG5wZnBCX1UweU8xQVZxb2VUa2VhdlFJeE43aEtiNHJfUkl5MnREc3pNa1VJelpheWNINVdLTzFfOHRFRFVnZHYxSWMtcTZJdkJUQTZkdURLMlJrRWJJMlA4VUJPV1JRTXF5b1hqNUdYekFSTUhER0RmelE5dw?oc=5",
     "source": "The Manila Times",
     "pub_date": "Thu, 19 Nov 2026 15:44:22 GMT",
-    "matched_keyword": "해외: 업계 동향",
+    "matched_keyword": "해외: 중동(영문)",
     "is_overseas": true,
-    "country": "글로벌",
+    "country": "중동",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -5997,6 +7409,27 @@
     "competitor_mentions": []
   },
   {
+    "title": "효성벤처스, 솔닥·앳홈에 투자…디지털 헬스케어·뷰티테크 정조준",
+    "summary": "가정용 음식물처리기 시장 1위인 '미닉스(MINIX)'와 국내 판매 1위를 기록한 홈뷰티 디바이스 브랜드 '톰(THOME)'을 보유하고 있다. 최근에는 전용 앰플과 스킨케어 제품으로 사업을 확장하고 있으며, 북미 유통업체에...",
+    "link": "https://www.livesnews.com/news/article.html?no=66191",
+    "source": "네이버 뉴스",
+    "pub_date": "Fri, 20 Nov 2026 00:32:00 +0900",
+    "matched_keyword": "홈뷰티 디바이스",
+    "categories": [
+      "시장동향"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
+  },
+  {
     "title": "Protagonizou uma das novelas de maior sucesso da TVI. Aos 48 anos, tem uma profissão diferente depois de anos de polémicas",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPMkd5MlpzZ3lCTjFuSEwzNGR3amQzMFktMUFjSE1INGtnajVHZ25kR1lqUFNKOFdKQ1JQUVNZS0kwVDVicE9fcUxvbEtHcXlFVVRRYnV6VkE2cmx6MnBlZ2lXRkg5TGFMMDdOZkhyRjJkRHI0YXhRLTdXTEc3azQyR21sRTA1aUNEVnh6bkE1NERXZ1R0bHlEVlJFTm1DeTAyejJrck1qTG1HV25mc3QyMzBQY3JrSUU3VjhaREpLV0tfOG9kdktiZkVhRFNONHI3NDB0dzBSdnpXRXdmNzZVeDJkWm1BMHA5dDVQOVlObDdHaTZWblZBcnRVM2dOekhHR3c?oc=5",
@@ -6005,6 +7438,29 @@
     "matched_keyword": "해외: 브라질",
     "is_overseas": true,
     "country": "브라질",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
+  },
+  {
+    "title": "RAFLARDA! A101 AKTÜEL KATALOG BU HAFTA 19 KASIM 2026 || A101'e bu hafta neler var? A101 Aldın Aldın afişi ile kurutmalı çamaşır makinesi, katı meyve sıkacağı, buharlı temizleyici, elektrikli mop satışta",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcmxtZlJWQ0tkRl9taGxBRHdaNU11VG9rbjZZWXFuX1ZrdVJpUkpkMkwyYWU0ZE0xaUxhLW5CU0ZFa1lMSDcwNEhnX0t0U080R3NGNnFQWGJsUk1XZTJ1MDhGZTZWRGl2S0RtSUdnTlZ2amhuY09TUlMxTWFGUmkxUVM3UTk?oc=5",
+    "source": "Hürriyet",
+    "pub_date": "Thu, 19 Nov 2026 14:53:00 GMT",
+    "matched_keyword": "해외: 튀르키예",
+    "is_overseas": true,
+    "country": "튀르키예",
     "local_lang": true,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -6151,9 +7607,9 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQV2R1YkhMNHdvLTNMOHdDdkdrbTNmQ0xLZWNkSDNneVpGZTBjSE9xbW5wWGFiMjMyQ044d1Z2Wko0eXRRN25vTnAwazBOdi1DNFA4QlI0RGpMX05qQjQ2LTlOQWRydm5MNE9OalNyd1lkVnRfWGNuM1JQX2ctSFRNOWdtRGlGSXE5dEpUWG5DcDQ1MnJ5OENqSlYyS0wyM1YtQkNiaVlCWS1jN0VWbVVIUTExMFoydw?oc=5",
     "source": "Stock Titan",
     "pub_date": "Thu, 19 Nov 2026 13:00:00 GMT",
-    "matched_keyword": "해외: 영국",
+    "matched_keyword": "해외: 말레이시아",
     "is_overseas": true,
-    "country": "영국",
+    "country": "말레이시아",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -6170,8 +7626,7 @@
     "own_brand_mentions": [],
     "competitor_mentions": [
       "Thermage"
-    ],
-    "ai_ok": true
+    ]
   },
   {
     "title": "HIFU amplia as possibilidades no tratamento do câncer de próstata",
@@ -6388,8 +7843,7 @@
       "클래시스",
       "슈링크",
       "울트라포머"
-    ],
-    "ai_ok": true
+    ]
   },
   {
     "title": "Medicina Estetica Archivi",
@@ -6411,6 +7865,27 @@
     "segments": [
       "에스테틱"
     ],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
+  },
+  {
+    "title": "효성벤처스, 솔닥·앳홈에 투자… 헬스케어·뷰티테크 성장성 주목",
+    "summary": "음식물처리기 브랜드 '미닉스(MINIX)'와 홈뷰티 디바이스 브랜드 '톰(THOME)'을 운영하고 있으며, 회사 측에 따르면 각각 가정용 음식물처리기 시장과 국내 홈뷰티 디바이스 판매에서 1위를 기록했다. 최근에는 전용 앰플과...",
+    "link": "http://www.biztribune.co.kr/news/articleView.html?idxno=362816",
+    "source": "네이버 뉴스",
+    "pub_date": "Thu, 19 Nov 2026 17:32:00 +0900",
+    "matched_keyword": "홈뷰티 디바이스",
+    "categories": [
+      "시장동향"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
     "own_brand_mentions": [],
     "competitor_mentions": []
   },
@@ -6438,8 +7913,28 @@
     "own_brand_mentions": [],
     "competitor_mentions": [
       "클래시스"
+    ]
+  },
+  {
+    "title": "효성벤처스, 솔닥·앳홈에 투자…\"헬스케어·뷰티테크 성장성 주목\"",
+    "summary": "대표 브랜드인 '미닉스(MINIX)'는 가정용 음식물처리기 시장에서 1위를 차지했으며, 홈뷰티 디바이스 브랜드 '톰(THOME)'도 국내 판매 1위를 달성했다. 서로 다른 제품군에서 확보한 브랜드 경쟁력을 바탕으로 생활가전과...",
+    "link": "https://www.apnews.kr/news/articleView.html?idxno=3053318",
+    "source": "네이버 뉴스",
+    "pub_date": "Thu, 19 Nov 2026 17:02:00 +0900",
+    "matched_keyword": "홈뷰티 디바이스",
+    "categories": [
+      "시장동향"
     ],
-    "ai_ok": true
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
   },
   {
     "title": "주가 밀리자 매각도 지연…자금 묶인 PEF [시그널]",
@@ -6465,8 +7960,7 @@
     "own_brand_mentions": [],
     "competitor_mentions": [
       "클래시스"
-    ],
-    "ai_ok": true
+    ]
   },
   {
     "title": "Here Are 11 Dermatologist-Approved Ways to Lift Hooded Eyelids",
@@ -6607,10 +8101,54 @@
     "competitor_mentions": []
   },
   {
+    "title": "효성벤처스, 비대면진료 솔닥·음식물처리기 '미닉스' 앳홈에 투자",
+    "summary": "주요 브랜드로는 가정용 음식물처리기 '미닉스(MINIX)'와 홈뷰티 디바이스 브랜드 '톰(THOME)'이 있다. 효성은 미닉스가 가정용 음식물처리기 시장 1위이고, 톰은 국내 판매 1위를 달성했다고 소개했다. 앳홈은 전용 앰플과...",
+    "link": "http://www.dailypop.kr/news/articleView.html?idxno=104769",
+    "source": "네이버 뉴스",
+    "pub_date": "Thu, 19 Nov 2026 16:40:00 +0900",
+    "matched_keyword": "홈뷰티 디바이스",
+    "categories": [
+      "시장동향"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
+  },
+  {
     "title": "音波拉提術後如何保養？記者會分享肌膚照護觀念與注意事項",
     "summary": "",
     "link": "https://news.google.com/rss/articles/CBMigANBVV95cUxNNm9ydnBWdWFpQjkxV1l1VTBoaUtvSWo2VFAwcUFLNHRlMlRpblZXMkFsMDdaR2FuYjVkNXo1a0cwN0FUandJTnVBbjlBczFINWxudlZvaDJibjlad3lrZHo0UTZSaHk2SUhvWm5UVFpGalhiLWh5ZXYzWlJSYXEtcmFzRlpxWEQ5WERTWkZ6UjlaNUVsNk1JSW9xemgxbWxCY1F4d3BQN2NGR3E0ajZMVFZWMndUZXhLNTJVb0dsWU1xVlJoRUhuRUNzWG94NGJyMVdtQURQU29VcDFQVWRQcjUxejgya20xaGdCZkxzaEdUaDQ5WUZLMDhsTlNxN3MybFRFUnNXWmpHc2xKUENCTVViRG5uSzJCQWtkd2VvTkhpUjM5ZmR6SVktTVhZbUFKQXl3ZzNKS1dETDZub3A5QXgyXzFVRWpKM1drSEFRYjEtMVhwMkFuY3VMOV9nWlQ4OUZiODg4T0E3R1c0Z2lkcGlBdWlhR3dWcjFmTnpIdzQ?oc=5",
     "source": "LIFE 生活網",
+    "pub_date": "Thu, 19 Nov 2026 07:39:54 GMT",
+    "matched_keyword": "해외: 대만",
+    "is_overseas": true,
+    "country": "대만",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
+  },
+  {
+    "title": "音波拉提術後如何保養？記者會分享肌膚照護觀念與注意事項",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5XeWJRQ21TX0k5QTFzSmJwaFVpZmNzZ1NvMlpmUENidG1ES19nVWxNbkE2dU9BT2lYemJUUmxMVVBRekZGT3V6UHl4SklzT0RIVXc?oc=5",
+    "source": "蕃新聞",
     "pub_date": "Thu, 19 Nov 2026 07:39:54 GMT",
     "matched_keyword": "해외: 대만",
     "is_overseas": true,
@@ -6652,6 +8190,27 @@
     "ai_ok": true
   },
   {
+    "title": "효성벤처스, 솔닥·앳홈에 투자…헬스케어·뷰티테크 기업 육성",
+    "summary": "주요 브랜드로는 음식물처리기 '미닉스(MINIX)'와 홈뷰티 디바이스 '톰(THOME)'이 있다. 회사 측에 따르면 미닉스는 가정용 음식물처리기 시장 1위를 기록했으며, 톰 역시 국내 판매 1위를 달성했다. 최근에는 전용 앰플과...",
+    "link": "https://www.ezyeconomy.com/news/articleView.html?idxno=242016",
+    "source": "네이버 뉴스",
+    "pub_date": "Thu, 19 Nov 2026 16:34:00 +0900",
+    "matched_keyword": "홈뷰티 디바이스",
+    "categories": [
+      "시장동향"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
+  },
+  {
     "title": "[의료기기업계 소식] 11월 19일",
     "summary": "강 대표가 이끄는 쉬엔비는 고주파 의료기기 '써니(SUNNY)'와 '버츄RF(VIRTUE RF)'로 미국 FDA 승인을 받았으며, 2018년에는 세계 최초로 질소·아르곤 듀얼 플라즈마 의료기기 '플라듀오(PLADUO)'를 개발하는 등 기술혁신...",
     "link": "http://www.doctorstimes.com/news/articleView.html?idxno=241150",
@@ -6680,8 +8239,28 @@
       "쉬엔비",
       "버츄RF",
       "Virtue RF"
+    ]
+  },
+  {
+    "title": "[산업 Pick] 대한전선·효성벤처스, 조직 결속과 디지털 헬스케어·뷰티...",
+    "summary": "효성벤처스는 한국벤처투자와 공동 조성한 2호 펀드 '스타트업코리아 효성딥테크투자조합'을 통해 오는 12월 비대면 진료 제도화를 앞둔 디지털 헬스케어 전문기업 '솔닥'과 홈뷰티 디바이스·소형가전 강자 '앳홈'에...",
+    "link": "https://www.lcnews.co.kr/news/articleView.html?idxno=211659",
+    "source": "네이버 뉴스",
+    "pub_date": "Thu, 19 Nov 2026 16:30:00 +0900",
+    "matched_keyword": "홈뷰티 디바이스",
+    "categories": [
+      "시장동향"
     ],
-    "ai_ok": true
+    "segments": [
+      "에스테틱"
+    ],
+    "is_overseas": false,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
   },
   {
     "title": "[주식] 코스닥150 편입 3종, 씨어스·알지노믹스·에이프릴 '껑충'",
@@ -8103,6 +9682,29 @@
     "competitor_mentions": []
   },
   {
+    "title": "Tecnologia transforma tratamentos estéticos e aquece a procura por procedimentos com a chegada do verão",
+    "summary": "",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNVW1BelZsWVVmcTNBMlBmaTEzM3hCQjZEMDlyTXh6TndzTWdMd1A3N3BiMVRZYlVYTWVkWlFYVm5qdTBGeW8xQmVmRHhmZTRsZ0ppTmM3MS1wM2RrU3FhNHhJNFVuWUd5OHpfb2xvMS1vMUc2QlV4bTEyblpZQ3hha3UzWW8tSW1jMXlCYnhLcXpMZVRKX2VYcFZxRmEtNlQ2Ykc4Y3VMc2lFWEFZWTVQWWp5UnhFb1NrTXdzVXZYLXBWa1p5Yl9LMkxKeU52MG5URzNTdzZtVmZRbEMwZ2hkX093?oc=5",
+    "source": "Portal Revista Kdea 360",
+    "pub_date": "Thu, 19 Nov 2026 02:09:48 GMT",
+    "matched_keyword": "해외: 브라질",
+    "is_overseas": true,
+    "country": "브라질",
+    "local_lang": true,
+    "own_company_mentions": [],
+    "own_product_mentions": [],
+    "competitor_company_mentions": [],
+    "competitor_product_mentions": [],
+    "categories": [
+      "기타"
+    ],
+    "segments": [
+      "에스테틱"
+    ],
+    "own_brand_mentions": [],
+    "competitor_mentions": []
+  },
+  {
     "title": "효성벤처스, 디지털 헬스케어·뷰티테크 기업 발굴…솔닥·앳홈 투자",
     "summary": "주요 브랜드는 음식물처리기 '미닉스'와 홈뷰티 디바이스 '톰'이다. 회사에 따르면 미닉스는 가정용 음식물처리기 시장 1위, 톰은 국내 판매 1위를 기록했다. 앳홈은 전용 앰플과 스킨케어 제품으로 사업을 확장하고 북미...",
     "link": "http://www.smarttimes.co.kr/news/articleView.html?idxno=50703",
@@ -9296,9 +10898,9 @@
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1zQVZGYUttQlRKczFIRnV4NmpjbDEwRHZvMVlNQm5nbHdiRk1oOWJ3c2tGNFlfdE1RcE5EQUVxTmpuVEZCWE1VYTJLcG9nRkVCN1BxTVlEY1VuazlxZjRuNzJKYVdNRXBOd0JlTG95R1hVeTg?oc=5",
     "source": "Entertainment Weekly",
     "pub_date": "Wed, 18 Nov 2026 17:47:53 GMT",
-    "matched_keyword": "해외: 영국",
+    "matched_keyword": "해외: 호주",
     "is_overseas": true,
-    "country": "영국",
+    "country": "호주",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -9555,9 +11157,9 @@
     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOSHJycEFvM3lyaXNhY2RpT2k0X1BlR0xSLWphdHhiaDhzRXNaYklXUlB3R0tnaG5kNlRCWktPdUE1N1NCWkFhakNOSlBFbmtQZzAzdmk4cUVGV2VHaE8yZzk4a1ktMXRNS1drSG50QkM1VllyYzJfNzdmSnlVZnAzQjJ0LWpGSnNHZG0tWGZ3aFROMW5QSHJWYmZ5TVhNM1ZuVVphS2xTNThfSTRERUJic0VPaW1nNHdVQ0lyUDdsdGZTQkNNWXk0RUpxZGZvSGpYUk9PNXo5eHRaWk45WjR5WWRGcEItanRWVTV3?oc=5",
     "source": "The Detroit News",
     "pub_date": "Wed, 18 Nov 2026 14:58:24 GMT",
-    "matched_keyword": "해외: 업계 동향",
+    "matched_keyword": "해외: 중동(영문)",
     "is_overseas": true,
-    "country": "글로벌",
+    "country": "중동",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -9639,8 +11241,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "Dior Introduces Its Latest Luxury Anti-Aging Skincare: L’Or de Vie Le Grand Cérémonial Vintage 2025",
@@ -9741,9 +11342,9 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYnhSVVpuS29MZlhPZUVReDdEQUZJSVVoUzQwckdaMWRyTHFrUUlsamxyVzJtX1NwUUFOSkJKQkdBbXhua0xUWm8wU3FGWk92aV8wQTJSU3ZQQnhMOGRoLTVuWE1RWExuS0VoQW9UT3BFc1JqUk1WeE1qR0s4YXAwdU1KeEJMTHRVRFBmd1J4UVBWQmUwc3lmSjJTV1dCYXlhX3JLTWlySUE1dUx6SDNSZWx5QVg?oc=5",
     "source": "Educación 3.0",
     "pub_date": "Wed, 18 Nov 2026 13:00:00 GMT",
-    "matched_keyword": "해외: 스페인",
+    "matched_keyword": "해외: 멕시코·중남미",
     "is_overseas": true,
-    "country": "스페인",
+    "country": "중남미",
     "local_lang": true,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -10404,9 +12005,9 @@
     "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxQWFdXZDk3ejg4T0FjbjRxZGRtUGhUNjE2UngzWjFRV1Mwem9CX2pFY1lOYmxWMG9nOWs3ZU51RU9yWkFKM0FndGN0Ny1rRTVyNEE4cDc2TlJMSHh3QmNsQlJla2NlR3RKeHA2VU9OV05weXVyZFNvNS1sZnNiZzJINHJwWHBfbldSUDkxZDlMUFc4Rm1YUWhvbHI0MGZ4R2g3MlRmZkpYbVg2c09jVm5nTlZqLTVLZUNubEdVS1RJb2k1V3lhd2U4eUgwQ1RpZ1gyRlR6X3pxblo4dXVTS2duRXVPX0dwUnVWYU1keERDUkt3UWoxNjc1QVNqaVBFcHlZdndxQS0wLXJfNWtrelZNUzlOUk0xYUVTR3h0ZTh2ZXlidWZwcWFoQng3bEFMVzNYZHZMYU5uT1Z4Y0dHRU8xQ1dPaFlJOWNqenBCb3Zn0gHTAkFVX3lxTE9NWlFoNHM2c0lKMUJKQ2tMREFXVzVNbC1BaGh3OGlfX21vY1Q1NVozaUpuN09pMWd2S1hQNDNNazYyTF9IMWVWNHNPa2s2eFdTeU12eEFEYkZoamw5bE1CbENEUkpOUFR5RzNreUctRGcwcmpkUEcxNU01ckN3WHhxd1l6VGN4ZFFINHVPTnVNS0V1dGhNSzJvcHJUMEdjT19HaFkwZUNVelZoTW1fQ2xCTVZTRUVWVDAwWEZnbF9icUVLWmdxSWw0OU1jRTNSOFg5TjZDdzdLSTlEOFBpYkEyXzRiQnB6QnUtLS1uUm9pOTlhbGF6bXUyM0h5ZGRVZjh3eDZBWHF1ZHlxTHQycE1OZmRaZ3pBdVZrSG8zYXk0UlNNTTZQYk1jVVhnQTVJcS1BMzI1ZUJpcWFMOW9IQ3hKQkkzZEFiQ3VkTmx2bUhFTkkwUQ?oc=5",
     "source": "La Vanguardia",
     "pub_date": "Wed, 18 Nov 2026 06:30:00 GMT",
-    "matched_keyword": "해외: 스페인",
+    "matched_keyword": "해외: 멕시코·중남미",
     "is_overseas": true,
-    "country": "스페인",
+    "country": "중남미",
     "local_lang": true,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -10512,8 +12113,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "상암 밴스의원, 11월 19일 그랜드 오픈…다양한 피부 진료 장비 구축",
@@ -11586,9 +13186,9 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZk1vQzdaZHBPb1hhYWo4X1p6bjc5bHVSSjdYdzJ1VkdreXdxTGwyVFZDZmhDNTdRMXV3QjFOM2ZPckNRZ2tCME94WjZ3R1dsS2hoeDhuWkFMMzRSRC1xQkFvYWFHNHNWLVdIOVdNRkFfcUVKUWRIUzVTaGw5cFo4SmZYcDhZMGowVWhwdzB2ZHY5ZFR2TE5wMWJUUUNMVHNxY1RzQkV4TF9scmZGY25xMjN2ZVhMUdIBuwFBVV95cUxOZXpYS3ZCU2FlS29oekZqMGUxSXB2a3ZFLWJpdGcxN3FOeEpzenlZUUxsalc4SHRsRG94eDNpTGJ1cFhCdHppMkFnWV9mOFNySGRvbzlkaVhQYjZSQnBpaHpndjZ1VjNKeWtkVFg5M3hOXzFxQ3ZjZ2NzTHhadzF5NnU1VC14VDRCNHUzUlYtd2tuR2MxRUdWQklyMEhLQnQyUjloa3A4VDZQSXVxdUREVlRabjQ1YVJ1WnVv?oc=5",
     "source": "Imagen Radio",
     "pub_date": "Tue, 17 Nov 2026 21:39:51 GMT",
-    "matched_keyword": "해외: 스페인",
+    "matched_keyword": "해외: 멕시코·중남미",
     "is_overseas": true,
-    "country": "스페인",
+    "country": "중남미",
     "local_lang": true,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -11753,9 +13353,9 @@
     "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOWWlVbkdEX1U4ZHk1bkJZbjZyaUJndEFCT3V6dG11ZUFwaFYwZGVDeWgySXRDMUpTMGF3aGI4VUlXbklyc01rdS1iT09ZNjE2ZjNRVjUzWlN5VnFFeElUT0o1QVBLRXpGUlFoQ090bWJCQ0p3Ul9XRG9LZWFYazh5WkdRRGNFSXZ6QlRRVWlhTE1TcWJhdEhkTHVCczNxajhlN2JhbWtLYmZWQ1FlSlZfdEZaRDFtdGhNSFJrZlh4R1dGdXl1X25ZWF9HeDhtdklXR1NUcFhfVjlZYVhWMkZBRzJ3ZzVVT2Exb0FFamZjLWY2UDlHY1lRNXdMREt4UENyWnZwR01kdnQzN3pzZ0ozRDVzVQ?oc=5",
     "source": "Semana",
     "pub_date": "Tue, 17 Nov 2026 19:00:00 GMT",
-    "matched_keyword": "해외: 스페인",
+    "matched_keyword": "해외: 멕시코·중남미",
     "is_overseas": true,
-    "country": "스페인",
+    "country": "중남미",
     "local_lang": true,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -11776,9 +13376,9 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUk1ZVWJLTXJ1ZUw4UmZFOWtSV25OdUJiMEpONXhWazh4ZExGSWNfVkxOcTBRNUQwVG1kdUNNa1haVld5SHZrcklSUVRjbmoybUNWTERISnI5V3A5OHdRQVdXQU9OeTAzUEpObzdHbXFUY3premdtb0hwMmhMbVV6QUZDNDhHdmM4TkszYWVpdV9iWWtoTjBvb2t3WjlDXzdH?oc=5",
     "source": "Geo News",
     "pub_date": "Tue, 17 Nov 2026 18:52:00 GMT",
-    "matched_keyword": "해외: 인도",
+    "matched_keyword": "해외: 호주",
     "is_overseas": true,
-    "country": "인도",
+    "country": "호주",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -11799,9 +13399,9 @@
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE50MWFxYTg3c2o4ZkhzUVFWdTAxZHY1NTlJWFo4OFBsT1U2YjVxRVlIdVQzUGYzbUFPNjAwY1ozTW5NNjlpM29iTVhjZTgzVUpGYjdLYTN2YzdzZFVEX2x6WWt5SnM2Zw?oc=5",
     "source": "IMDb",
     "pub_date": "Tue, 17 Nov 2026 18:24:35 GMT",
-    "matched_keyword": "해외: 인도",
+    "matched_keyword": "해외: 호주",
     "is_overseas": true,
-    "country": "인도",
+    "country": "호주",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -11822,9 +13422,9 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQa0xhYUJ3SmFWd3VsVGpDSTQyUGp4bno4NW44THZETkxBNmt1eWI2UDUzSGRRc2JmUzZNNlJTcHN4Yk5NeVJJWWJNcVFHMzNXalRzZl8tT1FucThKVm5pa1cwcjA1U0hDVURTeTdpb2U0RTZ2Rnc2blo4Nkt5ZTRrdG40OVd1UXpheUJDWFRHWQ?oc=5",
     "source": "AOL.com",
     "pub_date": "Tue, 17 Nov 2026 17:14:39 GMT",
-    "matched_keyword": "해외: 인도",
+    "matched_keyword": "해외: 호주",
     "is_overseas": true,
-    "country": "인도",
+    "country": "호주",
     "local_lang": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
@@ -11837,8 +13437,7 @@
       "에스테틱"
     ],
     "own_brand_mentions": [],
-    "competitor_mentions": [],
-    "ai_ok": true
+    "competitor_mentions": []
   },
   {
     "title": "Vanessa Hudgens Reveals Cosmetic Treatment After Welcoming Her 2 Kids: ‘Tummy Ain’t What It Used to Be’",
@@ -37807,12 +39406,13 @@
   },
   {
     "title": "셀레스티얼의원 강미지 원장, 2026 한국피부비만성형학회 추계학술대회...",
-    "summary": "한편, 강미지 대표원장은 다수 프리미엄 리프팅 장비의 공식 자문의로 활동하며 국내외 의료진 대상 교육과 라이브 시술 시연 등 다양한 학술 활동을 활발히 이어가고 있다.",
+    "summary": "아시안 페이스의 해부학적 특성을 고려하여 소프웨이브의 초음파 에너지를 얇고 예민한 피부층에 정교하게 전달하는 표층 리프팅 기술과 임상 노하우를 공유해 현장 의료진의 큰 호응을 이끌어냈다. 강미지 원장은...",
     "link": "http://www.medisobizanews.com/news/articleView.html?idxno=143875",
     "source": "네이버 뉴스",
     "pub_date": "Tue, 03 Nov 2026 09:00:00 +0900",
-    "matched_keyword": "리프팅 장비",
+    "matched_keyword": "소프웨이브",
     "categories": [
+      "HIFU",
       "학회·임상"
     ],
     "segments": [
@@ -37821,10 +39421,17 @@
     "is_overseas": false,
     "own_company_mentions": [],
     "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
+    "competitor_company_mentions": [
+      "소프웨이브"
+    ],
+    "competitor_product_mentions": [
+      "소프웨이브"
+    ],
     "own_brand_mentions": [],
-    "competitor_mentions": []
+    "competitor_mentions": [
+      "소프웨이브",
+      "소프웨이브"
+    ]
   },
   {
     "title": "반도체 259.5% 뛰었는데 비중은 줄었다…10월 수출, 자동차·화장품까지...",
@@ -82442,351 +84049,6 @@
     "competitor_mentions": []
   },
   {
-    "title": "三立準氣象0124／明日更冷！台北下探3度降雪機率低| 生活",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4tTU55Z0VYdWdDMlo5eTE2emRQU2lmWXRhd3IteWxOUXItLVZoMl96MlJzcVFRWEtaR2VZdzdCWHRXVDFscUt3?oc=5",
-    "source": "三立新聞網SETN.com",
-    "pub_date": "Sat, 10 Oct 2026 06:12:46 GMT",
-    "matched_keyword": "해외: 대만",
-    "is_overseas": true,
-    "country": "대만",
-    "local_lang": true,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": []
-  },
-  {
-    "title": "\"Non mi sento più io\". La storia di Concetta e della sua rinascita grazie alla chirurgia ‘anti-disagio’",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5jY2VpbTJPMkI0cEF5TG5JenYwWW9PSUpPSER2VEZMZGUyMzQyUDR1eDM1VUlSM2hQR3ItOVJlWXFzcG1mS1U3ZHk1Zk1TVHFEV0xpa05GTWVIMk1DR0dCM2hWczB5YUxrMUs1b0trQk9WWFVITTBsQg?oc=5",
-    "source": "La Nazione",
-    "pub_date": "Sat, 10 Oct 2026 05:15:51 GMT",
-    "matched_keyword": "해외: 이탈리아",
-    "is_overseas": true,
-    "country": "이탈리아",
-    "local_lang": true,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": []
-  },
-  {
-    "title": "地球抖內？湯姆熊機台被地震搖到「狂吐代幣」　一票人笑翻：發災難財",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFA4Q3piTzk1X00xQ1g5Z1FOLTdQbnFsT0RUSG5JZnVuMUNrenNXVWlTbTRuZmczMl9lanRUWlBPTE9SZ2tHTWhUadIBTEFVX3lxTE1qVV9rRmpYNzhOeGhBUHdIQ0hTUk9xYWpOVXQxbHl1NTROdE5hdnVrRGJKXzB6N3czSnFpZmZOaXRZSzR6cHByOVgyNG8?oc=5",
-    "source": "三立新聞",
-    "pub_date": "Sat, 10 Oct 2026 04:59:43 GMT",
-    "matched_keyword": "해외: 대만",
-    "is_overseas": true,
-    "country": "대만",
-    "local_lang": true,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": []
-  },
-  {
-    "title": "Dra. Amira Chehade, experta en longevidad: «Los cinco errores que pueden estar envejeciendo tu rostro»",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPQzBkQ0dJVklKOENBX1p1S3drVDlOZmdrN3JSSG9zYWhleTBpTUoySFI3cGxGMmpwMXhORGVxczhRQlpGOC12YlBJWnR2R1JqY2VPWEtqNUFoTDNZaXlZTVZGMVZPeEFFSTNuZ3lqMVR0LThRUzl4UnpGc3ZPT3VDQ18yZENIZWhPaU5xNHp3dlNrUlRCU042WDg3NGRlWDIzNUk1VE96cW1BUW8tamkwSmVCYjR1enFQWGI5MGJHRkl0Z1VDRWRuNlEwcnVBOVZQRFczMXNLZXIzR2p1SVphLV9JUlNYek3SAewBQVVfeXFMT2t1TFJZbExObHlFaWN1RHB6dlRnOEJfTW9rd0RZOC1FQzh2amNQc0Z6M1RIS2RFS01HUE9WQi1xTTZYbllJbm9mSkxYVXVpblljMG9aRVZnR3U4c01NR180VHBKRDVLN3FnTmRhVnl0SURqQzRrM2hDOU5wb1RhMEhabjlaZnRaazJhT0otV2NBRGpXaUNWYWZyQy1qYWx1MTNiZ2lEYmZNbGZJaUdWTVNYZmtOMzNrcEJYb2c3ZzNCQWFQWUhkZ1BpMWU5Y0pSejc5dnFEOGg0RnpSWHZReV9neklLbU5MSklIVDY?oc=5",
-    "source": "The Objective",
-    "pub_date": "Sat, 10 Oct 2026 04:30:00 GMT",
-    "matched_keyword": "해외: 멕시코·중남미",
-    "is_overseas": true,
-    "country": "중남미",
-    "local_lang": true,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": []
-  },
-  {
-    "title": "«Ces injections aux lèvres auraient pu me coûter la vie»",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNelY4RGt0U2RPNUpRYV9RaUtpZENuM1BROF9uWm9fNC1HQjQ2YW1jWlYzbElSWUhTWGxITEJjdGxhNG5ZYmVPZGlwakxiU0M3d2pMdHFRQlpncFhoOVhOT2pYajgzVVYtZ3c3NWxNSzBuSDJUUGpydTZfNWkwYjdpUHU0TGgxenpJS1dqUWMyY0p0VDRhb29PWEdHb0U?oc=5",
-    "source": "Blick",
-    "pub_date": "Sat, 10 Oct 2026 04:00:00 GMT",
-    "matched_keyword": "해외: 프랑스",
-    "is_overseas": true,
-    "country": "프랑스",
-    "local_lang": true,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": []
-  },
-  {
-    "title": "不滿被要求道歉李登輝嗆馬英九：那說話豪洨的呢| 政治",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1URnVVZWQ3OXVSSmNPZndrV3RlajlTZ29uRjc3SXdOYTZoSGRRVG5lWEZBbjNnZ1Bjd2xpRnhOa2ZpcG45TWc?oc=5",
-    "source": "三立新聞網SETN.com",
-    "pub_date": "Sat, 10 Oct 2026 03:20:05 GMT",
-    "matched_keyword": "해외: 대만",
-    "is_overseas": true,
-    "country": "대만",
-    "local_lang": true,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": []
-  },
-  {
-    "title": "天氣太熱！3天69人「熱傷害」送急診| 生活",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFAwMEhRQkFxaThsbk9SSi05X0VCQllkdXJucHhBeEg4TjhWdDhWbW1wSzByRmR0bmxjbVpmSHRFdjRfVm1uQVAw?oc=5",
-    "source": "三立新聞網SETN.com",
-    "pub_date": "Sat, 10 Oct 2026 03:05:33 GMT",
-    "matched_keyword": "해외: 대만",
-    "is_overseas": true,
-    "country": "대만",
-    "local_lang": true,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": []
-  },
-  {
-    "title": "中秋「百元」玩六福村？你的姓名就可能是優惠券| 生活",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9hY1ZIY2VfbnNWSFdlNlJ1b1VzRkZIWldwRTJ5MjN2VS1XLXJBWHAwQ0hMWFNBVVpjWS1XZTNHQXRvbWR4Z3c?oc=5",
-    "source": "三立新聞",
-    "pub_date": "Sat, 10 Oct 2026 02:48:07 GMT",
-    "matched_keyword": "해외: 대만",
-    "is_overseas": true,
-    "country": "대만",
-    "local_lang": true,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": []
-  },
-  {
-    "title": "支持多元成家！彰化縣開放同性伴侶註記4月1日開跑| 生活",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9mejVmQVl5VFBaMm5hOTMtMUtUM0ZWNEpBZWNPVk5xWnFxTC03YVAwY0V3TXVSRWx4RzZ2YUMyUnFaZzNfbVY4?oc=5",
-    "source": "三立新聞網SETN.com",
-    "pub_date": "Sat, 10 Oct 2026 02:40:39 GMT",
-    "matched_keyword": "해외: 대만",
-    "is_overseas": true,
-    "country": "대만",
-    "local_lang": true,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": []
-  },
-  {
-    "title": "開業10年…知名法式餐廳「樂沐」年底結束營業| 生活",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5HM3h2ckJQZC1wZHNXV2ZDTVd2WExELUxMc3ptMWFKVmRQV3JBMnRyQURiNzY3ekZsb3RmWGg4WHVhMVAtZXhN?oc=5",
-    "source": "三立新聞網SETN.com",
-    "pub_date": "Sat, 10 Oct 2026 01:58:45 GMT",
-    "matched_keyword": "해외: 대만",
-    "is_overseas": true,
-    "country": "대만",
-    "local_lang": true,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": []
-  },
-  {
-    "title": "快訊／台積電魏哲家今赴日本首相官邸　會晤高市早苗",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5NdjROSGdfSUQxX05FbW1HRVUtS3l0Q2ZORDI4THRrZUVmRW5HMVEwcjdzTmRrYktnWnF3VmVDakY4ZEpHaENzdtIBTEFVX3lxTFBSS096Z0paZlJJRU9HQUpfMzhRTUJHYTVneG90YXBmMUZmOEtnWnVSU0VjelVYQVNqUVN1a3RpMWRMY1cxR1JUOWU4OXc?oc=5",
-    "source": "三立新聞網SETN.com",
-    "pub_date": "Sat, 10 Oct 2026 01:57:04 GMT",
-    "matched_keyword": "해외: 대만",
-    "is_overseas": true,
-    "country": "대만",
-    "local_lang": true,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": []
-  },
-  {
-    "title": "Especialistas abordan el bienestar femenino en el conversatorio “De adentro hacia afuera”",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNnJHTXpSOU1NZnRTNTA1dEhWcHpXaFJZckZzd25HcnczTDJYZmI4VlhVSmQ5T1F2Z2dfUFdTaWNRY1BpZ3d3R0RjanZJT1MycGpsNEc0UDdKUWRBa2x5b0ZST0R5MVJFeGN2clNPNlB4b1pTWlFhODNNSlB2WnI0bm1rUVNJNG9LU2sxcXhXZXdTMmFGLVpCQzNneUM3YmZwanl1dGpzX1QxdXBqV3Z1a0ptN2lRcmVaUUxYTlAxb1B5RG1laTJxVW5JZVdkWmdrWXJz?oc=5",
-    "source": "Diario de Salud",
-    "pub_date": "Sat, 10 Oct 2026 01:48:00 GMT",
-    "matched_keyword": "해외: 멕시코·중남미",
-    "is_overseas": true,
-    "country": "중남미",
-    "local_lang": true,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": []
-  },
-  {
-    "title": "準氣象／週末恐秋颱攪局！未來路徑「2劇本」曝：共伴效應帶來致災降雨",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE15TmItc2FTeUFEMWVXX0g3OFo4RzZ1cGVJajJDLXFURXl1ZVFtYkJyWTU3bXV1MmNzVFNiaXRpZmgzU0x6aHJFVNIBTEFVX3lxTE1NaktuVGJESDhtLXplcllwaXk0c0xZWndWYUZwdXVqWVR5Q0Uwc1FBOFZtTHNERXZONHlIaW9oU3ptY2Q4dHJRUGxTRFY?oc=5",
-    "source": "三立新聞",
-    "pub_date": "Sat, 10 Oct 2026 00:13:21 GMT",
-    "matched_keyword": "해외: 대만",
-    "is_overseas": true,
-    "country": "대만",
-    "local_lang": true,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": []
-  },
-  {
-    "title": "Pro-Collagen Micro-Growth Factor: la nuova linea Filorga per una pelle più compatta, elastica e luminosa già dopo 7 giorni",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQVmI2dnVZYVp2NU8zOXcxVThXSHVndFpRRElnYTZySlhpeEUySXNXNmtCSnBLZWNBMEN5bVZCekFHU19xVEVobVpfV2VSOVpseXR2M2lzX0pCa19ta1NKc3RzWW83MHVSZE93NFVacGZVR0ZSRzg0aUY1Sk00SXc0N3oxa2FfeGxpM0w1bnU5NDRwUndTWDlfVldWSUpSYV8wR0trMGZTb1RVQkRqOFBST19fWVhnTzNocVlZWmhBMGhtdm5PYkc4NU1sRmZxSzExTUloWG9XaXZIWGt4eHRsSmdyRXRfVmNfMkZkS0xyMFR2OTQ?oc=5",
-    "source": "My-personaltrainer",
-    "pub_date": "Sat, 10 Oct 2026 00:11:04 GMT",
-    "matched_keyword": "해외: 이탈리아",
-    "is_overseas": true,
-    "country": "이탈리아",
-    "local_lang": true,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": []
-  },
-  {
-    "title": "Especialistas llaman a priorizar el bienestar emocional de las mujeres",
-    "summary": "",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSTV5VWtsVk5xTW80aDBZOEM4QXJxa0RRNTYwZ0JKUWtrZV94NHBKbEl5WFFmNVRTMFczTUw0OWlUTHdEY2xPWWRibkllYXh5U29IOFhJNlVNVEpFSDgyNXpONml2ZEFqMlpGcUVmc25nNE1aN3pfX3hQbGRtUjRGZjQtaWs3eVhvR045U3FvNXZsM256WnVaQWVCYXhLbWxuRGo5NDc4c2hRb3pWUkkxTlZ6dWQ?oc=5",
-    "source": "El Caribe",
-    "pub_date": "Fri, 09 Oct 2026 23:13:30 GMT",
-    "matched_keyword": "해외: 멕시코·중남미",
-    "is_overseas": true,
-    "country": "중남미",
-    "local_lang": true,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": []
-  },
-  {
     "title": "경영권은 비싸게, 신주는 싸게…한화證 \"소액주주 이중 피해\"",
     "summary": "이후 루트로닉과 제이시스메디칼, 비올, SK디앤디, 에코마케팅, 더존비즈온 등의 인수 과정에서도 인수자가 일반주주에게 지배주주와 동일한 수준의 인수가격을 제시한 사례가 이어졌다. 한화투자증권은 과거...",
     "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4438520",
@@ -91338,13 +92600,13 @@
   },
   {
     "title": "감긴 듯한 눈 모양, 아이쎄라 통한 층별 접근으로 개선 도움",
-    "summary": "이런 경우에는 써마지와 같은 고주파 기반 시술을 고려하거나, 필요한 경우 소량의 눈두덩이 필러를 통해 부족한 볼륨을 보완하는 방법도 있다. 이두찬 원장은 \"눈가 리프팅에서 중요한 것은 시술의 개수나 샷 수를 무작정...",
+    "summary": "압구정 리연케이의원 이두찬 대표원장은 \"먼저 깊은 층에서는 아이 울쎄라피프라임 초음파를 활용할 수... 이는 아이 울쎄라 200샷과 버츄아이, 아이톡스를 결합해 눈가의 서로 다른 층을 함께 고려한다는 데 의미가 있다\"고...",
     "link": "https://www.hemophilia.co.kr/news/articleView.html?idxno=44655",
     "source": "네이버 뉴스",
     "pub_date": "Wed, 23 Sep 2026 09:06:00 +0900",
-    "matched_keyword": "써마지",
+    "matched_keyword": "울쎄라",
     "categories": [
-      "RF"
+      "HIFU"
     ],
     "segments": [
       "에스테틱"
@@ -91354,11 +92616,11 @@
     "own_product_mentions": [],
     "competitor_company_mentions": [],
     "competitor_product_mentions": [
-      "써마지"
+      "울쎄라"
     ],
     "own_brand_mentions": [],
     "competitor_mentions": [
-      "써마지"
+      "울쎄라"
     ]
   },
   {
@@ -133899,798 +135161,6 @@
       "클래시스",
       "슈링크",
       "볼뉴머"
-    ]
-  },
-  {
-    "title": "하이로닉, 창사 첫 분기배당금 지급…주당 233원 현금배당",
-    "summary": "컨슈머타임스=김지훈 기자 | 하이로닉이 창사 이래 첫 분기배당금을 27일 지급했다고 밝혔다. 분기배당금은... 하이로닉 관계자는 \"창사 첫 분기배당을 계획대로 지급하며 주주환원 정책을 차질 없이 이행했다\"며...",
-    "link": "https://www.cstimes.com/news/articleView.html?idxno=714744",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 15:10:00 +0900",
-    "matched_keyword": "하이로닉",
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "하이로닉"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "하이로닉"
-    ]
-  },
-  {
-    "title": "블리비의원 용인 수지점, 리프팅 기기 '덴서티' 도입",
-    "summary": "덴서티 리프팅 기기는 최대 출력 400W의 모노폴라와 바이폴라 고주파를 한 샷에 교차 조사하는 듀얼 고주파 시스템을 기반으로, 피부 표면부터 깊은 층까지 에너지를 균일하게 전달하는 것이 특징이다. 이를 통해 콜라겐과...",
-    "link": "https://www.mdtoday.co.kr/news/articleView.html?idxno=606287",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 14:36:00 +0900",
-    "matched_keyword": "덴서티 리프팅",
-    "categories": [
-      "RF"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [
-      "덴서티"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "덴서티"
-    ]
-  },
-  {
-    "title": "[파워인터뷰 화제人] 최종석 라메디텍 대표 “혁신적인 레이저 기술로 ...",
-    "summary": "또 홈뷰티 디바이스인 퓨라셀 미인은 병원에서만 받아왔던 레이저를 세계 최초로 가정에서 사용할 수 있도록 초소형화하여서 안전성이 확보된 디바이스로 화장품과 AI 피부진단 앱을 연동시켜서 피부를 관리할 수 있도록...",
-    "link": "https://news.mtn.co.kr/news-detail/2026072711294544958",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 14:34:00 +0900",
-    "matched_keyword": "홈뷰티 디바이스",
-    "categories": [
-      "Laser·Pico"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": []
-  },
-  {
-    "title": "스타일미의원, 미글로우(MIGLOU) 도입...개인별 맞춤 리프팅 진료 확대",
-    "summary": "스타일미의원이 하이로닉(HIRONIC)의 극초단파(Microwave) 기반 리프팅 장비 미글로우(MIGLOU)를 도입하고, 개인별 피부 상태와 고민 부위를 고려한 맞춤형 리프팅 진료를 강화한다고 밝혔다. 최근 리프팅은 단순히 피부 처짐을...",
-    "link": "https://www.hinews.co.kr/view.php?ud=202607271417104516dacadeb388_48",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 14:20:00 +0900",
-    "matched_keyword": "하이로닉",
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "하이로닉",
-      "Hironic"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "하이로닉",
-      "Hironic"
-    ]
-  },
-  {
-    "title": "더올림의원, HIFU 리프팅 장비 '쿨소닉' 신규 도입",
-    "summary": "더올림의원은 최근 고강도 집속 초음파(HIFU) 리프팅 의료기기 '쿨소닉(CoolSoniq)'을 도입하고, 피부 탄력 저하와 얼굴 윤곽 변화가 고민인 환자들을 대상으로 리프팅 진료를 시행한다고 밝혔다. 쿨소닉은 집속 초음파...",
-    "link": "http://www.hemophilia.co.kr/news/articleView.html?idxno=43410",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 14:12:00 +0900",
-    "matched_keyword": "쿨소닉",
-    "categories": [
-      "HIFU"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [
-      "쿨소닉",
-      "CoolSoniq"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "쿨소닉",
-      "CoolSoniq"
-    ]
-  },
-  {
-    "title": "강남비비의원, 냉각과 HIFU를 결합한 '쿨소닉' 도입",
-    "summary": "강남비비의원(대표원장 박수범)은 집속 초음파 에너지를 피부 층별로 전달하는 HIFU 리프팅 의료기기 '쿨소닉(CoolSoniq)'을 도입했다고 밝혔다. 쿨소닉은 식품의약품안전처 인증을 받은 집속형 초음파 자극 시스템으로 1....",
-    "link": "http://www.medisobizanews.com/news/articleView.html?idxno=140605",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 14:00:00 +0900",
-    "matched_keyword": "쿨소닉",
-    "categories": [
-      "HIFU",
-      "인허가·규제"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [
-      "쿨소닉",
-      "CoolSoniq"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "쿨소닉",
-      "CoolSoniq"
-    ]
-  },
-  {
-    "title": "쉬엔비, '한얼 이호영 도예전' 개막식 성료",
-    "summary": "미용의료기기 제조·개발 기업 쉬엔비(SHENB)가 지난 24일 서울 성동구 쉬엔비 타워에서 한국예술문화명인 이호영 도예가의 개인전 '한얼 이호영 도예전' 개막식을 성황리에 개최했다고 27일 밝혔다. 행사는 강선영 쉬엔비...",
-    "link": "https://www.thepowernews.co.kr/view.php?ud=2026072713242338109aeda69934_7",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 13:54:00 +0900",
-    "matched_keyword": "쉬엔비",
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "쉬엔비",
-      "SHENB"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "쉬엔비",
-      "SHENB"
-    ]
-  },
-  {
-    "title": "레이저옵텍 \"질환 치료 레이저 사업 확대·북미 시장 정상화 추진\"",
-    "summary": "레이저옵텍(대표 이창진)은 창립 26주년을 맞아 경기도 성남 본사에서 기념식을 개최하고 질환 치료 레이저 사업 확대와 북미 시장 정상화를 통한 재도약 전략을 제시했다고 27일 밝혔다. 2000년 7월 26일 설립된...",
-    "link": "https://www.rapportian.com/news/articleView.html?idxno=238705",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 13:46:00 +0900",
-    "matched_keyword": "레이저옵텍",
-    "categories": [
-      "Laser·Pico",
-      "시장동향"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "레이저옵텍"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "레이저옵텍"
-    ]
-  },
-  {
-    "title": "쉬엔비, '한얼 이호영 도예전' 개막식 개최",
-    "summary": "미용의료기기 제조·개발 업체 쉬엔비(SHENB)는 지난 24일 서울 성동구 쉬엔비 타워에서 한국예술문화명인 이호영 도예가의 개인전 '한얼 이호영 도예전' 개막식을 개최했다고 27일 밝혔다. 행사는 강선영 쉬엔비 대표의...",
-    "link": "https://www.smarttoday.co.kr/ko-kr/articles/109821",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 13:46:00 +0900",
-    "matched_keyword": "쉬엔비",
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "쉬엔비",
-      "SHENB"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "쉬엔비",
-      "SHENB"
-    ]
-  },
-  {
-    "title": "인스파이어, 日 VIP 겨냥 'K뷰티 패키지' 출시…관광객·객실 수익 기대",
-    "summary": "투숙객은 약 150만원 상당의 고주파 리프팅 시술 '덴시티' 600샷과 마이크로니들 시술 '포텐자' 등을 이용할 수 있으며, 시술 후 객실에서 바로 휴식을 취할 수 있도록 동선을 구성했다. 실내 수영장과 피트니스센터 등...",
-    "link": "https://www.theguru.co.kr/news/article.html?no=104957",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 13:46:00 +0900",
-    "matched_keyword": "포텐자",
-    "categories": [
-      "RF",
-      "RF Microneedling",
-      "신제품·출시"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [
-      "포텐자"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "포텐자"
-    ]
-  },
-  {
-    "title": "하이로닉 첫 분기배당 233원 지급…주주환원 본격화",
-    "summary": "하이로닉이 창사 첫 분기배당금을 지급하며 주주환원 정책을 실행했다. 창립 20주년을 맞은 미용 의료기기 전문기업 하이로닉은 27일 창사 이래 첫 분기배당금을 지급했다고 밝혔다. 이번 배당금 지급은 지난 16일...",
-    "link": "https://www.ppss.kr/news/articleView.html?idxno=303287",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 13:17:00 +0900",
-    "matched_keyword": "하이로닉",
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "하이로닉"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "하이로닉"
-    ]
-  },
-  {
-    "title": "블리비의원 리저브 청담점, 울쎄라피 프라임 도입...정밀 리프팅 강화",
-    "summary": "블리비의원 리저브 청담점이 초음파 리프팅 장비 '울쎄라피 프라임(Ultherapy Prime)'을 도입하고, 개인별 피부 상태에 맞춘 정밀 리프팅 진료를 시행한다고 밝혔다. 울쎄라피 프라임은 기존 울쎄라의 기술력을 진화시킨...",
-    "link": "https://www.kyosu.net/news/articleView.html?idxno=208204",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 13:14:00 +0900",
-    "matched_keyword": "울쎄라",
-    "categories": [
-      "HIFU"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [
-      "울쎄라",
-      "Ultherapy",
-      "Ultherapy Prime"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "울쎄라",
-      "Ultherapy",
-      "Ultherapy Prime"
-    ]
-  },
-  {
-    "title": "하이로닉, 창사 첫 분기배당금 주당 233원 현금 배당",
-    "summary": "미용 의료기기 전문기업 하이로닉이 창사 이후 처음으로 분기배당금을 27일 지급했다. 지난 6월 30일 기준... 창사 이후 첫 분기배당금을 지급했다는 게 하이로닉 관계자의 설명이다. 재무 여건을 고려한 주주환원...",
-    "link": "https://www.pharmnews.com/news/articleView.html?idxno=305182",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 13:12:00 +0900",
-    "matched_keyword": "하이로닉",
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "하이로닉"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "하이로닉"
-    ]
-  },
-  {
-    "title": "리프팅 관리, 언제 시작하는 것이 좋을까?",
-    "summary": "텐써마는 고주파로 피부 진피층에 열을 전달하여, 콜라겐 재생과 피부 탄력 회복을 동시에 유도한다. 즉각적인 리프팅 효과와 함께 점진적인 탄력 개선을 기대할 수 있으며, 모공 개선, 주름 완화 등에 도움을 준다. 이처럼...",
-    "link": "https://www.mdtoday.co.kr/news/articleView.html?idxno=606231",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 12:20:00 +0900",
-    "matched_keyword": "텐써마",
-    "categories": [
-      "RF"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [],
-    "competitor_product_mentions": [
-      "텐써마"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "텐써마"
-    ]
-  },
-  {
-    "title": "쉬엔비, '한얼 이호영 도예전' 개막식 성료…수익금 일부 기부",
-    "summary": "미용의료기기 제조·개발 기업 쉬엔비(SHENB)가 지난 24일 서울 성동구 쉬엔비 타워에서 한국예술문화명인 이호영 도예가의 개인전 '한얼 이호영 도예전' 개막식을 성황리에 개최했다고 밝혔다. 행사는 강선영 쉬엔비 대표의...",
-    "link": "https://www.kdpress.co.kr/news/articleView.html?idxno=207248",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 12:14:00 +0900",
-    "matched_keyword": "쉬엔비",
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "쉬엔비",
-      "SHENB"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "쉬엔비",
-      "SHENB"
-    ]
-  },
-  {
-    "title": "더블에이의원, 미글로우 도입… 얼굴·바디 맞춤 리프팅 진료 강화",
-    "summary": "더블에이의원이 하이로닉(HIRONIC)의 극초단파(Microwave) 기반 리프팅 장비 '미글로우(MIGLOU)'를 도입하고, 얼굴과 바디를 아우르는 맞춤형 리프팅 진료를 강화한다고 밝혔다. 최근 피부 탄력 저하에 대한 관심이 높아지면서...",
-    "link": "https://edu.donga.com/news/articleView.html?idxno=110319",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 11:26:00 +0900",
-    "matched_keyword": "하이로닉",
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "하이로닉",
-      "Hironic"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "하이로닉",
-      "Hironic"
-    ]
-  },
-  {
-    "title": "하이로닉, 창사 첫 분기배당금…주당 233원 현금배당",
-    "summary": "미용 의료기기 전문기업 하이로닉(149980)이 창립 20주년을 맞아 창사 이래 첫 분기배당을 실시했다. 하이로닉은 27일 분기배당금을 지급했다고 밝혔다. 지난 16일 이사회에서 분기배당을 결의한 이후 11일 만으로...",
-    "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=02915926645518784",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 11:15:00 +0900",
-    "matched_keyword": "하이로닉",
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "하이로닉"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "하이로닉"
-    ]
-  },
-  {
-    "title": "하이로닉, 창사 첫 분기배당 결정에 장중 주가 4%대 강세",
-    "summary": "하이로닉(149980) 주가가 27일 오전 장에서 4% 넘게 오르며 4400원대에서 거래되고 있다. 창사 이후 처음으로 분기배당을 결정했다는 소식이 전해진 가운데 단기 매수세가 유입되는 모습이다. 하이로닉은 이날 오전...",
-    "link": "https://www.cbci.co.kr/news/articleView.html?idxno=592100",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 11:06:00 +0900",
-    "matched_keyword": "하이로닉",
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "하이로닉"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "하이로닉"
-    ]
-  },
-  {
-    "title": "하이로닉, 첫 분기배당 주당 233원 지급…주주환원 확대 [공시록]",
-    "summary": "미용 의료기기 전문기업 하이로닉이 창사 이후 처음으로 분기배당을 실시했다. 자기주식 소각에 이어 현금배당까지 단행하면서 주주환원 정책을 본격화하고 있다. 하이로닉은 27일 주주들에게 주당 233원의...",
-    "link": "http://www.fnnews.com/news/202607271048142585",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 10:52:00 +0900",
-    "matched_keyword": "하이로닉",
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "하이로닉"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "하이로닉"
-    ]
-  },
-  {
-    "title": "하이로닉, 주당 233원 분기 배당 지급",
-    "summary": "미용 의료기기 전문기업 하이로닉은 창사 이래 첫 분기배당금을 지급했다고 27일 밝혔다. 회사 측에 따르면... 하이로닉 관계자는 \"창사 첫 분기배당을 계획대로 지급하며 주주환원 정책을 차질 없이 이행했다\"면서...",
-    "link": "https://www.newsis.com/view/NISX20260727_0003724362",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 10:51:00 +0900",
-    "matched_keyword": "하이로닉",
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "하이로닉"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "하이로닉"
-    ]
-  },
-  {
-    "title": "하이로닉, 창사 첫 분기배당금 지급…주당 233원 현금배당",
-    "summary": "미용 의료기기 전문기업 하이로닉은 창사 이래 첫 분기배당금을 27일 지급했다고 밝혔다. 지난 16일... 하이로닉 관계자는 \"창사 첫 분기배당을 계획대로 지급하며 주주환원 정책을 차질 없이 이행했다\"며 \"앞으로도...",
-    "link": "https://www.mt.co.kr/stock/2026/07/27/2026072710414762910",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 10:43:00 +0900",
-    "matched_keyword": "하이로닉",
-    "categories": [
-      "기타"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "하이로닉"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "하이로닉"
-    ]
-  },
-  {
-    "title": "레이저옵텍, 창립 26주년…\"질환 치료 강화·북미 재도약 속도\"",
-    "summary": "레이저옵텍이 창립 26주년을 맞아 질환 치료 레이저 제품군 확대와 북미 사업 정상화를 기반으로 성장 전략을 본격화한다. 피부 미용 및 질환 치료 레이저 의료기기 전문기업 레이저옵텍은 창립 26주년을 맞아 경기도...",
-    "link": "https://www.biotimes.co.kr/news/articleView.html?idxno=33410",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 10:32:00 +0900",
-    "matched_keyword": "레이저옵텍",
-    "categories": [
-      "Laser·Pico",
-      "시장동향"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "레이저옵텍"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "레이저옵텍"
-    ]
-  },
-  {
-    "title": "레이저옵텍, 북미 직판망·질환 치료 투트랙 전략으로 실적 '턴어라운드...",
-    "summary": "피부 미용 및 난치성 질환 치료용 레이저 기기 선도기업 레이저옵텍이 창립 26주년을 기점으로 북미 직판망 구축과 혁신 신제품 론칭을 무기로 본격적인 하반기 실적 반등에 나선다. 지난 2000년 첫발을 내디딘...",
-    "link": "https://www.bosa.co.kr/news/articleView.html?idxno=3009040",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 10:08:00 +0900",
-    "matched_keyword": "레이저옵텍",
-    "categories": [
-      "Laser·Pico",
-      "신제품·출시"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "레이저옵텍"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "레이저옵텍"
-    ]
-  },
-  {
-    "title": "레이저옵텍, 창립 26주년…\"질환 치료 강화·북미 재도약 원년 선언\"",
-    "summary": "레이저옵텍이 창립 26주년을 맞아 질환 치료 레이저 제품군 확대와 북미 시장 정상화를 양대 성장축으로 제시하며 글로벌 의료 레이저 시장 공략에 속도를 낸다. 세계 최초 고출력 589nm 혈관 레이저 '바스큐라589'를...",
-    "link": "http://www.bokuennews.com/news/article.html?no=281798",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 09:42:00 +0900",
-    "matched_keyword": "레이저옵텍",
-    "categories": [
-      "Laser·Pico",
-      "시장동향",
-      "글로벌사업"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "레이저옵텍"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "레이저옵텍"
-    ]
-  },
-  {
-    "title": "제이시스메디칼 \"브라질 법인 설립 후 판매 호조·시장 안착\"",
-    "summary": "제이시스메디칼은 브라질 법인 제이시스 메디컬 브라질(Jeisys Medical Brasil) 설립 약 10개월 만에 ▲리니어지(LinearZ) ▲덴서티(DENSITY) ▲포텐자(POTENZA) 누적 판매 300대를 돌파하며 브라질 시장에서 빠른 성장세를...",
-    "link": "https://www.rapportian.com/news/articleView.html?idxno=238667",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 09:24:00 +0900",
-    "matched_keyword": "리니어지",
-    "categories": [
-      "RF",
-      "RF Microneedling",
-      "시장동향"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "제이시스메디칼",
-      "제이시스",
-      "Jeisys"
-    ],
-    "competitor_product_mentions": [
-      "덴서티",
-      "포텐자",
-      "Potenza",
-      "리니어지",
-      "LinearZ"
-    ],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "제이시스메디칼",
-      "제이시스",
-      "Jeisys",
-      "덴서티",
-      "포텐자",
-      "Potenza",
-      "리니어지",
-      "LinearZ"
-    ]
-  },
-  {
-    "title": "'창립 26주년' 레이저옵텍, 질환 치료 라인업 강화...\"올해 실적 반등 본...",
-    "summary": "레이저옵텍이 창립 26주년을 맞아 경기도 성남시 본사에서 기념식을 개최했습니다. 레이저옵텍은 이번 창립기념일을 시발점으로 북미 시장 사업 정상화와 질환 치료 레이저 포트폴리오 확대를 본격화한다는 구상입니다....",
-    "link": "http://www.paxetv.com/news/articleView.html?idxno=277887",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 09:10:00 +0900",
-    "matched_keyword": "레이저옵텍",
-    "categories": [
-      "Laser·Pico",
-      "시장동향"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "레이저옵텍"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "레이저옵텍"
-    ]
-  },
-  {
-    "title": "더공감성형외과의원 이정환 원장, APAC 학술포럼서 흉터 레이저 연구 발...",
-    "summary": "열린 ‘루메니스 뷰티 테크 APAC 2026’에서 복합 흉터 레이저 치료에 관한 임상 연구를 발표했다. 루메니스 창립 60주년을 기념해 열린 이번 아시아-태평양 지역 학술포럼에는 한국과 중국, 일본, 호주 등에서 의료진...",
-    "link": "https://www.vegannews.co.kr/news/article.html?no=384279",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 09:02:00 +0900",
-    "matched_keyword": "루메니스",
-    "categories": [
-      "Laser·Pico",
-      "학회·임상"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "루메니스"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "루메니스"
-    ]
-  },
-  {
-    "title": "레이저옵텍, 창립 26주년 기념식…북미 사업 확대 전략 제시",
-    "summary": "컨슈머타임스=김예령 기자 | 레이저옵텍은 창립 26주년을 맞아 경기도 성남시 본사에서 임직원이 참석한 가운데 기념식을 개최했다고 27일 밝혔다. 레이저옵텍은 2000년 7월 설립 이후 의료용 레이저를 자체 개발해 색소...",
-    "link": "https://www.cstimes.com/news/articleView.html?idxno=714683",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 08:56:00 +0900",
-    "matched_keyword": "레이저옵텍",
-    "categories": [
-      "Laser·Pico"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "레이저옵텍"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "레이저옵텍"
-    ]
-  },
-  {
-    "title": "레이저옵텍 “질환 치료 라인업 강화·북미 정상화로 재도약”",
-    "summary": "피부 미용 및 질환 치료 레이저기기 전문기업 레이저옵텍(199550)이 창립 26주년을 맞아 경기도 성남 본사에서 기념식을 개최했다고 27일 밝혔다. 2000년 설립된 레이저옵텍은 국내 최초로 의료용 레이저를 자체 개발한...",
-    "link": "https://www.edaily.co.kr/news/newspath.asp?newsid=02220566645518784",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 08:47:00 +0900",
-    "matched_keyword": "레이저옵텍",
-    "categories": [
-      "Laser·Pico"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "레이저옵텍"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "레이저옵텍"
-    ]
-  },
-  {
-    "title": "레이저옵텍, 창립 26주년 기념식…\"질환 치료 라인업 강화\"",
-    "summary": "레이저옵텍이 창립 26주년 기념식을 개최했다. 27일 레이저옵텍에 따르면 이번 창립기념일을 시발점으로 북미 시장 사업 정상화와 질환 치료 레이저 포트폴리오 확대를 본격화한다. 회사는 차세대 성장동력인 '바스큐라589...",
-    "link": "https://view.asiae.co.kr/article/2026072708102433200",
-    "source": "네이버 뉴스",
-    "pub_date": "Mon, 27 Jul 2026 08:11:00 +0900",
-    "matched_keyword": "레이저옵텍",
-    "categories": [
-      "Laser·Pico",
-      "시장동향"
-    ],
-    "segments": [
-      "에스테틱"
-    ],
-    "is_overseas": false,
-    "own_company_mentions": [],
-    "own_product_mentions": [],
-    "competitor_company_mentions": [
-      "레이저옵텍"
-    ],
-    "competitor_product_mentions": [],
-    "own_brand_mentions": [],
-    "competitor_mentions": [
-      "레이저옵텍"
     ]
   }
 ]
