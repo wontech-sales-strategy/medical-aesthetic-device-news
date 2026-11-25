@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25 14:07",
+  "updated": "2026-11-26 07:45",
   "source": "금융감독원 전자공시시스템(DART) 오픈API",
   "companies": [
     "클래시스",
@@ -774,19 +774,6 @@
       "filer": "클래시스",
       "rcept_no": "20260604900168",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260604900168",
-      "is_new": false,
-      "found": "2026-11-11"
-    },
-    {
-      "company": "하이로닉",
-      "own": false,
-      "title": "[기재정정]주주총회소집공고",
-      "type": "참고",
-      "important": false,
-      "date": "20260529",
-      "filer": "하이로닉",
-      "rcept_no": "20260529001516",
-      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529001516",
       "is_new": false,
       "found": "2026-11-11"
     }
