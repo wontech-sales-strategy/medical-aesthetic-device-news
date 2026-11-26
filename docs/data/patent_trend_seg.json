@@ -2,79 +2,79 @@
   "전체": [
     {
       "year": 2021,
-      "count": 5184
+      "count": 5296
     },
     {
       "year": 2022,
-      "count": 3612
+      "count": 3722
     },
     {
       "year": 2023,
-      "count": 2723
+      "count": 2789
     },
     {
       "year": 2024,
-      "count": 1632
+      "count": 1705
     },
     {
       "year": 2025,
-      "count": 917
+      "count": 968
     },
     {
       "year": 2026,
-      "count": 203
+      "count": 252
     }
   ],
   "에스테틱": [
     {
       "year": 2021,
-      "count": 920
+      "count": 928
     },
     {
       "year": 2022,
-      "count": 654
+      "count": 659
     },
     {
       "year": 2023,
-      "count": 530
+      "count": 535
     },
     {
       "year": 2024,
-      "count": 288
+      "count": 295
     },
     {
       "year": 2025,
-      "count": 261
+      "count": 267
     },
     {
       "year": 2026,
-      "count": 66
+      "count": 75
     }
   ],
   "써지컬": [
     {
       "year": 2021,
-      "count": 4580
+      "count": 4692
     },
     {
       "year": 2022,
-      "count": 3199
+      "count": 3307
     },
     {
       "year": 2023,
-      "count": 2382
+      "count": 2446
     },
     {
       "year": 2024,
-      "count": 1443
+      "count": 1511
     },
     {
       "year": 2025,
-      "count": 745
+      "count": 793
     },
     {
       "year": 2026,
-      "count": 153
+      "count": 196
     }
   ]
 }

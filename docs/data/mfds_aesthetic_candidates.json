@@ -1076,7 +1076,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-03-26"
+        "CHG_DT": "2026-11-12"
       }
     },
     {
@@ -1274,7 +1274,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2025-10-10"
+        "CHG_DT": "2026-11-12"
       }
     },
     {
@@ -1296,7 +1296,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-03-26"
+        "CHG_DT": "2026-11-12"
       }
     },
     {
@@ -1938,28 +1938,6 @@
       }
     },
     {
-      "category": "LASER",
-      "query_product": "엔디야그레이저수술기",
-      "permit_date": "20220415",
-      "permit_no": "",
-      "product": "엔디야그레이저수술기",
-      "company": "(주)클래시스",
-      "raw": {
-        "ENTRPS": "(주)클래시스",
-        "PRDUCT": "엔디야그레이저수술기",
-        "PRMISN_STTEMNT": "1",
-        "PRDUCT_PRMISN_NO": "제허 22-251 호",
-        "PRMISN_DT": "20220415",
-        "RTRCN_DSCTN_DIVS_CD": "",
-        "RTRCN_DSCTN_DT": "",
-        "MDEQ_PRDLST_SN": "2022001956",
-        "TRCK_MNG_TRGT_YN": "N",
-        "MNFT_CLNT_NM": "",
-        "MANUF_NM": "(주)클래시스",
-        "CHG_DT": "2026-09-21"
-      }
-    },
-    {
       "category": "HIFU",
       "query_product": "집속형초음파자극시스템",
       "permit_date": "20220407",
@@ -2088,7 +2066,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-03-10"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -2154,29 +2132,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-03-10"
-      }
-    },
-    {
-      "category": "RF",
-      "query_product": "범용전기수술기",
-      "permit_date": "20220224",
-      "permit_no": "",
-      "product": "범용전기수술기",
-      "company": "봄텍전자(주)",
-      "raw": {
-        "ENTRPS": "봄텍전자(주)",
-        "PRDUCT": "범용전기수술기",
-        "PRMISN_STTEMNT": "1",
-        "PRDUCT_PRMISN_NO": "제허 22-128 호",
-        "PRMISN_DT": "20220224",
-        "RTRCN_DSCTN_DIVS_CD": "",
-        "RTRCN_DSCTN_DT": "",
-        "MDEQ_PRDLST_SN": "2022000981",
-        "TRCK_MNG_TRGT_YN": "N",
-        "MNFT_CLNT_NM": "",
-        "MANUF_NM": "",
-        "CHG_DT": "2026-11-11"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -2198,7 +2154,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "High Technology Products, S.L.U",
         "MANUF_NM": "Cocoon Medical International, Ltd.",
-        "CHG_DT": "2026-03-10"
+        "CHG_DT": "2026-11-25"
       }
     },
     {
@@ -2286,7 +2242,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-08-25"
+        "CHG_DT": "2026-11-25"
       }
     },
     {
@@ -2352,7 +2308,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "HLS Hypertech Laser Systems GmbH",
-        "CHG_DT": "2026-10-29"
+        "CHG_DT": "2026-11-19"
       }
     },
     {
@@ -3474,7 +3430,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "Applied Medical Resources Corporation",
-        "CHG_DT": "2026-06-04"
+        "CHG_DT": "2026-11-12"
       }
     },
     {
@@ -3716,7 +3672,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-11-10"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -3848,7 +3804,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-03-10"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -4376,7 +4332,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "(주)클래시스",
         "MANUF_NM": "(주)엔슨",
-        "CHG_DT": "2026-03-10"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -4420,7 +4376,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-03-10"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -4442,7 +4398,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-05-20"
+        "CHG_DT": "2026-11-23"
       }
     },
     {
@@ -4684,7 +4640,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-03-10"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -4794,7 +4750,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-06-18"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -5630,7 +5586,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-03-10"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -5828,7 +5784,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-06-09"
+        "CHG_DT": "2026-11-23"
       }
     },
     {
@@ -6664,7 +6620,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2023-10-23"
+        "CHG_DT": "2026-11-25"
       }
     },
     {
@@ -6695,9 +6651,9 @@
       "permit_date": "20180706",
       "permit_no": "",
       "product": "범용전기수술기",
-      "company": "(주)엔도비전",
+      "company": "휴빅사이언스 주식회사",
       "raw": {
-        "ENTRPS": "(주)엔도비전",
+        "ENTRPS": "휴빅사이언스 주식회사",
         "PRDUCT": "범용전기수술기",
         "PRMISN_STTEMNT": "1",
         "PRDUCT_PRMISN_NO": "제허 18-478 호",
@@ -6730,7 +6686,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-05-18"
+        "CHG_DT": "2026-11-17"
       }
     },
     {
@@ -7346,7 +7302,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-03-10"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -7522,7 +7478,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-03-10"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -7896,7 +7852,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-03-10"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -8270,7 +8226,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-03-10"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -8499,9 +8455,9 @@
       "permit_date": "20170714",
       "permit_no": "",
       "product": "반도체레이저수술기",
-      "company": "(주)엔도비전",
+      "company": "휴빅사이언스 주식회사",
       "raw": {
-        "ENTRPS": "(주)엔도비전",
+        "ENTRPS": "휴빅사이언스 주식회사",
         "PRDUCT": "반도체레이저수술기",
         "PRMISN_STTEMNT": "1",
         "PRDUCT_PRMISN_NO": "제허 17-507 호",
@@ -9502,7 +9458,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-03-10"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -10184,7 +10140,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-03-10"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -10624,7 +10580,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-03-10"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -11438,7 +11394,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-03-10"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -11900,7 +11856,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-06-18"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -13000,7 +12956,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-06-18"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -13176,7 +13132,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-03-10"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -13616,7 +13572,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-03-10"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -14760,7 +14716,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-06-18"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -15024,7 +14980,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-03-10"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -15090,7 +15046,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-03-10"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -19440,13 +19396,13 @@
         "PRMISN_STTEMNT": "1",
         "PRDUCT_PRMISN_NO": "제허 12-28 호",
         "PRMISN_DT": "20120109",
-        "RTRCN_DSCTN_DIVS_CD": "",
-        "RTRCN_DSCTN_DT": "",
+        "RTRCN_DSCTN_DIVS_CD": "2",
+        "RTRCN_DSCTN_DT": "2026-11-20",
         "MDEQ_PRDLST_SN": "2012000215",
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "(주)청우메디칼",
-        "CHG_DT": "2025-04-29"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -19890,28 +19846,6 @@
       }
     },
     {
-      "category": "RF",
-      "query_product": "범용전기수술기",
-      "permit_date": "20110929",
-      "permit_no": "",
-      "product": "범용전기수술기",
-      "company": "(주)클래시스",
-      "raw": {
-        "ENTRPS": "(주)클래시스",
-        "PRDUCT": "범용전기수술기",
-        "PRMISN_STTEMNT": "1",
-        "PRDUCT_PRMISN_NO": "제허 11-1071 호",
-        "PRMISN_DT": "20110929",
-        "RTRCN_DSCTN_DIVS_CD": "",
-        "RTRCN_DSCTN_DT": "",
-        "MDEQ_PRDLST_SN": "2011004812",
-        "TRCK_MNG_TRGT_YN": "N",
-        "MNFT_CLNT_NM": "",
-        "MANUF_NM": "",
-        "CHG_DT": "2026-06-22"
-      }
-    },
-    {
       "category": "LASER",
       "query_product": "엔디야그레이저수술기",
       "permit_date": "20110915",
@@ -20040,7 +19974,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-03-10"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -20788,7 +20722,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-10-16"
+        "CHG_DT": "2026-11-17"
       }
     },
     {
@@ -20855,28 +20789,6 @@
         "MNFT_CLNT_NM": "Lumenis Inc.",
         "MANUF_NM": "LIghtMed Corporation",
         "CHG_DT": "2021-11-25"
-      }
-    },
-    {
-      "category": "RF",
-      "query_product": "범용전기수술기",
-      "permit_date": "20110314",
-      "permit_no": "",
-      "product": "범용전기수술기",
-      "company": "(주)썸텍",
-      "raw": {
-        "ENTRPS": "(주)썸텍",
-        "PRDUCT": "범용전기수술기",
-        "PRMISN_STTEMNT": "1",
-        "PRDUCT_PRMISN_NO": "제허 11-264 호",
-        "PRMISN_DT": "20110314",
-        "RTRCN_DSCTN_DIVS_CD": "",
-        "RTRCN_DSCTN_DT": "",
-        "MDEQ_PRDLST_SN": "2011001177",
-        "TRCK_MNG_TRGT_YN": "N",
-        "MNFT_CLNT_NM": "",
-        "MANUF_NM": "(주)썸텍",
-        "CHG_DT": "2026-11-10"
       }
     },
     {
@@ -21014,28 +20926,6 @@
     {
       "category": "LASER",
       "query_product": "엔디야그레이저수술기",
-      "permit_date": "20110119",
-      "permit_no": "",
-      "product": "엔디야그레이저수술기",
-      "company": "(주)유니온메디칼",
-      "raw": {
-        "ENTRPS": "(주)유니온메디칼",
-        "PRDUCT": "엔디야그레이저수술기",
-        "PRMISN_STTEMNT": "1",
-        "PRDUCT_PRMISN_NO": "제허 11-60 호",
-        "PRMISN_DT": "20110119",
-        "RTRCN_DSCTN_DIVS_CD": "",
-        "RTRCN_DSCTN_DT": "",
-        "MDEQ_PRDLST_SN": "2011000279",
-        "TRCK_MNG_TRGT_YN": "N",
-        "MNFT_CLNT_NM": "",
-        "MANUF_NM": "",
-        "CHG_DT": "2026-11-11"
-      }
-    },
-    {
-      "category": "LASER",
-      "query_product": "엔디야그레이저수술기",
       "permit_date": "20110111",
       "permit_no": "",
       "product": "엔디야그레이저수술기",
@@ -21163,28 +21053,6 @@
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
         "CHG_DT": "2020-12-04"
-      }
-    },
-    {
-      "category": "LASER",
-      "query_product": "엔디야그레이저수술기",
-      "permit_date": "20101119",
-      "permit_no": "",
-      "product": "엔디야그레이저수술기",
-      "company": "(주)루트로닉",
-      "raw": {
-        "ENTRPS": "(주)루트로닉",
-        "PRDUCT": "엔디야그레이저수술기",
-        "PRMISN_STTEMNT": "1",
-        "PRDUCT_PRMISN_NO": "제허 10-1219 호",
-        "PRMISN_DT": "20101119",
-        "RTRCN_DSCTN_DIVS_CD": "",
-        "RTRCN_DSCTN_DT": "",
-        "MDEQ_PRDLST_SN": "2010006502",
-        "TRCK_MNG_TRGT_YN": "N",
-        "MNFT_CLNT_NM": "",
-        "MANUF_NM": "",
-        "CHG_DT": "2026-10-26"
       }
     },
     {
@@ -22438,7 +22306,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-03-10"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -22644,6 +22512,28 @@
       "query_product": "레이저수술기",
       "permit_date": "20091202",
       "permit_no": "",
+      "product": "레이저수술기",
+      "company": "비손메디칼(주)",
+      "raw": {
+        "ENTRPS": "비손메디칼(주)",
+        "PRDUCT": "레이저수술기",
+        "PRMISN_STTEMNT": "1",
+        "PRDUCT_PRMISN_NO": "제허 09-1010 호",
+        "PRMISN_DT": "20091202",
+        "RTRCN_DSCTN_DIVS_CD": "",
+        "RTRCN_DSCTN_DT": "",
+        "MDEQ_PRDLST_SN": "2009005784",
+        "TRCK_MNG_TRGT_YN": "N",
+        "MNFT_CLNT_NM": "",
+        "MANUF_NM": "",
+        "CHG_DT": "2026-11-16"
+      }
+    },
+    {
+      "category": "LASER",
+      "query_product": "레이저수술기",
+      "permit_date": "20091202",
+      "permit_no": "",
       "product": "반도체레이저수술기",
       "company": "포인트임플란트 주식회사",
       "raw": {
@@ -22680,7 +22570,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-03-10"
+        "CHG_DT": "2026-11-20"
       }
     },
     {
@@ -23956,7 +23846,7 @@
         "TRCK_MNG_TRGT_YN": "N",
         "MNFT_CLNT_NM": "",
         "MANUF_NM": "",
-        "CHG_DT": "2026-03-10"
+        "CHG_DT": "2026-11-20"
       }
     },
     {

@@ -21,7 +21,7 @@
     "keyword": "고주파 리프팅",
     "seg": "에스테틱",
     "year": 2024,
-    "count": 36
+    "count": 37
   },
   {
     "keyword": "고주파 리프팅",
@@ -33,91 +33,91 @@
     "keyword": "고주파 리프팅",
     "seg": "에스테틱",
     "year": 2026,
-    "count": 13
+    "count": 15
   },
   {
     "keyword": "집속초음파",
     "seg": "에스테틱",
     "year": 2021,
-    "count": 258
+    "count": 260
   },
   {
     "keyword": "집속초음파",
+    "seg": "에스테틱",
+    "year": 2022,
+    "count": 193
+  },
+  {
+    "keyword": "집속초음파",
+    "seg": "에스테틱",
+    "year": 2023,
+    "count": 191
+  },
+  {
+    "keyword": "집속초음파",
+    "seg": "에스테틱",
+    "year": 2024,
+    "count": 115
+  },
+  {
+    "keyword": "집속초음파",
+    "seg": "에스테틱",
+    "year": 2025,
+    "count": 84
+  },
+  {
+    "keyword": "집속초음파",
+    "seg": "에스테틱",
+    "year": 2026,
+    "count": 29
+  },
+  {
+    "keyword": "피코 레이저",
+    "seg": "에스테틱",
+    "year": 2021,
+    "count": 302
+  },
+  {
+    "keyword": "피코 레이저",
     "seg": "에스테틱",
     "year": 2022,
     "count": 192
   },
   {
-    "keyword": "집속초음파",
+    "keyword": "피코 레이저",
     "seg": "에스테틱",
     "year": 2023,
-    "count": 188
+    "count": 131
   },
   {
-    "keyword": "집속초음파",
+    "keyword": "피코 레이저",
     "seg": "에스테틱",
     "year": 2024,
-    "count": 112
+    "count": 66
   },
   {
-    "keyword": "집속초음파",
+    "keyword": "피코 레이저",
     "seg": "에스테틱",
     "year": 2025,
-    "count": 81
-  },
-  {
-    "keyword": "집속초음파",
-    "seg": "에스테틱",
-    "year": 2026,
-    "count": 25
-  },
-  {
-    "keyword": "피코 레이저",
-    "seg": "에스테틱",
-    "year": 2021,
-    "count": 299
-  },
-  {
-    "keyword": "피코 레이저",
-    "seg": "에스테틱",
-    "year": 2022,
-    "count": 191
-  },
-  {
-    "keyword": "피코 레이저",
-    "seg": "에스테틱",
-    "year": 2023,
-    "count": 129
-  },
-  {
-    "keyword": "피코 레이저",
-    "seg": "에스테틱",
-    "year": 2024,
     "count": 65
   },
   {
     "keyword": "피코 레이저",
     "seg": "에스테틱",
-    "year": 2025,
-    "count": 64
-  },
-  {
-    "keyword": "피코 레이저",
-    "seg": "에스테틱",
     "year": 2026,
-    "count": 11
+    "count": 12
   },
   {
     "keyword": "의료용 레이저",
     "seg": "에스테틱",
     "year": 2021,
-    "count": 341
+    "count": 346
   },
   {
     "keyword": "의료용 레이저",
     "seg": "에스테틱",
     "year": 2022,
-    "count": 268
+    "count": 271
   },
   {
     "keyword": "의료용 레이저",
@@ -129,19 +129,19 @@
     "keyword": "의료용 레이저",
     "seg": "에스테틱",
     "year": 2024,
-    "count": 88
+    "count": 90
   },
   {
     "keyword": "의료용 레이저",
     "seg": "에스테틱",
     "year": 2025,
-    "count": 96
+    "count": 98
   },
   {
     "keyword": "의료용 레이저",
     "seg": "에스테틱",
     "year": 2026,
-    "count": 25
+    "count": 28
   },
   {
     "keyword": "수술용 레이저",
@@ -159,13 +159,13 @@
     "keyword": "수술용 레이저",
     "seg": "써지컬",
     "year": 2023,
-    "count": 20
+    "count": 22
   },
   {
     "keyword": "수술용 레이저",
     "seg": "써지컬",
     "year": 2024,
-    "count": 12
+    "count": 13
   },
   {
     "keyword": "수술용 레이저",
@@ -189,19 +189,19 @@
     "keyword": "홀뮴 레이저",
     "seg": "써지컬",
     "year": 2022,
-    "count": 91
+    "count": 94
   },
   {
     "keyword": "홀뮴 레이저",
     "seg": "써지컬",
     "year": 2023,
-    "count": 48
+    "count": 49
   },
   {
     "keyword": "홀뮴 레이저",
     "seg": "써지컬",
     "year": 2024,
-    "count": 22
+    "count": 23
   },
   {
     "keyword": "홀뮴 레이저",
@@ -213,31 +213,31 @@
     "keyword": "홀뮴 레이저",
     "seg": "써지컬",
     "year": 2026,
-    "count": 0
+    "count": 2
   },
   {
     "keyword": "정맥 레이저",
     "seg": "써지컬",
     "year": 2021,
-    "count": 275
+    "count": 279
   },
   {
     "keyword": "정맥 레이저",
     "seg": "써지컬",
     "year": 2022,
-    "count": 189
+    "count": 190
   },
   {
     "keyword": "정맥 레이저",
     "seg": "써지컬",
     "year": 2023,
-    "count": 145
+    "count": 147
   },
   {
     "keyword": "정맥 레이저",
     "seg": "써지컬",
     "year": 2024,
-    "count": 72
+    "count": 75
   },
   {
     "keyword": "정맥 레이저",
@@ -249,49 +249,49 @@
     "keyword": "정맥 레이저",
     "seg": "써지컬",
     "year": 2026,
-    "count": 10
+    "count": 11
   },
   {
     "keyword": "질 레이저",
     "seg": "써지컬",
     "year": 2021,
-    "count": 4285
+    "count": 4397
   },
   {
     "keyword": "질 레이저",
     "seg": "써지컬",
     "year": 2022,
-    "count": 2986
+    "count": 3094
   },
   {
     "keyword": "질 레이저",
     "seg": "써지컬",
     "year": 2023,
-    "count": 2197
+    "count": 2258
   },
   {
     "keyword": "질 레이저",
     "seg": "써지컬",
     "year": 2024,
-    "count": 1328
+    "count": 1394
   },
   {
     "keyword": "질 레이저",
     "seg": "써지컬",
     "year": 2025,
-    "count": 689
+    "count": 735
   },
   {
     "keyword": "질 레이저",
     "seg": "써지컬",
     "year": 2026,
-    "count": 132
+    "count": 172
   },
   {
     "keyword": "통증 레이저",
     "seg": "써지컬",
     "year": 2021,
-    "count": 214
+    "count": 220
   },
   {
     "keyword": "통증 레이저",
@@ -303,24 +303,24 @@
     "keyword": "통증 레이저",
     "seg": "써지컬",
     "year": 2023,
-    "count": 149
+    "count": 152
   },
   {
     "keyword": "통증 레이저",
     "seg": "써지컬",
     "year": 2024,
-    "count": 93
+    "count": 96
   },
   {
     "keyword": "통증 레이저",
     "seg": "써지컬",
     "year": 2025,
-    "count": 66
+    "count": 69
   },
   {
     "keyword": "통증 레이저",
     "seg": "써지컬",
     "year": 2026,
-    "count": 20
+    "count": 24
   }
 ]
