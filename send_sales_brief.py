@@ -564,10 +564,17 @@ def brief_box(items, k_own, k_comp):
                     surg[c] = surg.get(c, 0) + 1
     if surg:
         text += " 써지컬은 " + ", ".join(f"'{c}' {n}건" for c, n in sorted(surg.items(), key=lambda x: -x[1])) + " 순입니다."
-    text += f" 원텍 언급 {k_own:,}건, 경쟁사 언급 {k_comp:,}건입니다."
+    total = len(items)
+    bold = ""
+    if total and (k_own + k_comp):
+        bold = (f"원텍 언급 {k_own:,}건으로 전체 뉴스 중 {k_own / total * 100:.1f}%, "
+                f"브랜드 언급(원텍 {k_own:,}·경쟁사 {k_comp:,}) 중 {k_own / (k_own + k_comp) * 100:.1f}%의 Share입니다.")
+    else:
+        text += f" 원텍 언급 {k_own:,}건, 경쟁사 언급 {k_comp:,}건입니다."
     return (f'<tr><td style="padding:12px 32px 0"><div style="background:#F1EDFF;border-radius:8px;padding:12px 16px">'
             f'<div style="font:800 12px {FONT};color:#5846A8">브리핑 요약 · 최근 7일</div>'
-            f'<div style="font:400 13px/1.65 {FONT};color:{INK};margin-top:4px">{e(text)}</div></div></td></tr>')
+            f'<div style="font:400 13px/1.65 {FONT};color:{INK};margin-top:4px">{e(text)}'
+            + (f' <b style="color:#5846A8">{e(bold)}</b>' if bold else "") + '</div></div></td></tr>')
 
 
 def stock_table(st):
@@ -654,11 +661,14 @@ def empty(msg):
 
 
 def kpi_strip(cells):
+    """cells: (제목, 값, 강조 여부[, 아래 작은 글씨])"""
     tds = "".join(
         f'<td width="{100 // len(cells)}%" style="padding:14px 6px;text-align:center;border-right:1px solid {LINE}">'
-        f'<div style="font:400 11px {FONT};color:{SUB}">{e(k)}</div>'
-        f'<div style="font:800 22px {FONT};color:{OR if hl else INK};margin-top:4px">{e(v)}</div></td>'
-        for k, v, hl in cells)
+        f'<div style="font:400 11px {FONT};color:{SUB}">{e(c[0])}</div>'
+        f'<div style="font:800 22px {FONT};color:{OR if c[2] else INK};margin-top:4px">{e(c[1])}</div>'
+        + (f'<table role="presentation" align="center" cellpadding="0" cellspacing="0" style="margin-top:5px"><tr><td style="text-align:left;font:800 11px/1.6 {FONT};color:{OR if c[2] else SUB}">{c[3]}</td></tr></table>' if len(c) > 3 and c[3] else "")
+        + '</td>'
+        for c in cells)
     return f'<tr><td style="padding:18px 32px 0"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#fff;border:1px solid {LINE}"><tr>{tds}</tr></table></td></tr>'
 
 
@@ -798,7 +808,9 @@ def build(cfg, now):
     rows.append(kpi_strip([
         ("수집 기사 · 최근 7일", f"{k_total:,}건", False),
         ("경쟁사 언급 · 7일", f"{k_comp:,}건", False),
-        ("원텍 언급 · 7일", f"{k_own:,}건", True),
+        ("원텍 언급 · 7일", f"{k_own:,}건", True,
+         (f"• 전체 중 {k_own / k_total * 100:.1f}%<br>• 브랜드 Share {k_own / (k_own + k_comp) * 100:.1f}%"
+          if k_total and (k_own + k_comp) else "")),
         ("해외 기사 · 7일", f"{k_ov:,}건", False),
     ]))
 
