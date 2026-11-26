@@ -663,10 +663,10 @@ def empty(msg):
 def kpi_strip(cells):
     """cells: (제목, 값, 강조 여부[, 아래 작은 글씨])"""
     tds = "".join(
-        f'<td width="{100 // len(cells)}%" style="padding:14px 6px;text-align:center;border-right:1px solid {LINE}">'
+        f'<td width="{100 // len(cells)}%" valign="top" style="padding:14px 6px;text-align:center;vertical-align:top;border-right:1px solid {LINE}">'
         f'<div style="font:400 11px {FONT};color:{SUB}">{e(c[0])}</div>'
         f'<div style="font:800 22px {FONT};color:{OR if c[2] else INK};margin-top:4px">{e(c[1])}</div>'
-        + (f'<table role="presentation" align="center" cellpadding="0" cellspacing="0" style="margin-top:5px"><tr><td style="text-align:left;font:800 11px/1.6 {FONT};color:{OR if c[2] else SUB}">{c[3]}</td></tr></table>' if len(c) > 3 and c[3] else "")
+        + (f'<table role="presentation" align="center" cellpadding="0" cellspacing="0" style="margin-top:5px"><tr><td style="text-align:left;font:700 11px/1.6 {FONT};color:{INK}">{c[3]}</td></tr></table>' if len(c) > 3 and c[3] else "")
         + '</td>'
         for c in cells)
     return f'<tr><td style="padding:18px 32px 0"><table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#fff;border:1px solid {LINE}"><tr>{tds}</tr></table></td></tr>'
@@ -809,7 +809,7 @@ def build(cfg, now):
         ("수집 기사 · 최근 7일", f"{k_total:,}건", False),
         ("경쟁사 언급 · 7일", f"{k_comp:,}건", False),
         ("원텍 언급 · 7일", f"{k_own:,}건", True,
-         (f"• 전체 중 {k_own / k_total * 100:.1f}%<br>• 브랜드 Share {k_own / (k_own + k_comp) * 100:.1f}%"
+         (f"• 전체 중 <b style=\"color:{OR}\">{k_own / k_total * 100:.1f}%</b><br>• 브랜드 Share <b style=\"color:{OR}\">{k_own / (k_own + k_comp) * 100:.1f}%</b>"
           if k_total and (k_own + k_comp) else "")),
         ("해외 기사 · 7일", f"{k_ov:,}건", False),
     ]))
