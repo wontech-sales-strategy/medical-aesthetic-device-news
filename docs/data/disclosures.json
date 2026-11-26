@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26 13:26",
+  "updated": "2026-11-27 07:41",
   "source": "금융감독원 전자공시시스템(DART) 오픈API",
   "companies": [
     "클래시스",
@@ -10,6 +10,19 @@
     "비올"
   ],
   "items": [
+    {
+      "company": "라메디텍",
+      "own": false,
+      "title": "주요사항보고서(유상증자결정)",
+      "type": "자금",
+      "important": true,
+      "date": "20261126",
+      "filer": "라메디텍",
+      "rcept_no": "20261126000839",
+      "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000839",
+      "is_new": true,
+      "found": "2026-11-27"
+    },
     {
       "company": "클래시스",
       "own": false,
