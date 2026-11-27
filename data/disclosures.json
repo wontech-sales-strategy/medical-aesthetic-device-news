@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27 07:41",
+  "updated": "2026-11-27 13:36",
   "source": "금융감독원 전자공시시스템(DART) 오픈API",
   "companies": [
     "클래시스",
@@ -20,7 +20,7 @@
       "filer": "라메디텍",
       "rcept_no": "20261126000839",
       "url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261126000839",
-      "is_new": true,
+      "is_new": false,
       "found": "2026-11-27"
     },
     {
